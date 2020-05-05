@@ -4,7 +4,7 @@ Dans ce chapitre, il fera appel de nombreuses fois au logiciel de simulation ré
 Vous pouvez le télécharger :
 - version Windows : [ici](https://www.lernsoftware-filius.de/downloads/Setup/Filius-Setup-1.9.0.exe)
 - version Linux : [ici](https://www.lernsoftware-filius.de/downloads/Setup/filius_1.9.0_all.deb)
-- Version Mac : il n'y en a pas, désolé.
+- version Mac : il n'y en a pas, désolé.
 
 Ce n'est pas obligatoire de l'installer pour suivre ce cours, mais cela rendra le cours plus interactif d'avoir Filius à portée de main pour voir en direct les réactions du réseau.
 
@@ -29,7 +29,7 @@ Le vocabulaire pour comprendre :
 
 - **Adresse IP** : lorsque nous avons créé le réseau, nous avons attribué à chaque ordinateur une adresse, dite **adresse IP**, composée (pour l'IPv4)
 de 4 nombres entre 0 et 255, séparés par un point. Exemple : 123.0.168.255 est une adresse IP valide, 156.286.3.16 n'est pas une adresse IP valide.
-Ces adresses servent à identifier un ordinateur sur un réseau. Nous verrons plus tard qu'elles permettent aussi de savoir à quel sous-réseau l'ordinateur appartient, mais c'est une autre histoire.
+Ces adresses servent à identifier un ordinateur sur un réseau. Nous verrons plus tard qu'elles permettent aussi de savoir à quel sous-réseau l'ordinateur appartient, mais c'est une autre histoire. 
 
 <br>
 
