@@ -54,4 +54,97 @@ Un site comme https://www.macvendorlookup.com/ vous permet de retrouver le fabri
 
 ![](data/switch.png)
 
+
 ----
+**Séance du 25 mai**
+_Résumé des épisodes précédents : nous avons créé un réseau avec un switch. Les ordinateurs sont capables de communiquer entre eux grâce à leur adresse MAC. Nous allons maintenant créer un deuxième sous-réseau, dans le but de les relier entre eux. Nous aurons donc un grand réseau constitué de deux sous-réseaux._
+
+
+### 2. Un deuxième sous-réseau
+
+Vous pouvez trouver le fichier Filius  [ici](data/res_filius_SNT.fls).
+
+Rajoutons un deuxième sous-réseau de la manière suivante (penser à bien renommer les switchs).
+
+![](data/f2.png)
+
+**Comment relier ces deux sous-réseaux ?**
+
+Une réponse pas si bête : avec un cable entre les deux switchs !
+
+![](data/f3.png)
+
+1. Testons cette hypothèse en essayant de pinger la machine ```192.168.1.2``` depuis la machine ```192.168.0.1```. 
+<details><summary> Résultat </summary>
+<p>
+
+![](data/ft2.png)
+
+Cela ne marche pas. Les paquets sont perdus.
+</p>
+</details>
+
+<br>
+
+2. Temporairement, renommons la machine ```192.168.1.2``` en ```192.168.0.33```. Testons à nouveau le ping depuis la machine ```192.168.0.1```.
+
+<details><summary> Résultat </summary>
+<p>
+
+![](data/ft3.png)
+
+Cela marche. Les paquets sont bien acheminés.
+</p>
+</details>
+
+<br>
+
+
+**Intuition** : la notion de sous-réseau n'est pas *topologique* («il suffit de relier les ordinateurs entre eux») mais obéit à des règles numériques.
+
+#### 2.1. Notion de masque de sous-réseau
+
+Dans Filius, lors de l'attribution de l'adresse IP à une machine, une ligne nous permet de spécifier le **masque de sous-réseau** (appelé simplement « Masque » dans Filius). C'est ce masque qui va permettre de déterminer si une machine appartient à un sous-réseau ou non, en fonction de son adresse IP.
+
+![](data/f4.png)
+
+**Explication**
+- Si le masque est ```255.255.255.0```, toutes les machines partageant les mêmes **trois** premiers nombres de leur adresse IP appartiendront au même sous-réseau. Comme ceci est le réglage par défaut de Filius, cela explique pourquoi  ```192.168.0.33``` et ```192.168.0.1``` sont sur le même sous-réseau, et pourquoi  ```192.168.1.2``` et ```192.168.0.1``` ne sont pas sur le même sous-réseau.
+
+Dans cette configuration, 256 machines peuvent donc appartenir au même sous-réseau (ce n'est pas tout à fait le cas car des adresses finissant par 0 ou par 255 sont réservées).
+
+- Si le masque est ```255.255.0.0```, toutes les machines partageant les mêmes **deux** premiers nombres de leur adresse IP appartiendront au même sous-réseau.  
+Dans cette configuration, 65536 machines peuvent être dans le même sous-réseau. (car 256^2=65536)
+
+
+**Exercice**
+- Renommons ```192.168.0.33``` en ```192.168.1.2``` et modifions son masque en ```255.255.0.0```.
+- Modifions aussi le masque de ```192.168.0.1``` en ```255.255.0.0```.
+- Testons le ping de ```192.168.0.1``` vers ```192.168.1.2```.
+
+<details><summary> Résultat </summary>
+<p>
+
+![](data/ft4.png)
+
+Cela marche. Les deux machines appartiennent maintenant au même sous-réseau !
+</p>
+</details>
+
+</br>
+
+**Conclusion**
+Deux ordinateurs peuvent communiquer _directement_ (à travers des switchs) s'ils sont dans le même sous-réseau.  
+
+Pour déterminer si deux machines sont dans le même sous-réseau ou pas, il faut observer leur masque de sous-réseau.  
+
+Dans le prochain épisode : _comment faire si les machines ne sont pas dans le même sous-réseau ???_
+
+
+
+---
+![](data/ccbysa.png "image")
+
+G.Lassus, Lycée François Mauriac --  Bordeaux  
+
+
