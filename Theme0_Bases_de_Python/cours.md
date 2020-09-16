@@ -124,7 +124,7 @@ maisonHarry = "Serpentard"
 maisonMalfoy =  "Gryffondor"
 ```
 
-Il semblerait qu'une erreur se glissée dans ces déclarations de variables... Mais comment faire pour inverser les valeurs ?
+Il semblerait qu'une erreur se soit glissée dans ces déclarations de variables... Mais comment faire pour inverser les valeurs ?
 
 ▸ **Méthode naïve**
 
