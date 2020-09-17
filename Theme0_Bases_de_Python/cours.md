@@ -27,7 +27,7 @@ va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant
 > Le sens du signe = n'est donc **pas du tout le même** qu'en mathématiques. On dit que c'est un signe d'**affectation**. 
 L'écriture a = 2 signifie donc a ← 2.
 
-⚠ Attention : ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **types** différent.
+⚠ Attention : ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **type** différent.
 
 ### 1.2  Récupérer la valeur stockée dans une variable
 
