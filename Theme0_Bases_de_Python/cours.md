@@ -85,7 +85,7 @@ Comme déjà évoqué, affecter une nouvelle valeur dans une variable déjà exi
 AB = 3
 AC = 4
 BC = (AB**2 + AC**2)**0.5
-print("l'hypoténuse mesure", BC, "centimètres)
+print("l'hypoténuse mesure", BC, "centimètres")
 ```
 
 *Remarque : en Python, la puissance s'obtient par ```**```. La racine carrée est une puissance ```0.5```.*
