@@ -141,3 +141,50 @@ maisonMalfoy = maisonHarry
 ```
 
 En effet, la variable ```maisonHarry```  a été écrasée...  et on ne peut plus retrouver sa valeur pour la donner à ```maisonMalfoy```.
+
+▸ **La solution universelle**
+
+Nous allons passer par une variable temporaire qui nous permettra de stocker la valeur écrasée.
+
+```python
+maisonHarry = "Serpentard"
+maisonMalfoy =  "Gryffondor"
+
+# on procède à l'échange
+
+t = maisonHarry
+maisonHarry = maisonMalfoy
+maisonMalfoy = t
+```
+
+Ainsi, 
+```python
+>>> maisonHarry
+'Gryffondor'
+>>> maisonMalfoy
+'Serpentard'
+```
+
+
+▸ **La solution «pythonesque»**
+
+Chaque langage de programmation ayant ses particularités, Python propose une syntaxe particulièrement agréable pour pouvoir faire l'échange de deux variables sans faire intervenir une variable temporaire :
+
+```python
+a = 2
+b = 5
+
+# on procède à l'échange
+a,b = b,a
+```
+Ainsi,
+```python
+>>> a
+5
+>>> b
+2
+```
+
+Les variables ont bien été échangées. 
+
+*Remarque : Python ne fait que nous faciliter le travail. Il a dû lui-même créer une variable temporaire pour stocker la variable ```a``` avant de l'écraser : la simultanéité n'existe pas en informatique !*
