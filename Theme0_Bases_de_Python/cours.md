@@ -188,3 +188,6 @@ Ainsi,
 Les variables ont bien été échangées. 
 
 *Remarque : Python ne fait que nous faciliter le travail. Il a dû lui-même créer une variable temporaire pour stocker la variable ```a``` avant de l'écraser : la simultanéité n'existe pas en informatique !*
+
+
+<iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
