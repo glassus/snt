@@ -189,5 +189,35 @@ Les variables ont bien été échangées.
 
 *Remarque : Python ne fait que nous faciliter le travail. Il a dû lui-même créer une variable temporaire pour stocker la variable ```a``` avant de l'écraser : la simultanéité n'existe pas en informatique !*
 
+### 1.4 Jouer avec les variables
+L'objet de l'activité est de prendre un code pré-existant, produisant une animation graphique, et de le modifier petit à petit pour comprendre le rôle de chaque élément. 
 
-<iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+![](data/trinket.png)
+
+[Lien vers le code et l'animation en ligne](https://trinket.io/library/trinkets/bd1c5be675)
+
+#### 1.4.1 Quelques indications sur le code d'origine 
+
+ - ```background(r,g,b)``` : l'arrière-plan sera de la couleur ```(r,g,b)```, où ```r```, ```g``` et ```b``` sont des nombres compris entre 0 et 255, déterminant les composantes rouge, verte et bleue de la couleur totale. Voir  [ici](https://www.w3schools.com/colors/colors_rgb.asp) .
+- ```size(x,y)``` : l'espace de dessin mesurera ```x``` pixels de large sur ```y``` pixels de haut.
+
+- ```frameRate(n)``` : l'animation sera rafraîchie ```n``` fois par seconde.
+
+- ```stroke(r,g,b)``` : la couleur des futurs tracés (lignes, cercles...) sera la couleur ```(r,g,b)```
+
+- ```randint(a,b)``` : renvoie un nombre pseudo-aléatoire entre ```a``` et ```b```.
+
+- ```line(xA,yA,xB,yB)``` : trace une ligne entre les points ```(xA,yA)``` et ```(xB,yB)```.
+
+#### 1.4.2 Manipulations à effectuer
+1. Faire en sorte qu'il suffisse de modifier les valeurs de ```largeur``` et ```hauteur``` pour que le dessin s'adapte à la nouvelle taille.
+2. Faire en sorte que les lignes tracées soient de couleur aléatoire.
+
+#### 1.4.3 Pour aller plus loin
+
+- ```strokeWeight(n)``` : le tracé suivant aura une épaisseur de ```n```  pixels.
+- ```fill(r,b,g)``` : la figure géométrique suivante sera remplie de la couleur ```(r,g,b)```.
+- ```circle(x, y, r)``` : trace un cercle de centre ```(x,y``` et de rayon ```r```.
+- ```mouseX``` et ```mouseY``` : renvoient respectivement l'abscisse et l'ordonnée de la souris.
+
+(beaucoup) d'autres possibilités à l'adresse [https://py.processing.org/tutorials/](https://py.processing.org/tutorials/).
