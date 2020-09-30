@@ -1,4 +1,4 @@
-# 1. Variables et affectation
+## 1. Variables et affectation
 
 ### 1.1 Stocker une valeur dans une variable
 La mémoire d'un ordinateur peut-être perçue comme un ensemble de tiroirs.
@@ -221,3 +221,49 @@ L'objet de l'activité est de prendre un code pré-existant, produisant une anim
 - ```mouseX``` et ```mouseY``` : renvoient respectivement l'abscisse et l'ordonnée de la souris.
 
 (beaucoup) d'autres possibilités à l'adresse [https://py.processing.org/tutorials/](https://py.processing.org/tutorials/).
+
+
+### 1.5 Vers les tests...
+Rendez-vous à l'adresse
+[https://trinket.io/library/trinkets/d9e1c58ea0](https://trinket.io/library/trinkets/d9e1c58ea0)
+
+L'objectif est de faire bouger la balle... puis la faire rebondir !
+
+#### 1.5.1 Mouvement de la balle
+Pour l'instant la balle est statique. Du moins elle *apparaît* statique, mais elle en fait redessinnée au même endroit 25 fois par seconde !
+1. Comment faire en sorte qu'à chaque tour de boucle (25 fois par seconde donc) la balle ne soit pas redessinée au même endroit, mais légèrement décalée vers la droite ? 
+2. Résoudre le problème de superposition des anciennnes balles afin de donner l'illusion d'un mouvement
+3. Stocker dans une variable appelée ```dx``` le décalage de l'abscisse.
+ 
+
+#### 1.5.2 Rebond de la balle
+Pour l'instant, notre balle s'enfuit désespérément... Comment détecter qu'elle sortie de son aire de jeu ?
+
+## 2. Instructions conditionnelles
+Un ordinateur ne fait pas que *stocker* des valeurs dans des variables et les faire évoluer.
+Il effectue aussi des **tests** pour déclencher (ou pas) d'autres actions. On parle alors d'*instructions conditionnelles*.
+
+### 2.1 Premier test élémentaire
+La syntaxe d'un test en Python est la suivante :
+```python
+if condition :
+  instruction
+```
+Remarquez bien :
+- les deux points qui suivent la condition : ils signalent l'ouverture d'un bloc de code, celui qui sera exécuté si la condition est valide.
+- le léger décalage (appelé **indentation**) de la ligne (ou les lignes) contenant l'instruction à exécuter. Cette indentation n'est pas «décorative» : elle est cruciale pour que Python comprenne quelle partie de code doit être exécutée ou pas.
+
+**Exemple**
+```python
+heure = 13
+if heure > 12 :
+  print("j'ai faim")
+```
+Ce code va renvoyer ```j'ai faim``` car la condition est validée. On dit que la condition est «vraie».
+
+#### 2.1.2 Le retour de la balle fuyante
+1. Détectez que la balle est sortie en faisant apparaître le mot "sortie..." en console (le mot apparaîtra sous la zone de dessin).
+2. Modifiez le code pour que la balle reparte dans l'autre sens au lieu de s'enfuir.
+3. Faites rebondir la balle sur les deux murs
+4. Faites en sorte que la balle n'ait plus qu'un simple mouvement latéral mais un mouvement «de travers»
+5. Gérez les rebonds, rajoutez de l'aléatoire...
