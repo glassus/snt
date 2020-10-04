@@ -115,7 +115,7 @@ renverra
 11
 ```
 
-La compréhension de cette écriture est essentielle, ainsi que de comprendre la différence entre le point de vue mathématique et informatique d'une même écriture. Voir [ce mème](data/memex.png)
+La compréhension de cette écriture est essentielle, ainsi que de comprendre la différence entre le point de vue mathématique et informatique d'une même écriture. Voir [ce mème](data/memex.png) ou encore [celui-ci](data/memex2.jpeg) 
 
 
 #### 1.3.4 Inverser deux variables
