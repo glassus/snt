@@ -271,3 +271,6 @@ Ce code va renvoyer ```j'ai faim``` car la condition est validée. On dit que la
 3. Faites rebondir la balle sur les deux murs
 4. Faites en sorte que la balle n'ait plus qu'un simple mouvement latéral mais un mouvement «de travers»
 5. Gérez les rebonds, rajoutez de l'aléatoire...
+
+
+Voir un exemple de correction, ici : [https://trinket.io/library/trinkets/05b7d7f7c3](https://trinket.io/library/trinkets/05b7d7f7c3)... et amusez-vous à modifier ce code !
