@@ -61,3 +61,21 @@ Votre image créée doit être celle-ci :
 ### 1.2 Aide à la compréhension du code
 
 ![](data/aide1.png)
+
+
+### 1.3 À vous !
+
+Modifiez le code précédent pour créer votre propre image.
+
+
+**Rajouter de l'aléatoire**
+Au début du code, rajoutez la ligne 
+```python
+from random import randint
+```
+
+Vous pourrez alors utiliser la fonction ```randint(10,30)``` qui vous renverra un nombre pseudo-aléatoire compris entre 10 et 30 (inclus).
+
+Vous pouvez utiliser cette fonction pour la position de vos tracés, mais aussi pour les composantes RGB, entre 0 et 255.
+
+*prochaine étape : faire des fonctions pour tracer facilement des rectangles*
