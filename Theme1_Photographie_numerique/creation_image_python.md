@@ -60,4 +60,4 @@ Votre image créée doit être celle-ci :
 
 ### 1.2 Aide à la compréhension du code
 
-![](data/aide.png)
+![](data/aide1.png)
