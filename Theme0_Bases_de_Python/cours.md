@@ -431,7 +431,7 @@ Pour un nombre ```n``` d'entrées, quel est le tarif le plus avantageux ?
 
 1. Créer une fonction ```tarif_A(n)``` qui renvoie le prix pour ```n``` entrées au tarif A.
 2. Créer une fonction ```tarif_B(n)``` qui renvoie le prix pour ```n``` entrées au tarif B.
-3. Créer une fonction ```meilleur_choix(n)``` qui écrira ```il faut choisir le tarif A``` ou bien ```il faut choisir le tarif B``` en fonction du tarif le moins cher.
+3. Créer une fonction ```meilleur_choix(n)``` qui écrira ```"il faut choisir le tarif A"``` ou bien ```"il faut choisir le tarif B"``` en fonction du tarif le moins cher. Cette fonction ne renverra aucune valeur.
 
 
 
