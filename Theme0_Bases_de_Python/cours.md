@@ -304,14 +304,14 @@ def hymne_anglais():
 - le deux points : à la fin de la déclaration du nom de la fonction. Ils vont déclencher une indentation automatique du reste du corps de la fonction.
 
 **Utilisation :**
-```python
+```
 >>> hymne_anglais()
 God save our gracious Queen
 Long live our noble Queen
 God save our Queen
 ```
 
-Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appelera.
+Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appelera. 
 
 ### 3.3 Paramètres d'une fonction
 
@@ -320,4 +320,107 @@ Le carré en Scratch fera toujours 50 pixels de côté, l'hymne affiché sera to
 Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs) **paramètre**.
 
 ![](data/scratch2.png)
+
+La fonction ```carré()``` comporte maintenant un paramètre, qu'on a appelé ```coté```, mais qu'on aurait pu appeler ```n```, ```x```, ou ```djhfidshflsdm```. Cela n'a aucune importance. On choisira donc toujours un nom explicite, qui nous aidera dans la compréhension du code.
+
+Lorsqu'on appelle ensuite la fonction ```carre(100)```, la fonction est exécutée avec à la place de la variable ```coté``` la valeur ```100```.  Elle trace donc un carré de côté 100.
+
+En Python, créons par exemple une fonction ```hymne(pays)```  :
+
+```python
+def hymne(pays):
+    
+    if pays == "ANG":
+      print("God save our gracious Queen")
+      print("Long live our noble Queen")
+      print("God save our Queen")
+      
+    if pays == "FRA":
+      print("Allons enfants de la patri-i-euh")
+      print("Le jour de gloire est arrivé")
+```
+
+Notre fonction comporte maintenant un paramètre qui va influer sur l'action de la fonction :
+
+```
+>>> hymne("ANG")
+God save our gracious Queen
+Long live our noble Queen
+God save our Queen
+
+>>> hymne("FRA")
+Allons enfants de la patri-i-euh
+Le jour de gloire est arrivé
+
+>>> hymne("USA")
+
+>>> hymne(5)
+
+>>>
+```
+
+**À remarquer :**
+- L'utilisateur de la fonction peut utiliser la fonction ```hymne()``` avec des valeurs du paramètre ```pays```non prévus par le programmeur. Dans notre cas, cela n'est pas grave (il ne se passe rien), mais parfois cela peut provoquer une erreur.
+
+### 3.4 Fonctions utilisant d'autres fonctions
+
+Le code précédent peut aussi s'écrire de cette manière :
+
+```python
+def hymne_anglais():
+    print("God save our gracious Queen")
+    print("Long live our noble Queen")
+    print("God save our Queen")    
+
+
+def hymne_francais():
+    print("Allons enfants de la patri-ie-euh")
+    print("Le jour de gloire est arrivé")   
+
+
+def hymne(pays):
+    
+    if pays == "ANG":
+        hymne_anglais()
+      
+    if pays == "FRA":
+        hymne_anglais()
+
+```
+
+Ce type d'écriture de code (qu'on appellera _écriture modulaire_) est une bonne habitude à prendre car elle sépare les différentes actions en fonctions spécifiques. Si je dois rajouter un vers à l'hymne français, je vais uniquement toucher à la fonction ```hymne_francais()```, et pas aux autres fonctions qui ne sont pas concernées.
+
+### 3.5 Fonctions renvoyant une valeur
+
+⚠ **Très important** ⚠
+
+Jusqu'à présent, les fonctions utilisées étaient uniquement des «raccourcis» permettant de mieux structurer le code et d'éviter les répétitions.  
+Or, les fonctions peuvent être encore plus intéressantes lorsqu'on comprend qu'elles peuvent **renvoyer une valeur**. On s'approche alors de la définition mathématique du concept de fonction.
+
+Le mot-clé pour le renvoi d'une valeur est l'instruction ```return```.
+
+**Exemple :**
+
+```python
+def aucarré(n):
+    p = n*n
+    return p
+```
+
+À l'utilisation, cette fonction ne semble pas pour l'instant différente des précédentes :
+
+```
+>>> aucarré(4)
+16
+>>>
+``` 
+
+Ce qu'il faut absolument comprendre, c'est que ```aucarré(4)``` est en fait un **nombre**. 
+Et donc, je peux l'utiliser dans des calculs :
+
+```
+>>> 12 + aucarré(5)
+37
+``` 
+
 
