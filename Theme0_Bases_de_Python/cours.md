@@ -287,7 +287,7 @@ Par exemple, en Scratch, si on sait que l'on va avoir à tracer beaucoup de carr
 
 Il est à noter que lorsqu'on créé le bloc ```carre```, rien ne se passe, rien n'est tracé. Ce n'est que lorqu'on va se servir de ce bloc (on dira qu'on *appelle* le bloc) qu'une action aura lieu.
 
-Pour faire un parallèle avec la vie courante, vous avez tous appris un jour à faire vos lacets. C'est une fonction (un ensemble de gestes et de techniques) qui est disponible et dont vous ne vous servez que lorsque vous en avez besoin.
+Pour faire un parallèle avec la vie courante, vous avez tous appris un jour à faire vos lacets. C'est une fonction (un ensemble de gestes et de techniques) qui est disponible et dont vous ne vous servez que lorsque vous en avez besoin (quand vos lacets sont défaits).
 
 ### 3.2 Premières fonctions en Python.
 Une fonction en Python se déclare par le mot clé ```def```.
@@ -311,17 +311,17 @@ Long live our noble Queen
 God save our Queen
 ```
 
-Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appelera. 
+Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appellera. 
 
 ### 3.3 Paramètres d'une fonction
 
 L'inconvénient majeur des fonctions précédentes est qu'elles produisent **toujours** la même chose.  
 Le carré en Scratch fera toujours 50 pixels de côté, l'hymne affiché sera toujours l'hymne anglais... 
-Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs) **paramètre**.
+Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs) **paramètre**(s).
 
 ![](data/scratch2.png)
 
-La fonction ```carré()``` comporte maintenant un paramètre, qu'on a appelé ```coté```, mais qu'on aurait pu appeler ```n```, ```x```, ou ```djhfidshflsdm```. Cela n'a aucune importance. On choisira donc toujours un nom explicite, qui nous aidera dans la compréhension du code.
+La fonction ```carré()``` comporte maintenant un paramètre, qu'on a appelé ```coté```, mais qu'on aurait pu appeler ```n```, ```x```, ou ```djhfidshflsdm```. Cela n'a aucune influence sur le fonctionnement du code. Mais ça en a une sur la compréhension de celui-ci ! On choisira donc toujours un nom explicite.
 
 Lorsqu'on appelle ensuite la fonction ```carre(100)```, la fonction est exécutée avec à la place de la variable ```coté``` la valeur ```100```.  Elle trace donc un carré de côté 100.
 
@@ -379,12 +379,10 @@ def hymne_francais():
 
 
 def hymne(pays):
-    
     if pays == "ANG":
         hymne_anglais()
-      
     if pays == "FRA":
-        hymne_anglais()
+        hymne_francais()
 
 ```
 
@@ -422,5 +420,18 @@ Et donc, je peux l'utiliser dans des calculs :
 >>> 12 + aucarré(5)
 37
 ``` 
+
+**Application à un exercice classique de mathématiques**
+
+Imaginons deux tarifs A et B pour le prix d'un ticket d'entrée au cinéma.
+- Tarif A : 7 € la place
+- Tarif B : 13 € l'abonnement puis 5 € la place
+
+Pour un nombre ```n``` d'entrées, quel est le tarif le plus avantageux ?
+
+1. Créer une fonction ```tarif_A(n)``` qui renvoie le prix pour ```n``` entrées au tarif A.
+2. Créer une fonction ```tarif_B(n)``` qui renvoie le prix pour ```n``` entrées au tarif B.
+3. Créer une fonction ```meilleur_choix(n)``` qui écrira ```il faut choisir le tarif A``` ou bien ```il faut choisir le tarif B``` en fonction du tarif le moins cher.
+
 
 
