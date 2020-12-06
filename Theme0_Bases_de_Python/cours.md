@@ -274,3 +274,50 @@ Ce code va renvoyer ```j'ai faim``` car la condition est validée. On dit que la
 
 
 Voir un exemple de correction, ici : [https://trinket.io/library/trinkets/05b7d7f7c3](https://trinket.io/library/trinkets/05b7d7f7c3)... et amusez-vous à modifier ce code !
+
+
+## 3. Les fonctions en Python
+
+### 3.1 Principe général : à quoi sert une fonction ?
+L'idée principale qu'il faut garder en tête est celle-ci : une fonction **est un raccourci**, permettant une utilisation simple et rapide d'un processus répétitif.
+
+Par exemple, en Scratch, si on sait que l'on va avoir à tracer beaucoup de carrés, on crée un bloc ```carre``` :
+
+![](data/scratch1.png)
+
+Il est à noter que lorsqu'on créé le bloc ```carre```, rien ne se passe, rien n'est tracé. Ce n'est que lorqu'on va se servir de ce bloc (on dira qu'on *appelle* le bloc) qu'une action aura lieu.
+
+Pour faire un parallèle avec la vie courante, vous avez tous appris un jour à faire vos lacets. C'est une fonction (un ensemble de gestes et de techniques) qui est disponible et dont vous ne vous servez que lorsque vous en avez besoin.
+
+### 3.2 Premières fonctions en Python.
+Une fonction en Python se déclare par le mot clé ```def```.
+
+```python
+def hymne_anglais():
+      print("God save our gracious Queen")
+      print("Long live our noble Queen")
+      print("God save our Queen")
+```
+
+**À remarquer :**
+- les parenthèses à la fin du nom de la fonction (indispensables) : elles contiendront plus tard les paramètres de la fonction.
+- le deux points : à la fin de la déclaration du nom de la fonction. Ils vont déclencher une indentation automatique du reste du corps de la fonction.
+
+**Utilisation :**
+```python
+>>> hymne_anglais()
+God save our gracious Queen
+Long live our noble Queen
+God save our Queen
+```
+
+Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appelera.
+
+### 3.3 Paramètres d'une fonction
+
+L'inconvénient majeur des fonctions précédentes est qu'elles produisent **toujours** la même chose.  
+Le carré en Scratch fera toujours 50 pixels de côté, l'hymne affiché sera toujours l'hymne anglais... 
+Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs) **paramètre**.
+
+![](data/scratch2.png)
+
