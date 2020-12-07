@@ -434,4 +434,23 @@ Pour un nombre ```n``` d'entrées, quel est le tarif le plus avantageux ?
 3. Créer une fonction ```meilleur_choix(n)``` qui écrira ```"il faut choisir le tarif A"``` ou bien ```"il faut choisir le tarif B"``` en fonction du tarif le moins cher. Cette fonction ne renverra aucune valeur.
 
 
+**Correction**
+
+```python
+def tarif_A(n):
+    p = 7*n
+    return p
+
+def tarif_B(n):
+    p = 13 + 5*n
+    return p
+
+def meilleur_choix(n):
+    if tarif_A(n) < tarif_B(n):
+        print("il faut choisir le tarif A")
+    if tarif_A(n) > tarif_B(n):
+        print("il faut choisir le tarif B")
+    if tarif_A(n) == tarif_B(n):
+        print("les deux tarifs sont équivalents")
+```
 
