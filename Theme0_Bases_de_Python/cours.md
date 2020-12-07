@@ -421,7 +421,7 @@ Et donc, je peux l'utiliser dans des calculs :
 37
 ``` 
 
-**Application à un exercice classique de mathématiques**
+#### 3.6 Application à un exercice classique de mathématiques
 
 Imaginons deux tarifs A et B pour le prix d'un ticket d'entrée au cinéma.
 - Tarif A : 7 € la place
