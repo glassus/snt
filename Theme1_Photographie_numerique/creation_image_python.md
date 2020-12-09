@@ -63,19 +63,107 @@ Votre image créée doit être celle-ci :
 ![](data/aide1.png)
 
 
-### 1.3 À vous !
-
-Modifiez le code précédent pour créer votre propre image.
 
 
-**Rajouter de l'aléatoire**
+
+## 2. Des fonctions pour de jolies images !
+
+Pour l'instant nos pixels sont tous de la même couleur, et c'est un peu décevant...
+
+Nous allons repartir avec le code ci-dessous :
+
+```python
+from PIL import Image
+
+largeur = 600
+hauteur = 600
+
+img = Image.new("RGB",(largeur,hauteur))
+
+for x in range(largeur):
+    for y in range(hauteur):
+        r = 255
+        g = 255
+        b = 255
+        img.putpixel((x,y),(r,g,b))
+
+
+img.save("exemple.png")
+```
+
+L'image produite est : blanche.
+
+### 2.1 Un peu (beaucoup) d'aléatoire
 Au début du code, rajoutez la ligne 
 ```python
 from random import randint
 ```
 
-Vous pourrez alors utiliser la fonction ```randint(10,30)``` qui vous renverra un nombre pseudo-aléatoire compris entre 10 et 30 (inclus).
+Cela nous donne le droit d'utiliser la fonction ```randint()```, qui reçoit deux nombres entiers en paramètres, et qui renvoie un nombre pseudo-aléatoire entre ces deux nombres.
 
-Vous pouvez utiliser cette fonction pour la position de vos tracés, mais aussi pour les composantes RGB, entre 0 et 255.
+Voilà un simulateur de dé à 6 faces :
+```
+>>> randint(1,6)
+4
+``` 
 
-*prochaine étape : faire des fonctions pour tracer facilement des rectangles*
+
+**Exercice 1** 
+Dans le code précédent, remplacer la valeur de chaque composante RGB (actuellement à 255) par un nombre aléatoire entre 0 et 255.
+
+À quoi ressemble l'image produite ?
+(on appelle cela du *bruit blanc*)
+
+
+### 2.2 Les mathématiques au service de l'esthétique
+
+Nous souhaiterions que la teinte des pixels change en fonction des coordonnées ```(x,y)``` de celui-ci.
+
+Pour cela, nous allons, par exemple, essayer le code suivant :
+
+```python
+def f(x, y):
+    return x + y
+
+for x in range(largeur):
+    for y in range(hauteur):
+        r = f(x,y)
+        g = 255
+        b = 255
+        img.putpixel((x,y),(r,g,b))
+
+```
+Essayez de comprendre pourquoi l'image possède une grande zone de blanc.
+
+**Un opérateur important : %**
+
+Nous allons avoir recours à un opérateur mathématique très important en programmation, l'opérateur ```%```, appelé «modulo» :
+
+```a % b```  renvoie le reste de la division euclidienne de ```a```  par ```b```. 
+
+Exemple :
+```
+>>> 13 % 5
+3
+>>> 9 % 7
+2
+>>> 260 % 255
+5
+
+``` 
+
+Cet opérateur est très souvent utilisé pour éviter à une variable de dépasser une certaine borne.
+
+Ainsi, si ```z```  est un nombre entier, ```z % 255``` sera un nombre toujours compris dans l'intervalle ```[0;254]```
+
+
+**Exercice 2** 
+Reprenez le code précédent et utilisez le modulo intelligemment.
+
+
+**Exercice 3** 
+Modifiez la fonction ```f``` (faites parler votre imagination) et observez les résultats obtenus.
+
+**Exercice 3** 
+Modifiez la fonction ```f``` afin qu'elle renvoie la distance du point de coordonnées ```(x,y)``` avec le centre de l'image. (modulo 255 bien sûr).
+Admirez votre création !
