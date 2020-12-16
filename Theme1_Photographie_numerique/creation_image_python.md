@@ -167,3 +167,48 @@ Modifiez la fonction ```f``` (faites parler votre imagination) et observez les r
 **Exercice 3** 
 Modifiez la fonction ```f``` afin qu'elle renvoie la distance du point de coordonnées ```(x,y)``` avec le centre de l'image. (modulo 255 bien sûr).
 Admirez votre création !
+
+
+## 3. Modifier la couleur d'une image existante
+Nous allons jouer avec les pixels de l'image ci-dessous.
+
+![](data/fleur.jpg)
+
+- Téléchargez l'image ci-dessus (par un clic-droit puis _Enregistrez l'image_).
+- Ouvrez Thonny, et enregistrez votre fichier ```code_fleur.py``` dans **le même répertoire** que l'image ```fleur.jpg``` que vous venez de télécharger.  
+
+Copiez-collez ensuite ce code :
+
+```python
+from PIL import Image
+
+img_base = Image.open("fleur.jpg")
+img_modif = Image.new("RGB", img_base.size)
+
+largeur = img_base.width
+hauteur = img_base.height
+
+
+for x in range(largeur):
+  for y in range(hauteur):
+    pixel = img_base.getpixel((x, y))
+    r = pixel[0]
+    g = pixel[1]
+    b = pixel[2]
+    
+    new_r = r
+    new_g = g
+    new_b = b
+    
+    new_pixel = (new_r, new_g, new_b)
+    img_modif.putpixel((x, y), new_pixel)
+
+img_modif.show()    
+img_modif.save("new_fleur.jpg")
+```
+
+Exécutez ce code (F5) et observez l'image créée. 
+Elle est, pixel par pixel, identique à l'image originale.
+
+Mais essayez maintenant de modifier le contenu des variables ```new_r```, ```new_g```, ```new_b```... et observez le résultat !   
+
