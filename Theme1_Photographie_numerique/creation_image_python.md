@@ -221,6 +221,7 @@ Nous sommes maintenant capables de faire (à peu près...) la même chose avec q
 Notre personnage sera l'acteur John Travolta, héros du mème [confused Travolta](https://knowyourmeme.com/memes/confused-travolta). 
 
 Nous disposons donc de l'image [john.bmp](data/john.bmp) :
+
 ![](data/john.bmp)
 
 et d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
