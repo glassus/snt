@@ -212,3 +212,30 @@ Elle est, pixel par pixel, identique à l'image originale.
 
 Mais essayez maintenant de modifier le contenu des variables ```new_r```, ```new_g```, ```new_b```... et observez le résultat !   
 
+## 4. Activité finale : changer l'arrière-plan d'une image
+Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond vert, fond vert qui sera ensuite remplacé par une autre incrusatation vidéo au montage final. 
+
+Nous sommes maintenant capables de faire (à peu près...) la même chose avec quelques lignes de Python.
+
+#### 4.1 Les images de travail
+Notre personnage sera l'acteur John Travolta, héros du mème [confused Travolta](https://knowyourmeme.com/memes/confused-travolta). 
+
+Nous disposons donc de l'image [john.bmp](data/john.bmp) :
+![](data/john.bmp)
+
+et d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
+
+![](data/hall.png)
+
+L'objectif est bien sûr d'intégrer John Travolta dans le hall du lycée.
+
+### 4.2 Fusion des deux images
+
+Nous savons :
+- parcourir tous les pixels d'une image (avec une double boucle)
+- récupérer la valeur d'un pixel (avec ```getpixel()``` )
+- modifier la valeur d'un pixel (avec ```putpixel()``` )
+- faire des tests avec ```if```...
+
+Nous avons donc tous les outils nécessaires pour accueillir John Travolta dans le hall du lycée : à vos claviers !
+
