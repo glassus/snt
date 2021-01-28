@@ -220,15 +220,19 @@ Nous sommes maintenant capables de faire (à peu près...) la même chose avec q
 #### 4.1 Les images de travail
 Notre personnage sera l'acteur John Travolta, héros du mème [confused Travolta](https://knowyourmeme.com/memes/confused-travolta). 
 
-Nous disposons donc de l'image [john.bmp](data/john.bmp) :
+**update :** vous pouvez aussi travailler avec Bernie Sanders, candidat (malheureux) à la primaire démocrate aux US en 2020.
+
+Nous disposons donc des images [john.bmp](data/john.bmp) et [bernie.bmp](data/bernie.bmp) :
 
 ![](data/john.bmp)
+
+![](data/bernie.bmp)
 
 et d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
 
 ![](data/hall.png)
 
-L'objectif est bien sûr d'intégrer John Travolta dans le hall du lycée.
+L'objectif est bien sûr d'intégrer John Travolta (ou Bernie Sanders) dans le hall du lycée.
 
 ### 4.2 Fusion des deux images
 
@@ -238,5 +242,5 @@ Nous savons :
 - modifier la valeur d'un pixel (avec ```putpixel()``` )
 - faire des tests avec ```if```...
 
-Nous avons donc tous les outils nécessaires pour accueillir John Travolta dans le hall du lycée : à vos claviers !
+Nous avons donc tous les outils nécessaires pour accueillir John Travolta  ou Bernie Sanders dans le hall du lycée : à vos claviers !
 
