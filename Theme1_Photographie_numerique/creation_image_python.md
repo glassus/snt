@@ -244,3 +244,30 @@ Nous savons :
 
 Nous avons donc tous les outils nécessaires pour accueillir John Travolta  ou Bernie Sanders dans le hall du lycée : à vos claviers !
 
+**Correction**
+
+```python
+from PIL import Image
+
+img_john = Image.open("john.bmp")
+img_hall = Image.open("hall.png")
+
+
+for x in range(400):
+    for y in range(400):
+        pixel = img_john.getpixel((x,y))
+        if pixel != (0, 255, 0):
+            img_hall.putpixel((x,y), pixel)
+
+img_hall.show()
+
+```
+
+![](data/sol.png)
+
+## 5. Énigme des vacances
+ En vous inspirant de l'activité précédente, découvrez ce qui se cache derrière cette belle image bleue. (enfin, bleue, bleue... est-elle vraiment bleue partout ?)
+
+
+![](data/crypt.bmp)
+
