@@ -29,6 +29,11 @@ Les zones blanches et rouge se décomposent comme ceci :
 Un grand bravo aux brillants _redditors_ ```u/rdtwt1``` et ```u/tend0g```.
 
 
+Update : faites votre propre parachute !
+https://sjwarner.github.io/perseverance-parachute-generator/?
+
+
+
 #### Sources (attention spoiler):
 - https://www.lemonde.fr/pixels/article/2021/02/23/des-internautes-dechiffrent-un-message-cache-dans-le-parachute-du-rover-de-la-nasa-sur-mars_6070952_4408996.html
 - https://www.reddit.com/r/nasa/comments/lpy2fa/does_the_parachute_for_perseverance_have_some/goedts0/
