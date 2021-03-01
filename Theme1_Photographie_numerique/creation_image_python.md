@@ -14,13 +14,20 @@
 5. Installez le paquet «pillow» qui vous est proposé.
 
 
-### 0.2 Option 2 : utiliser en ligne le site repl.it
+### 0.2 Option 2 : utiliser en ligne le site Basthon
 
-Rendez-vous sur la page https://repl.it/@G_Lassus/photonumactivite2
 
-![](data/repl.png)
+Rendez-vous sur la page https://console.basthon.fr/
 
-⚠ La modification de ce code ne pourra se faire qu'après inscription sur le site de repl.it. C'est pourquoi je préfère que, si possible, vous passiez par l'option 1, l'installation de Thonny sur votre ordinateur.
+![](data/bast1.png)
+
+**Remarques :**
+- Pour travailler avec un fichier (par exemple une image) de votre ordinateur, cliquez sur le bouton  ![](data/open.png)
+- Pour avoir un «retour graphique» (notamment pour voir une image affichée en fin de programme par l'instruction ```img.show()```), cliquez sur le bouton ![](data/show.png).
+
+
+
+
 
 ## 1. Premier code
 
@@ -270,4 +277,6 @@ img_hall.show()
 
 
 ![](data/crypt.bmp)
+
+#### Aide pour démarrer la résolution de cette énigme
 
