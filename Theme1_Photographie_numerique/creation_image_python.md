@@ -280,3 +280,12 @@ img_hall.show()
 
 #### Aide pour démarrer la résolution de cette énigme
 
+Si vous travaillez à la maison et que vous ne ~~voulez~~ pouvez pas installer Thonny, utilisez Basthon, tel qu'indiqué [plus haut](https://github.com/glassus/snt/blob/master/Theme1_Photographie_numerique/creation_image_python.md#02-option-2--utiliser-en-ligne-le-site-basthon).
+
+**Méthode  :**
+1. Faire afficher la valeur du pixel de coordonnées ```(0,0)```.
+2. Parcourir tous les pixels de l'image : si le pixel de coordonnées ```(x,y)``` est différent du pixel de référence ```(0,0)```, alors le colorier en blanc.
+
+
+
+**Spoiler : [le début du code](https://gist.github.com/glassus/4f558147b443e0c69aaba47365a9a740)**
