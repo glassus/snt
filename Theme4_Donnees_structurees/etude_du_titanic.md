@@ -4,7 +4,7 @@
 
 
 ## 1. Le fichier titanic.csv
-1. Téléchargez le fichier [titanic.csv](data/titanic.csv)
+1. Téléchargez le fichier [titanic.csv](https://github.com/glassus/snt/raw/master/Theme4_Donnees_structurees/data/titanic.csv)
 2. Ouvrez le avec **un éditeur de texte** (le Bloc-Notes de Windows, par exemple).
 3. Que remarque-t-on sur la structure de ce document ?
 
