@@ -1,6 +1,10 @@
 # Étude des passagers du Titanic
 
-![lors de ce dernier voyage du Tita](data/pic.png)
+
+<p align="center">
+<img src="data/pic.png" , width=100%/> 
+</p>
+
 
 
 ## 1. Le fichier titanic.csv
