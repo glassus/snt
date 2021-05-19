@@ -9,12 +9,6 @@ for ligne in donnees:
 f.close()
 
 
-def survie(classe):
-    surv = 0
-    tot = 0
-    for passager in passagers :
-        if int(passager["classe"]) == classe :
-            tot = tot + 1
-            if int(passager["survivant"]) == 1 :
-                surv =  surv + 1
-    return surv / tot
+for passager in passagers :
+    if passager["Nom"] == 'LAROCHE  Miss. Louise' :
+        print(passager)
