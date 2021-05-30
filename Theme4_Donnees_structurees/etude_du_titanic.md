@@ -59,9 +59,12 @@ Que calcule ce code ?
 3. Miss Louise LAROCHE a-t-elle survécu au naufrage ?
 
 ### 3.3 Fonctions avancées
+
+#### 3.3.1 Taux de survie en fonction de la classe
+
 1. Copiez-collez-exécutez le code ci-dessous :
 ```python
-def survie(classe):
+def survie_classe(classe):
     surv = 0
     tot = 0
     for passager in passagers :
@@ -72,3 +75,111 @@ def survie(classe):
     return surv / tot
 ```
 2. À l'aide de cette fonction, donnez le taux de survie en 1ère, 2ème et 3ème classe.
+
+#### 3.3.2 Taux de survie en fonction du genre
+
+Modifiez le code précédent pour créer une fonction ```survie_genre(sexe)``` où ```sexe``` sera le paramètre ```"male"``` ou ```"female"```, rentré par l'utilisateur.
+
+Exemple d'appel de la fonction :
+```python
+>>> survie_genre("male")
+```
+
+#### 3.3.3 Taux de survie en fonction du genre ET de la classe
+
+Modifiez le code précédent pour créer une fonction ```survie_genre_classe(sexe, classe)``` où 
+- ```sexe``` sera le paramètre ```"male"``` ou ```"female"```
+- ```classe``` sera le paramètre ```1```, ```2``` ou ```3```
+
+Exemple d'appel de la fonction :
+```python
+>>> survie_genre_classe("male", 2)
+```
+
+
+### 3.4 Exploitation graphique
+
+#### 3.4.1 Pyramide des âges totale
+
+Le code suivant permet de générer la pyramide des âges de la totalité des passagers, en faisant apparaître d'une couleur différente les survivants et les disparus.
+
+```python
+import matplotlib.pyplot as plt
+
+cumul_age = [0]*81
+points = []
+
+for p in passagers:
+    age = int(p["age"])
+    cumul_age[age] += 1
+    points.append((age,cumul_age[age], p["survivant"]))
+
+X = [k[0] for k in points if k[2] == '1']
+Y = [k[1] for k in points if k[2] == '1']
+
+plt.plot(X,Y,'bs', label = 'survivant', markersize = 2) 
+
+X = [k[0] for k in points if k[2] == '0']
+Y = [k[1] for k in points if k[2] == '0']
+
+plt.plot(X,Y,'rs', label = 'disparu', markersize = 2)
+
+plt.xlabel('âge des passagers')
+plt.ylabel('nombre de passagers')
+plt.legend(loc = 'upper right')
+plt.title('Pyramide des âges : totalité des passagers')
+
+plt.show()
+```
+
+<p align="center">
+<img src="data/Figure_1.png" , width=60%/> 
+</p>
+
+
+#### 3.4.2 Pyramide des âges par classe
+
+```python
+import matplotlib.pyplot as plt
+
+cumul_age = [0]*81
+points = []
+
+for p in passagers:
+    if p['classe'] == '1':
+        age = int(p["age"])
+        cumul_age[age] += 1
+        points.append((age,cumul_age[age], p["survivant"]))
+
+X = [k[0] for k in points if k[2] == '1']
+Y = [k[1] for k in points if k[2] == '1']
+
+plt.plot(X,Y,'bs', label = 'survivant', markersize = 2) 
+
+X = [k[0] for k in points if k[2] == '0']
+Y = [k[1] for k in points if k[2] == '0']
+
+plt.plot(X,Y,'rs', label = 'disparu', markersize = 2)
+
+plt.xlabel('âge des passagers')
+plt.ylabel('nombre de passagers')
+plt.legend(loc = 'upper right')
+plt.title('Pyramide des âges : classe 1')
+
+plt.show()
+```
+
+<p align="center">
+<img src="data/Figure_2.png" , width=60%/> 
+</p>
+
+En faisant de légères modifications, on obtient aussi :
+
+<p align="center">
+<img src="data/Figure_3.png" , width=60%/> 
+</p>
+
+
+<p align="center">
+<img src="data/Figure_4.png" , width=60%/> 
+</p>
