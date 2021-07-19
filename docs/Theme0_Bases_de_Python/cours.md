@@ -1,5 +1,12 @@
 ## 1. Variables et affectation
 
+<figure>
+  <img src="../data/tiroir.gif" width="300" />
+  <figcaption>Image caption</figcaption>
+</figure>
+
+
+
 ### 1.1 Stocker une valeur dans une variable
 La mémoire d'un ordinateur peut-être perçue comme un ensemble de tiroirs.
 
