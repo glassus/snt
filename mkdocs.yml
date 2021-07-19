@@ -1,7 +1,7 @@
 site_name: "SNT au Lycée François Mauriac"
 
-nav:
-  - 'accueil' : 'index.md'
+#nav:
+#  - 'accueil' : 'index.md'
 
 
 theme:
@@ -73,7 +73,7 @@ markdown_extensions:
 plugins:
   - search
   - macros
-# - awesome-pages
+  - awesome-pages
 
 extra:
   social:
