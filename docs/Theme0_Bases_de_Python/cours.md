@@ -1,10 +1,8 @@
 ## 1. Variables et affectation
 
-<figure>
-  <img src="../data/tiroir.gif" width="300" />
-  <figcaption>Image caption</figcaption>
-</figure>
 
+
+![image](data/scratch2.png){width=5%}
 
 
 ### 1.1 Stocker une valeur dans une variable
