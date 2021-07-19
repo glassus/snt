@@ -2,7 +2,7 @@
 
 
 
-![image](data/scratch2.png){width=5%}
+![image](data/scratch2.png){: .center width=10%}
 
 
 ### 1.1 Stocker une valeur dans une variable
