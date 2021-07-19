@@ -1,7 +1,7 @@
 site_name: "SNT au Lycée François Mauriac"
 
-nav:
-  - 'accueil' : 'index.md'
+#nav:
+#  - 'accueil' : 'index.md'
 
 
 theme:
@@ -73,14 +73,21 @@ markdown_extensions:
 plugins:
   - search
   - macros
-#  - git-revision-date-localized:
-#     type: date
+  - awesome-pages
 
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:gilles.lassus@ac-bordeaux.fr
       name: Écrire à l'auteur
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/glassus/snt
+      name: Dépôt git
+
+    - icon: fontawesome/solid/university
+      link: https://lyceemauriac.fr
+      name: Lycée François Mauriac - Bordeaux
 
 extra_javascript:
   - xtra/javascripts/interpreter.js
@@ -93,4 +100,4 @@ extra_css:
   - xtra/stylesheets/pyoditeur.css
 
 
-#repo_url: https://github.com/glassus/snt
+copyright:  CC BY-SA / G.Lassus
