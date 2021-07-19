@@ -22,7 +22,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: teal
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
@@ -31,7 +31,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: teal
       accent: blue
       toggle:
         icon: material/toggle-switch
@@ -73,11 +73,13 @@ markdown_extensions:
 plugins:
   - search
   - macros
+  - git-revision-date-localized:
+      type: date
 
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:mon_prénom.mon_nom@chez.moi
+      link: mailto:gilles.lassus@ac-bordeaux.fr
       name: Écrire à l'auteur
 
 extra_javascript:
@@ -89,3 +91,6 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - xtra/stylesheets/pyoditeur.css
+
+
+repo_url: https://github.com/glassus/snt
