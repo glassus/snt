@@ -15,9 +15,9 @@ va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant
 
 
 <p align="center">
-<img src="data/tiroir.gif" width='20%'/> 
+<img src="../data/tiroir.gif" width='20%'/> 
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="data/tir_var.png" width='20%'/> 
+<img src="./data/tir_var.png" width='20%'/> 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="data/tir_var2.png" width='20%'/> 
 </p>
