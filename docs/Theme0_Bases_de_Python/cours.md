@@ -126,7 +126,7 @@ renverra
 
 La compréhension de cette écriture est essentielle, ainsi que de comprendre la différence entre le point de vue mathématique et informatique d'une même écriture.
 
-![](data/memes.png)
+![](data/memes.png){: .center}
 
 #### 1.3.4 Inverser deux variables
 
