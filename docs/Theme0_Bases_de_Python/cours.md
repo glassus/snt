@@ -48,6 +48,8 @@ renverra la sortie suivante :
 'Serdaigle'
 ```
 
+{{ IDEv() }}
+
 #### 1.2.2 En console
 
 Dans la console interactive de Python, c'est encore plus simple, il suffit d'écrire le nom de la variable et d'appuyer sur Entrée.
@@ -62,6 +64,8 @@ Traceback (most recent call last):
   File "<pyshell>", line 1, in <module>
 NameError: name 'b' is not defined
 ```
+
+{{ terminal() }}
 
 Bien sûr, il faut que la variable ait été créée au préalable... sinon Python renvoie un message d'erreur.
 
