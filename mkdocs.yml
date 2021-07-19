@@ -73,8 +73,8 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - git-revision-date-localized:
-      type: date
+#  - git-revision-date-localized:
+#     type: date
 
 extra:
   social:
