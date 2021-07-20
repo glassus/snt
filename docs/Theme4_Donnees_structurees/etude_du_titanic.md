@@ -1,9 +1,6 @@
 # Étude des passagers du Titanic
 
-
-<p align="center">
-<img src="data/pic.png" , width=100%/> 
-</p>
+![image](data/pic.png){: .center}
 
 
 
@@ -132,9 +129,11 @@ plt.title('Pyramide des âges : totalité des passagers')
 plt.show()
 ```
 
-<p align="center">
-<img src="data/Figure_1.png" , width=60%/> 
-</p>
+
+![image](data/Figure_1.png){: .center}
+
+
+
 
 
 #### 3.4.2 Pyramide des âges par classe
@@ -169,17 +168,13 @@ plt.title('Pyramide des âges : classe 1')
 plt.show()
 ```
 
-<p align="center">
-<img src="data/Figure_2.png" , width=60%/> 
-</p>
+![image](data/Figure_2.png){: .center}
+
 
 En faisant de légères modifications, on obtient aussi :
 
-<p align="center">
-<img src="data/Figure_3.png" , width=60%/> 
-</p>
+![image](data/Figure_3.png){: .center}
 
 
-<p align="center">
-<img src="data/Figure_4.png" , width=60%/> 
-</p>
+
+![image](data/Figure_4.png){: .center}
