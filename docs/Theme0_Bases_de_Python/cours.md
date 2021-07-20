@@ -14,6 +14,7 @@ a = 2
 ```
 
 va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant :
+
 - Est-ce que je possède **déjà** un tiroir appelé ```a``` ? 
     - si oui, je me positionne devant.
     - si non, je crée un tiroir appelé ```a```.

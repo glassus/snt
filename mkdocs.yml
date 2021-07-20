@@ -74,6 +74,7 @@ plugins:
   - search
   - macros
   - awesome-pages
+ # - mkdocs-jupyter
 
 extra:
   social:
