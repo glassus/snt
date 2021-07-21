@@ -1,10 +1,6 @@
 ## 1. Variables et affectation
 
 
-
-![image](data/scratch2.png){: .center width=10%}
-
-
 ### 1.1 Stocker une valeur dans une variable
 La mémoire d'un ordinateur peut-être perçue comme un ensemble de tiroirs.
 
@@ -20,18 +16,18 @@ va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant
     - si non, je crée un tiroir appelé ```a```.
 
 
-<p align="center">
-<img src="../data/tiroir.gif" width='20%'/> 
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./data/tir_var.png" width='20%'/> 
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="data/tir_var2.png" width='20%'/> 
-</p>
+![image](data/tiroirs.png){: .center}
+
 
 - J'ouvre le tiroir et j'y dépose la valeur numérique 2. Si le tiroir contenait déjà une valeur, celle-ci disparaît. On dit souvent qu'elle est **écrasée**.
 
-> Le sens du signe = n'est donc **pas du tout le même** qu'en mathématiques. On dit que c'est un signe d'**affectation**. 
-L'écriture a = 2 signifie donc a ← 2.
+!!! info "Remarque"
+    Cette présentation est utile pour comprendre la notion de variable dans une première approche, mais elle n'est pas du tout fidèle à la réalité.
+
+
+!!! warning "Signification du signe ="
+    Le sens du signe = n'est donc **pas du tout le même** qu'en mathématiques. On dit que c'est un signe d'**affectation**. 
+    L'écriture a = 2 signifie donc a ← 2 et peut se lire «a reçoit la valeur 2» ou encore «on affecte à a la valeur 2».
 
 ⚠ Attention : ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **type** différent.
 

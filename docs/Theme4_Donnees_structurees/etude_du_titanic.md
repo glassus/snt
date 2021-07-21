@@ -177,4 +177,4 @@ En faisant de légères modifications, on obtient aussi :
 
 
 
-![image](data/Figure_4.png){: .center}
+![image](/data/Figure_4.png){: .center}
