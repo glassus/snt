@@ -1,4 +1,14 @@
 
+## Du Python, ici ?
+
+une console :
+
+{{ terminal() }}
+
+ou même un semblant d'IDE
+
+{{ IDEv() }}
+
 ## Cahier de textes 207
 
 !!! note "Séance du 01/09/2021"
