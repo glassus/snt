@@ -1,4 +1,4 @@
-site_name: "SNT au Lycée François Mauriac - 207 / 208"
+site_name: "SNT 207 / 208 - Lycée François Mauriac - Bordeaux"
 
 #nav:
 #  - 'accueil' : 'index.md'
@@ -13,6 +13,8 @@ theme:
   icon:
     logo: material/code-greater-than
     repo : fontawesome/brands/github
+  favicon: xtra/favSNT.png
+
   features:
     - navigation.instant
     - navigation.tabs
