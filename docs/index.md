@@ -5,9 +5,11 @@
     Début du thème 0 : Bases de Python
         - document : [début](data/info.pdf)
 
-    ??? note "Séances passées"
-        - blabla
-        - blabla
+*Séances précédentes*
+
+??? note "Archives"
+    - blabla
+    - blabla
 
 
 ## Cahier de textes 208
