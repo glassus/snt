@@ -9,6 +9,17 @@ ou même un semblant d'IDE
 
 {{ IDEv() }}
 
+??? Example "{{ exercice() }}"
+    === "Énoncé"
+        Écrire 100 fois "Bernard le tocard"
+        {{ IDEv() }}
+
+    === "Solution"
+        ```python
+        for n in range(100):
+            print("Bernard le tocard")
+        ```
+
 ## Cahier de textes 207
 
 !!! note "Séance du 01/09/2021"
