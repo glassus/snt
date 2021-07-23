@@ -1,18 +1,27 @@
- En route vers Mkdocs ! à 22h52
 
-## Cahier de textes
+## Cahier de textes 207
 
-!!! note "207"
-    - 03/09/2021 : début du thème 0 : Bases de Python
+!!! note "Séance du 01/09/2021"
+    Début du thème 0 : Bases de Python
         - document : [début](data/info.pdf)
-    - 01/09/2021 : présentation
+
+    ??? note "Séances passées"
+        - blabla
+        - blabla
 
 
+## Cahier de textes 208
+
+!!! note "Séance du 03/09/2021"
+    Début du thème 0 : Bases de Python
+        - document : [début](data/info.pdf)
+
+    ??? note "Séances passées"
+        - blabla
+        - blabla
 
 
-## On teste 
+## Programme Officiel 
 
-Belle page d'accueil
-
-## Cahier de textes
+Voir le programme sur [le site Eduscol](https://eduscol.education.fr/1670/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt)
  
