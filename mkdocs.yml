@@ -10,6 +10,8 @@ theme:
   custom_dir: my_theme_customizations/
   font: false
   language: fr
+  icon:
+    logo: material/code-greater-than
   features:
     - navigation.instant
     - navigation.tabs
