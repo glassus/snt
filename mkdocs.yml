@@ -12,6 +12,7 @@ theme:
   language: fr
   icon:
     logo: material/code-greater-than
+    repo : fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tabs
@@ -74,8 +75,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date
   - macros
   - awesome-pages
+ 
  # - mkdocs-jupyter
 
 extra:
