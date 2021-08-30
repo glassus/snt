@@ -1,8 +1,6 @@
 nav:
     - Environnement de travail : environnement.md
-    - Cours : cours.md
-    - ...
-    - Link Title: https://lukasgeiter.com
+    - Cours de Python : cours.md
 
-title: Thème 0  Débuter en Python
+title: T0 Débuter en Python
 
