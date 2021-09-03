@@ -1,26 +1,10 @@
-
-## Cahier de textes 207
-
-!!! note "Séance du 06/09/2021"
-    GrA : Présentation de la matière et des outils numériques du lycée
-
-    ??? note "*Séances précédentes*"
-        - ...
-
-
-## Cahier de textes 215
-
-!!! note "Séance du 06/09/2021"
-    GrB : Présentation de la matière et des outils numériques du lycée
-
-    ??? note "*Séances précédentes*"
-        - ...
+![image](data/logo_SNT.png){: .center width=30%}
 
 
 
 ## Programme 
 
-![image](data/logo_SNT.png){: .center width=30%}
+
 
 
 !!! abstract "Le [programme](https://eduscol.education.fr/1670/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt) de SNT est articulé autour de sept thèmes:"
