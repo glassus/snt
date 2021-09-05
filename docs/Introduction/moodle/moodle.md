@@ -8,4 +8,9 @@ Moodle est une plateforme d'apprentissage à distance utilisée massivement à t
 ![image](data/mire.png){: .center width=50%}
 
 2. Cliquez sur EduConnect. Utilisez les identifiants provisoires donnés par votre professeur principal.
-1. Une fois sur LycéeConnecté, rendez-vous sur Moodle.
+1. Une fois sur LycéeConnecté, cliquer sur *Mes Applis* puis rendez-vous sur Moodle.
+![image](data/logo.svg){: .center}
+1. Dans *Mes cours* vous devriez retrouver votre cours de SNT :
+![image](data/mescours.png){: .center}
+Un questionnaire de rentrée vous y attend.
+
