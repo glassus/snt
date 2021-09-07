@@ -63,6 +63,14 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         pas. »
         4. Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
+        1. $10111_b=16+4+2+1=23_d$
+        2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
+        3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
+        4. Sur des exemples : 
+            - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
+            - 12 s'écrit 1100 en binaire, son double 24 s'écrit 11000 en binaire.
+            - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
+            On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**.  
         
 
 ### 2.2 Du décimal au binaire
@@ -83,6 +91,7 @@ Donc $243_{10}=11110011_2$
     === "Énoncé"
         Donner l'écriture binaire du nombre $28_d$.
     === "Correction"
+        $28_d=11100_b$
         
 
 ## 3. Codage et transmission de l'information
