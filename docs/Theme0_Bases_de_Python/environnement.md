@@ -26,3 +26,46 @@ Rendez-vous sur la page [https://console.basthon.fr/](https://console.basthon.fr
 
 ![](data/bast1.png)
 
+### 2.3 Directement sur ce site !
+
+Écrivez dans la fenêtre ci-dessous le code ```print("Hello World !")``` puis cliquez sur le triangle noir.
+
+{{ IDEv() }}
+
+
+## 3. Script ou console ???
+
+Thonny, comme la grande majorité des IDE Python, est composé de deux zones distinctes :
+
+- la zone de script
+- la console
+
+![image](data/thonny.png){: .center width=50%}
+
+La zone de script est **asynchrone**. Il ne se passera rien tant que vous n'aurez pas exécuté le script (par F5 par exemple).
+C'est donc l'endroit où on va rédiger son programme.
+
+La **console** est synchrone : elle répond dès que vous appuyez sur la touche Entrée. Elle sert donc aux petits tests rapides, ou bien tests post-exécution d'un code.
+
+!!! note "Utilisation classique du couple script / console"
+    1. On écrit son code dans la zone de script
+    2. On l'exécute.
+    3. On interroge la console pour connaître l'état des variables, pour utiliser les fonctions construites dans le script.
+
+Pour les extraits de code présents sur ce site :
+
+- tout le code qui est précédé d'une numérotation de ligne est à écrire en zone de script.
+
+Exemple :
+```python linenums='1'
+def accueil(n):
+   for k in range(n):
+       print("bonjour") 
+```
+
+- tout le code qui est précédé ```>>>``` est à taper en console.
+
+Exemple :
+```python
+>>> accueil(5)
+```

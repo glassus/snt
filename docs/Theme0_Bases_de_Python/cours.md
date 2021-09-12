@@ -22,14 +22,16 @@ va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant
 - J'ouvre le tiroir et j'y dépose la valeur numérique 2. Si le tiroir contenait déjà une valeur, celle-ci disparaît. On dit souvent qu'elle est **écrasée**.
 
 !!! info "Remarque"
-    Cette présentation est utile pour comprendre la notion de variable dans une première approche, mais elle n'est pas du tout fidèle à la réalité.
+    Cette présentation est utile pour comprendre la notion de variable dans une première approche, mais elle n'est pas vraiment fidèle à la réalité.
 
 
 !!! warning "Signification du signe ="
     Le sens du signe = n'est donc **pas du tout le même** qu'en mathématiques. On dit que c'est un signe d'**affectation**. 
+
     L'écriture a = 2 signifie donc a ← 2 et peut se lire «a reçoit la valeur 2» ou encore «on affecte à a la valeur 2».
 
-⚠ Attention : ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **type** différent.
+!!! info "Remarque"
+    Ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **type** différent.
 
 ### 1.2  Récupérer la valeur stockée dans une variable
 
@@ -94,7 +96,9 @@ BC = (AB**2 + AC**2)**0.5
 print("l'hypoténuse mesure", BC, "centimètres")
 ```
 
-*Remarque : en Python, la puissance s'obtient par ```**```. La racine carrée est une puissance ```0.5```.*
+!!! info "Remarque"
+    En Python, la puissance s'obtient par ```**```. La racine carrée est une puissance ```0.5```.
+
 
 #### 1.3.3 Modifier une variable à partir d'elle-même
 
@@ -105,9 +109,7 @@ a = a + 1
 écrit une égalité mathématique fort peu intéressante (toujours fausse, car elle est équivalente à l'égalité 0 = 1), 
 mais est une écriture informatique très utile : la variable ```a``` se modifie à partir d'elle-même.
 
-<p align="center">
-<img src="data/tir_var3.png" width='20%'/> 
-</p>
+![image](data/tir_var3.png){: .center width=20%}
 
 
 ```python
@@ -197,7 +199,9 @@ Ainsi,
 
 Les variables ont bien été échangées. 
 
-*Remarque : Python ne fait que nous faciliter le travail. Il a dû lui-même créer une variable temporaire pour stocker la variable ```a``` avant de l'écraser : la simultanéité n'existe pas en informatique !*
+
+!!! info "Remarque"
+    Python ne fait que nous faciliter le travail. Il a dû lui-même créer une variable temporaire pour stocker la variable ```a``` avant de l'écraser : la simultanéité n'existe pas en informatique !
 
 ### 1.4 Jouer avec les variables
 L'objet de l'activité est de prendre un code pré-existant, produisant une animation graphique, et de le modifier petit à petit pour comprendre le rôle de chaque élément. 
