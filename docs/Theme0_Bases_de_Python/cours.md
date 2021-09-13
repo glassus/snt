@@ -123,7 +123,7 @@ renverra
 11
 ```
 
-La compréhension de cette écriture est essentielle, ainsi que de comprendre la différence entre le point de vue mathématique et informatique d'une même écriture.
+La compréhension de l'instruction ```a = a + 1```  est **essentielle**. 
 
 ![](data/memes.png){: .center}
 
