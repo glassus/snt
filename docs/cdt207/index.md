@@ -1,13 +1,9 @@
 # Cahier de textes 207
 
-!!! note "TP de la semaine du 06/09 au 10/09"
-    Début du thème transversal Python
 
+## Thème en cours d'étude : [Introduction au langage Python](../Theme0_Bases_de_Python/cours.html)  
 
-??? note "Archives"
-    !!! note "Séance classe entière du 10/09"
-        Introduction au langage binaire
+??? note "*Anciens thèmes traités*"
+    - ...
 
-    !!! note "TP de la semaine du 06/09 au 10/09"
-        Présentation de la matière et des outils numériques du lycée
 
