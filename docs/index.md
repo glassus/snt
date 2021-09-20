@@ -14,7 +14,7 @@
         
         Les données constituent la matière première de toute activité numérique. Afin de permettre leur réutilisation, il est nécessaire de les conserver de manière persistante. Les structurer correctement garantit que l’on puisse les exploiter facilement pour produire de l’information.
 
-        Comment traiter ces données?
+        Comment traiter ces données ?
     === "Photo numérique"
 
         ![](data/logo_photo.png){align=left}
