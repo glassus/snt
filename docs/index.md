@@ -1,4 +1,4 @@
-## Thème en cours d'étude : [Bases de Python](/Theme0_Bases_de_Python/cours/)  
+## Thème en cours d'étude : [Bases de Python](/Theme0_Bases_de_Python/cours.html)  
 
 ??? note "*Anciens thèmes traités*"
     - ... 

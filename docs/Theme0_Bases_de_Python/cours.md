@@ -211,11 +211,11 @@ Dans la fenêtre ci-dessous, cliquer sur le bouton Play pour démarrer l'animati
 
 <iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Vous pouvez coder directement dans la fenêtre ci-dessus, ou bien ouvrir [ce lien](https://trinket.io/embed/python/bd1c5be675) dans une nouvelle fenêtre (clic-droit «Ouvrir le lien dans une nouvelle fenêtre) afin de pouvoir avoir les instructions et la fenêtre de code côte-à-côte.
+Vous pouvez coder directement dans la fenêtre ci-dessus, ou bien ouvrir [ce lien](https://trinket.io/embed/python/bd1c5be675){target=_blank} dans une nouvelle fenêtre (clic-droit «Ouvrir le lien dans une nouvelle fenêtre) afin de pouvoir avoir les instructions et la fenêtre de code côte-à-côte.
 
 #### 1.4.1 Quelques indications sur le code d'origine 
 
- - ```background(r, g, b)``` : l'arrière-plan sera de la couleur ```(r,g,b)```, où ```r```, ```g``` et ```b``` sont des nombres compris entre 0 et 255, déterminant les composantes rouge, verte et bleue de la couleur totale. Voir  [ici](https://www.w3schools.com/colors/colors_rgb.asp) .
+ - ```background(r, g, b)``` : l'arrière-plan sera de la couleur ```(r,g,b)```, où ```r```, ```g``` et ```b``` sont des nombres compris entre 0 et 255, déterminant les composantes rouge, verte et bleue de la couleur totale. Voir  [ici](https://www.w3schools.com/colors/colors_rgb.asp){target=_blank} .
 - ```size(x,y)``` : l'espace de dessin mesurera ```x``` pixels de large sur ```y``` pixels de haut.
 
 - ```frameRate(n)``` : l'animation sera rafraîchie ```n``` fois par seconde.
@@ -229,35 +229,33 @@ Vous pouvez coder directement dans la fenêtre ci-dessus, ou bien ouvrir [ce lie
 - ```ellipse(x, y, rayon, rayon``` : trace un disque de centre ```(x, y)``` et de rayon ```rayon```.
 
 #### 1.4.2 Manipulations à effectuer
-1. Modifier alternativement les paramètres ```rayon```, ```r```, ```g``` ou ```b``` afin d'observer et comprendre leur rôle. 
-2. Faire en sorte que les cercles dessinés soient de couleur aléatoire.
-3. 
-
-#### 1.4.3 Pour aller plus loin
-
-- ```strokeWeight(n)``` : le tracé suivant aura une épaisseur de ```n```  pixels.
-- ```fill(r,b,g)``` : la figure géométrique suivante sera remplie de la couleur ```(r,g,b)```.
-- ```circle(x, y, r)``` : trace un cercle de centre ```(x,y``` et de rayon ```r```.
-- ```mouseX``` et ```mouseY``` : renvoient respectivement l'abscisse et l'ordonnée de la souris.
-
-(beaucoup) d'autres possibilités à l'adresse [https://py.processing.org/tutorials/](https://py.processing.org/tutorials/).
+1. Modifier alternativement les paramètres ```rayon```, ```r```, ```g``` ou ```b``` afin d'observer et comprendre leur rôle. .
+2. Modifier le ```frameRate``` pour observer son rôle.
+3. Faire en sorte que les disques dessinés soient de couleur aléatoire.
+4. Faire en sorte que les disques soient de rayon aléatoire.
+5. Les instructions ```mouseX``` et ```mouseY``` renvoient respectivement l'abscisse et l'ordonnée de la souris. Faire en sorte que les disques se dessinent là où se trouve la souris.
+6. Trouver d'autres figures à tracer à [cette adresse](https://py.processing.org/tutorials/drawing/){target=_blank} et laisser parler son talent artistique...
 
 
 ### 1.5 Vers les tests...
-Rendez-vous à l'adresse
-[https://trinket.io/library/trinkets/d9e1c58ea0](https://trinket.io/library/trinkets/d9e1c58ea0)
+
+<iframe src="https://trinket.io/embed/python/d9e1c58ea0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+[Lien vers l'activité](https://trinket.io/library/trinkets/d9e1c58ea0) pour une utilisation dans une nouvelle fenêtre.
 
 L'objectif est de faire bouger la balle... puis la faire rebondir !
 
 #### 1.5.1 Mouvement de la balle
-Pour l'instant la balle est statique. Du moins elle *apparaît* statique, mais elle en fait redessinnée au même endroit 25 fois par seconde !
+
+Pour l'instant la balle est statique. Du moins elle *apparaît* statique, mais elle en fait redessinée au même endroit 25 fois par seconde !
+
 1. Comment faire en sorte qu'à chaque tour de boucle (25 fois par seconde donc) la balle ne soit pas redessinée au même endroit, mais légèrement décalée vers la droite ? 
 2. Résoudre le problème de superposition des anciennnes balles afin de donner l'illusion d'un mouvement
 3. Stocker dans une variable appelée ```dx``` le décalage de l'abscisse.
  
 
 #### 1.5.2 Rebond de la balle
-Pour l'instant, notre balle s'enfuit désespérément... Comment détecter qu'elle sortie de son aire de jeu ?
+Pour l'instant, notre balle s'enfuit désespérément... Comment détecter qu'elle est sortie de son aire de jeu ?
 
 ## 2. Instructions conditionnelles
 Un ordinateur ne fait pas que *stocker* des valeurs dans des variables et les faire évoluer.
