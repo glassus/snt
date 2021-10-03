@@ -206,26 +206,32 @@ Les variables ont bien été échangées.
 ### 1.4 Jouer avec les variables
 L'objet de l'activité est de prendre un code pré-existant, produisant une animation graphique, et de le modifier petit à petit pour comprendre le rôle de chaque élément. 
 
-![](data/trinket.png)
+Dans la fenêtre ci-dessous, cliquer sur le bouton Play pour démarrer l'animation.
 
-[Lien vers le code et l'animation en ligne](https://trinket.io/library/trinkets/bd1c5be675)
+
+<iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Vous pouvez coder directement dans la fenêtre ci-dessus, ou bien ouvrir [ce lien](https://trinket.io/embed/python/bd1c5be675) dans une nouvelle fenêtre (clic-droit «Ouvrir le lien dans une nouvelle fenêtre) afin de pouvoir avoir les instructions et la fenêtre de code côte-à-côte.
 
 #### 1.4.1 Quelques indications sur le code d'origine 
 
- - ```background(r,g,b)``` : l'arrière-plan sera de la couleur ```(r,g,b)```, où ```r```, ```g``` et ```b``` sont des nombres compris entre 0 et 255, déterminant les composantes rouge, verte et bleue de la couleur totale. Voir  [ici](https://www.w3schools.com/colors/colors_rgb.asp) .
+ - ```background(r, g, b)``` : l'arrière-plan sera de la couleur ```(r,g,b)```, où ```r```, ```g``` et ```b``` sont des nombres compris entre 0 et 255, déterminant les composantes rouge, verte et bleue de la couleur totale. Voir  [ici](https://www.w3schools.com/colors/colors_rgb.asp) .
 - ```size(x,y)``` : l'espace de dessin mesurera ```x``` pixels de large sur ```y``` pixels de haut.
 
 - ```frameRate(n)``` : l'animation sera rafraîchie ```n``` fois par seconde.
 
-- ```stroke(r,g,b)``` : la couleur des futurs tracés (lignes, cercles...) sera la couleur ```(r,g,b)```
+- ```noStroke()``` : les futurs tracés n'auront pas de contour.
+
+- ```fill(r, g, b)``` : les futures figures tracées seront remplies avec la couleur ```(r,g,b)```.
 
 - ```randint(a,b)``` : renvoie un nombre pseudo-aléatoire entre ```a``` et ```b```.
 
-- ```line(xA,yA,xB,yB)``` : trace une ligne entre les points ```(xA,yA)``` et ```(xB,yB)```.
+- ```ellipse(x, y, rayon, rayon``` : trace un disque de centre ```(x, y)``` et de rayon ```rayon```.
 
 #### 1.4.2 Manipulations à effectuer
-1. Faire en sorte qu'il suffisse de modifier les valeurs de ```largeur``` et ```hauteur``` pour que le dessin s'adapte à la nouvelle taille.
-2. Faire en sorte que les lignes tracées soient de couleur aléatoire.
+1. Modifier alternativement les paramètres ```rayon```, ```r```, ```g``` ou ```b``` afin d'observer et comprendre leur rôle. 
+2. Faire en sorte que les cercles dessinés soient de couleur aléatoire.
+3. 
 
 #### 1.4.3 Pour aller plus loin
 

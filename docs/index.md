@@ -1,3 +1,11 @@
+## Thème en cours d'étude : [Bases de Python](/Theme0_Bases_de_Python/cours/)  
+
+??? note "*Anciens thèmes traités*"
+    - ... 
+
+
+
+
 ![image](data/logo_SNT.png){: .center width=30%}
 
 
