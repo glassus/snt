@@ -66,7 +66,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     
     En pratique, l'hexadécimal est surtout utilisé pour sa capacité à représenter la valeur de n'importe quel octet sur 2 chiffres ("chiffres" étant à prendre au sens large = chiffres ou lettres !).
  
-    !!! example "{{ exercice() }}"
+    !!! example "Exercice"
         === "Énoncé"
             1. Donner la valeur des octets `FF`, `3A`, `B2`.
             2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
