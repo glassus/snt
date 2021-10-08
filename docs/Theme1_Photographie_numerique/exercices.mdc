@@ -1,0 +1,47 @@
+### Thème 1 Photographie numérique - Exercices
+
+### Exercice 1
+    
+1. Quel est la valeur décimale d'un octet uniquement composé de 1 ?
+2. Si on considère que la couleur d'un pixel est codée sur 3 octets (un octet pour chaque composante R, G ou B), quel est le nombre de couleurs possibles pour ce pixel ?
+3. Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
+
+### Exercice 2
+    
+Un ami m'envoie une photo de ses vacances. Le fichier de son image (en admettant qu'il ne contienne que le codage des pixels et rien d'autre, ce qui est faux...) commence par ceci :
+
+```000011000001000111100110000011010001000111100100000010100000111111101000```
+
+Est-ce que mon ami a beau temps pour ses vacances ?
+
+
+### Exercice 3
+        
+1. Donner la valeur des octets `FF`, `3A`, `B2`.
+2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
+3. Quelle est la couleur html du blanc ?
+
+-----------
+
+### Thème 1 Photographie numérique - Exercices
+
+### Exercice 1
+    
+1. Quel est la valeur décimale d'un octet uniquement composé de 1 ?
+2. Si on considère que la couleur d'un pixel est codée sur 3 octets (un octet pour chaque composante R, G ou B), quel est le nombre de couleurs possibles pour ce pixel ?
+3. Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
+
+### Exercice 2
+    
+Un ami m'envoie une photo de ses vacances. Le fichier de son image (en admettant qu'il ne contienne que le codage des pixels et rien d'autre, ce qui est faux...) commence par ceci :
+
+```000011000001000111100110000011010001000111100100000010100000111111101000```
+
+Est-ce que mon ami a beau temps pour ses vacances ?
+
+
+### Exercice 3
+        
+1. Donner la valeur des octets `FF`, `3A`, `B2`.
+2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
+3. Quelle est la couleur html du blanc ?
