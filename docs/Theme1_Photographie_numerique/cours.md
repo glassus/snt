@@ -76,9 +76,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
 !!! example "Exercice 1"
     === "Énoncé"
-        1. Quel est la valeur décimale d'un octet uniquement composé de 1 ?
-        2. Si on considère que la couleur d'un pixel est codée sur 3 octets (un octet pour chaque composante R, G ou B), quel est le nombre de couleurs possibles pour ce pixel ?
-        3. Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
+        Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
     === "Correction"
         
 
