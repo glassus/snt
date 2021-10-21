@@ -1,4 +1,8 @@
-## Thème en cours d'étude : [Bases de Python](./Theme0_Bases_de_Python/cours/)  
+## Thèmes en cours d'étude : 
+
+- en module : [Bases de Python](./Theme0_Bases_de_Python/cours/)  
+- en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
+
 
 ??? note "*Anciens thèmes traités*"
     - ... 
