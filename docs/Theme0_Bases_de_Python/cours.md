@@ -282,7 +282,12 @@ Ce code va renvoyer ```j'ai faim``` car la condition est validée. On dit que la
 #### 2.1.2 Le retour de la balle fuyante
 1. Détectez que la balle est sortie en faisant apparaître le mot "sortie..." en console (le mot apparaîtra sous la zone de dessin).
 2. Modifiez le code pour que la balle reparte dans l'autre sens au lieu de s'enfuir.
-3. Faites rebondir la balle sur les deux murs
+
+**Point d'étape**
+
+<iframe src="https://trinket.io/embed/python/ba7d676493" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+3. Faites rebondir la balle sur les **deux** murs
 4. Faites en sorte que la balle n'ait plus qu'un simple mouvement latéral mais un mouvement «de travers»
 5. Gérez les rebonds, rajoutez de l'aléatoire...
 
