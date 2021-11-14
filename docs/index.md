@@ -1,6 +1,6 @@
 ## Thèmes en cours d'étude : 
 
-- en module : [Bases de Python](./Theme0_Bases_de_Python/cours/)  
+- en module : [Modification d'une image en Python](./Theme1_Photographie_numerique/modification_image/)  
 - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
 
 
