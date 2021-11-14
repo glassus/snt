@@ -17,7 +17,7 @@ Est-ce que mon ami a beau temps pour ses vacances ?
         
 1. Donner la valeur des octets `FF`, `3A`, `B2`.
 2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
-3. Quelle est la couleur html du blanc ?
+3. Quelle est la couleur `html` du blanc ?
 
 -----------
 
