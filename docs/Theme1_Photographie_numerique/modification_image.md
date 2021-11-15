@@ -20,7 +20,8 @@ Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'act
     - On crée 3 nouvelles variables   ```new_r```, ```new_g```, et ```new_b``` à partir (ou pas) des valeurs originales ```r```, ```g```, et ```b```.
     - On modifie le pixel actuel avec ces nouvelles composantes ```new_r```, ```new_g```, et ```new_b```.
 
-## 3. Travailler avec sa propre image
+
+### Si on souhaite travailler avec sa propre image :
 
 
 ![image](data/methode.png){: .center }
@@ -28,3 +29,11 @@ Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'act
 
 Cliquer sur Capytale / Fichiers annexes / Disponibles le temps de la session / Ajouter un fichier disponible le temps de la session.
 
+## 3. Modification des pixels suivant leur couleur d'origine
+
+La condition «Si le pixel est blanc» se traduit dans notre code par le test :
+```python
+if (r, g, b) == (255, 255, 255):
+```
+
+Essayez de modifier uniquement les pixels blancs de notre image (pour les rendre bleus, par exemple).
