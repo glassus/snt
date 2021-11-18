@@ -145,3 +145,50 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 2. Quelle a été la conséquence de cette évolution ?
 3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
 4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
+
+
+## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
+
+La qualité des photographies prises par les appareils photo numériques ou les smartphones augmente d’année en année.  
+Il devient de plus en plus facile de réaliser une photographie qui satisfait nos attentes. Si des progrès ont eu lieu dans le domaine de l’optique, c’est essentiellement aux progrès fulgurants des algorithmes de traitement d’images que l’on doit la satisfaction d’une photographie réussie.  
+Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitement de photographie (sur un ordinateur avec un logiciel dédié), par le biais d’un filtre appliqué sur un réseau social, ou même de manière automatique lors de la prise de vue, lorsque ces algorithmes sont implémentés dans l’appareil photo numérique.
+
+### 5.1 Algorithme n°1 : Fusion automatique 
+
+Cet algorithme fusionne plusieurs photographies pour ne garder que des visages souriants.
+
+![image](data/a1.png){: .center}
+
+### 5.2 Algorithme n°2 : Effet Bokeh 
+
+L'effet Bokeh rajoute une modification artificielle de la profondeur de champ. Appelé « mode Portrait » sur iOS
+![image](data/a2.jpg){: .center}
+
+### 5.3 Algorithme n°3 : Focus stacking 
+
+Focus stacking : plusieurs photos de profondeurs de champs différentes sont fusionnées pour que le premier plan et l’arrière-plan soient nets en même temps.
+
+![image](data/a3.jpg){: .center}
+
+
+### 5.4 Algorithme n°4 : Correction de la distorsion
+
+Cet algorithme compense les déformations optiques dues aux lentilles de l'objectif de l'appareil, et redresse artificiellement les photos.
+
+![image](data/a4.png){: .center}
+
+## 5.5 Exercice
+
+1. Classez ces algorithmes dans le tableau suivant.
+
+    | Algorithmes essayant de reproduire le plus fidèlement possible une réalité | Algorithmes essayant d’imiter un effet artistique de la photo argentique | Algorithmes produisant une photo d’une situation qui n’a jamais existé |
+    |:---:|:---:|:---:|
+
+2. Lequel de ces algortithmes est utilisé par Google Street View ?
+3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
+4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
+
+
+**Pour aller plus loin :** analyse des images [t1.png](data/t1.png) et [t2.png](data/t2.png) à l'aide du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection)
+
+

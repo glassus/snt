@@ -1,4 +1,4 @@
-# Création d'une image numérique en Python
+# Activité 1 : création d'une image numérique en Python
 
 ## 0. L'environnement logiciel nécessaire
 
