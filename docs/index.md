@@ -1,6 +1,6 @@
 ## Thèmes en cours d'étude : 
 
-- en module : [Détourage d'une image en Python](./Theme1_Photographie_numerique/z_detourage_image/)  
+- en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
 - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
 
 
