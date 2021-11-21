@@ -1,4 +1,4 @@
-# Activité 2 : modification d'une image en Python
+# Activité 1 : modification d'une image en Python
 
 
 Nous allons jouer avec les pixels de l'image ci-dessous.
