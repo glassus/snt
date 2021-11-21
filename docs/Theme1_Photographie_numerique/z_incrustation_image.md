@@ -8,11 +8,8 @@ Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond ver
 Nous sommes maintenant capables de faire (à peu près...) la même chose avec quelques lignes de Python.
 
 ## 1. Les images de travail
-Notre personnage sera l'acteur John Travolta, héros du mème [confused Travolta](https://knowyourmeme.com/memes/confused-travolta). 
 
-**update :** vous pouvez aussi travailler avec Bernie Sanders, candidat (malheureux) à la primaire démocrate aux US en 2020.
-
-
+Nous travaillerons avec trois images, représentant respectivement John Travolta (image [john.bmp](data/john.bmp)), Bernie Sanders (image [bernie.bmp](data/bernie.bmp)) et Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
 
 ![](data/john.bmp){: .center}
 
