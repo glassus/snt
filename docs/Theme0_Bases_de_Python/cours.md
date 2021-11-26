@@ -31,7 +31,7 @@ va provoquer chez l'ordinateur (en simplifiant beaucoup) le comportement suivant
     L'écriture a = 2 signifie donc a ← 2 et peut se lire «a reçoit la valeur 2» ou encore «on affecte à a la valeur 2».
 
 !!! info "Remarque"
-    Ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image...beaucoup d'objets de **type** différent.
+    Ici, nous avons stocké un nombre (le nombre 2) dans la variable ```a```. Mais une variable peut contenir une phrase, une liste de nombres, une image... beaucoup d'objets de **type** différent.
 
 ### 1.2  Récupérer la valeur stockée dans une variable
 
