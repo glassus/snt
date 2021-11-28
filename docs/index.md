@@ -3,6 +3,14 @@
 - en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
 - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
 
+## Lien vers l'évaluation sur Capytale :
+
+- [207 GA](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/01c9-200908)
+- [207 GB](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/f727-201289)
+
+
+- [215 GA](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/5233-201287)
+- [215 GB](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/49a9-201288)
 
 ??? note "*Anciens thèmes traités*"
     - ... 
