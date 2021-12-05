@@ -70,7 +70,7 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 
 !!! example "Exercice"
 	=== "Fonctionnement du GPS"
-		1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? 
+		1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)
 
 		2. Que reçoit-il d’un satellite ?
 
@@ -87,7 +87,14 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 		8. Quel est le rôle du dernier satellite nécessaire ?
 
 	=== "Réponses"
-		
+		1. Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
+		2. Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. 
+		3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare.
+		4. Une horloge atomique assure la précision de l'heure à bord du satellite.
+		5. Tous les points à la même distance d'un satellite sont situés une sphère.
+		6. L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
+		7. Le smartphone doit capter au minimum 4 satellites.
+		8. Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
 
 
 
