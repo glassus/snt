@@ -41,7 +41,7 @@ Par exemple, les coordonnées des villes sur Wikipedia sont données au format D
 
 
 
-### 3. Utilisation du site ```coordonnnees-gps.fr```
+## 3. Utilisation du site ```coordonnnees-gps.fr```
 
 Il existe des sites en ligne qui proposent de manipuler très facilement des coordonnées GPS, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.
 
