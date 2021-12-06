@@ -1,6 +1,6 @@
 ## Thèmes en cours d'étude : 
 
-- en module : [Se réperer à la surface de la Terre](./Theme2_Localisation_Cartographie/Activité1_GPS/)  
+- en module : [Se repérer à la surface de la Terre](./Theme2_Localisation_Cartographie/Activité1_GPS/)  
 - en classe entière : [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
 
 

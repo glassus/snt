@@ -3,13 +3,33 @@
 
 ## 1. Se repérer à la surface de la Terre
 
-Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/fd8nvqhu){:target="_blank"} et remplissez le tableau ci-dessous.
+Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
 
 ??? note "Animation GeoGebra"
-    <iframe scrolling="no" title="Villes du monde" src="https://www.geogebra.org/material/iframe/id/kjhu87c3/width/1849/height/1172/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1849px" height="1172px" style="border:0px;"> </iframe>
+    <iframe scrolling="no" title="Villes du monde" src="https://www.geogebra.org/material/iframe/id/zasjvz78/width/1859/height/1169/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1859px" height="1169px" style="border:0px;"> </iframe>
+
+Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
+Dans le tableau ci-dessous sont données des coordonnées de villes.  
+Associer à chaque ville le numéro qui lui correspond. 
+Quel est la ville qui n'est associée à aucun numéro ?
+
+| numéro de la ville | Latitude | Longitude |
+|:---:|---|---|
+| 1 | 51° N | 0° E|
+| 2 | 49° N | 2° E|
+| 3 | 40° N | 4° E|
+| 4 | 41° N | 116° O|
+| 5 | 57° N | 38° E|
+| 6 | 0° N | 79° O|
+| 7 | 34° S | 18° E|
+| 8 | 34° S | 71° O|
+| 9 | 34° S | 151° O|
+| 10 | 41° S | 175° E|
+| 11 | 60° N | 11° E|
+| 12 | 37° N | 10° E|
 
 
-![image](data/tab_villes.png){: .center width=40%}
+
 
 
 ## 2. Les différentes conventions d'écriture d'angles
