@@ -24,12 +24,12 @@ Quel est la ville qui n'est associée à aucun numéro ?
 | 7 | 34° S | 18° E|
 | 8 | 34° S | 71° O|
 | 9 | 34° S | 151° O|
-| 10 | 41° S | 175° E|
+| 10 | 41° S | 175° O|
 | 11 | 60° N | 11° E|
 | 12 | 37° N | 10° E|
 
 
-
+_
 
 
 ## 2. Les différentes conventions d'écriture d'angles
