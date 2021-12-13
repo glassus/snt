@@ -30,7 +30,7 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 ![image](data/cap_paris.png){: .center}
 
 
-??? info "Conversions"
+!!! info "Conversions"
 	=== "de DMS vers DD"
 		Prenons par exemple la latitude de Paris. On obtient en degrés 48+51/60+24.11/3600 = 48.856697
 		
@@ -46,7 +46,7 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 		
 		- Le signe moins indique que la position est S
 		- La partie entière donne les degrés (22)
-		- On mutliplie la partie décimale par 60 : 0.911x60=54.66 dont la partie entière donne les minutes (54)
+		- On multiplie la partie décimale par 60 : 0.911x60=54.66 dont la partie entière donne les minutes (54)
 		- On recommence avec la partie décimale du précédent pour obtenir les secondes : 0.66x60=39.6
 		
 		On obtient donc en DMS 22°54'39.6" S.
@@ -97,6 +97,23 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 		8. Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
 
 
+Intersection de 3 sphères :
+![image](data/3spheres.png){: .center width=40%}
+
+
+!!! example "Exercice de calcul de distance"
+	=== "Énoncé"
+		Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.  
+		À quelle distance du satellite S suis-je ?  
+		*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
+
+	=== "Correction"
+		$300000 \times 0,071 = 21300$  
+
+		Le satellite est à 21300 km au dessus de moi.
+
+
+
 
 
 ??? tip "Application smartphone"
@@ -104,18 +121,64 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 
 	![](data/satstat.png){: .center} 
 
-### 2.3 Trame NMEA
 
-Les différents composants d’un appareil électronique (ex : un téléphone mobile) communiquent par des protocoles normalisés. Ainsi, les puces GPS qui effectuent les calculs de positionnement envoient leurs résultats présentés sous la forme d'une « phrase » dont la forme est strictement codifiée. On appelle ces phrases des trames, la plus courante est la [trame NMEA 0183](https://fr.wikipedia.org/wiki/NMEA_0183){:target="_blank"}  .
+
+
+### 2.3 De la puce GPS aux applications du téléphone : la trame NMEA
+
+
+![image](data/puceGPS.png){: .center width=20%}
+
+La puce GPS ci-dessus (puce d'une iPhone 6) possède les capacités de calcul (dans son microprocesseur) pour déterminer elle-même les coordonnées GPS. Mais il faut ensuite transmettre ces coordonnées à la puce centrale du téléphone (qui est en fait un véritable ordinateur, muni d'un système d'exploitation).  
+Ainsi toutes les applications ayant recours à la géolocalisation (et elles sont nombreuses) vont «demander» les coordonnées GPS à la puce dédiée qui va les leur fournir en envoyant une **trame** : la [trame NMEA 0183](https://fr.wikipedia.org/wiki/NMEA_0183){:target="_blank"}.
+
 
 ![](data/trameNMEA.png){: .center} 
-Le développeur d’une application (par exemple : la galerie photo, parcours de running, un jeu de capture de Pokémons...) souhaitant utiliser la position de l’utilisateur sait qu’il pourra exploiter cette trame pour en déduire les renseignements sur la position.
+![image](data/trame_exp.png){: .center }
 
 
-??? tip "Appication smartphone"
+
+
+??? tip "Application smartphone"
 	L'application **NMEA Tools** permet d'enregistrer et de sauvegarder des trames NMEA. Important pour récupérer la trace d'un trajet effectué.
 
-	![](data/NMEATools1.png){: .center} 
+	![](data/NMEATools1.png){: .center  width=100%} 
+
+
+??? tip "Extrait d'un flot de transmission de trames NMEA"
+	``` hl_lines="1 12 24"
+	$GPGGA,082948.0,,,,,0,,,,,,,,*77
+	$GPVTG,,T,,M,,N,,K,N*2C
+	$GPRMC,,V,,,,,,,,,,N*53
+	$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+	$GNGSA,A,1,,,,,,,,,,,,,,,*00
+	$GPGSV,3,1,10,12,36,213,33,13,34,135,26,15,64,172,25,24,66,303,14*7C
+	$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
+	$GPGSV,3,3,10,20,24,275,,28,11,043,*71
+	$GLGSV,3,1,09,67,25,180,25,68,63,246,12,78,68,323,,86,12,022,*60
+	$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
+	$GLGSV,3,3,09,87,18,080,*52
+	$GPGGA,082949.0,4445.565178,N,00037.248152,W,1,04,1.9,34.7,M,50.0,M,,*7C
+	$GPVTG,,T,,M,,N,,K,N*2C
+	$GPRMC,082949.0,A,4445.565178,N,00037.248152,W,,,300419,0.0,E,A*13
+	$GPGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*3A
+	$GNGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*24
+	$GNGSA,A,2,67,68,,,,,,,,,,,2.1,1.9,1.0*28
+	$GPGSV,3,1,10,12,36,213,31,13,34,135,27,15,64,172,25,24,66,303,14*7F
+	$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
+	$GPGSV,3,3,10,20,24,275,,28,11,043,*71
+	$GLGSV,3,1,09,67,25,180,23,68,63,246,12,78,68,323,,86,12,022,*66
+	$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
+	$GLGSV,3,3,09,87,18,080,*52
+	$GPGGA,082950.0,4445.563885,N,00037.249286,W,1,04,1.9,43.7,M,50.0,M,,*72
+	```
+
+	Il nous faut observer les trames **GPPGA** :
+
+	- la trame 1 est incomplète : la puce n'a pas encore reçu assez de messages des satellites pour commencer ses calculs.
+	- les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.
+
+
 
 
 
