@@ -37,9 +37,23 @@ Monsieur Z habite 12 rue des églantiers à Cenon (33). Il veut savoir s'il peut
 (on pensera au clic-droit / *isochrone*)
 
 
-#### 2.2.5 Photos aériennes
-1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 44.829439 , -0.879641 ?
-2. Trouver le plus de renseignements possibles sur la zone située à cet endroit.
-
-#### 2.2.6 Au XIXème siècle
+#### 2.2.5 Au XIXème siècle
 Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive droite de Bordeaux ?
+
+
+### 2.3 Recherche de renseignements en source ouverte ([OSINT](https://www.lesassisesdelacybersecurite.com/Le-blog/Glossaire/Open-Source-Intelligence-OSINT))
+#### 2.3.1 Énigme 1
+1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 44.829439 , -0.879641 ?
+2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne et pourtant non floutée sur Google Maps.
+3. Que s'est-il passé à cet endroit durant la Seconde Guerre mondiale ?
+
+### 2.3.1 Énigme 2 :skull:
+![image](data/fdcarte.png){: .center width=60%}
+
+Sur cette image extraite de GéoPortail, le point jaune désigne une plage à laquelle s'intéresse **beaucoup** une très grande entreprise bien connue.
+Quelle est cette société ?
+
+??? abstract "indice"
+    Développement Durable / Mer et Littoral
+
+
