@@ -47,7 +47,7 @@ Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive dro
 2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne et pourtant non floutée sur Google Maps.
 3. Que s'est-il passé à cet endroit durant la Seconde Guerre mondiale ?
 
-### 2.3.1 Énigme 2 :skull:
+#### 2.3.2 Énigme 2 :skull:
 ![image](data/fdcarte.png){: .center width=60%}
 
 Sur cette image extraite de GéoPortail, le point jaune désigne une plage à laquelle s'intéresse **beaucoup** une très grande entreprise bien connue.
