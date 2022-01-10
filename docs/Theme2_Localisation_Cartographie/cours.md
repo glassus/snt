@@ -235,7 +235,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 
 !!! example "Exemple"
 	Trouvons le plus court chemin entre le point A et le point H :
-	![image](data/exdijk.png){: .center width=30%}
+	![image](data/exdijk.png){: .center width=60%}
 
 	??? tip "Correction vidéo"
 		<p align="center">
