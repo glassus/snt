@@ -179,6 +179,12 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 	- les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.
 
 
+??? abstract "Activité 1 : coordonnées GPS"
+	voir [ici](../../Theme2_Localisation_Cartographie/Activité1_GPS/)
+
+??? abstract "Activité 2 : métadonnées EXIF"
+	voir [ici](../../Theme2_Localisation_Cartographie/Activité2_Exif/)
+
 
 
 
@@ -187,3 +193,57 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 **Géoportail**  est  un  site  public  français permettant l’accès à  des  données  géographiques  ou  géolocalisées. L’utilisateur peut superposer sur un fond de carte (carte de l’Institut national de l’information géographique et forestière, photographie aérienne, carte du relief) différents couches de données(carte des transports, emplacement  des hôpitaux,  départements,  etc...) de  manière  à  créer  une  carte  numérique  personnalisée. Géoportail permet aussi la localisation, le calcul de distances, de surfaces et d’itinéraires.
 
 **OpenStreetMap**  est un service  de  cartographie  libre  et  collaboratif  qui  permet  de visualiser, de modifier et d’utiliser des données géographiques. Il propose également le calcul  d’itinéraire.  Chacun  peut  contribuer  à OpenStreetaMap  en ajoutant  des informations manquantes on en corrigeant des erreurs.
+
+??? abstract "Activité 3 : GéoPortail"
+	voir [ici](../../Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
+
+
+### 3.1 Optimisation d'itinéraire
+Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
+qu’il peut emprunter.
+
+|  Carte | Graphe |
+|:--:|:--:|
+|![image](data/carte_globale.png){: .center width=60%}|![image](data/graphe_vide.png){: .center width=60%}|
+
+### 3.1.1 Première métrique
+
+1. Compléter le graphe avec les noms de villes manquants.
+2. Quel est le chemin le plus court ?
+
+### 3.1.2 Seconde métrique
+
+La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
+130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
+autorisée : 80 km/h). 
+
+1. Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
+l’automobiliste roule à la vitesse maximale autorisée.
+2. Quel est le chemin le plus rapide ?
+
+### 3.1.3 Les parcours sur un graphe
+La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
+Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
+
+- **Ce que l'on sait :** trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)
+- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){.target="_blank"} et si vous le résolvez, un million de $ sont pour vous.
+
+
+### 3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
+Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.
+
+
+!!! example "Exemple"
+	Trouvons le plus court chemin entre le point A et le point H :
+	![image](data/exdijk.png){: .center width=30%}
+
+	??? tip "Correction vidéo"
+		<p align="center">
+		<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</p>
+
+
+!!! example "Exercice"
+    === "Énoncé"
+        Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
+        ![image](data/graph.png){: .center width=60%}
