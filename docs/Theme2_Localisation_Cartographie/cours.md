@@ -182,6 +182,11 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 ??? abstract "Activité 1 : coordonnées GPS"
 	voir [ici](../../Theme2_Localisation_Cartographie/Activité1_GPS/)
 
+
+??? abstract "Correction DS GPS"
+	voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
+
+
 ??? abstract "Activité 2 : métadonnées EXIF"
 	voir [ici](../../Theme2_Localisation_Cartographie/Activité2_Exif/)
 
