@@ -1,7 +1,7 @@
 ## Thèmes en cours d'étude : 
 
 - en module : 
-    - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itinéraires/) 
+    - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
     - [GéoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)  
 - en classe entière : [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
 
