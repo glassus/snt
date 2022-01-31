@@ -1,6 +1,7 @@
 ## Thèmes en cours d'étude : 
 
 - en module : 
+    - Python par le jeu : [PyRates](https://py-rates.fr/){. target = "_blank"}
     - [PIX](./TT_PIX/cours/)
     - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
     - [GéoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)  
