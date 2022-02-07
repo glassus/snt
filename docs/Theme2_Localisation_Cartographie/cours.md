@@ -253,3 +253,12 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
     === "Énoncé"
         Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
         ![image](data/graph.png){: .center width=60%}
+
+
+!!! example "Exercice"
+    === "Énoncé"
+        Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
+        ![image](data/graph2.png){: .center width=60%}
+
+	=== "Correction"
+		![image](data/corr_dk.png){: .center width=60%}
