@@ -15,7 +15,7 @@
     - en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
     - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
 
-<!--
+<!--  --
 
 
 - [207 GA](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/01c9-200908)
