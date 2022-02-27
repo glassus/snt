@@ -1,15 +1,16 @@
-## Thèmes en cours d'étude : 
+## Thèmes en cours d'étude : Réseaux sociaux
 
 - en module : 
-    - Python par le jeu : [PyRates](https://py-rates.fr/){. target = "_blank"}
-    - [PIX](./TT_PIX/cours/)
-    - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
-    - [GéoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)  
-- en classe entière : [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
+    - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés.md){. target = "_blank"}
 
 
 
 ??? note "*Anciens thèmes traités*"
+    - en module : Python par le jeu : [PyRates](https://py-rates.fr/){. target = "_blank"}
+    - en module : [PIX](./TT_PIX/cours/)
+    - en module : [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
+    - en module : [GéoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)  
+    - en classe entière : [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
     - en module : [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)  
     - en module : [Se repérer à la surface de la Terre](./Theme2_Localisation_Cartographie/Activité1_GPS/)  
     - en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
