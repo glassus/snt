@@ -1,8 +1,8 @@
 ## Thèmes en cours d'étude : Réseaux sociaux
 
 - en module : 
-    - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés.md){. target = "_blank"}
-
+    - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
+- en classe entière : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
 
 
 ??? note "*Anciens thèmes traités*"
