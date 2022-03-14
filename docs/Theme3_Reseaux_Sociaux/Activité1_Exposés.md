@@ -60,3 +60,13 @@ Voici quelques problématiques incontournables.
 - N'abusez pas de chiffres
 - Pensez à faire des graphiques et des schémas
 - Une idée =  une diapo
+
+### 4. Ordres de passage
+
+!!! note "215 GA : lundi 21 mars"
+    - Groupe B : Instagram
+    - Groupe E : WhatsApp
+    - Groupe D : Discord
+    - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
+    - Groupe C : YouTube
+    - Groupe F : Twitter
