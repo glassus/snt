@@ -70,3 +70,16 @@ Voici quelques problématiques incontournables.
     - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
     - Groupe C : YouTube
     - Groupe F : Twitter
+
+!!! note "207 GB "
+    - **Lundi 21 mars**
+        - Groupe E : TikTok
+        - Groupe F : Instagram
+        - Groupe G : Twitter
+        - Groupe H : Twitch
+        - Groupe A : Discord
+
+    - **Lundi 28 mars**
+        - Groupe C : Wattpad
+        - Groupe B : Les réseaux sociaux russes
+        - Groupe D : Pinterest
