@@ -63,13 +63,17 @@ Voici quelques problématiques incontournables.
 
 ### 4. Ordres de passage
 
-!!! note "215 GA : lundi 21 mars"
-    - Groupe B : Instagram
-    - Groupe E : WhatsApp
-    - Groupe D : Discord
-    - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
-    - Groupe C : YouTube
-    - Groupe F : Twitter
+!!! note "207 GA "
+    - **Jeudi 24 mars**
+        - Groupe G : Instagram
+        - Groupe E : Webtoons
+        - Groupe C : YouTube
+        - Groupe A : Discord
+        - Groupe F : TikTok
+
+    - **Jeudi 31 mars**
+        - Groupe D : Twitter
+        - Groupe B : Twitch
 
 !!! note "207 GB "
     - **Lundi 21 mars**
@@ -83,3 +87,12 @@ Voici quelques problématiques incontournables.
         - Groupe C : Wattpad
         - Groupe B : Les réseaux sociaux russes
         - Groupe D : Pinterest
+
+
+!!! note "215 GA : lundi 21 mars"
+    - Groupe B : Instagram
+    - Groupe E : WhatsApp
+    - Groupe D : Discord
+    - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
+    - Groupe C : YouTube
+    - Groupe F : Twitter
