@@ -47,13 +47,13 @@ Voici quelques problématiques incontournables.
 
 - Particularité par rapport aux autres réseaux
 
-- le public cible
+- Le public cible
 
 - À qui ça appartient ?
 
-- le modèle économique : est-ce que le réseau gagne de l'argent ? Est-ce que les utilisateurs gagnent de l'argent ?
+- Le modèle économique : est-ce que le réseau gagne de l'argent ? Est-ce que les utilisateurs gagnent de l'argent ?
 
-- l'avenir ???
+- L'avenir ???
 
 
 ### 3.2 Conseils
