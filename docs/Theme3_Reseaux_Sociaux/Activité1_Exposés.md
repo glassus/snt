@@ -57,7 +57,7 @@ Voici quelques problématiques incontournables.
 
 
 ### 3.2 Conseils
-- N'abusez pas de chiffres
+- N'abusez pas de chiffres !
 - Pensez à faire des graphiques et des schémas
 - Une idée =  une diapo
 
