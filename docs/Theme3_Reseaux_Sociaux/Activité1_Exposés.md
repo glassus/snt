@@ -64,32 +64,32 @@ Voici quelques problématiques incontournables.
 ### 4. Ordres de passage
 
 !!! note "207 GA "
-    - **Jeudi 24 mars**
+    - **~~Jeudi 24 mars~~ Jeudi 31 mars**
         - Groupe G : Instagram
         - Groupe E : Webtoons
         - Groupe C : YouTube
         - Groupe A : Discord
         - Groupe F : TikTok
 
-    - **Jeudi 31 mars**
+    - **~~Jeudi 31 mars~~ Jeudi 07 avril**
         - Groupe D : Twitter
         - Groupe B : Twitch
 
 !!! note "207 GB "
-    - **Lundi 21 mars**
+    - **~~Lundi 21 mars~~ Lundi 28 mars**
         - Groupe E : TikTok
         - Groupe F : Instagram
         - Groupe G : Twitter
         - Groupe H : Twitch
         - Groupe A : Discord
 
-    - **Lundi 28 mars**
+    - **~~Lundi 28 mars~~ Lundi 4 avril**
         - Groupe C : Wattpad
         - Groupe B : Les réseaux sociaux russes
         - Groupe D : Pinterest
 
 
-!!! note "215 GA : lundi 21 mars"
+!!! note "215 GA : ~~lundi 21 mars~~ lundi 28 mars"
     - Groupe B : Instagram
     - Groupe E : WhatsApp
     - Groupe D : Discord
