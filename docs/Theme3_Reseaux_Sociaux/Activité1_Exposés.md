@@ -96,3 +96,11 @@ Voici quelques problématiques incontournables.
     - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
     - Groupe C : YouTube
     - Groupe F : Twitter
+
+!!! note "215 GB : vendredi 01 avril"
+    - Groupe D : Twitter
+    - Groupe B : Pinterest
+    - Groupe E : Soundcloud
+    - Groupe A : Twitch
+    - Groupe F : YouTube
+    - Groupe C : Instagram
