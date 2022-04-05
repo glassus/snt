@@ -2,7 +2,10 @@
 
 - en module : 
     - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
-- en classe entière : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
+- en classe entière :
+    - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
+    - Le cyberharcèlement : [Activité 3](./Theme3_Reseaux_Sociaux/Activité3_cyberharcèlement/){. target = "_blank"}
+    - Graphe des amis : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
 
 
 ??? note "*Anciens thèmes traités*"
