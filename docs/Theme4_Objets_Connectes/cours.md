@@ -4,12 +4,12 @@
 
 ## 0. Présentation de la carte BBC micro:bit
 
-**BBC micro:bit** est une carte à [microcontrôleur](https://fr.wikipedia.org/wiki/Microcontr%C3%B4leur) conçue en 2015 au Royaume-Uni pour développer l'apprentissage de l'algorithmique et de la programmation.
+**BBC micro:bit** est une carte à [microcontrôleur](https://fr.wikipedia.org/wiki/Microcontr%C3%B4leur){. target="_blank"} conçue en 2015 au Royaume-Uni pour développer l'apprentissage de l'algorithmique et de la programmation.
 
 ![](data/microbit1.png){: .center}
 
 
-La carte micro:bit dispose des [spécificités techniques](https://microbit.org/fr/guide/features/)  suivantes :
+La carte micro:bit dispose des [spécificités techniques](https://microbit.org/fr/guide/features/){. target="_blank"}  suivantes :
 
 - 25 LEDs programmables individuellement
 - 2 boutons programmables
@@ -23,7 +23,7 @@ La carte micro:bit dispose des [spécificités techniques](https://microbit.org/
 
 ### 1.1 À distance ? Pas de micro:bit ? le simulateur est là !
 
-Rendez-vous sur la page [https://create.withcode.uk/](https://create.withcode.uk/)
+Rendez-vous sur la page [https://create.withcode.uk/](https://create.withcode.uk/){. target="_blank"}
 
 Effacez le code existant et collez-le code ci-dessous :
 
@@ -37,6 +37,7 @@ while True:
     sleep(2000)
 ```
 
+
 Cliquez sur le triangle vert en bas à droite. C'est parti !
 ![](data/create.png)
 
@@ -45,17 +46,17 @@ Pour éviter des erreurs, fermez la fenêtre de droite (le simulateur) à chaque
 ### 1.2 Avec une micro:bit réelle
 
 1. Branchez la carte sur un port USB. Un lecteur MICROBIT apparait dans les périphériques USB.
-2. Rendez-vous sur l'adresse  [https://create.withcode.uk/](https://create.withcode.uk/)
+2. Rendez-vous sur l'adresse  [https://create.withcode.uk/](https://create.withcode.uk/){. target="_blank"}
 3. Modifiez le code présent puis cliquez sur la flèche verte.
 4. Vous pouvez télécharger le fichier .hex en cliquant sur Download HEX.
-5. Transférez (par copier-coller, ou "envoyer vers") ce fichier .hex dans votre lecteur micro:bit.
+5. Transférez (par copier-coller, ou "envoyer vers") ce fichier `.hex` dans votre lecteur micro:bit.
 
 Cette procédure est à répeter à chaque nouveau code.
 
 ## 2. Découverte des fonctionnalités
 
 ###  2.1 Commandes de base de l'afficheur, matrice de 5x5 LEDs
-[voir vidéo explicative (en anglais)](https://youtu.be/qqBmvHD5bCw)
+[voir vidéo explicative (en anglais)](https://youtu.be/qqBmvHD5bCw){. target="_blank"}
 
 LED signifie Light Emitting Diode, Diode électroluminescente. La carte micro:bit en dispose de 25, toutes programmables individuellement, ce qui permet d'afficher du texte, des nombres et des images.
 
@@ -65,7 +66,7 @@ LED signifie Light Emitting Diode, Diode électroluminescente. La carte micro:bi
 
 ```python
 from microbit import *
-display.scroll("NSI")
+display.scroll("SNT")
 ```
 
 
@@ -177,7 +178,7 @@ Comment dessiner une image? Chaque ligne de l’affichage physique est représen
 
 
 ### 2.1.3 Les pixels (`display.set_pixel(x, y, val)`)
-Vous pouvez régler la luminosité des pixels de l'affichage individuellement de 0 (désactivé) à 9 (luminosité maximale). Pour des informations sur les coordonnées de l'affichage, voir le [guide pour matrice à LED](https://microbit.org/guide/hardware/leds/).
+Vous pouvez régler la luminosité des pixels de l'affichage individuellement de 0 (désactivé) à 9 (luminosité maximale). Pour des informations sur les coordonnées de l'affichage, voir le [guide pour matrice à LED](https://microbit.org/guide/hardware/leds/){. target="_blank"}.
 
 Exécuter le programme suivant:
 
@@ -206,7 +207,7 @@ while True:
     sleep(500)
 ```
 
-#### Avec un peu d'aléatoire  (voir [documentation sur le hasard](https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html))
+#### Avec un peu d'aléatoire  (voir [documentation sur le hasard](https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html){. target="_blank"})
 Dans le programme suivant que vous exécuterez, on importe `randint` du module `random` de MicroPython et on l'utilise pour afficher un pixel au hasard sur la matrice.
 
 
@@ -235,7 +236,7 @@ while True:
         display.clear()
 ```
 
-### 2.4 Les entrées boutons A, B et A+B - programmation événementielle [(vidéo explicative)](https://youtu.be/t_Qujjd_38o)
+### 2.4 Les entrées boutons A, B et A+B - programmation événementielle [(vidéo explicative)](https://youtu.be/t_Qujjd_38o){. target="_blank"}
 
 ![image](data/mb_AB.png){: .center width=30%}
 
@@ -243,16 +244,17 @@ while True:
  Il y a deux boutons sur la face avant du micro:bit (étiquetés A et B). On peut détecter quand ces boutons sont pressés, ce qui permet de déclencher des instructions sur l'appareil.
 
 Exemples avec le boutton A:
+
 - `button_a.is_pressed()`: renvoie *True* si le bouton spécifié est actuellement enfoncé et *False* sinon.
 - `button_a.was_pressed()`: renvoie *True* ou *False* pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée.
 
-**Exemple :** Essayer le programme suivant qui fait défiler le texte "NSI" indéfiniment. On introduit l'**instruction conditionnelle** `if` qui va tester si le bouton A a été pressé (pendant le défilement du texte ou pendant la pause), auquel cas le programme s'arrête en exécutant la commande `break`.
+**Exemple :** Essayer le programme suivant qui fait défiler le texte "SNT" indéfiniment. On introduit l'**instruction conditionnelle** `if` qui va tester si le bouton A a été pressé (pendant le défilement du texte ou pendant la pause), auquel cas le programme s'arrête en exécutant la commande `break`.
 
 
 ```python
 from microbit import *
 while True:
-    display.scroll("NSI")
+    display.scroll("SNT")
     sleep(200)
     if button_a.was_pressed():
         break
@@ -342,7 +344,7 @@ while True:
 
 
 
-### 2.5 Capteur de lumière [(vidéo)](https://youtu.be/TKhCr-dQMBY)
+### 2.5 Capteur de lumière [(vidéo)](https://youtu.be/TKhCr-dQMBY){. target="_blank"}
 
 En inversant les LEDs d'un écran pour devenir un point d'entrée, l'écran LED devient un capteur de lumière basique, permettant de détecter la luminosité ambiante.
 
@@ -377,7 +379,7 @@ while True:
 
 **Prolongement:** créer un programme qui affiche le niveau de luminosité et le tester avec la LED d'un téléphone portable ou une lampe-torche par exemple. Plus la luminosité sera élevée, plus il y aura de LEDs affichées sur la matrice.
 
-### 2.6 Capteur de température [(vidéo)](https://youtu.be/_T4N8O9xsMA)
+### 2.6 Capteur de température [(vidéo)](https://youtu.be/_T4N8O9xsMA){. target="_blank"}
 
 
 Le micro:bit n’a pas un capteur de température dédié. Au lieu de cela, la température fournie est en fait la température de la puce de silicium du processeur principal. Comme le processeur chauffe peu en fonctionnement (c'est un processeur ARM à grande efficacité), sa température est une bonne approximation de la température ambiante.
@@ -385,7 +387,7 @@ L'instruction `temperature()` renvoie la température de la carte micro:bit en d
 
 **Exercice :** Ecrire un programme qui affiche la température (aide: on pourra utiliser l'instruction `display.scroll()`; revoir le point 2.1.1).
 
-### 2.7 Accéléromètre [(vidéo)](https://youtu.be/byngcwjO51U)
+### 2.7 Accéléromètre [(vidéo)](https://youtu.be/byngcwjO51U){. target="_blank"}
 
 Un accéléromètre mesure l'accélération de la carte micro:bit, ce composant détecte quand la micro:bit est en mouvement. Il peut aussi détecter d'autres actions (gestes), par exemple quand elle est secouée, inclinée ou qu'elle tombe.
 

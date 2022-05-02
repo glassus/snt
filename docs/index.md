@@ -1,14 +1,15 @@
-## Thèmes en cours d'étude : Réseaux sociaux
+## Thèmes en cours d'étude : Objets connectés
 
 - en module : 
-    - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
-- en classe entière :
-    - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
-    - Le cyberharcèlement : [Activité 3](./Theme3_Reseaux_Sociaux/Activité3_cyberharcèlement/){. target = "_blank"}
-    - Graphe des amis : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
+    - Découverte de la carte `micro:bit` : [Activité](./Theme4_Objets_Connectes/cours/){. target = "_blank"}
+
 
 
 ??? note "*Anciens thèmes traités*"
+    - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
+    - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
+    - Le cyberharcèlement : [Activité 3](./Theme3_Reseaux_Sociaux/Activité3_cyberharcèlement/){. target = "_blank"}
+    - Graphe des amis : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
     - en module : Python par le jeu : [PyRates](https://py-rates.fr/){. target = "_blank"}
     - en module : [PIX](./TT_PIX/cours/)
     - en module : [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
