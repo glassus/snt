@@ -453,3 +453,20 @@ while True:
 
 
 *document basé sur le travail de Thomas Basso, académie de Polynésie*
+
+
+## Annexe 
+
+Code 215 du 16 mai
+
+```python linenums='1'
+from microbit import *
+while True:
+  display.set_pixel(2, 2, 9)
+  sleep(500)
+  display.set_pixel(2, 2, 0)
+  sleep(500)
+  if button_a.was_pressed():
+    break
+display.show(Image.HAPPY)
+```
