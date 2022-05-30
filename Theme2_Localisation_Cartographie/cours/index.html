@@ -1,0 +1,1635 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../xtra/favSNT.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.16">
+    
+    
+      
+        <title>Cours - SNT 207 / 215 - Lycée François Mauriac - Bordeaux</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1c3799f8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+    <!-- Load CDNs : Pyodide (Python in WASM), Ace (Editor) and JQuery (Terminal) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.asm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/js/jquery.terminal.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/css/jquery.terminal.min.css" rel="stylesheet">
+
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../xtra/stylesheets/pyoditeur.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#theme-2-localisation-et-cartographie" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="SNT 207 / 215 - Lycée François Mauriac - Bordeaux" class="md-header__button md-logo" aria-label="SNT 207 / 215 - Lycée François Mauriac - Bordeaux" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.41 7.41 15 12l-4.59 4.6L9 15.18 12.18 12 9 8.82M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SNT 207 / 215 - Lycée François Mauriac - Bordeaux
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cours
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Mode sombre" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="blue"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Mode clair" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Effacer" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/glassus/snt" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    glassus/snt
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Accueil
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Introduction/services_num/" class="md-tabs__link">
+        Introduction
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../TT_PIX/cours/" class="md-tabs__link">
+        PIX
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Theme0_Bases_de_Python/environnement/" class="md-tabs__link">
+        T0 Débuter en Python
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Theme1_Photographie_numerique/cours/" class="md-tabs__link">
+        T1 Photographie numérique
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        T2 Localisation-Cartographie
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Theme3_Reseaux_Sociaux/cours/" class="md-tabs__link">
+        T3 Réseaux Sociaux
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Theme4_Objets_Connectes/cours/" class="md-tabs__link">
+        T4 Objets connectés
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SNT 207 / 215 - Lycée François Mauriac - Bordeaux" class="md-nav__button md-logo" aria-label="SNT 207 / 215 - Lycée François Mauriac - Bordeaux" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.41 7.41 15 12l-4.59 4.6L9 15.18 12.18 12 9 8.82M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5Z"/></svg>
+
+    </a>
+    SNT 207 / 215 - Lycée François Mauriac - Bordeaux
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/glassus/snt" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    glassus/snt
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Accueil
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" data-md-state="indeterminate" type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Les services numériques au lycée
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Les services numériques au lycée" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Les services numériques au lycée
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/services_num/" class="md-nav__link">
+        Les services numériques au lycée
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Prise en main de Moodle sur LycéeConnecté
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Prise en main de Moodle sur LycéeConnecté" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Prise en main de Moodle sur LycéeConnecté
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/moodle/moodle/" class="md-nav__link">
+        La plateforme d'apprentissage Moodle
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Le binaire et le codage de l'information numérique
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Le binaire et le codage de l'information numérique" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Le binaire et le codage de l'information numérique
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/binaire/binaire/" class="md-nav__link">
+        Le binaire et le codage de l'information numérique
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          PIX
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="PIX" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          PIX
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TT_PIX/cours/" class="md-nav__link">
+        Activités
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          T0 Débuter en Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="T0 Débuter en Python" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          T0 Débuter en Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme0_Bases_de_Python/environnement/" class="md-nav__link">
+        Environnement de travail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme0_Bases_de_Python/cours/" class="md-nav__link">
+        Cours de Python
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme0_Bases_de_Python/Exercice_Perseverance/" class="md-nav__link">
+        Le message secret de Perseverance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          T1 Photographie numérique
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="T1 Photographie numérique" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          T1 Photographie numérique
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme1_Photographie_numerique/cours/" class="md-nav__link">
+        Cours
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme1_Photographie_numerique/QCM1_correction/" class="md-nav__link">
+        Correction du QCM n°1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme1_Photographie_numerique/exercices/" class="md-nav__link">
+        Exercices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme1_Photographie_numerique/modification_image/" class="md-nav__link">
+        Activité 1 : modification d'une image en Python
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme1_Photographie_numerique/z_incrustation_image/" class="md-nav__link">
+        Activité 2 : Incrustation d'une image en Python
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          T2 Localisation-Cartographie
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="T2 Localisation-Cartographie" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          T2 Localisation-Cartographie
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cours
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cours
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-coordonnees-geographiques" class="md-nav__link">
+    1. Coordonnées géographiques
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-gps" class="md-nav__link">
+    2. GPS
+  </a>
+  
+    <nav class="md-nav" aria-label="2. GPS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-fonctionnement" class="md-nav__link">
+    2.1 Fonctionnement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-questions" class="md-nav__link">
+    2.2 Questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea" class="md-nav__link">
+    2.3 De la puce GPS aux applications du téléphone : la trame NMEA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-services-de-cartographie" class="md-nav__link">
+    3. Services de cartographie
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Services de cartographie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-optimisation-ditineraire" class="md-nav__link">
+    3.1 Optimisation d'itinéraire
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311-premiere-metrique" class="md-nav__link">
+    3.1.1 Première métrique
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-seconde-metrique" class="md-nav__link">
+    3.1.2 Seconde métrique
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313-les-parcours-sur-un-graphe" class="md-nav__link">
+    3.1.3 Les parcours sur un graphe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra" class="md-nav__link">
+    3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activit%C3%A91_GPS/" class="md-nav__link">
+        Activité 1 : Coordonnées GPS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activit%C3%A92_Exif/" class="md-nav__link">
+        Activité 2 : Métadonnées EXIF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activit%C3%A93_GeoPortail/" class="md-nav__link">
+        Activité 3 : Utilisation de GéoPortail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activit%C3%A94_Itineraires/" class="md-nav__link">
+        Activité 4 : itinéraires
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" data-md-state="indeterminate" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          T3 Réseaux Sociaux
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="T3 Réseaux Sociaux" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          T3 Réseaux Sociaux
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme3_Reseaux_Sociaux/cours/" class="md-nav__link">
+        Cours
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme3_Reseaux_Sociaux/Activit%C3%A91_Expos%C3%A9s/" class="md-nav__link">
+        Activité 1 : Exposés
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme3_Reseaux_Sociaux/Activit%C3%A92_Graphes_amis/" class="md-nav__link">
+        Activité 2 : Réseaux sociaux et graphes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme3_Reseaux_Sociaux/Activit%C3%A93_cyberharc%C3%A8lement/" class="md-nav__link">
+        Activité 3 : Cyberharcèlement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme3_Reseaux_Sociaux/Activit%C3%A94_Facebook-Instagram/" class="md-nav__link">
+        Activité 4 : le rachat d'Instagram par Facebook
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          T4 Objets connectés
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="T4 Objets connectés" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          T4 Objets connectés
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theme4_Objets_Connectes/cours/" class="md-nav__link">
+        Cours
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+    
+                
+  <a href="https://github.com/glassus/snt/edit/master/docs/Theme2_Localisation_Cartographie/cours.md" title="Editer cette page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="theme-2-localisation-et-cartographie">Thème 2 : Localisation et cartographie<a class="headerlink" href="#theme-2-localisation-et-cartographie" title="Permanent link">⚓︎</a></h1>
+<h2 id="1-coordonnees-geographiques">1. Coordonnées géographiques<a class="headerlink" href="#1-coordonnees-geographiques" title="Permanent link">⚓︎</a></h2>
+<p>Tout point de la Terre se situe à l'intersection de deux cercles: un <strong>parallèle</strong> (à l'Équateur) et un <strong>méridien</strong> (cercle passant par les pôles).</p>
+<p><img alt="" class="center" src="../data/coordonneesgeo.png" /></p>
+<details class="note">
+<summary>Animation GeoGebra</summary>
+<p><iframe scrolling="no" title="Latitude et longitude" src="https://www.geogebra.org/material/iframe/id/fcyeagj5/width/933/height/806/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="933px" height="806px" style="border:0px;"> </iframe></p>
+</details>
+<p>Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.</p>
+<p>Les angles se mesurent en degrés, soit au format décimal (avec en général au moins 6 chiffres après la virgule) ou bien en subdivisions de degrés: la minute d'arc qui vaut 1/60 de degré et la seconde d'arc qui vaut 1/60 de minute.</p>
+<p>Pour un même lieu, il y a donc plusieurs formats d'écriture de ses coordonnées. Les deux principaux sont:</p>
+<ul>
+<li>Degrés, minutes, secondes (DMS): par exemple 45° 26' 14'' N , 12° 20' 5'' E</li>
+<li>Degrés décimaux (DD): par exemple 45.4372222, 12.3347222</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Quelques exemples</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">Paris</th>
+<th align="center">New-York</th>
+<th align="center">Rio de Janeiro</th>
+<th align="center">Sydney</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">DMS</td>
+<td align="center">48°51'24.11" N, 2°21'5.26" E</td>
+<td align="center">40°42'45.2" N, 74°0'21.65" O</td>
+<td align="center">22°54'39.6" O, 43°12'33.84" S</td>
+<td align="center">33°51'22" S, 151°11'33" E</td>
+</tr>
+<tr>
+<td align="center">DD</td>
+<td align="center">48.856697, 2.351461</td>
+<td align="center">40.704222, -74.006014</td>
+<td align="center">-22.911 , -43.2094</td>
+<td align="center">-33.8561, 151.1925</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>On peut retrouver ces coordonnées dans l'url du site <code>googlemaps</code> lors d'une navigation :</p>
+<p><img alt="image" class="center" src="../data/cap_paris.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Conversions</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">de DMS vers DD</label><label for="__tabbed_1_2">de DD vers DMS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Prenons par exemple la latitude de Paris. On obtient en degrés 48+51/60+24.11/3600 = 48.856697</p>
+<p>On compte positivement car la position par rapport à l'Équateur est N pour Nord (on compte négativement pour une position S pour Sud, comme Rio ou Sydney).</p>
+<p>Prenons par exemple la longitude de New-York. On obtient en degrés 74+0/60+21.65/3600 = 74.006014</p>
+<p>On compte négativement  car la position par rapport au méridien de Greenwich est O pour Ouest (on compte positivement pour une position E pour Est, comme Paris ou Sydney).</p>
+</div>
+<div class="tabbed-block">
+<p>Prenons par exemple la latitude de Rio de Janeiro : -22.911</p>
+<ul>
+<li>Le signe moins indique que la position est S</li>
+<li>La partie entière donne les degrés (22)</li>
+<li>On multiplie la partie décimale par 60 : 0.911x60=54.66 dont la partie entière donne les minutes (54)</li>
+<li>On recommence avec la partie décimale du précédent pour obtenir les secondes : 0.66x60=39.6</li>
+</ul>
+<p>On obtient donc en DMS 22°54'39.6" S.</p>
+</div>
+</div>
+</div>
+</div>
+<!--    === "Avec Python"-->
+<!--        On peut créer des fonctions pour automatiser ces calculs:-->
+<!--        -->
+
+<h2 id="2-gps">2. GPS<a class="headerlink" href="#2-gps" title="Permanent link">⚓︎</a></h2>
+<h3 id="21-fonctionnement">2.1 Fonctionnement<a class="headerlink" href="#21-fonctionnement" title="Permanent link">⚓︎</a></h3>
+<p style="text-align: center;">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTfNhcC2vBA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e79tSIpLiDk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<h3 id="22-questions">2.2 Questions<a class="headerlink" href="#22-questions" title="Permanent link">⚓︎</a></h3>
+<div class="admonition example">
+<p class="admonition-title">Exercice</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Fonctionnement du GPS</label><label for="__tabbed_2_2">Réponses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>
+<p>Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)</p>
+</li>
+<li>
+<p>Que reçoit-il d’un satellite ?</p>
+</li>
+<li>
+<p>Comment calcule-t-il sa distance avec un satellite ? </p>
+</li>
+<li>
+<p>Quel matériel embarqué sur le satellite assure la précision ? </p>
+</li>
+<li>
+<p>Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? </p>
+</li>
+<li>
+<p>Quelle est l’intersection de deux sphères ? De trois sphères ?</p>
+</li>
+<li>
+<p>Combien de satellites au minimum le smartphone doit-il capter ?</p>
+</li>
+<li>
+<p>Quel est le rôle du dernier satellite nécessaire ?</p>
+</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Un smartphone <strong>n'envoie rien</strong>. Il ne fait que recevoir des signaux.</li>
+<li>Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. </li>
+<li>En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare.</li>
+<li>Une horloge atomique assure la précision de l'heure à bord du satellite.</li>
+<li>Tous les points à la même distance d'un satellite sont situés une sphère.</li>
+<li>L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.</li>
+<li>Le smartphone doit capter au minimum 4 satellites.</li>
+<li>Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. </li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<p>Intersection de 3 sphères :
+<img alt="image" class="center" src="../data/3spheres.png" width="40%" /></p>
+<div class="admonition example">
+<p class="admonition-title">Exercice de calcul de distance</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.<br />
+À quelle distance du satellite S suis-je ?<br />
+<em>On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s</em></p>
+</div>
+<div class="tabbed-block">
+<p><span class="arithmatex">\(300000 \times 0,071 = 21300\)</span>  </p>
+<p>Le satellite est à 21300 km au dessus de moi.</p>
+</div>
+</div>
+</div>
+</div>
+<details class="tip">
+<summary>Application smartphone</summary>
+<p>L'application Satstat permet de repérer les satellites en communication avec le smartphone et d'obtenir des informations complètes de localisation.</p>
+<p><img alt="" class="center" src="../data/satstat.png" /> </p>
+</details>
+<h3 id="23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea">2.3 De la puce GPS aux applications du téléphone : la trame NMEA<a class="headerlink" href="#23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea" title="Permanent link">⚓︎</a></h3>
+<p><img alt="image" class="center" src="../data/puceGPS.png" width="20%" /></p>
+<p>La puce GPS ci-dessus (puce d'une iPhone 6) possède les capacités de calcul (dans son microprocesseur) pour déterminer elle-même les coordonnées GPS. Mais il faut ensuite transmettre ces coordonnées à la puce centrale du téléphone (qui est en fait un véritable ordinateur, muni d'un système d'exploitation).<br />
+Ainsi toutes les applications ayant recours à la géolocalisation (et elles sont nombreuses) vont «demander» les coordonnées GPS à la puce dédiée qui va les leur fournir en envoyant une <strong>trame</strong> : la <a href="https://fr.wikipedia.org/wiki/NMEA_0183" target="_blank">trame NMEA 0183</a>.</p>
+<p><img alt="" class="center" src="../data/trameNMEA.png" /> 
+<img alt="image" class="center" src="../data/trame_exp.png" /></p>
+<details class="tip">
+<summary>Application smartphone</summary>
+<p>L'application <strong>NMEA Tools</strong> permet d'enregistrer et de sauvegarder des trames NMEA. Important pour récupérer la trace d'un trajet effectué.</p>
+<p><img alt="" class="center" src="../data/NMEATools1.png" width="100%" /> </p>
+</details>
+<details class="tip">
+<summary>Extrait d'un flot de transmission de trames NMEA</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="hll">$GPGGA,082948.0,,,,,0,,,,,,,,*77
+</span>$GPVTG,,T,,M,,N,,K,N*2C
+$GPRMC,,V,,,,,,,,,,N*53
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+$GNGSA,A,1,,,,,,,,,,,,,,,*00
+$GPGSV,3,1,10,12,36,213,33,13,34,135,26,15,64,172,25,24,66,303,14*7C
+$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
+$GPGSV,3,3,10,20,24,275,,28,11,043,*71
+$GLGSV,3,1,09,67,25,180,25,68,63,246,12,78,68,323,,86,12,022,*60
+$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
+$GLGSV,3,3,09,87,18,080,*52
+<span class="hll">$GPGGA,082949.0,4445.565178,N,00037.248152,W,1,04,1.9,34.7,M,50.0,M,,*7C
+</span>$GPVTG,,T,,M,,N,,K,N*2C
+$GPRMC,082949.0,A,4445.565178,N,00037.248152,W,,,300419,0.0,E,A*13
+$GPGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*3A
+$GNGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*24
+$GNGSA,A,2,67,68,,,,,,,,,,,2.1,1.9,1.0*28
+$GPGSV,3,1,10,12,36,213,31,13,34,135,27,15,64,172,25,24,66,303,14*7F
+$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
+$GPGSV,3,3,10,20,24,275,,28,11,043,*71
+$GLGSV,3,1,09,67,25,180,23,68,63,246,12,78,68,323,,86,12,022,*66
+$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
+$GLGSV,3,3,09,87,18,080,*52
+<span class="hll">$GPGGA,082950.0,4445.563885,N,00037.249286,W,1,04,1.9,43.7,M,50.0,M,,*72
+</span></code></pre></div></td></tr></table></div>
+<p>Il nous faut observer les trames <strong>GPPGA</strong> :</p>
+<ul>
+<li>la trame 1 est incomplète : la puce n'a pas encore reçu assez de messages des satellites pour commencer ses calculs.</li>
+<li>les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.</li>
+</ul>
+</details>
+<details class="abstract">
+<summary>Activité 1 : coordonnées GPS</summary>
+<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité1_GPS/">ici</a></p>
+</details>
+<details class="abstract">
+<summary>Correction DS GPS</summary>
+<p>voir <a href="../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf">ici</a></p>
+</details>
+<details class="abstract">
+<summary>Activité 2 : métadonnées EXIF</summary>
+<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité2_Exif/">ici</a></p>
+</details>
+<h2 id="3-services-de-cartographie">3. Services de cartographie<a class="headerlink" href="#3-services-de-cartographie" title="Permanent link">⚓︎</a></h2>
+<p><strong>Géoportail</strong>  est  un  site  public  français permettant l’accès à  des  données  géographiques  ou  géolocalisées. L’utilisateur peut superposer sur un fond de carte (carte de l’Institut national de l’information géographique et forestière, photographie aérienne, carte du relief) différents couches de données(carte des transports, emplacement  des hôpitaux,  départements,  etc...) de  manière  à  créer  une  carte  numérique  personnalisée. Géoportail permet aussi la localisation, le calcul de distances, de surfaces et d’itinéraires.</p>
+<p><strong>OpenStreetMap</strong>  est un service  de  cartographie  libre  et  collaboratif  qui  permet  de visualiser, de modifier et d’utiliser des données géographiques. Il propose également le calcul  d’itinéraire.  Chacun  peut  contribuer  à OpenStreetaMap  en ajoutant  des informations manquantes on en corrigeant des erreurs.</p>
+<details class="abstract">
+<summary>Activité 3 : GéoPortail</summary>
+<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité3_GeoPortail/">ici</a></p>
+</details>
+<h3 id="31-optimisation-ditineraire">3.1 Optimisation d'itinéraire<a class="headerlink" href="#31-optimisation-ditineraire" title="Permanent link">⚓︎</a></h3>
+<p>Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
+qu’il peut emprunter.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Carte</th>
+<th align="center">Graphe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="image" class="center" src="../data/carte_globale.png" width="60%" /></td>
+<td align="center"><img alt="image" class="center" src="../data/graphe_vide.png" width="60%" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="311-premiere-metrique">3.1.1 Première métrique<a class="headerlink" href="#311-premiere-metrique" title="Permanent link">⚓︎</a></h3>
+<ol>
+<li>Compléter le graphe avec les noms de villes manquants.</li>
+<li>Quel est le chemin le plus court ?</li>
+</ol>
+<h3 id="312-seconde-metrique">3.1.2 Seconde métrique<a class="headerlink" href="#312-seconde-metrique" title="Permanent link">⚓︎</a></h3>
+<p>La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
+130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
+autorisée : 80 km/h). </p>
+<ol>
+<li>Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
+l’automobiliste roule à la vitesse maximale autorisée.</li>
+<li>Quel est le chemin le plus rapide ?</li>
+</ol>
+<h3 id="313-les-parcours-sur-un-graphe">3.1.3 Les parcours sur un graphe<a class="headerlink" href="#313-les-parcours-sur-un-graphe" title="Permanent link">⚓︎</a></h3>
+<p>La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
+Il y a des choses que l'on sait... et d'autres que l'on cherche encore !</p>
+<ul>
+<li><strong>Ce que l'on sait :</strong> trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)</li>
+<li><strong>Ce que l'on ne sait pas encore:</strong> trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du <a .target="_blank" href="https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce">voyageur de commerce</a>.<br />
+Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez les chercher, pas comme <a .target="_blank" href="https://fr.wikipedia.org/wiki/Grigori_Perelman">Grigori Perelman</a>)</li>
+</ul>
+<h3 id="313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra">3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.<a class="headerlink" href="#313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra" title="Permanent link">⚓︎</a></h3>
+<p>Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.</p>
+<div class="admonition example">
+<p class="admonition-title">Exemple</p>
+<p>Trouvons le plus court chemin entre le point A et le point H :
+<img alt="image" class="center" src="../data/exdijk.png" width="60%" /></p>
+<details class="tip">
+<summary>Correction vidéo</summary>
+<p><p align="center">
+<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p></p>
+</details>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercice</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
+<img alt="image" class="center" src="../data/graph.png" width="60%" /></p>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercice</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
+<img alt="image" class="center" src="../data/graph2.png" width="60%" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="image" class="center" src="../data/corr_dk.png" width="60%" /></p>
+</div>
+</div>
+</div>
+</div>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Dernière mise à jour:
+      2022-05-30
+    
+  </small>
+</div>
+
+              
+    <script src="../../js/ide.js"></script> 
+
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Retour en haut de la page
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page">
+      
+        
+        <a href="../../Theme1_Photographie_numerique/z_incrustation_image/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Activité 2 : Incrustation d&#39;une image en Python" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Activité 2 : Incrustation d'une image en Python
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Activit%C3%A91_GPS/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Activité 1 : Coordonnées GPS" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Activité 1 : Coordonnées GPS
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC BY-SA / G.Lassus
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="mailto:gilles.lassus@ac-bordeaux.fr" target="_blank" rel="noopener" title="Écrire à l&#39;auteur" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m511.6 36.86-64 415.1a32.008 32.008 0 0 1-31.65 27.147c-4.188 0-8.319-.815-12.29-2.472l-122.6-51.1-50.86 76.29C226.3 508.5 219.8 512 212.8 512c-11.5 0-20.8-9.3-20.8-20.8v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96 122.3 360.3 19.69 317.5C8.438 312.8.812 302.2.062 289.1s5.47-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://github.com/glassus/snt" target="_blank" rel="noopener" title="Dépôt git" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://lyceemauriac.fr" target="_blank" rel="noopener" title="Lycée François Mauriac - Bordeaux" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M320 128c8.8 0 16 7.2 16 16v16h16c8.8 0 16 7.2 16 16s-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zm156.8-29.94 125.6 27.04c22 5.8 37.6 25.2 37.6 47.7V464c0 26.5-21.5 48-48 48H48c-26.51 0-48-21.5-48-48V172.8c0-22.5 15.63-41.9 37.59-47.7L163.2 98.06l139-92.686c9.9-7.165 24.8-7.165 35.6 0l139 92.686zM256 512h128v-96c0-35.3-28.7-64-64-64s-64 28.7-64 64v96zM96 192c-8.84 0-16 7.2-16 16v64c0 8.8 7.16 16 16 16h32c8.8 0 16-7.2 16-16v-64c0-8.8-7.2-16-16-16H96zm400 80c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64zM96 320c-8.84 0-16 7.2-16 16v64c0 8.8 7.16 16 16 16h32c8.8 0 16-7.2 16-16v-64c0-8.8-7.2-16-16-16H96zm400 80c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64zM320 88c-48.6 0-88 39.4-88 88s39.4 88 88 88 88-39.4 88-88-39.4-88-88-88z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "navigation.top", "toc.integrate", "header.autohide"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      
+        <script src="../../xtra/javascripts/interpreter.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+    
+  </body>
+</html>

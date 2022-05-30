@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="dessin-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1095398"
+     inkscape:cx="330.40381"
+     inkscape:cy="424.02612"
+     inkscape:window-width="1880"
+     inkscape:window-height="1141"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path7937" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7919" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path7940" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7928" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7937-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7937-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-28" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7937-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-61"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-29" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8982"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path8980" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8986"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path8984" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8990"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path8988" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8994"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path8992" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8998"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path8996" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-9-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7937-2-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path7940-23-4" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3536"
+       transform="translate(1.3808543,-3.2765197)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">A</tspan></text>
+    </g>
+    <g
+       id="g3536-3"
+       transform="translate(-17.549084,23.475589)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-6"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-7"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-5"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">B</tspan></text>
+    </g>
+    <g
+       id="g3536-35"
+       transform="translate(11.756448,25.428935)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-62"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-9"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-1"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">C</tspan></text>
+    </g>
+    <g
+       id="g3536-2"
+       transform="translate(31.958455,5.3316923)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-7"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-0"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-9"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">D</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="M 77.876776,77.748244 65.266579,95.569188"
+       id="path7911"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536"
+       inkscape:connection-end="#g3536-3"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 67.589225,100.4002 18.340499,1.22248"
+       id="path8291"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-3"
+       inkscape:connection-end="#g3536-35"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 89.555373,96.850847 82.893514,78.419931"
+       id="path8293"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-35"
+       inkscape:connection-end="#g3536"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="M 95.294874,98.125617 107.73161,85.753373"
+       id="path8295"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-35"
+       inkscape:connection-end="#g3536-2"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend);stop-color:#000000;stop-opacity:1"
+       d="m 86.323284,74.770957 20.004326,5.631621"
+       id="path8706"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536"
+       inkscape:connection-end="#g3536-2"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9);marker-end:url(#Arrow2Mend-0)"
+       d="M 77.876776,77.748244 65.266579,95.569188"
+       id="path7911-7"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536"
+       inkscape:connection-end="#g3536-3"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grTW.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g3536-7"
+       transform="translate(39.942674,48.80853)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-8"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-4"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-50"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">A</tspan></text>
+    </g>
+    <g
+       id="g3536-3-3"
+       transform="translate(21.012736,75.560639)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-6-6"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-7-1"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-5-0"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">B</tspan></text>
+    </g>
+    <g
+       id="g3536-35-6"
+       transform="translate(50.318268,77.513985)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-62-3"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-9-2"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-1-0"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">C</tspan></text>
+    </g>
+    <g
+       id="g3536-2-6"
+       transform="translate(70.520275,57.416742)"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <ellipse
+         style="fill:none;stroke:#00a1bb;stroke-width:0.66094;stroke-linecap:round;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="path846-7-1"
+         cx="79.655792"
+         cy="76.559181"
+         rx="5.4949479"
+         ry="5.4584012" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.13998px;line-height:1.25;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.446249"
+         x="79.678436"
+         y="77.085632"
+         id="text2879-0-5"
+         transform="scale(0.97345178,1.0272723)"><tspan
+           sodipodi:role="line"
+           id="tspan2877-9-5"
+           style="stroke-width:0.446249"
+           x="79.678436"
+           y="77.085632">D</tspan></text>
+    </g>
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m 124.8851,126.85601 20.00433,5.63162"
+       id="path8706-6"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-7"
+       inkscape:connection-end="#g3536-2-6"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 103.8284,147.65424 12.6102,-17.82095"
+       id="path9621"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-3-3"
+       inkscape:connection-end="#g3536-7"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 121.45533,130.50498 6.66186,18.43092"
+       id="path10041"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-7"
+       inkscape:connection-end="#g3536-35-6"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 133.85669,150.21067 12.43674,-12.37225"
+       id="path10043"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-35-6"
+       inkscape:connection-end="#g3536-2-6"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 124.49154,153.70773 -18.3405,-1.22248"
+       id="path10045"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3536-35-6"
+       inkscape:connection-end="#g3536-3-3"
+       inkscape:export-filename="/home/gilles/Dropbox/nsidocs/snt/docs/Theme3_Reseaux_Sociaux/data/grFB.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+  </g>
+</svg>
