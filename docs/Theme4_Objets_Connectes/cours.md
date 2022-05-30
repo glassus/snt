@@ -457,16 +457,17 @@ while True:
 
 ## Annexe 
 
-Code 215 du 16 mai
+Code 215 du 23 mai
 
 ```python linenums='1'
 from microbit import *
+x = 2
 while True:
-  display.set_pixel(2, 2, 9)
-  sleep(500)
-  display.set_pixel(2, 2, 0)
-  sleep(500)
+  display.set_pixel(x, 2, 9)
   if button_a.was_pressed():
-    break
-display.show(Image.HAPPY)
+    display.set_pixel(x, 2, 0)
+    x = x + 1
+  if button_b.was_pressed():
+    display.set_pixel(x, 2, 0)
+    x = x - 1
 ```
