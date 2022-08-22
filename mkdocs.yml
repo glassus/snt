@@ -81,9 +81,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: false
       locale: fr
-  - macros
   - awesome-pages:
       collapse_single_pages: false
+  - macros
  
  # - mkdocs-jupyter
 
