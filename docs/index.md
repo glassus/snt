@@ -1,10 +1,15 @@
-## Thèmes en cours d'étude : Objets connectés
+!!! abstract ":star: Actualités :star:"
+    - Bonne rentrée à toutes et à tous !
 
-- en module : 
-    - Découverte de la carte `micro:bit` : [Activité](./Theme4_Objets_Connectes/cours/){. target = "_blank"}
+:white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
 
+## Thème en cours d'étude : Image et photographie numérique
 
+- Introduction : 
+    [le binaire](Introduction/binaire/binaire/){. target = "_blank"}
 
+<!--  --
+snt/docs/Introduction/binaire/binaire.md
 ??? note "*Anciens thèmes traités*"
     - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
     - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
@@ -20,7 +25,7 @@
     - en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
     - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
 
-<!--  --
+
 
 
 - [207 GA](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/01c9-200908)

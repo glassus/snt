@@ -1,5 +1,9 @@
 # Le binaire et le codage de l'information numérique
 
+![image](data/img.png){: .center}
+
+
+
 ## 1. Le système décimal
 
 Notre mode de numération est le système *décimal*, ou système de base 10.
