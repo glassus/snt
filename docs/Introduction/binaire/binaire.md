@@ -83,12 +83,12 @@ Principe : dans chaque nombre décimal, il existe une plus grande puissance de 2
 
 Par exemple, dans 243, il y a 128. Donc
 
-![image](data/dec.png){: .center width=50%}
+![image](data/dec.png){: .center width=80%}
 
 Donc $243_{10}=11110011_2$
 
 !!! info "Méthode des divisions successives"
-    ![image](data/div.png){: .center width=30%}
+    ![image](data/div.png){: .center width=40%}
     
 
 !!! example "{{ exercice() }}"
