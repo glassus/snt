@@ -27,11 +27,19 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     Chaque pixel correspond à un triplet de trois nombres entiers, soit les valeurs de rouge (Red), de vert (Green) et de bleu (Blue) afin de reconstituer la couleur. Chaque valeur est codée entre 0 et 255. On parle de code RGB (RVB in français).
 
     ![](data/chromato.jpg){: .center} 
+    
+    Plus de renseignements sur la méthode additive peuvent être retrouvés [ici](http://physique.ostralo.net/syntheses_couleurs/){. target="_blank"}.
 
     À noter qu'une couleur dont les 3 composantes sont identiques correspond à un niveau de gris.
 
 
 [Ce site](https://htmlcolorcodes.com/fr/) (parmi beaucoup d'autres !) permet de retrouver le codage RGB d'une couleur. Il permet aussi de trouver le codage html d'une couleur, qui est basé sur le système hexadécimal.
+
+
+!!! abstract "Activité sur Capytale : modification en Python des couleurs d'une image"
+    - Connectez-vous à [LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}.
+    - Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c/d24e-741018/mlc){. target="_blank"}.
+
 
 ??? info "la base 16 : l'hexadécimal"
     L'inconvénient essentiel du système binaire est la longueur de l'écriture des nombres qu'il génère. Pour cette raison, le **système hexadécimal**, ou système de **base 16** est très souvent employé.

@@ -1,12 +1,16 @@
-!!! abstract ":star: Actualités :star:"
+<!-- !!! abstract ":star: Actualités :star:"
     - Bonne rentrée à toutes et à tous !
 
 :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
-
+ -->
 ## Thème en cours d'étude : Image et photographie numérique
 
-- Introduction : 
-    [le binaire](Introduction/binaire/binaire/){. target = "_blank"}
+- :star: Séance actuelle :star: : 
+    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+
+- Séances passées :
+    - [Le binaire](Introduction/binaire/binaire/){. target = "_blank"}
+
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md
