@@ -33,7 +33,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     À noter qu'une couleur dont les 3 composantes sont identiques correspond à un niveau de gris.
 
 
-[Ce site](https://htmlcolorcodes.com/fr/) (parmi beaucoup d'autres !) permet de retrouver le codage RGB d'une couleur. Il permet aussi de trouver le codage html d'une couleur, qui est basé sur le système hexadécimal.
+[Ce site](https://www.w3schools.com/colors/colors_rgb.asp){. target="_blank"} (parmi beaucoup d'autres !) permet de retrouver le codage RGB d'une couleur. Il permet aussi de trouver le codage html d'une couleur, qui est basé sur le système hexadécimal.
 
 
 !!! abstract "Activité sur Capytale : modification en Python des couleurs d'une image"
@@ -98,6 +98,20 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
     === "Correction"
         
+
+
+
+!!! abstract "Conclusion :heart: :heart: :heart:"
+    - Les écrans (téléphones, ordinateurs, télévisions) sont constitués de pixels eux-mêmes constitués de sous-pixels rouge, vert ou bleus, posés sur une dalle noire.
+    - En allumant ces sous-pixels avec différentes intensités, on peut générer toutes les couleurs.
+    - Pour pouvoir donner ces instructions d'allumage à différentes intensités, le processeur qui gère ces pixels reçoit pour chacun d'entre eux trois nombres, pour chacun des sous-pixels.
+    - Ces nombres sont écrits en binaire et sont codés sur un octet : ces nombres sont donc compris entre 0 et 255.
+    - ```(0,0,0)```  est le code RGB du noir, ```(255,255,255)```  est le code RGB du blanc. Il y a plus de 16 millions de combinaisons possibles ($256^3=16777216$). Vous pouvez les tester [ici](https://www.w3schools.com/colors/colors_rgb.asp){. target="_blank"}.
+
+
+
+Nous allons maintenant essayer de répondre à la question suivante : comment la lumière extérieure est transformée en une multitude d'informations de rouge, de vert et de bleu ?
+
 
 ## 4. De la lumière aux pixels : le fonctionnement de l'appareil photo numérique
 
