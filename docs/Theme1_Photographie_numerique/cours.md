@@ -143,7 +143,7 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 ### 4.3 Analyse d'un article
 
 ??? note "Extrait du site frandroid.com"
-    [lien vers l'article originel](https://www.frandroid.com/produits-android/photo/337878_galaxy-s7-samsung-opterait-pour-moins-de-megapixels-et-de-plus-gros-photosites)
+    [lien vers l'article originel](https://www.frandroid.com/produits-android/photo/337878_galaxy-s7-samsung-opterait-pour-moins-de-megapixels-et-de-plus-gros-photosites){. target="_blank"}
     
     **Samsung Galaxy S7, moins de mégapixels et de plus gros photosites, pourquoi ?**
     *Par Ulrich Rozier, le 25 janvier 2016*
@@ -203,14 +203,25 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 
 1. Classez ces algorithmes dans le tableau suivant.
 
-    | Algorithmes essayant de reproduire le plus fidèlement possible une réalité | Algorithmes essayant d’imiter un effet artistique de la photo argentique | Algorithmes produisant une photo d’une situation qui n’a jamais existé |
+    | A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
     |:---:|:---:|:---:|
+    |  |  |  |
+    |  |  |  |
+    |  |  |  |
 
 2. Lequel de ces algortithmes est utilisé par Google Street View ?
 3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
 4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
 
 
-**Pour aller plus loin :** analyse des images [t1.png](data/t1.png) et [t2.png](data/t2.png) à l'aide du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection)
+## 5.6 Clone detection
 
+À l'aide de la fonctionnalité Clone Detection du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection){. target="_blank"}, analysez l'image suivante :
+
+![image](data/t2.png){: .center}
+
+??? tip "solution"
+    Cette image comporte a été modifiée. L'image originale est: 
+    ![image](data/t1.png){: .center}
+    
 
