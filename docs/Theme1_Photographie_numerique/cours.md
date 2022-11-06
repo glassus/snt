@@ -86,6 +86,9 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     === "Énoncé"
         Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
     === "Correction"
+        $600 \times 400 = 240000$.
+
+        L'image pèse donc 240 000 octets, donc 240 Ko, donc 0,24 Mo.
         
 
 !!! example "Exercice 2"
@@ -97,7 +100,15 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
         Est-ce que mon ami a beau temps pour ses vacances ?
 
     === "Correction"
-        
+        Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
+
+        Prenons donc les 24 premiers bits : ```000011000001000111100110```.
+
+        Ils se décomposent en 3 octets : ```00001100``` ,  ```00010001``` et ```11100110```.
+
+        Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.
+
+        La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un [bleu](https://www.google.com/search?q=rgb+(12%2C17%2C230)){. target="_blank"}.  On peut donc supposer que mon ami a beau temps pour ses vacances.
 
 
 
@@ -168,6 +179,13 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
 4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
 
+<!-- ??? tip "Correction"
+    1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
+    2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
+    3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
+    4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
+ -->
+
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
@@ -214,6 +232,18 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
 
 
+!!! abstract "Conclusion :heart: :heart: :heart:"
+    - Pour stocker numériquement les informations nécessaires à l'affichage d'une photographie, il faut pour chaque pixel de l'image 3 informations sur la quantité de Rouge, de Vert et de Bleu.
+    - Dans un capteur d'appareil photo numérique a lieu une transformation de la lumière en énergie électrique.
+    - La lumière est concentrée par des lentilles, puis décomposée en passant dans des filtres rouge, vert et bleu. 
+    - La lumière vient alors frapper des photosites (sorte de minuscules panneaux photovoltaïques) qui vont donc produire une quantité d'électricité proportionnelle à la quantité de lumière reçue. 
+    - Ce courant électrique est ensuite converti en un nombre binaire sur 1 octet (donc entre 0 et 255), puis stocké dans un fichier.
+    - Avant restitution de l'image numérique à l'écran, de multiples algorithmes de correction et d'amélioration de la photographie ont lieu.
+    - Ces algorithmes, toujours plus évolués à mesure que la puissance des processeurs augmente, permettent de compenser les faiblesses du matériel optique (objectifs minuscules...), mais aussi les faiblesses du photographe (tremblements...)
+    - On peut aussi appliquer ensuite à l'image d'autres transformations (filtres, modification des pixels), qui amènent naturellement à se poser des questions sur la confiance qu'on peut avoir dans une photographie (en matière judiciaire notamment).
+
+
+
 ## 5.6 Clone detection
 
 À l'aide de la fonctionnalité Clone Detection du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection){. target="_blank"}, analysez l'image suivante :
@@ -225,3 +255,12 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     ![image](data/t1.png){: .center}
     
 
+Autre image à analyser :
+
+![image](data/rugby5.png){: .center}
+
+*image originale : linternaute.com*
+
+## 5.7 Enlever un objet d'une photographie
+
+[https://clipdrop.co/fr/cleanup](https://clipdrop.co/fr/cleanup){. target="_blank"}
