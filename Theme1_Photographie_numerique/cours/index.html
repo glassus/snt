@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.8">
     
     
       
@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.815d1a91.min.css">
         
       
       
@@ -890,6 +890,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#57-enlever-un-objet-dune-photographie" class="md-nav__link">
+    5.7 Enlever un objet d'une photographie
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1337,7 +1344,10 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?</p>
 <div class="tabbed-block">
 <p>Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.</p>
 </div>
-<div class="tabbed-block"></div>
+<div class="tabbed-block">
+<p><span class="arithmatex">\(600 \times 400 = 240000\)</span>.</p>
+<p>L'image pèse donc 240 000 octets, donc 240 Ko, donc 0,24 Mo.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1350,7 +1360,13 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?</p>
 <p><code>000011000001000111100110000011010001000111100100000010100000111111101000...</code></p>
 <p>Est-ce que mon ami a beau temps pour ses vacances ?</p>
 </div>
-<div class="tabbed-block"></div>
+<div class="tabbed-block">
+<p>Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.</p>
+<p>Prenons donc les 24 premiers bits : <code>000011000001000111100110</code>.</p>
+<p>Ils se décomposent en 3 octets : <code>00001100</code> ,  <code>00010001</code> et <code>11100110</code>.</p>
+<p>Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.</p>
+<p>La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un <a class="" href="https://www.google.com/search?q=rgb+(12%2C17%2C230)" target="_blank">bleu</a>.  On peut donc supposer que mon ami a beau temps pour ses vacances.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1402,6 +1418,13 @@ En optant pour de plus grands photosites, Samsung profiterait donc d’un argume
 <li>Dans le même temps, qu’ont décidé de faire Samsung et Google ?</li>
 <li>Quel est l’avantage à avoir de plus grands photosites dans un capteur ?</li>
 </ol>
+<!-- ??? tip "Correction"
+    1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
+    2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
+    3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
+    4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
+ -->
+
 <h2 id="5-exemples-dalgorithmes-de-traitement-dimage-peut-on-encore-croire-une-photo">5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?<a class="headerlink" href="#5-exemples-dalgorithmes-de-traitement-dimage-peut-on-encore-croire-une-photo" title="Permanent link">⚓︎</a></h2>
 <p>La qualité des photographies prises par les appareils photo numériques ou les smartphones augmente d’année en année.<br />
 Il devient de plus en plus facile de réaliser une photographie qui satisfait nos attentes. Si des progrès ont eu lieu dans le domaine de l’optique, c’est essentiellement aux progrès fulgurants des algorithmes de traitement d’images que l’on doit la satisfaction d’une photographie réussie.<br />
@@ -1455,6 +1478,19 @@ Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitemen
 <li>Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.</li>
 <li>Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?</li>
 </ol>
+<div class="admonition abstract">
+<p class="admonition-title">Conclusion <img alt="❤" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2764.svg" title=":heart:" /></p>
+<ul>
+<li>Pour stocker numériquement les informations nécessaires à l'affichage d'une photographie, il faut pour chaque pixel de l'image 3 informations sur la quantité de Rouge, de Vert et de Bleu.</li>
+<li>Dans un capteur d'appareil photo numérique a lieu une transformation de la lumière en énergie électrique.</li>
+<li>La lumière est concentrée par des lentilles, puis décomposée en passant dans des filtres rouge, vert et bleu. </li>
+<li>La lumière vient alors frapper des photosites (sorte de minuscules panneaux photovoltaïques) qui vont donc produire une quantité d'électricité proportionnelle à la quantité de lumière reçue. </li>
+<li>Ce courant électrique est ensuite converti en un nombre binaire sur 1 octet (donc entre 0 et 255), puis stocké dans un fichier.</li>
+<li>Avant restitution de l'image numérique à l'écran, de multiples algorithmes de correction et d'amélioration de la photographie ont lieu.</li>
+<li>Ces algorithmes, toujours plus évolués à mesure que la puissance des processeurs augmente, permettent de compenser les faiblesses du matériel optique (objectifs minuscules...), mais aussi les faiblesses du photographe (tremblements...)</li>
+<li>On peut aussi appliquer ensuite à l'image d'autres transformations (filtres, modification des pixels), qui amènent naturellement à se poser des questions sur la confiance qu'on peut avoir dans une photographie (en matière judiciaire notamment).</li>
+</ul>
+</div>
 <h2 id="56-clone-detection">5.6 Clone detection<a class="headerlink" href="#56-clone-detection" title="Permanent link">⚓︎</a></h2>
 <p>À l'aide de la fonctionnalité Clone Detection du site <a class="" href="https://29a.ch/photo-forensics/#clone-detection" target="_blank">https://29a.ch/photo-forensics/#clone-detection</a>, analysez l'image suivante :</p>
 <p><img alt="image" class="center" src="../data/t2.png" /></p>
@@ -1463,13 +1499,18 @@ Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitemen
 <p>Cette image comporte a été modifiée. L'image originale est: 
 <img alt="image" class="center" src="../data/t1.png" /></p>
 </details>
+<p>Autre image à analyser :</p>
+<p><img alt="image" class="center" src="../data/rugby5.png" /></p>
+<p><em>image originale : linternaute.com</em></p>
+<h2 id="57-enlever-un-objet-dune-photographie">5.7 Enlever un objet d'une photographie<a class="headerlink" href="#57-enlever-un-objet-dune-photographie" title="Permanent link">⚓︎</a></h2>
+<p><a class="" href="https://clipdrop.co/fr/cleanup" target="_blank">https://clipdrop.co/fr/cleanup</a></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19 octobre 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">6 novembre 2022</span>
       
     
   </small>
@@ -1583,7 +1624,7 @@ Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitemen
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "navigation.top", "toc.integrate", "header.autohide"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
       
         <script src="../../scripts/mathjax.js"></script>
       
