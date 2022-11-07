@@ -179,12 +179,12 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
 4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
 
-<!-- ??? tip "Correction"
+??? tip "Correction"
     1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
     2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
     3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
     4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
- -->
+
 
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
