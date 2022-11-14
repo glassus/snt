@@ -227,7 +227,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     |  |  |  |
     |  |  |  |
 
-2. Lequel de ces algortithmes est utilisé par Google Street View ?
+2. Lequel de ces algorithmes est utilisé par Google Street View ?
 3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
 4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
 
