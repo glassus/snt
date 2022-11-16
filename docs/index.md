@@ -6,9 +6,10 @@
 ## Thème en cours d'étude : Image et photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+    - [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
 
 - Séances passées :
+    - [Photographie numérique](./Theme1_Photographie_numerique/cours/)
     - [Le binaire](Introduction/binaire/binaire/){. target = "_blank"}
 
 
