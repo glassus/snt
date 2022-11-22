@@ -5,8 +5,6 @@
 
 Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
 
-??? note "Animation GeoGebra"
-    <iframe scrolling="no" title="Villes du monde" src="https://www.geogebra.org/material/iframe/id/zasjvz78/width/1859/height/1169/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1859px" height="1169px" style="border:0px;"> </iframe>
 
 Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
 Dans le tableau ci-dessous sont données des coordonnées de villes.  
@@ -29,7 +27,7 @@ Quel est la ville qui n'est associée à aucun numéro ?
 | 12 | 37° N | 10° E|
 
 
-_
+
 
 
 ## 2. Les différentes conventions d'écriture d'angles
@@ -68,6 +66,6 @@ Il existe des sites en ligne qui proposent de manipuler très facilement des coo
 
 !!! example "Exercice"
     === "Énoncé"
-        1. Que trouve-ton aux coordonnées : 44.83887 / -0.55537 ?
+        1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
         2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
     === "Correction"

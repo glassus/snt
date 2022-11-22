@@ -7,10 +7,15 @@ Tout point de la Terre se situe à l'intersection de deux cercles: un **parallè
 ![](data/coordonneesgeo.png){: .center}
 
 
-??? note "Animation GeoGebra"
-	<iframe scrolling="no" title="Latitude et longitude" src="https://www.geogebra.org/material/iframe/id/fcyeagj5/width/933/height/806/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="933px" height="806px" style="border:0px;"> </iframe>
+
 
 Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.
+
+:arrow_right: [animation GeoGebra](https://www.geogebra.org/material/iframe/id/fcyeagj5/width/933/height/806/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false){. target="_blank"}
+
+:arrow_right: [Activité 1 : villes du monde](/Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
+
+
 
 Les angles se mesurent en degrés, soit au format décimal (avec en général au moins 6 chiffres après la virgule) ou bien en subdivisions de degrés: la minute d'arc qui vaut 1/60 de degré et la seconde d'arc qui vaut 1/60 de minute.
 
