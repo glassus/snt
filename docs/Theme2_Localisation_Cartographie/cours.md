@@ -11,9 +11,9 @@ Tout point de la Terre se situe à l'intersection de deux cercles: un **parallè
 
 Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.
 
-:arrow_right: [animation GeoGebra](https://www.geogebra.org/material/iframe/id/fcyeagj5/width/933/height/806/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false){. target="_blank"}
+:arrow_right: [animation GeoGebra sur la latitude et la longitude](https://www.geogebra.org/m/qfuyanqs){. target="_blank"}
 
-:arrow_right: [Activité 1 : villes du monde](/Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
+:arrow_right: [Activité 1 : villes du monde](../Activité1_GPS/){. target="_blank"}
 
 
 

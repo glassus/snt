@@ -3,32 +3,53 @@
 
 ## 1. Se repérer à la surface de la Terre
 
-Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
+
+!!! example "Exercice"
+    === "Énoncé"
+        Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
 
 
-Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
-Dans le tableau ci-dessous sont données des coordonnées de villes.  
-Associer à chaque ville le numéro qui lui correspond. 
-Quel est la ville qui n'est associée à aucun numéro ?
+        Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
+        Dans le tableau ci-dessous sont données des coordonnées de villes.  
+        Associer à chaque ville le numéro qui lui correspond. 
+        Quel est la ville qui n'est associée à aucun numéro ?
 
-| numéro de la ville | Latitude | Longitude |
-|:---:|---|---|
-| 1 | 51° N | 0° E|
-| 2 | 49° N | 2° E|
-| 3 | 40° N | 4° E|
-| 4 | 41° N | 116° O|
-| 5 | 57° N | 38° E|
-| 6 | 0° N | 79° O|
-| 7 | 34° S | 18° E|
-| 8 | 34° S | 71° O|
-| 9 | 34° S | 151° O|
-| 10 | 41° S | 175° O|
-| 11 | 60° N | 11° E|
-| 12 | 37° N | 10° E|
-
-
+        | numéro de la ville | Latitude | Longitude |
+        |:---:|---|---|
+        | 1 | 51° N | 0° E|
+        | 2 | 49° N | 2° E|
+        | 3 | 40° N | 4° E|
+        | 4 | 41° N | 116° O|
+        | 5 | 57° N | 38° E|
+        | 6 | 0° N | 79° O|
+        | 7 | 34° S | 18° E|
+        | 8 | 34° S | 71° O|
+        | 9 | 34° S | 151° O|
+        | 10 | 41° S | 175° O|
+        | 11 | 60° N | 11° E|
+        | 12 | 37° N | 10° E|
 
 
+
+    === "Correction"
+        {#
+        | numéro de la ville | Ville |
+        |:---:|---|
+        | 1 | Londres|
+        | 2 | Paris|
+        | 3 | Madrid|
+        | 4 | New-York|
+        | 5 | Moscou|
+        | 6 | Quito|
+        | 7 | Le Cap|
+        | 8 | Santiago|
+        | 9 | Sydney|
+        | 10 | Wellington|
+        | 11 | Oslo|
+        | 12 | Tunis|
+
+        La ville manquante est donc Pékin
+        #}
 
 ## 2. Les différentes conventions d'écriture d'angles
 
