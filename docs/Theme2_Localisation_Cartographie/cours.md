@@ -91,7 +91,7 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 
 		8. Quel est le rôle du dernier satellite nécessaire ?
 
-	=== "Réponses"
+<!-- 	=== "Réponses"
 		1. Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
 		2. Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. 
 		3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare.
@@ -100,7 +100,7 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 		6. L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
 		7. Le smartphone doit capter au minimum 4 satellites.
 		8. Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
-
+ -->
 
 Intersection de 3 sphères :
 ![image](data/3spheres.png){: .center width=40%}
@@ -112,11 +112,11 @@ Intersection de 3 sphères :
 		À quelle distance du satellite S suis-je ?  
 		*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
-	=== "Correction"
+<!-- 	=== "Correction"
 		$300000 \times 0,071 = 21300$  
 
 		Le satellite est à 21300 km au dessus de moi.
-
+ -->
 
 
 
@@ -188,9 +188,9 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 	voir [ici](../../Theme2_Localisation_Cartographie/Activité1_GPS/)
 
 
-??? abstract "Correction DS GPS"
+<!-- ??? abstract "Correction DS GPS"
 	voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
-
+ -->
 
 ??? abstract "Activité 2 : métadonnées EXIF"
 	voir [ici](../../Theme2_Localisation_Cartographie/Activité2_Exif/)
