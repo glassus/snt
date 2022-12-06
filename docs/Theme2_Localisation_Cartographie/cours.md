@@ -126,6 +126,10 @@ Intersection de 3 sphères :
 
 	![](data/satstat.png){: .center} 
 
+!!! example "Exercice d'analyse critique d'une vidéo"
+	<video controls>
+		<source src="data/car.mp4" type="video/mp4">
+	</video>
 
 
 
