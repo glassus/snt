@@ -127,10 +127,12 @@ Intersection de 3 sphères :
 	![](data/satstat.png){: .center} 
 
 !!! example "Exercice d'analyse critique d'une vidéo"
+	<center>
 	<video controls>
-		<source src="data/car.mp4" type="video/mp4">
+		<source src="https://glassus.github.io/snt/Theme2_Localisation_Cartographie/data/car.mp4" type="video/mp4">
 	</video>
-
+	</center>
+	Cette vidéo, postée fin novembre 2022 sur les réseaux sociaux, est rapidement devenue virale. Pourtant, son authenticité semble très douteuse. Pourquoi ?
 
 
 ### 2.3 De la puce GPS aux applications du téléphone : la trame NMEA
