@@ -93,8 +93,8 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 
 	=== "Réponses"
 		1. Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
-		2. Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. 
-		3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare.
+		2. Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
+		3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \times t$)
 		4. Une horloge atomique assure la précision de l'heure à bord du satellite.
 		5. Tous les points à la même distance d'un satellite sont situés une sphère.
 		6. L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
