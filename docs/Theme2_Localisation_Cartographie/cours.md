@@ -112,11 +112,11 @@ Intersection de 3 sphères :
 		À quelle distance du satellite S suis-je ?  
 		*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
-<!-- 	=== "Correction"
+	=== "Correction"
 		$300000 \times 0,071 = 21300$  
 
 		Le satellite est à 21300 km au dessus de moi.
- -->
+
 
 
 
