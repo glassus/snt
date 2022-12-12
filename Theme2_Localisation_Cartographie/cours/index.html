@@ -1285,7 +1285,7 @@
 <h3 id="22-questions">2.2 Questions<a class="headerlink" href="#22-questions" title="Permanent link">⚓︎</a></h3>
 <div class="admonition example">
 <p class="admonition-title">Exercice</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Fonctionnement du GPS</label><label for="__tabbed_2_2">Réponses</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Fonctionnement du GPS</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <ol>
@@ -1315,39 +1315,38 @@
 </li>
 </ol>
 </div>
-<div class="tabbed-block">
-<ol>
-<li>Un smartphone <strong>n'envoie rien</strong>. Il ne fait que recevoir des signaux.</li>
-<li>Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. </li>
-<li>En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule <span class="arithmatex">\(d = V \times t\)</span>)</li>
-<li>Une horloge atomique assure la précision de l'heure à bord du satellite.</li>
-<li>Tous les points à la même distance d'un satellite sont situés une sphère.</li>
-<li>L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.</li>
-<li>Le smartphone doit capter au minimum 4 satellites.</li>
-<li>Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. </li>
-</ol>
 </div>
 </div>
 </div>
-</div>
+<!--    === "Réponses"
+        1. Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
+        2. Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
+        3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \times t$)
+        4. Une horloge atomique assure la précision de l'heure à bord du satellite.
+        5. Tous les points à la même distance d'un satellite sont situés une sphère.
+        6. L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
+        7. Le smartphone doit capter au minimum 4 satellites.
+        8. Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites.  -->
+
 <p>Intersection de 3 sphères :
 <img alt="image" class="center" src="../data/3spheres.png" width="40%" /></p>
 <div class="admonition example">
 <p class="admonition-title">Exercice de calcul de distance</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Correction</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.<br />
 À quelle distance du satellite S suis-je ?<br />
 <em>On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s</em></p>
 </div>
-<div class="tabbed-block">
-<p><span class="arithmatex">\(300000 \times 0,071 = 21300\)</span>  </p>
-<p>Le satellite est à 21300 km au dessus de moi.</p>
 </div>
 </div>
 </div>
-</div>
+<!--    === "Correction"
+        $300000 \times 0,071 = 21300$  
+
+        Le satellite est à 21300 km au dessus de moi. -->
+
 <details class="tip">
 <summary>Application smartphone</summary>
 <p>L'application Satstat permet de repérer les satellites en communication avec le smartphone et d'obtenir des informations complètes de localisation.</p>
@@ -1531,7 +1530,7 @@ Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez 
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">7 décembre 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">12 décembre 2022</span>
       
     
   </small>
