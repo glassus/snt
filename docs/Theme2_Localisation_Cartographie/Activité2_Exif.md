@@ -3,10 +3,10 @@
 ## 1. Découverte des métadonnées EXIF
 
 1. Faire une recherche sur les différents renseignements que peuvent donner les métadonnées EXIF.
-2. Grâce à l’outil en ligne [http://exif.regex.info/](http://exif.regex.info/){:target="_blank"} , explorer les métadonnées de l’image ci-dessous :
+2. Grâce à l’outil en ligne [https://jimpl.com/](https://jimpl.com/){:target="_blank"} , explorer les métadonnées de l’image ci-dessous :
 ![image](data/riviere.jpg){: .center}
 
-*(faire un clic-droit sur l'image puis «copier l'adresse de l'image»)*
+*(faire un clic-droit sur l'image, «copier le lien de l'image», et le coller dans le champ sous «upload from URL»)*
 
 
 

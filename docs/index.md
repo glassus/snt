@@ -6,7 +6,7 @@
 ## Thème en cours d'étude : Image et photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/)  
+    - [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
 
 - Séances passées :
     - [Photographie numérique](./Theme1_Photographie_numerique/cours/)
