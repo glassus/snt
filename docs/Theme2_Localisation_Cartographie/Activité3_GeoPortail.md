@@ -1,6 +1,6 @@
 # Activité 3 : Utilisation de GéoPortail
 
-[![image](data/bandeauGP.png){: .center}](https://www.geoportail.gouv.fr/)
+[![image](data/bandeauGP.png){: .center}](https://www.geoportail.gouv.fr/){. target="_blank"}
 
 
 ## 1. Préambule
@@ -12,7 +12,7 @@ De même, une recherche internet sur les tarifs de Google Maps peut permettre de
 
 ### 2.1 Principe de fonctionnement
 
-- Accès : [https://www.geoportail.gouv.fr/](https://www.geoportail.gouv.fr/)
+- Accès : [https://www.geoportail.gouv.fr/](https://www.geoportail.gouv.fr/){. target="_blank"}
 - GéoPortail permet de superposer une multitude de couches différentes sur des domaines très variés. Quatre couches (appelés *fonds de cartes*) très utilisées apparaissent en raccourci dans le menu latéral.
 
 ![image](data/raccourci.png){: .center}
@@ -41,7 +41,7 @@ Monsieur Z habite 12 rue des églantiers à Cenon (33). Il veut savoir s'il peut
 Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive droite de Bordeaux ?
 
 
-### 2.3 Recherche de renseignements en source ouverte ([OSINT](https://www.lesassisesdelacybersecurite.com/Le-blog/Glossaire/Open-Source-Intelligence-OSINT))
+### 2.3 Recherche de renseignements en source ouverte ([OSINT](https://www.lesassisesdelacybersecurite.com/Le-blog/Glossaire/Open-Source-Intelligence-OSINT){. target="_blank"})
 #### 2.3.1 Énigme 1
 1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 44.829439 , -0.879641 ?
 2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne et pourtant non floutée sur Google Maps.

@@ -6,12 +6,12 @@
 ## Thème en cours d'étude : Image et photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
+    - [GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
 
 - Séances passées :
+    - [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
     - [Photographie numérique](./Theme1_Photographie_numerique/cours/)
     - [Le binaire](Introduction/binaire/binaire/){. target = "_blank"}
-
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md
