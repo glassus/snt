@@ -3,7 +3,7 @@
 
 :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
  -->
-## Thème en cours d'étude : Image et photographie numérique
+## Thème en cours d'étude : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
     - [GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
