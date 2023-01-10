@@ -6,6 +6,7 @@
 ## Thème en cours d'étude : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
+    - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
     - [GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
 
 - Séances passées :
