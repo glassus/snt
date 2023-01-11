@@ -44,7 +44,7 @@ Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive dro
 ### 2.3 Recherche de renseignements en source ouverte ([OSINT](https://www.lesassisesdelacybersecurite.com/Le-blog/Glossaire/Open-Source-Intelligence-OSINT){. target="_blank"})
 #### 2.3.1 Énigme 1
 1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 44.829439 , -0.879641 ?
-2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne et pourtant non floutée sur Google Maps.
+2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne de forme triangulaire.
 3. Que s'est-il passé à cet endroit durant la Seconde Guerre mondiale ?
 
 #### 2.3.2 Énigme 2 :skull:
