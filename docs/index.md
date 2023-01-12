@@ -29,7 +29,7 @@ snt/docs/Introduction/binaire/binaire.md
     - en module : [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)  
     - en module : [Se repérer à la surface de la Terre](./Theme2_Localisation_Cartographie/Activité1_GPS/)  
     - en module : [Incrustation d'une image en Python](./Theme1_Photographie_numerique/z_incrustation_image/)  
-    - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)  
+    - en classe entière : [Photographie numérique](./Theme1_Photographie_numerique/cours/)    
 
 
 
