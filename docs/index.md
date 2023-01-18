@@ -3,6 +3,11 @@
 
 :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
  -->
+
+## :star: 18 janvier : présentation d'Yves Coudière, chercheur à l'INRIA :star:
+
+[https://app.wooclap.com/CHICH](https://app.wooclap.com/CHICH){. target = "_blank"}
+
 ## Thème en cours d'étude : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
