@@ -4,20 +4,19 @@
 :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
  -->
 
-## :star: 18 janvier : présentation d'Yves Coudière, chercheur à l'INRIA :star:
-
-[https://app.wooclap.com/CHICH](https://app.wooclap.com/CHICH){. target = "_blank"}
 
 ## Thème en cours d'étude : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
-    - [Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
-    - [GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
+    - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
+    - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
 
 - Séances passées :
-    - [Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
-    - [Photographie numérique](./Theme1_Photographie_numerique/cours/)
-    - [Le binaire](Introduction/binaire/binaire/){. target = "_blank"}
+    - [Activité 2 : Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
+    - [Activité 1 : Coordonnées GPS](./Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
+    - [Cours Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
+
+
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md

@@ -32,7 +32,7 @@
 
 
     === "Correction"
-        {#
+        
         | numéro de la ville | Ville |
         |:---:|---|
         | 1 | Londres|
@@ -49,7 +49,7 @@
         | 12 | Tunis|
 
         La ville manquante est donc Pékin
-        #}
+        
 
 ## 2. Les différentes conventions d'écriture d'angles
 
@@ -90,3 +90,5 @@ Il existe des sites en ligne qui proposent de manipuler très facilement des coo
         1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
         2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
     === "Correction"
+        1. La salle 1308 du Lycée François Mauriac.
+        2. La statue de la Liberté.

@@ -23,6 +23,15 @@ autorisée : 80 km/h).
 l’automobiliste roule à la vitesse maximale autorisée.
 2. Quel est le chemin le plus rapide ?
 
+<!-- ??? tip "corrections"
+	![image](data/graphePissos.png){: .center width=50%}
+
+	- Le chemin le plus court est : Lüe-Labouheyre-Commensacq-Pissos-Moustey (26 km)
+	- Le chemin le plus rapide est : Lüe-Labouheyre-Liposthey-Pissos-Moustey (19 min) -->
+
+
+
+
 ## 2. Via des sites de calculs d'itinéraires
 
 1. Comparer les résultats donnés par GéoPortail, GoogleMaps et ViaMichelin pour ce trajet.
