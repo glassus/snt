@@ -8,10 +8,12 @@
 ## Thème en cours d'étude : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
-    - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
-    - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
+    - [Evaluation sur LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
+    - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
 
 - Séances passées :
+    - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
+    - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
     - [Activité 2 : Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
     - [Activité 1 : Coordonnées GPS](./Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
     - [Cours Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
