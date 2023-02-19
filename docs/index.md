@@ -5,13 +5,14 @@
  -->
 
 
-## Thème en cours d'étude : Localisation et cartographie
+## Thème en cours d'étude : Objets connectés
 
 - :star: Séance actuelle :star: : 
-    - [Evaluation sur LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
-    - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
+    - [Microbit](./Theme4_Objets_Connectes/cours/){. target="_blank"}
 
 - Séances passées :
+    - [Evaluation sur LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
+    - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
     - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
     - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
     - [Activité 2 : Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
