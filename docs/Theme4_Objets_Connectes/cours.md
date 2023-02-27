@@ -210,12 +210,13 @@ while True:
 #### Avec un peu d'aléatoire  (voir [documentation sur le hasard](https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html){. target="_blank"})
 Dans le programme suivant que vous exécuterez, on importe `randint` du module `random` de MicroPython et on l'utilise pour afficher un pixel au hasard sur la matrice.
 
+L'instruction ```randint(0,4)``` va renvoyer un nombre (pseudo-)aléatoire entre 0 et 4 inclus. 
 
 ```python
 from microbit import *
 from random import randint
-n=randint(0,4)
-p=randint(0,4)
+n = randint(0,4)
+p = randint(0,4)
 display.set_pixel(n, p, 9)
 ```
 
@@ -224,7 +225,10 @@ Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer 
 
 ### 2.3 Boucle `for`
 
-Le programme suivant utilise une boucle `for` pour faire défiler un pixel sur une ligne. Exécutez-le.
+Le programme suivant utilise une boucle `for` pour faire défiler un pixel sur une ligne.
+
+Grâce à l'expression ```for i in range(5):```, la variable ```i``` va prendre successivement les valeurs ```0```,  ```1```, ```2```, ```3``` et ```4```. (pas ```5``` !) 
+
 
 
 ```python
@@ -258,6 +262,8 @@ while True:
     sleep(200)
     if button_a.was_pressed():
         break
+display.clear()
+display.show(Image.SAD)
 ```
 
 !!! example "Exercice 1"
@@ -266,6 +272,7 @@ while True:
 
         ![](data/exo1.webp){: .center}
 
+    {#
     === "Correction"
         ```python
         from microbit import *
@@ -276,7 +283,7 @@ while True:
             if button_b.was_pressed():
                 display.show(Image.HAPPY)
         ```
-
+    #}
 
 !!! example "Exercice 2"
     === "Énoncé"
@@ -284,6 +291,7 @@ while True:
 
         ![](data/exo2.webp){: .center}
 
+        {#
         Compléter le code proposé :
 
 
@@ -306,8 +314,8 @@ while True:
                 if i > 24 :
                     i = 24
         ```
+        #}
 
-    === "Correction"
 
 
 !!! example "Exercice 3"
@@ -317,6 +325,7 @@ while True:
 
         ![](data/exo3.webp){: .center}
 
+        {#
         Compléter le code proposé :
 
 
@@ -338,8 +347,9 @@ while True:
 
 
         ```
+        #}
 
-    === "Correction"
+    
 
 
 
