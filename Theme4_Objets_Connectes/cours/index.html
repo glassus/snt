@@ -15,7 +15,7 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.13">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
@@ -23,7 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ffa9267a.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.113286f1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
@@ -1493,19 +1493,21 @@ Image.SNAKE
 </code></pre></div></td></tr></table></div>
 <h4 id="avec-un-peu-daleatoire-voir-documentation-sur-le-hasard">Avec un peu d'aléatoire  (voir <a class="" href="https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html" target="_blank">documentation sur le hasard</a>)<a class="headerlink" href="#avec-un-peu-daleatoire-voir-documentation-sur-le-hasard" title="Permanent link">⚓︎</a></h4>
 <p>Dans le programme suivant que vous exécuterez, on importe <code>randint</code> du module <code>random</code> de MicroPython et on l'utilise pour afficher un pixel au hasard sur la matrice.</p>
+<p>L'instruction <code>randint(0,4)</code> va renvoyer un nombre (pseudo-)aléatoire entre 0 et 4 inclus. </p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
-<span class="n">n</span><span class="o">=</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
-<span class="n">p</span><span class="o">=</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
 <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <p>Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer la micro:bit en appuyant sur le bouton <code>RESET</code> situé à l'arrière de la carte.</p>
 <h3 id="23-boucle-for">2.3 Boucle <code>for</code><a class="headerlink" href="#23-boucle-for" title="Permanent link">⚓︎</a></h3>
-<p>Le programme suivant utilise une boucle <code>for</code> pour faire défiler un pixel sur une ligne. Exécutez-le.</p>
+<p>Le programme suivant utilise une boucle <code>for</code> pour faire défiler un pixel sur une ligne.</p>
+<p>Grâce à l'expression <code>for i in range(5):</code>, la variable <code>i</code> va prendre successivement les valeurs <code>0</code>,  <code>1</code>, <code>2</code>, <code>3</code> et <code>4</code>. (pas <code>5</code> !) </p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -1532,126 +1534,48 @@ Image.SNAKE
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
     <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">&quot;SNT&quot;</span><span class="p">)</span>
     <span class="n">sleep</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
         <span class="k">break</span>
+<span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+<span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <div class="admonition example">
 <p class="admonition-title">Exercice 1</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label><label for="__tabbed_1_2">Correction</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Créer le code permettant de basculer d'un visage triste à un visage heureux suivant qu'on appuie sur A ou sur B. </p>
 <p><img alt="" class="center" src="../data/exo1.webp" /></p>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
 </div>
 </div>
 </div>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice 2</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label><label for="__tabbed_2_2">Correction</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>On veut créer le code permettant de déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.</p>
 <p><img alt="" class="center" src="../data/exo2.webp" /></p>
-<p>Compléter le code proposé :</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">12</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="o">...</span> <span class="c1"># à compléter</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="o">...</span> <span class="c1"># à compléter</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">9</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="p">:</span> 
-            <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">24</span> <span class="p">:</span>
-            <span class="n">i</span> <span class="o">=</span> <span class="mi">24</span>
-</code></pre></div></td></tr></table></div>
 </div>
-<div class="tabbed-block"></div>
 </div>
 </div>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice 3</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Correction</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Créer le code permettant de faire défiler toutes les images disponibles. 
 Bouton B pour passer à l'image suivante, bouton A pour revenir à l'image précédente.</p>
 <p><img alt="" class="center" src="../data/exo3.webp" /></p>
-<p>Compléter le code proposé :</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">Image</span><span class="o">.</span><span class="n">HEART</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">HEART_SMALL</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SMILE</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CONFUSED</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ANGRY</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ASLEEP</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SURPRISED</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SILLY</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">FABULOUS</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">MEH</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">YES</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">NO</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK12</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK11</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK10</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK9</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK8</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK7</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK6</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK5</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK4</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK3</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK2</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">CLOCK1</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_N</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_NE</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_E</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_SE</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_S</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_SW</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_W</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">ARROW_NW</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">TRIANGLE</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">TRIANGLE_LEFT</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">CHESSBOARD</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">DIAMOND</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">DIAMOND_SMALL</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SQUARE</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">SQUARE_SMALL</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">RABBIT</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">COW</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">MUSIC_CROTCHET</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">MUSIC_QUAVER</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">MUSIC_QUAVERS</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">PITCHFORK</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">XMAS</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">PACMAN</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">TARGET</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">TSHIRT</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">ROLLERSKATE</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">DUCK</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">HOUSE</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">TORTOISE</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">BUTTERFLY</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">STICKFIGURE</span><span class="p">,</span>
-       <span class="n">Image</span><span class="o">.</span><span class="n">GHOST</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SWORD</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">GIRAFFE</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SKULL</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">UMBRELLA</span><span class="p">,</span> <span class="n">Image</span><span class="o">.</span><span class="n">SNAKE</span><span class="p">]</span>
-</code></pre></div></td></tr></table></div>
 </div>
-<div class="tabbed-block"></div>
 </div>
 </div>
 </div>
@@ -1800,7 +1724,7 @@ L'instruction <code>temperature()</code> renvoie la température de la carte mic
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">30 mai 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">27 février 2023</span>
       
     
   </small>
