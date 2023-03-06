@@ -272,11 +272,20 @@ display.show(Image.SAD)
 
         ![](data/exo1.webp){: .center}
 
+    === "Aide"
+        ```python
+        from microbit import *
+        while True:
+            if ...:
+                ...
+            if ...:
+                ...
+        ```      
+
     {#
     === "Correction"
         ```python
         from microbit import *
-        display.clear()
         while True:
             if button_a.was_pressed():
                 display.show(Image.SAD)
