@@ -311,6 +311,20 @@ display.show(Image.SAD)
 
         ![](data/exo2.webp){: .center}
 
+    === "Aide"
+        ```python linenums='1'
+        from microbit import *
+        x = ...
+        while True:
+            display.clear()
+            display.set_pixel(...)
+            if button_a.was_pressed():
+                x = ...
+            if button_b.was_pressed():
+                x = ...
+        ```
+
+
         {#
         Compléter le code proposé :
 
