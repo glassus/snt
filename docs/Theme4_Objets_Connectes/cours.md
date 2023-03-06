@@ -282,7 +282,7 @@ display.show(Image.SAD)
                 ...
         ```      
 
-    {#
+    
     === "Correction"
         ```python
         from microbit import *
@@ -292,7 +292,18 @@ display.show(Image.SAD)
             if button_b.was_pressed():
                 display.show(Image.HAPPY)
         ```
-    #}
+
+        Pour rajouter la gestion des 2 boutons simultanés:
+        ```python
+        from microbit import *
+        while True:
+            if button_a.was_pressed():
+                display.show(Image.SAD)
+            if button_b.was_pressed():
+                display.show(Image.HAPPY)
+            if button_a.is_pressed() and button_b.is_pressed():
+                display.show(Image.RABBIT)
+        ```        
 
 !!! example "Exercice 2"
     === "Énoncé"
