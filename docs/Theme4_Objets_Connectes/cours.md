@@ -351,7 +351,39 @@ display.show(Image.SAD)
         ```
         #}
 
+!!! example "Exercice 2 bis"
+    === "Énoncé"
+        Même chose mais en faisant parcourir tout l'écran au pixel :
 
+        - si on sort à droite, on se décale d'une ligne vers le bas et on revient tout à gauche.
+        - si on sort à gauche, on se décale d'une ligne vers le haut et on revient tout à droite.
+
+
+    === "correction"
+        ```python linenums='1'
+        from microbit import *
+        x = 2
+        y = 2
+        while True:
+            display.clear()
+            display.set_pixel(x, y, 9)
+            if button_a.was_pressed():
+                x = x - 1
+            if button_b.was_pressed():
+                x = x + 1
+            if x == 5:
+                x = 0
+                y = y + 1
+            if x == -1:
+                x = 4
+                y = y - 1
+            if y == 5:
+                x = 0
+                y = 0
+            if y == -1:
+                x = 4
+                y = 4       
+        ```
 
 !!! example "Exercice 3"
     === "Énoncé"
