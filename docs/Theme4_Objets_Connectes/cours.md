@@ -326,30 +326,23 @@ display.show(Image.SAD)
         ```
 
 
-        {#
-        Compléter le code proposé :
-
-
-        ```python
+    === "Correction"
+        ```python linenums='1'
         from microbit import *
-        display.clear()
-        i = 12
+        x = 2
         while True:
-            x = ... # à compléter
-            y = ... # à compléter
-            display.set_pixel(x,y,9)
+            display.clear()
+            display.set_pixel(x, 2, 9)
             if button_a.was_pressed():
-                display.set_pixel(x,y,0)
-                i = i - 1
-                if i < 0 : 
-                    i = 0
+                x = x - 1
             if button_b.was_pressed():
-                display.set_pixel(x,y,0)
-                i = i + 1
-                if i > 24 :
-                    i = 24
+                x = x + 1
         ```
-        #}
+
+:warning: fin du programme de révision pour l'évaluation Moodle :warning:
+---------
+
+
 
 !!! example "Exercice 2 bis"
     === "Énoncé"
