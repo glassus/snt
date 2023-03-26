@@ -378,7 +378,171 @@ display.show(Image.SAD)
                 y = 4       
         ```
 
-!!! example "Exercice 3"
+!!! example "Exercice 3 : un jeu !"
+    === "Énoncé"
+        On veut créer le jeu suivant :
+        
+        - au démarrage, un pixel aléatoire est placé sur l'écran.
+        - il faut ensuite se déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.
+        - lorsque qu'on a rejoint le point aléatoire, un emoji HAPPY apparait.
+
+        ![](data/poursuite.gif){: .center}
+
+    === "Aide"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        # choix des coordonnées aléatoires du point à rejoindre
+        n = ...
+        p = ...
+
+        # point de départ de notre pixel mobile
+        x = ...
+        y = ...
+
+        while True:
+            display.clear()
+
+            # affichage des deux pixels
+            display.set_pixel(...)
+            display.set_pixel(...)
+
+            # mouvement de notre pixel mobile 
+            ...
+
+
+            # test pour savoir si notre pixel mobile a rejoint la cible
+            if ... and ...:
+              ...  # affichage de l'image HAPPY
+              ...  # sortie de la boucle
+            
+        
+        ```
+
+    {#
+    === "Correction"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        n = randint(0,4)
+        p = randint(0,4)
+
+        x = 2
+        y = 2
+
+        while True:
+            display.clear()
+            display.set_pixel(n, p, 9)
+            display.set_pixel(x, y, 9)
+
+            if button_a.was_pressed():
+                x = x - 1
+
+            if button_b.was_pressed():
+                x = x + 1
+
+            if x == 5:
+                x = 0
+                y = y + 1
+
+            if x == -1:
+                x = 4
+                y = y - 1
+
+            if y == 5:
+                y = 0
+
+            if y == -1:
+                y = 4
+
+            if x == n and y == p:
+              display.show(Image.HAPPY)  
+              break
+
+        
+        ```
+    #}
+
+
+!!! example "Exercice 3bis : on rajoute un temps limité"
+    === "Énoncé"
+        En Python, la fonction ```time()``` du module ```time``` renvoie le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable ```t0```. Il suffit d'observer ensuite la valeur de ```time() - t0``` pour savoir combien de temps (en secondes) s'est écoulé depuis le début du programme.
+
+        Exemple (à exécuter pour comprendre !) :
+        ```python linenums='1'
+        from microbit import *
+        from time import time
+
+        display.show(Image.HAPPY)
+        t0 = time()
+
+        while True:
+            if time() - t0 > 5:
+              display.show(Image.SAD)
+              break
+        ```
+
+
+
+        :arrow_right: Rajouter une difficulté supplémentaire à notre jeu en mettant un temps limité.
+
+    {#
+    === "Correction"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+        from time import time
+
+        n = randint(0,4)
+        p = randint(0,4)
+
+        x = 2
+        y = 2
+
+        t0 = time()
+
+        while True:
+            if time()-t0 > 5:
+              display.show(Image.SAD)
+              break
+
+            display.clear()
+            display.set_pixel(n, p, 9)
+            display.set_pixel(x, y, 9)
+
+            if button_a.was_pressed():
+                x = x - 1
+
+            if button_b.was_pressed():
+                x = x + 1
+
+            if x == 5:
+                x = 0
+                y = y + 1
+
+            if x == -1:
+                x = 4
+                y = y - 1
+
+            if y == 5:
+                y = 0
+
+            if y == -1:
+                y = 4
+
+            if x == n and y == p:
+              display.show(Image.HAPPY)
+              break
+
+
+
+        ``` 
+        #}
+
+
+!!! example "Exercice 5"
     === "Énoncé"
         Créer le code permettant de faire défiler toutes les images disponibles. 
         Bouton B pour passer à l'image suivante, bouton A pour revenir à l'image précédente.
