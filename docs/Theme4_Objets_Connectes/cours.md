@@ -488,7 +488,7 @@ display.show(Image.SAD)
 
         :arrow_right: Rajouter une difficulté supplémentaire à notre jeu en mettant un temps limité.
 
-    {#
+    
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -539,7 +539,7 @@ display.show(Image.SAD)
 
 
         ``` 
-        #}
+        
 
 
 !!! example "Exercice 5"
