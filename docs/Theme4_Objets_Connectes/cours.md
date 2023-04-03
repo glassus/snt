@@ -468,18 +468,23 @@ display.show(Image.SAD)
 
 !!! example "Exercice 3bis : on rajoute un temps limité"
     === "Énoncé"
-        En Python, la fonction ```time()``` du module ```time``` renvoie le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable ```t0```. Il suffit d'observer ensuite la valeur de ```time() - t0``` pour savoir combien de temps (en secondes) s'est écoulé depuis le début du programme.
+        :warning: **Changement de site de simulation** :warning:
+
+        Pour pouvoir utiliser le module ```utime``` nous allons changer de simulateur et travailler avec le site [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
+
+
+        En Python, la fonction ```tick_ms``` du module ```utime``` renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable ```t0```. Il suffit d'observer ensuite la valeur de ```tick_ms() - t0``` pour savoir combien de temps (en millisecondes) s'est écoulé depuis le début du programme.
 
         Exemple (à exécuter pour comprendre !) :
         ```python linenums='1'
         from microbit import *
-        from time import time
+        from utime import *
 
         display.show(Image.HAPPY)
-        t0 = time()
+        t0 = ticks_ms()
 
         while True:
-            if time() - t0 > 5:
+            if ticks_ms() - t0 > 5000:
               display.show(Image.SAD)
               break
         ```
@@ -493,7 +498,7 @@ display.show(Image.SAD)
         ```python linenums='1'
         from microbit import *
         from random import randint
-        from time import time
+        from utime import *
 
         n = randint(0,4)
         p = randint(0,4)
@@ -501,10 +506,10 @@ display.show(Image.SAD)
         x = 2
         y = 2
 
-        t0 = time()
+        t0 = ticks_ms()
 
         while True:
-            if time()-t0 > 5:
+            if ticks_ms() - t0 > 5000:
               display.show(Image.SAD)
               break
 
