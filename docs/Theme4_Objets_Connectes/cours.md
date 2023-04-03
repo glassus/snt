@@ -420,7 +420,7 @@ display.show(Image.SAD)
         
         ```
 
-    {#
+    
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -463,7 +463,7 @@ display.show(Image.SAD)
 
         
         ```
-    #}
+    
 
 
 !!! example "Exercice 3bis : on rajoute un temps limité"
