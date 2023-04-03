@@ -1877,7 +1877,9 @@ Image.SNAKE
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Correction</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>En Python, la fonction <code>time()</code> du module <code>time</code> renvoie le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable <code>t0</code>. Il suffit d'observer ensuite la valeur de <code>time() - t0</code> pour savoir combien de temps (en secondes) s'est écoulé depuis le début du programme.</p>
+<p><img alt="⚠" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/26a0.svg" title=":warning:" /> <strong>Changement de site de simulation</strong> <img alt="⚠" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/26a0.svg" title=":warning:" /></p>
+<p>Pour pouvoir utiliser le module <code>utime</code> nous allons changer de simulateur et travailler avec le site <a class="" href="https://python.microbit.org/v/3" target="_blank">https://python.microbit.org/v/3</a></p>
+<p>En Python, la fonction <code>tick_ms</code> du module <code>utime</code> renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable <code>t0</code>. Il suffit d'observer ensuite la valeur de <code>tick_ms() - t0</code> pour savoir combien de temps (en millisecondes) s'est écoulé depuis le début du programme.</p>
 <p>Exemple (à exécuter pour comprendre !) :
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
@@ -1889,13 +1891,13 @@ Image.SNAKE
 <span class="normal"> 8</span>
 <span class="normal"> 9</span>
 <span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">time</span>
+<span class="kn">from</span> <span class="nn">utime</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-<span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
+<span class="n">t0</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">t0</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">ticks_ms</span><span class="p">()</span> <span class="o">-</span> <span class="n">t0</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">:</span>
       <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
       <span class="k">break</span>
 </code></pre></div></td></tr></table></div></p>
@@ -1947,7 +1949,7 @@ Image.SNAKE
 <span class="normal">43</span>
 <span class="normal">44</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
-<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">time</span>
+<span class="kn">from</span> <span class="nn">utime</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">n</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
 <span class="n">p</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
@@ -1955,10 +1957,10 @@ Image.SNAKE
 <span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
 
-<span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
+<span class="n">t0</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">time</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">ticks_ms</span><span class="p">()</span> <span class="o">-</span> <span class="n">t0</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">:</span>
       <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
       <span class="k">break</span>
 
