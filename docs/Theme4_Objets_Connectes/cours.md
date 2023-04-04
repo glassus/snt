@@ -23,7 +23,7 @@ La carte micro:bit dispose des [spécificités techniques](https://microbit.org/
 
 ### 1.1 À distance ? Pas de micro:bit ? le simulateur est là !
 
-Rendez-vous sur la page [https://create.withcode.uk/](https://create.withcode.uk/){. target="_blank"}
+Rendez-vous sur la page [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
 
 Effacez le code existant et collez-le code ci-dessous :
 
@@ -38,20 +38,22 @@ while True:
 ```
 
 
-Cliquez sur le triangle vert en bas à droite. C'est parti !
+Cliquez sur le bouton Play de la micro:bit virtuelle. C'est parti !
 ![](data/create.png)
 
 Pour éviter des erreurs, fermez la fenêtre de droite (le simulateur) à chaque fois que vous modifiez votre code de la partie gauche.
 
 ### 1.2 Avec une micro:bit réelle
 
-1. Branchez la carte sur un port USB. Un lecteur MICROBIT apparait dans les périphériques USB.
-2. Rendez-vous sur l'adresse  [https://create.withcode.uk/](https://create.withcode.uk/){. target="_blank"}
-3. Modifiez le code présent puis cliquez sur la flèche verte.
-4. Vous pouvez télécharger le fichier .hex en cliquant sur Download HEX.
-5. Transférez (par copier-coller, ou "envoyer vers") ce fichier `.hex` dans votre lecteur micro:bit.
+La manipulation suivante ne marche que sur le navigateur Google Chrome.
 
-Cette procédure est à répeter à chaque nouveau code.
+1. Branchez la carte sur un port USB. Un lecteur MICROBIT apparait dans les périphériques USB.
+2. Rendez-vous sur l'adresse [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
+3. Modifiez le code présent puis cliquez sur le bouton Play de la micro:bit virtuelle.
+4. Cliquer sur le bouton violet «Send to micro:bit». 
+
+
+Cette procédure est à répéter à chaque nouveau code.
 
 ## 2. Découverte des fonctionnalités
 
@@ -342,7 +344,7 @@ display.show(Image.SAD)
 :warning: fin du programme de révision pour l'évaluation Moodle :warning:
 ---------
 
-
+:new: nouveau site de simulation : [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
 
 !!! example "Exercice 2 bis"
     === "Énoncé"
@@ -420,7 +422,7 @@ display.show(Image.SAD)
         
         ```
 
-    
+    {#
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -463,7 +465,7 @@ display.show(Image.SAD)
 
         
         ```
-    
+    #}
 
 
 !!! example "Exercice 3bis : on rajoute un temps limité"
@@ -493,7 +495,7 @@ display.show(Image.SAD)
 
         :arrow_right: Rajouter une difficulté supplémentaire à notre jeu en mettant un temps limité.
 
-    
+    {#
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -544,7 +546,7 @@ display.show(Image.SAD)
 
 
         ``` 
-        
+    #}
 
 
 !!! example "Exercice 5"
@@ -694,19 +696,3 @@ while True:
 *document basé sur le travail de Thomas Basso, académie de Polynésie*
 
 
-## Annexe 
-
-Code 215 du 23 mai
-
-```python linenums='1'
-from microbit import *
-x = 2
-while True:
-  display.set_pixel(x, 2, 9)
-  if button_a.was_pressed():
-    display.set_pixel(x, 2, 0)
-    x = x + 1
-  if button_b.was_pressed():
-    display.set_pixel(x, 2, 0)
-    x = x - 1
-```
