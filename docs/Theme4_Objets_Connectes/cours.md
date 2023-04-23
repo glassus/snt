@@ -548,7 +548,7 @@ display.show(Image.SAD)
         ``` 
     #}
 
-
+{#
 !!! example "Exercice 5"
     === "Énoncé"
         Créer le code permettant de faire défiler toutes les images disponibles. 
@@ -576,12 +576,82 @@ display.show(Image.SAD)
                Image.ROLLERSKATE, Image.DUCK, Image.HOUSE, Image.TORTOISE, Image.BUTTERFLY, Image.STICKFIGURE,
                Image.GHOST, Image.SWORD, Image.GIRAFFE, Image.SKULL, Image.UMBRELLA, Image.SNAKE]
 
-
         ```
         #}
 
-    
 
+
+
+!!! example "Exercice 4"
+    === "Énoncé"
+        Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. 
+
+        ![](data/PFC.gif){: .center}
+
+        La détection du "secouage" de la carte se fera avec l'instruction suivante :
+        ```python
+        if accelerometer.was_gesture('shake'):
+            ...
+        ```
+    {#
+    === "Indice"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        pierre = Image(...)
+
+        feuille = Image(...)
+
+        ciseaux = Image(...)
+
+
+        while True:
+            if ...:
+                ... = randint(...)
+                if v == ...:
+                    display.show(...)
+                if v == ...:
+                    display.show(...)
+                if v == ...:
+                    display.show(...)
+        ```
+
+    === "Correction"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        pierre = Image("09990:"
+                       "09009:"
+                       "09990:"
+                       "09000:"
+                       "09000")
+
+        feuille = Image("09999:"
+                       "09000:"
+                       "09990:"
+                       "09000:"
+                       "09000")
+
+        ciseaux = Image("00999:"
+                       "09000:"
+                       "09000:"
+                       "09000:"
+                       "00999")
+
+
+        while True:
+            if accelerometer.was_gesture('shake'):
+                v = randint(1,3)
+                if v == 1:
+                    display.show(pierre)
+                if v == 2:
+                    display.show(feuille)
+                if v == 3:
+                    display.show(ciseaux)
+        ```
+        #}
 
 
 

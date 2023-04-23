@@ -8,8 +8,8 @@
 ## Thème en cours d'étude : Objets connectés
 
 - :star: Séance actuelle :star: : 
-    - [Evaluation sur LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
-    - [Microbit](./Theme4_Objets_Connectes/cours/){. target="_blank"}
+    - [Correction du QCM sur Microbit](./Theme4_Objets_Connectes/corrQCM/){. target="_blank"}
+    - [Jeu avec la fonction Shake](./Theme4_Objets_Connectes/cours/){. target="_blank"}
 
 - Séances passées :
     - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
