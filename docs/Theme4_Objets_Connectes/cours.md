@@ -593,7 +593,7 @@ display.show(Image.SAD)
         if accelerometer.was_gesture('shake'):
             ...
         ```
-    {#
+    
     === "Indice"
         ```python linenums='1'
         from microbit import *
@@ -607,8 +607,8 @@ display.show(Image.SAD)
 
 
         while True:
-            if ...:
-                ... = randint(...)
+            if accelerometer.was_gesture('shake'):
+                v = randint(1, 3)
                 if v == ...:
                     display.show(...)
                 if v == ...:
@@ -616,7 +616,7 @@ display.show(Image.SAD)
                 if v == ...:
                     display.show(...)
         ```
-
+    {#
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -651,7 +651,7 @@ display.show(Image.SAD)
                 if v == 3:
                     display.show(ciseaux)
         ```
-        #}
+    #}
 
 
 
