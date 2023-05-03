@@ -608,7 +608,7 @@ display.show(Image.SAD)
 
         while True:
             if accelerometer.was_gesture('shake'):
-                v = randint(1, 3)
+                v = ...
                 if v == ...:
                     display.show(...)
                 if v == ...:
