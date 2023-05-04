@@ -1194,11 +1194,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fin-du-programme-de-revision-pour-levaluation-moodle" class="md-nav__link">
-    fin du programme de révision pour l'évaluation Moodle
+  <a href="#fin-du-programme-de-revision-pour-levaluation-finale-moodle" class="md-nav__link">
+    fin du programme de révision pour l'évaluation finale Moodle
   </a>
   
-    <nav class="md-nav" aria-label="fin du programme de révision pour l'évaluation Moodle">
+    <nav class="md-nav" aria-label="fin du programme de révision pour l'évaluation finale Moodle">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1680,7 +1680,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<h2 id="fin-du-programme-de-revision-pour-levaluation-moodle"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /> fin du programme de révision pour l'évaluation Moodle <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /><a class="headerlink" href="#fin-du-programme-de-revision-pour-levaluation-moodle" title="Permanent link">⚓︎</a></h2>
 <p><img alt="🆕" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f195.svg" title=":new:" /> nouveau site de simulation : <a class="" href="https://python.microbit.org/v/3" target="_blank">https://python.microbit.org/v/3</a></p>
 <div class="admonition example">
 <p class="admonition-title">Exercice 2 bis</p>
@@ -1888,44 +1887,10 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<div class="admonition example">
-<p class="admonition-title">Exercice 3bis : on rajoute un temps limité</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /> <strong>Changement de site de simulation</strong> <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /></p>
-<p>Pour pouvoir utiliser le module <code>utime</code> nous allons changer de simulateur et travailler avec le site <a class="" href="https://python.microbit.org/v/3" target="_blank">https://python.microbit.org/v/3</a></p>
-<p>En Python, la fonction <code>tick_ms</code> du module <code>utime</code> renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable <code>t0</code>. Il suffit d'observer ensuite la valeur de <code>tick_ms() - t0</code> pour savoir combien de temps (en millisecondes) s'est écoulé depuis le début du programme.</p>
-<p>Exemple (à exécuter pour comprendre !) :
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">utime</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-<span class="n">t0</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">ticks_ms</span><span class="p">()</span> <span class="o">-</span> <span class="n">t0</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">:</span>
-      <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
-      <span class="k">break</span>
-</code></pre></div></td></tr></table></div></p>
-<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/27a1.svg" title=":arrow_right:" /> Rajouter une difficulté supplémentaire à notre jeu en mettant un temps limité.</p>
-</div>
-</div>
-</div>
-</div>
 <h4 id="242-un-pierre-feuille-ciseaux">2.4.2 Un Pierre-Feuille-Ciseaux<a class="headerlink" href="#242-un-pierre-feuille-ciseaux" title="Permanent link">⚓︎</a></h4>
 <div class="admonition example">
 <p class="admonition-title">Exercice 4</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Énoncé</label><label for="__tabbed_6_2">Correction</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Correction</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. </p>
@@ -2003,6 +1968,7 @@ Image.SNAKE
 </div>
 </div>
 </div>
+<h2 id="fin-du-programme-de-revision-pour-levaluation-finale-moodle"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /> fin du programme de révision pour l'évaluation finale Moodle <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /><a class="headerlink" href="#fin-du-programme-de-revision-pour-levaluation-finale-moodle" title="Permanent link">⚓︎</a></h2>
 <h3 id="25-capteur-de-lumiere-video">2.5 Capteur de lumière <a class="" href="https://youtu.be/TKhCr-dQMBY" target="_blank">(vidéo)</a><a class="headerlink" href="#25-capteur-de-lumiere-video" title="Permanent link">⚓︎</a></h3>
 <p>En inversant les LEDs d'un écran pour devenir un point d'entrée, l'écran LED devient un capteur de lumière basique, permettant de détecter la luminosité ambiante.</p>
 <p>La commande <code>display.read_light_level()</code> retourne un entier compris entre 0 et 255 représentant le niveau de lumière.</p>
@@ -2086,7 +2052,7 @@ L'instruction <code>temperature()</code> renvoie la température de la carte mic
 <p><strong>Prolongement (<em>secouer les dés!</em>):</strong></p>
 <div class="admonition example">
 <p class="admonition-title">Exercice 4</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Énoncé</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Énoncé</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Écrire un programme qui simule un dé en affichant une face au hasard lorsque la micro:bit est secouée. On pourra utiliser l'instruction <code>accelerometer.is_gesture(shake)</code> qui teste si la carte est secouée. Plus d'informations sur les gestes <a href="https://microbit-micropython.readthedocs.io/fr/latest/tutorials/gestures.html" target="target">ici</a>.</p>
