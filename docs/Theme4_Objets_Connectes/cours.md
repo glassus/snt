@@ -580,7 +580,7 @@ display.show(Image.SAD)
         #}
 
 
-
+#### 2.4.2 Un Pierre-Feuille-Ciseaux
 
 !!! example "Exercice 4"
     === "Énoncé"
@@ -593,7 +593,7 @@ display.show(Image.SAD)
         if accelerometer.was_gesture('shake'):
             ...
         ```
-    
+    {#
     === "Indice"
         ```python linenums='1'
         from microbit import *
@@ -616,7 +616,8 @@ display.show(Image.SAD)
                 if v == ...:
                     display.show(...)
         ```
-    {#
+    #}
+    
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -651,7 +652,7 @@ display.show(Image.SAD)
                 if v == 3:
                     display.show(ciseaux)
         ```
-    #}
+    
 
 
 
