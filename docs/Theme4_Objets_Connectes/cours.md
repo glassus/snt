@@ -341,8 +341,7 @@ display.show(Image.SAD)
                 x = x + 1
         ```
 
-:warning: fin du programme de révision pour l'évaluation Moodle :warning:
----------
+
 
 :new: nouveau site de simulation : [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
 
@@ -467,7 +466,7 @@ display.show(Image.SAD)
         ```
     
 
-
+{#
 !!! example "Exercice 3bis : on rajoute un temps limité"
     === "Énoncé"
         :warning: **Changement de site de simulation** :warning:
@@ -547,6 +546,7 @@ display.show(Image.SAD)
 
         ``` 
     #}
+
 
 {#
 !!! example "Exercice 5"
@@ -654,7 +654,8 @@ display.show(Image.SAD)
         ```
     
 
-
+:warning: fin du programme de révision pour l'évaluation finale Moodle :warning:
+---------
 
 ### 2.5 Capteur de lumière [(vidéo)](https://youtu.be/TKhCr-dQMBY){. target="_blank"}
 
