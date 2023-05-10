@@ -9,6 +9,7 @@
 
 - :star: Séance actuelle :star: : 
     - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
+    - [Évaluation finale Microbit](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"}
 
 - Séances passées :
     - [Correction du QCM sur Microbit](./Theme4_Objets_Connectes/corrQCM/){. target="_blank"}
