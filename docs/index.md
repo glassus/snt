@@ -5,13 +5,14 @@
  -->
 
 
-## Thème en cours d'étude : Objets connectés
+## Thème en cours d'étude : Réseaux sociaux
 
 - :star: Séance actuelle :star: : 
-    - [Correction du QCM sur Microbit](./Theme4_Objets_Connectes/corrQCM/){. target="_blank"}
-    - [Jeu avec la fonction Shake](./Theme4_Objets_Connectes/cours/){. target="_blank"}
+    - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
 
 - Séances passées :
+    - [Correction du QCM sur Microbit](./Theme4_Objets_Connectes/corrQCM/){. target="_blank"}
+    - [Jeu avec la fonction Shake](./Theme4_Objets_Connectes/cours/){. target="_blank"}
     - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
     - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
     - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)

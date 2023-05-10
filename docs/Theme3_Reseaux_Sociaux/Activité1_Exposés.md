@@ -6,7 +6,8 @@
 
 ### 1.1 Modalités
 - par groupe de 2 ou 3 élèves
-- deux semaines de préparation : l'exposé sera à présenter durant la semaine du 14 au 18 mars.
+- deux semaines de préparation : 
+    - 208 GA et GB : l'exposé sera à présenter le **mercredi 24 mai**.
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
@@ -24,19 +25,17 @@ Liste non exhaustive, vous pouvez proposer un autre sujet.
 1. Twitter
 2. Snapchat
 3. Instagram
-4. Tik Tok
+4. TikTok
 5. Facebook
 6. Pinterest
 7. YouTube
 8. Discord
 9. Twitch
 10. Souncloud
-11. WhatsApp
 12. Wattpad
-13. Scandale Cambridge Analytica
-14. Les réseaux sociaux chinois et russes
 15. Webtoons
-16. Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
+16. Le Scandale Cambridge Analytica
+17. ...
 
 
 ##  3. Contenu des exposés
@@ -61,6 +60,7 @@ Voici quelques problématiques incontournables.
 - Pensez à faire des graphiques et des schémas
 - Une idée =  une diapo
 
+{#
 ### 4. Ordres de passage
 
 !!! note "207 GA "
@@ -104,3 +104,4 @@ Voici quelques problématiques incontournables.
     - Groupe A : Twitch
     - Groupe F : YouTube
     - Groupe C : Instagram
+#}
