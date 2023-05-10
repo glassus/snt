@@ -593,7 +593,7 @@ display.show(Image.SAD)
         if accelerometer.was_gesture('shake'):
             ...
         ```
-    {#
+    
     === "Indice"
         ```python linenums='1'
         from microbit import *
@@ -616,8 +616,8 @@ display.show(Image.SAD)
                 if v == ...:
                     display.show(...)
         ```
-    #}
     
+    {#
     === "Correction"
         ```python linenums='1'
         from microbit import *
@@ -652,7 +652,7 @@ display.show(Image.SAD)
                 if v == 3:
                     display.show(ciseaux)
         ```
-    
+    #}
 
 :warning: fin du programme de révision pour l'évaluation finale Moodle :warning:
 ---------
