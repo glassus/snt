@@ -60,48 +60,23 @@ Voici quelques problématiques incontournables.
 - Pensez à faire des graphiques et des schémas
 - Une idée =  une diapo
 
-{#
-### 4. Ordres de passage
 
-!!! note "207 GA "
-    - **~~Jeudi 24 mars~~ Jeudi 31 mars**
-        - Groupe G : Instagram
-        - Groupe E : Webtoons
-        - Groupe C : YouTube
+### 4. Affectation des exposés
+
+!!! note "208 GA "
+    - **Mercredi 24 mai**
+        - Groupe A : Snapchat
+        - Groupe B : Instagram
+        - Groupe C : Pinterest
+        - Groupe D : Discord
+        - Groupe E : Twitch
+        - Groupe F : Webtoons
+
+!!! note "208 GB "       
+    - **Mercredi 24 mai**
         - Groupe A : Discord
-        - Groupe F : TikTok
-
-    - **~~Jeudi 31 mars~~ Jeudi 07 avril**
+        - Groupe B : Instagram
+        - Groupe C : TikTok
         - Groupe D : Twitter
-        - Groupe B : Twitch
-
-!!! note "207 GB "
-    - **~~Lundi 21 mars~~ Lundi 28 mars**
-        - Groupe E : TikTok
-        - Groupe F : Instagram
-        - Groupe G : Twitter
-        - Groupe H : Twitch
-        - Groupe A : Discord
-
-    - **~~Lundi 28 mars~~ Lundi 4 avril**
-        - Groupe C : Wattpad
-        - Groupe B : Les réseaux sociaux russes
-        - Groupe D : Pinterest
-
-
-!!! note "215 GA : ~~lundi 21 mars~~ lundi 28 mars"
-    - Groupe B : Instagram
-    - Groupe E : WhatsApp
-    - Groupe D : Discord
-    - Groupe A : Le rôle des réseaux sociaux dans la campagne présidentielle française en 2022
-    - Groupe C : YouTube
-    - Groupe F : Twitter
-
-!!! note "215 GB : vendredi 01 avril"
-    - Groupe D : Twitter
-    - Groupe B : Pinterest
-    - Groupe E : Soundcloud
-    - Groupe A : Twitch
-    - Groupe F : YouTube
-    - Groupe C : Instagram
-#}
+        - Groupe E : Snapchat
+        - Groupe F : YouTube
