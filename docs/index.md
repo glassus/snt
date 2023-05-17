@@ -8,6 +8,7 @@
 ## Thème en cours d'étude : Réseaux sociaux
 
 - :star: Séance actuelle :star: : 
+    - [Réseaux sociaux : graphes](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
     - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
     - [Évaluation finale Microbit](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"}
 

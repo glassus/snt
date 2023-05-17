@@ -36,6 +36,10 @@ Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les i
 
 **Questions**
 
+{#
+![image](data/grapheRS.png){: .center}
+#}
+
 1. Dessinez le graphe de ce réseau social.  
 2. Écrivez à coté de chaque nœud le nombre d'amis de chacun. 
 5. Quelle est la personne qui a le plus d'amis ? 
