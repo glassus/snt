@@ -13,3 +13,9 @@
 3. En quoi cela peut-il expliquer le rachat d'Instagram par Facebook ?
 4. Que craignait Facebook de son principal concurrent ?
 5. Le rachat d'Instagram est-il une bonne affaire financière pour Facebook ?
+
+
+
+## 3. BeReal
+
+Lire l'article [https://www.ladn.eu/media-mutants/comment-le-reseau-bereal-invente-une-nouvelle-esthetique/](https://www.ladn.eu/media-mutants/comment-le-reseau-bereal-invente-une-nouvelle-esthetique/){. target="_blank"} et analyser les raisons du succès de cette application.
