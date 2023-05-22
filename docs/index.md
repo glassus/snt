@@ -8,7 +8,7 @@
 ## Thème en cours d'étude : Réseaux sociaux
 
 - :star: Séance actuelle :star: : 
-    - [Le rachat d'Instagram par Facebook](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
+    - [Ètudes d'articles sur les réseaux sociaux](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
     - [Réseaux sociaux : graphes](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
     - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
     - [Évaluation finale Microbit](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"}
@@ -26,7 +26,7 @@
 
 
 <!--  --
-snt/docs/Introduction/binaire/binaire.md
+snt/docs/Introduction/binaire/binaire.md  
 ??? note "*Anciens thèmes traités*"
     - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
     - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
