@@ -1,6 +1,6 @@
-# Activité 4 : le rachat d'Instagram par Facebook
+# Activité 4 : Étude d'articles sur les réseaux
 
-## 1. Étude de deux articles :
+## 1. Étude de deux articles sur Facebook et Instagram 
 
 - [https://blog-fr.orson.io/reseaux-sociaux/facebook-rachete-instagram](https://blog-fr.orson.io/reseaux-sociaux/facebook-rachete-instagram){. target="_blank"}
 - [https://www.phonandroid.com/instagram-100-milliards-dollars.html](https://www.phonandroid.com/instagram-100-milliards-dollars.html){. target="_blank"}
