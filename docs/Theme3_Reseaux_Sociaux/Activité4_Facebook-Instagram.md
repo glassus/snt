@@ -1,4 +1,4 @@
-# Activité 4 : Étude d'articles sur les réseaux
+# Activité 4 : Étude d'articles sur les réseaux sociaux 
 
 ## 1. Étude de deux articles sur Facebook et Instagram 
 
