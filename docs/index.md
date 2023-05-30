@@ -8,6 +8,7 @@
 ## Thème en cours d'étude : Réseaux sociaux
 
 - :star: Séance actuelle :star: : 
+    - [Activité PIX sur les Réseaux Sociaux](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"} : code **KZXTLS259**
     - [Ètudes d'articles sur les réseaux sociaux](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
     - [Réseaux sociaux : graphes](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
     - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
