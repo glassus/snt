@@ -13,8 +13,14 @@ Parmi eux, je conseille Thonny :
 
 ### 2.1  Pour installer sur son pc perso : Thonny
 
-![image](data/install_thonny.png){: .center}
+<figure markdown>
+  ![Image title](data/install_thonny.png){: .center}
+  <figcaption>L'interface de Thonny</figcaption>
+</figure>
 
+{#
+![image](data/install_thonny.png){: .center}
+#}
 
 1. Rendez vous sur la page [https://thonny.org/](https://thonny.org/)
 
