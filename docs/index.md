@@ -1,33 +1,20 @@
-<!-- !!! abstract ":star: Actualités :star:"
+!!! abstract ":star: Actualités :star:"
     - Bonne rentrée à toutes et à tous !
 
+
+
 :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
- -->
+
+:white_check_mark: Inscription à la plateforme [Moodle](Introduction/moodle/moodle/)
 
 
-## Thème en cours d'étude : Réseaux sociaux
+
+## Thème d'introduction : le binaire
 
 - :star: Séance actuelle :star: : 
 
 
-    - [Activité PIX sur la Cybersécurité](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"} : code **GBZHYX692**
-    - [Activité PIX sur les Réseaux Sociaux](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"} : code **KZXTLS259**
-    - [Ètudes d'articles sur les réseaux sociaux](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
-    - [Réseaux sociaux : graphes](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}
-    - [Réseaux sociaux : exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
-    - [Évaluation finale Microbit](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target = "_blank"}
-
-- Séances passées :
-    - [Correction du QCM sur Microbit](./Theme4_Objets_Connectes/corrQCM/){. target="_blank"}
-    - [Jeu avec la fonction Shake](./Theme4_Objets_Connectes/cours/){. target="_blank"}
-    - [Initiation Python sur Py-rates](https://py-rates.fr/){. target="_blank"}
-    - [Activité 4 : Itinéraires](./Theme2_Localisation_Cartographie/Activité4_Itineraires/) 
-    - [Activité 3 : GeoPortail](./Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
-    - [Activité 2 : Métadonnées EXIF](./Theme2_Localisation_Cartographie/Activité2_Exif/)
-    - [Activité 1 : Coordonnées GPS](./Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
-    - [Cours Localisation et cartographie](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
-
-
+    - [Découverte du binaire](./Introduction/binaire/binaire)
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md  
