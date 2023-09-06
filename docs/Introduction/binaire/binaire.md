@@ -28,15 +28,9 @@ $\texttt{5603}_d=\texttt{5} \times 10^3 + \texttt{6} \times 10^2 + \texttt{0} \t
 
 Ce système de base 10 provient (très probablement) du fait que les humains ont dix doigts.
 
-De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main.
+De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main (voir exercice 4).
 
-!!! example "{{ exercice() }}"
-    === "Énoncé"
-        Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
-    === "Correction"
-        $6 \times 8^1 + 3 \times 8^0 = 51$ 
 
-        $\texttt{63}_s$ correspond donc à 51 en décimal.
 
 
 ## 2. Le système binaire
@@ -65,17 +59,21 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         3. Expliquer cette blague d’informaticiens :
         « Dans la vie, il y a 10 sortes de personnes : celles qui connaissent le binaire, et celles qui ne le connaissent
         pas. »
-        4. Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
         1. $10111_b=16+4+2+1=23_d$
         2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
         3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
-        4. Sur des exemples : 
-            - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
-            - 12 s'écrit 1100 en binaire, son double 24 s'écrit 11000 en binaire.
-            - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
-            On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**.  
-        
+
+
+
+!!! example "{{ exercice() }}"
+    === "Énoncé"
+        Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
+    === "Correction"
+        $6 \times 8^1 + 3 \times 8^0 = 51$ 
+
+        $\texttt{63}_s$ correspond donc à 51 en décimal.
+
 
 ### 2.2 Du décimal au binaire
 
@@ -93,10 +91,21 @@ Donc $243_{10}=11110011_2$
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
-        Donner l'écriture binaire du nombre $28_d$.
+        Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
-        $28_d=11100_b$
+        $186_d=10111010_b$
+
+!!! example "{{ exercice() }}"
+    === "Énoncé"
+        Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
+    === "Correction"
+        Sur des exemples : 
+
+        - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
+        - 12 s'écrit 1100 en binaire, son double 24 s'écrit 11000 en binaire.
+        - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
         
+        On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**. 
 
 ## 3. Codage et transmission de l'information
 
