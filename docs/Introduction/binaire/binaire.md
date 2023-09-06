@@ -59,21 +59,24 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         3. Expliquer cette blague d’informaticiens :
         « Dans la vie, il y a 10 sortes de personnes : celles qui connaissent le binaire, et celles qui ne le connaissent
         pas. »
+    
     === "Correction"
+        {#
         1. $10111_b=16+4+2+1=23_d$
         2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
         3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
-
+        #}
 
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
     === "Correction"
+        {#
         $6 \times 8^1 + 3 \times 8^0 = 51$ 
 
         $\texttt{63}_s$ correspond donc à 51 en décimal.
-
+        #}
 
 ### 2.2 Du décimal au binaire
 
@@ -93,12 +96,15 @@ Donc $243_{10}=11110011_2$
     === "Énoncé"
         Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
+        {#
         $186_d=10111010_b$
+        #}
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
+        {#
         Sur des exemples : 
 
         - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
@@ -106,6 +112,7 @@ Donc $243_{10}=11110011_2$
         - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
         
         On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**. 
+        #}
 
 ## 3. Codage et transmission de l'information
 
@@ -120,4 +127,7 @@ Le mot «OK» sera donc codé en binaire par ```0100111101001011``` .
         En vous répartissant le travail, décodez la phrase (codée en décimal) :
         74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
     === "Correction"
+        {#
+        "J'AIME LE BINAIRE"
+        #}
 
