@@ -28,7 +28,7 @@ $\texttt{5603}_d=\texttt{5} \times 10^3 + \texttt{6} \times 10^2 + \texttt{0} \t
 
 Ce système de base 10 provient (très probablement) du fait que les humains ont dix doigts.
 
-De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main (voir exercice 4).
+De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main (voir exercice 2).
 
 
 
@@ -118,7 +118,7 @@ Donc $243_{10}=11110011_2$
 
 Voici la table [ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) (American Standard Code for Information Interchange)
 
-![image](data/ascii.png){: .center }
+![image](data/ascii.png){: .center width=60%}
 
 Le mot «OK» sera donc codé en binaire par ```0100111101001011``` .
 
