@@ -61,11 +61,11 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         pas. »
     
     === "Correction"
-        {#
+        
         1. $10111_b=16+4+2+1=23_d$
         2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
         3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
-        #}
+        
 
 
 !!! example "{{ exercice() }}"
