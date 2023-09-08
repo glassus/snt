@@ -72,11 +72,11 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     === "Énoncé"
         Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
     === "Correction"
-        {#
+        
         $6 \times 8^1 + 3 \times 8^0 = 51$ 
 
         $\texttt{63}_s$ correspond donc à 51 en décimal.
-        #}
+        
 
 ### 2.2 Du décimal au binaire
 
