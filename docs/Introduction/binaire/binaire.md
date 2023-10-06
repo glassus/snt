@@ -132,3 +132,9 @@ Le mot «OK» sera donc codé en binaire par ```0100111101001011``` .
         "J'AIME LE BINAIRE"
         #}
 
+
+
+## 4. Annexe : le message secret de Perseverance
+
+Voir [ici](https://glassus.github.io/snt/Theme0_Bases_de_Python/Exercice_Perseverance/){. target="_blank"}
+
