@@ -61,11 +61,11 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         pas. »
     
     === "Correction"
-        
+        {#
         1. $10111_b=16+4+2+1=23_d$
         2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
         3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
-        
+        #}
         
 
 
@@ -97,15 +97,15 @@ Donc $243_{10}=11110011_2$
     === "Énoncé"
         Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
-        
+        {#
         $186_d=10111010_b$
-        
+        #}
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
-        
+        {#
         Sur des exemples : 
 
         - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
@@ -113,7 +113,7 @@ Donc $243_{10}=11110011_2$
         - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
         
         On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**. 
-        
+        #}
 
 ## 3. Codage et transmission de l'information
 
@@ -123,16 +123,26 @@ Voici la table [ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_
 
 Le mot «OK» sera donc codé en binaire par ```0100111101001011``` .
 
+Si on veut transmettre le mot «OK», il faut donc transmettre ces 16 bits d'information. La vitesse à laquelle on va les transmettre s'appelle le **débit**. Par exemple, si on transmet 1 bit par seconde, le débit sera de 1 b/s. 
+
+Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s...
+
+
 !!! example "{{ exercice() }}"
     === "Énoncé"
         En vous répartissant le travail, décodez la phrase (codée en décimal) :
         74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
     === "Correction"
-        
+        {#
         "J'AIME LE BINAIRE"
-        
+        #}
 
+{#
+01010011
+01001110
+01010100
 
+#}
 
 ## 4. Annexe : le message secret de Perseverance
 

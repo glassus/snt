@@ -1,3 +1,5 @@
+
+{#
 !!! abstract ":star: Actualités :star:"
     - Bonne rentrée à toutes et à tous !
 
@@ -8,6 +10,8 @@
 :white_check_mark: Inscription à la plateforme [Moodle](Introduction/moodle/moodle/)
 
 :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
+#}
+
 
 ## Thème d'introduction : le binaire
 
