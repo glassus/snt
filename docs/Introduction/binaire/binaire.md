@@ -97,9 +97,9 @@ Donc $243_{10}=11110011_2$
     === "Énoncé"
         Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
-        {#
+        
         $186_d=10111010_b$
-        #}
+        
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
