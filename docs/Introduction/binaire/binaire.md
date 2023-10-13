@@ -97,15 +97,15 @@ Donc $243_{10}=11110011_2$
     === "Énoncé"
         Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
-        
+        {#
         $186_d=10111010_b$
-        
+        #}
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
-        
+        {#
         Sur des exemples : 
 
         - 3 s'écrit 11 en binaire, son double 6 s'écrit 110 en binaire.
@@ -113,7 +113,7 @@ Donc $243_{10}=11110011_2$
         - 50 s'écrit 110010 en binaire, son double 100 s'écrit 1100100 en binaire.
         
         On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**. 
-        
+        #}
 
 ## 3. Codage et transmission de l'information
 
@@ -133,9 +133,9 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
         En vous répartissant le travail, décodez la phrase (codée en décimal) :
         74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
     === "Correction"
-        
+        {#
         "J'AIME LE BINAIRE"
-        
+        #}
 
 {#
 01010011
