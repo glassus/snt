@@ -16,9 +16,11 @@
 ## Thème d'introduction : le binaire
 
 - :star: Séance actuelle :star: : 
+    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
 
-
+!!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)
+
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md  
