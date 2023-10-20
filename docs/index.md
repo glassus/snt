@@ -13,10 +13,10 @@
 #}
 
 
-## Thème d'introduction : le binaire
+## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
 
 !!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)
