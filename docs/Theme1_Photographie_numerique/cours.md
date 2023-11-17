@@ -86,11 +86,11 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     === "Énoncé"
         Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
     === "Correction"
-        {#
+        
         $600 \times 400 = 240000$.
 
         L'image pèse donc 240 000 octets, donc 240 Ko, donc 0,24 Mo.
-        #}
+        
 
 !!! example "Exercice 2"
     === "Énoncé"
