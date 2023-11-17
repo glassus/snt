@@ -40,7 +40,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     - Connectez-vous à [LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}.
     - Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c/d24e-741018/mlc){. target="_blank"}.
 
-
+{#
 ??? info "la base 16 : l'hexadécimal"
     L'inconvénient essentiel du système binaire est la longueur de l'écriture des nombres qu'il génère. Pour cette raison, le **système hexadécimal**, ou système de **base 16** est très souvent employé.
 
@@ -79,7 +79,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
             1. Donner la valeur des octets `FF`, `3A`, `B2`.
             2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
             3. Quelle est la couleur html du blanc ?
-
+#}
 
 
 !!! example "Exercice 1"
@@ -151,12 +151,15 @@ Pour résumer, la matrice de Bayer va convertir la lumière visible en courant �
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/103279733?h=cb66e06da5" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
+{#
 <iframe width="640" height="360" src="https://www.youtube.com/embed/eY4s1sVsiAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#}
 
 Les photosites jouent un rôle dans la captation de la lumière,  à l’intérieur du capteur de l’appareil photo numérique, alors que les pixels de l’écran servent à reproduire cette lumière.
 Lorsque les fabricants d’appareil photo ou de smartphones communiquent sur le nombre de mégapixels, ils font référence à la définition maximale (en nombre de pixels ) que pourra avoir l’image une fois affichée.
 Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, des procédés algorithmiques permettent maintenant de deviner de nouveaux pixels (on parle d’interpolation) non captés par les photosites.
 
+{#
 ### 4.3 Analyse d'un article
 
 ??? note "Extrait du site frandroid.com"
@@ -191,7 +194,7 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
     3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
     4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
 
-
+#}
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
@@ -249,7 +252,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     - On peut aussi appliquer ensuite à l'image d'autres transformations (filtres, modification des pixels), qui amènent naturellement à se poser des questions sur la confiance qu'on peut avoir dans une photographie (en matière judiciaire notamment).
 
 
-
+{#
 ## 5.6 Clone detection
 
 À l'aide de la fonctionnalité Clone Detection du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection){. target="_blank"}, analysez l'image suivante :
@@ -270,3 +273,5 @@ Autre image à analyser :
 ## 5.7 Enlever un objet d'une photographie
 
 [https://clipdrop.co/fr/cleanup](https://clipdrop.co/fr/cleanup){. target="_blank"}
+
+#}
