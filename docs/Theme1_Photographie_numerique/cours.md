@@ -100,6 +100,8 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
         
         Est-ce que mon ami a beau temps pour ses vacances ?
 
+        *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
+
     === "Correction"
         {#
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
