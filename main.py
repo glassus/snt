@@ -7,6 +7,15 @@ def define_env(env):
 
 #---------------- <exo perso>-------------------- 
 
+    @env.macro
+    def correction(bool, texte):
+        if bool == False:
+            return ""
+        else:
+            return texte
+        
+
+
     env.variables['compteur_exo'] = 0
     @env.macro
     def exercice():

@@ -228,18 +228,34 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 
 ## 5.5 Exercice
 
-1. Classez ces algorithmes dans le tableau suivant.
+!!! abstract "Exercice"
+    Classez ces algorithmes dans le tableau suivant.
 
     | A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
     |:---:|:---:|:---:|
     |  |  |  |
     |  |  |  |
     |  |  |  |
+        
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
+        A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
+        |:---:|:---:|:---:|
+        | 3 | 2 | 1 |
+        | 4 |  |  |
+        |  |  |  |
+    """
+    )
+    }}
+         
 
+{#
 2. Lequel de ces algorithmes est utilisé par Google Street View ?
 3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
 4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
-
+#}
 
 !!! abstract "Conclusion :heart: :heart: :heart:"
     - Pour stocker numériquement les informations nécessaires à l'affichage d'une photographie, il faut pour chaque pixel de l'image 3 informations sur la quantité de Rouge, de Vert et de Bleu.
