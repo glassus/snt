@@ -82,30 +82,54 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 #}
 
 
-!!! example "Exercice 1"
-    === "Énoncé"
-        Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
-    === "Correction"
-        Nombre de pixels :
-        $600 \times 400 = 240000$.
 
-        Chaque pixel nécessite 3 octets, donc le poids total de l'image est $240000 \times 3 = 720000$ octets, soit 720 Ko, ou encore 0,72 Mo.
+
+
+!!! example "Exercice 1"
+    !!! tip inline end "les préfixes"
+        - **Ko** : kilo -> $10^3$
+        - **Mo** : méga -> $10^6$
+        - **Go** : giga -> $10^9$
+        - **To** : téra -> $10^{12}$
+        - **Po** : péta -> $10^{15}$
+        - **Eo** : exa -> $10^{18}$
+
+    Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ?
+    
+    On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        Nombre de pixels :
+
+        $600 \\times 400 = 240000$.
+
+        Chaque pixel nécessite 3 octets, donc le poids total de l'image est $240000 \\times 3 = 720000$ octets, soit 720 Ko, ou encore 0,72 Mo.
+    """
+    )
+    }}
+   
+
 
 
         
 
 !!! example "Exercice 2"
-    === "Énoncé"
-        Un ami m'envoie une photo de ses vacances. Le fichier de son image (en admettant qu'il ne contienne que le codage des pixels et rien d'autre, ce qui est faux...) commence par ceci :
 
-        ```000011000001000111100110000011010001000111100100000010100000111111101000...```
-        
-        Est-ce que mon ami a beau temps pour ses vacances ?
+    Un ami m'envoie une photo de ses vacances. Le fichier de son image (en admettant qu'il ne contienne que le codage des pixels et rien d'autre, ce qui est faux...) commence par ceci :
 
-        *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
+    ```000011000001000111100110000011010001000111100100000010100000111111101000...```
+    
+    Est-ce que mon ami a beau temps pour ses vacances ?
 
-    === "Correction"
-        
+    *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
 
         Prenons donc les 24 premiers bits : ```000011000001000111100110```.
@@ -114,7 +138,12 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
         Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.
 
-        La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un [bleu](https://www.google.com/search?q=rgb+(12%2C17%2C230)){. target="_blank"}.  On peut donc supposer que mon ami a beau temps pour ses vacances.
+        La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un [bleu](https://www.google.com/search?q=rgb+(12%2C17%2C230)){. target=\"_blank\"}.  On peut donc supposer que mon ami a beau temps pour ses vacances.
+    """
+    )
+    }}
+        
+
 
         
 
@@ -238,7 +267,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     |  |  |  |
         
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
