@@ -127,7 +127,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
