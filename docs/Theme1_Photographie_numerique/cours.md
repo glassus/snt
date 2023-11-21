@@ -99,7 +99,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Nombre de pixels :
