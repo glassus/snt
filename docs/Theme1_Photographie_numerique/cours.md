@@ -122,12 +122,12 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
     ```000011000001000111100110000011010001000111100100000010100000111111101000...```
     
-    Est-ce que mon ami a beau temps pour ses vacances ?
+    Est-ce que mon ami a beau temps pour ses vacances ? 
 
     *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
