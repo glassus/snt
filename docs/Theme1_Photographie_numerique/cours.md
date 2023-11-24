@@ -285,7 +285,7 @@ Autre image à analyser :
 
 #}
 
-
+{#
 
 ### Annexe :  Analyse d'un article
 
@@ -321,3 +321,4 @@ Autre image à analyser :
     3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
     4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
 
+#}
