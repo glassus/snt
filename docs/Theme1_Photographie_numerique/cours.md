@@ -188,42 +188,6 @@ Les photosites jouent un rôle dans la captation de la lumière,  à l’intéri
 Lorsque les fabricants d’appareil photo ou de smartphones communiquent sur le nombre de mégapixels, ils font référence à la définition maximale (en nombre de pixels ) que pourra avoir l’image une fois affichée.
 Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, des procédés algorithmiques permettent maintenant de deviner de nouveaux pixels (on parle d’interpolation) non captés par les photosites.
 
-{#
-### 4.3 Analyse d'un article
-
-??? note "Extrait du site frandroid.com"
-    [lien vers l'article originel](https://www.frandroid.com/produits-android/photo/337878_galaxy-s7-samsung-opterait-pour-moins-de-megapixels-et-de-plus-gros-photosites){. target="_blank"}
-    
-    **Samsung Galaxy S7, moins de mégapixels et de plus gros photosites, pourquoi ?**
-    *Par Ulrich Rozier, le 25 janvier 2016*
-
-    Ce sont des informations qui nous proviennent de Naver, un média coréen assez bien renseigné, qui aurait recueilli des propos d’un employé Samsung. Ce dernier aurait dévoilé quelques informations sur les caractéristiques du Samsung Galaxy S7. Regardons ça de plus près.
-
-    Le Samsung sera bel et bien dévoilé au Mobile World Congress 2016, selon le média coréen. C’est la première information que l’on tire de l’article, mais ce n’est pas l’information la plus intéressante. En effet, les différentes variantes du Galaxy S7 seraient équipées d’un design « noir » bien plus premium que les dernières éditions. À l’arrière, Samsung aurait opté pour un capteur de 12 mégapixels avec une optique en ouverture f/1.7. Mais ce que nous révèle le média coréen, c’est qu’avec un capteur plus petit que le Galaxy S6 (16 mégapixels pour rappel), le Galaxy S7 aurait des photosites plus grands. Qu’est-ce que cela signifie ?
-
-    **L’importance des photosites**
-
-    En 2017, la clé du problème serait donc un morceau de silicium grand comme une pièce d’un centime d’euro, celui que l’on appelle « capteur photo ». C’est sûrement le composant qui a la plus grande influence sur la qualité des photos, un capteur qui est tapissé de millions de « photosites » qui convertissent la lumière en signal numérique. En matière de photographie, on observe que lorsqu’un photosite est grand, il produit un pixel de qualité. D’ailleurs, c’est le secret de fabrication des reflex professionnels. Donc je résume : moins de mégapixels, mais de meilleure qualité.
-
-    **Pourquoi de plus grands photosites ?**
-
-    Comme vous le savez, quand vous prenez une photo en plein jour, la lumière est abondante : difficile de remarquer une différence de qualité entre deux capteurs, cela peut se jouer avec l’optique. Mais lorsque la lumière baisse, les capteurs se différencient rapidement. Les photos affichent rapidement du « bruit », des artefacts multicolores disgracieux.
-    En optant pour de plus grands photosites, Samsung profiterait donc d’un argument de taille : une meilleure qualité de photos en basse luminosité, sans flash. C’est exactement ce que l’on a pu observer entre l’iPhone 6 et l’iPhone 6S, Apple a diminué la taille des photosites entre les deux appareils mais augmenté le nombre de pixels. Conséquence : les photos en basse luminosité étaient moins bonnes que sur l’iPhone 6. À l’inverse, Google a opté pour les Nexus 5X et Nexus 6P pour de plus grands photosites, le résultat était largement convaincant. L’autre exemple parlant : celui du HTC One M7 avec son capteur UltraPixel. L’idée était bonne sur le papier, mais avec un capteur de 4,3 mégapixels et une mauvaise intégration logicielle, HTC a finalement changé de stratégie sur les modèles suivants. [...]
-
-**Questions au sujet de cet article**
-
-1. Comment a évolué le nombre de méga-pixels entre l’iPhone 6 et l’iPhone 6S ?
-2. Quelle a été la conséquence de cette évolution ?
-3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
-4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
-
-??? tip "Correction"
-    1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
-    2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
-    3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
-    4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
-
-#}
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
@@ -320,3 +284,40 @@ Autre image à analyser :
 [https://clipdrop.co/fr/cleanup](https://clipdrop.co/fr/cleanup){. target="_blank"}
 
 #}
+
+
+
+### Annexe :  Analyse d'un article
+
+??? note "Extrait du site frandroid.com"
+    [lien vers l'article originel](https://www.frandroid.com/produits-android/photo/337878_galaxy-s7-samsung-opterait-pour-moins-de-megapixels-et-de-plus-gros-photosites){. target="_blank"}
+    
+    **Samsung Galaxy S7, moins de mégapixels et de plus gros photosites, pourquoi ?**
+    *Par Ulrich Rozier, le 25 janvier 2016*
+
+    Ce sont des informations qui nous proviennent de Naver, un média coréen assez bien renseigné, qui aurait recueilli des propos d’un employé Samsung. Ce dernier aurait dévoilé quelques informations sur les caractéristiques du Samsung Galaxy S7. Regardons ça de plus près.
+
+    Le Samsung sera bel et bien dévoilé au Mobile World Congress 2016, selon le média coréen. C’est la première information que l’on tire de l’article, mais ce n’est pas l’information la plus intéressante. En effet, les différentes variantes du Galaxy S7 seraient équipées d’un design « noir » bien plus premium que les dernières éditions. À l’arrière, Samsung aurait opté pour un capteur de 12 mégapixels avec une optique en ouverture f/1.7. Mais ce que nous révèle le média coréen, c’est qu’avec un capteur plus petit que le Galaxy S6 (16 mégapixels pour rappel), le Galaxy S7 aurait des photosites plus grands. Qu’est-ce que cela signifie ?
+
+    **L’importance des photosites**
+
+    En 2017, la clé du problème serait donc un morceau de silicium grand comme une pièce d’un centime d’euro, celui que l’on appelle « capteur photo ». C’est sûrement le composant qui a la plus grande influence sur la qualité des photos, un capteur qui est tapissé de millions de « photosites » qui convertissent la lumière en signal numérique. En matière de photographie, on observe que lorsqu’un photosite est grand, il produit un pixel de qualité. D’ailleurs, c’est le secret de fabrication des reflex professionnels. Donc je résume : moins de mégapixels, mais de meilleure qualité.
+
+    **Pourquoi de plus grands photosites ?**
+
+    Comme vous le savez, quand vous prenez une photo en plein jour, la lumière est abondante : difficile de remarquer une différence de qualité entre deux capteurs, cela peut se jouer avec l’optique. Mais lorsque la lumière baisse, les capteurs se différencient rapidement. Les photos affichent rapidement du « bruit », des artefacts multicolores disgracieux.
+    En optant pour de plus grands photosites, Samsung profiterait donc d’un argument de taille : une meilleure qualité de photos en basse luminosité, sans flash. C’est exactement ce que l’on a pu observer entre l’iPhone 6 et l’iPhone 6S, Apple a diminué la taille des photosites entre les deux appareils mais augmenté le nombre de pixels. Conséquence : les photos en basse luminosité étaient moins bonnes que sur l’iPhone 6. À l’inverse, Google a opté pour les Nexus 5X et Nexus 6P pour de plus grands photosites, le résultat était largement convaincant. L’autre exemple parlant : celui du HTC One M7 avec son capteur UltraPixel. L’idée était bonne sur le papier, mais avec un capteur de 4,3 mégapixels et une mauvaise intégration logicielle, HTC a finalement changé de stratégie sur les modèles suivants. [...]
+
+**Questions au sujet de cet article**
+
+1. Comment a évolué le nombre de méga-pixels entre l’iPhone 6 et l’iPhone 6S ?
+2. Quelle a été la conséquence de cette évolution ?
+3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
+4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
+
+??? tip "Correction"
+    1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
+    2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
+    3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
+    4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
+
