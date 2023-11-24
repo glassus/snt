@@ -1531,12 +1531,6 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?</p>
 </div>
 <p>Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ?</p>
 <p>On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.</p>
-<details class="success">
-<summary>Correction</summary>
-<p>Nombre de pixels :</p>
-<p><span class="arithmatex">\(600 \times 400 = 240000\)</span>.</p>
-<p>Chaque pixel nécessite 3 octets, donc le poids total de l'image est <span class="arithmatex">\(240000 \times 3 = 720000\)</span> octets, soit 720 Ko, ou encore 0,72 Mo.</p>
-</details>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice 2</p>
@@ -1544,14 +1538,6 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?</p>
 <p><code>000011000001000111100110000011010001000111100100000010100000111111101000...</code></p>
 <p>Est-ce que mon ami a beau temps pour ses vacances ? </p>
 <p><em>Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à <a class="" href="https://sebastienguillon.com/test/javascript/convertisseur.html" target="_blank">cette adresse</a>.</em></p>
-<details class="success">
-<summary>Correction</summary>
-<p>Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.</p>
-<p>Prenons donc les 24 premiers bits : <code>000011000001000111100110</code>.</p>
-<p>Ils se décomposent en 3 octets : <code>00001100</code> ,  <code>00010001</code> et <code>11100110</code>.</p>
-<p>Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.</p>
-<p>La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un <a class="" href="https://www.google.com/search?q=rgb+(12%2C17%2C230)" target="_blank">bleu</a>.  On peut donc supposer que mon ami a beau temps pour ses vacances.</p>
-</details>
 </div>
 <div class="admonition abstract">
 <p class="admonition-title">Conclusion <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /></p>
@@ -1624,35 +1610,6 @@ Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitemen
 </tr>
 </tbody>
 </table>
-<details class="success">
-<summary>Correction</summary>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité</th>
-<th style="text-align: center;">B. Algorithmes essayant d’imiter un effet artistique de la photo argentique</th>
-<th style="text-align: center;">C. Algorithmes produisant une photo d’une situation qui n’a jamais existé</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;"> 2</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;"> </td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"> </td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-</details>
 </div>
 <div class="admonition abstract">
 <p class="admonition-title">Conclusion <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /> <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2764.svg" title=":heart:" /></p>
