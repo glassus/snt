@@ -7,8 +7,22 @@ Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond ver
 
 Nous sommes maintenant capables de faire (à peu près...) la même chose avec quelques lignes de Python.
 
-## 1. Les images de travail
+Nous travaillerons avec l'image de Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
 
+
+![](data/grumpy.bmp){: .center}
+
+Nous disposons aussi d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
+
+![](data/hall.png){: .center}
+
+L'objectif est bien sûr d'intégrer un des trois personnages dans le hall du lycée.
+
+Le reste de l'activité se passe sur [Capytale](https://capytale2.ac-paris.fr/web/c/3577-2433749){. target="_blank"}
+
+
+
+{#
 Nous travaillerons avec trois images, représentant respectivement John Travolta (image [john.bmp](data/john.bmp)), Bernie Sanders (image [bernie.bmp](data/bernie.bmp)) et Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
 
 ![](data/john.bmp){: .center}
@@ -24,7 +38,7 @@ Nous disposons aussi d'une image de même taille, [hall.png](data/hall.png), où
 L'objectif est bien sûr d'intégrer un des trois personnages dans le hall du lycée.
 
 Le reste de l'activité se passe sur [Capytale](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/525f-180942).
-
+#}
 <!--
 ## 2. Fusion des deux images
 

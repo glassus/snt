@@ -16,9 +16,13 @@
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+    - [Évaluation Photographie numérique sur LycéeConnecté / Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
+    - [Activité d'incrustation d'image en Python](./Theme1_Photographie_numerique/incrustation_image/) 
+    - [Localisation-Cartographie : répérage à la surface de la Terre](./Theme2_Localisation_Cartographie/Activité1_GPS/){. target="_blank"}
+
 
 ??? note "*Anciens thèmes traités*"
+    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
     - [Découverte du binaire](./Introduction/binaire/binaire)
 
 

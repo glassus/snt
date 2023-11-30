@@ -4,35 +4,35 @@
 ## 1. Se repérer à la surface de la Terre
 
 
-!!! example "Exercice"
-    === "Énoncé"
-        Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
+!!! example "Exercice 1"
+
+    Rendez-vous sur [ce document GeoGebra](https://www.geogebra.org/m/rxx7psvs){:target="_blank"}
 
 
-        Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
-        Dans le tableau ci-dessous sont données des coordonnées de villes.  
-        Associer à chaque ville le numéro qui lui correspond. 
-        Quel est la ville qui n'est associée à aucun numéro ?
+    Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
+    Dans le tableau ci-dessous sont données des coordonnées de villes.  
+    Associer à chaque ville le numéro qui lui correspond. 
+    Quel est la ville qui n'est associée à aucun numéro ?
 
-        | numéro de la ville | Latitude | Longitude |
-        |:---:|---|---|
-        | 1 | 51° N | 0° E|
-        | 2 | 49° N | 2° E|
-        | 3 | 40° N | 4° E|
-        | 4 | 41° N | 116° O|
-        | 5 | 57° N | 38° E|
-        | 6 | 0° N | 79° O|
-        | 7 | 34° S | 18° E|
-        | 8 | 34° S | 71° O|
-        | 9 | 34° S | 151° O|
-        | 10 | 41° S | 175° O|
-        | 11 | 60° N | 11° E|
-        | 12 | 37° N | 10° E|
+    | numéro de la ville | Latitude | Longitude |
+    |:---:|---|---|
+    | 1 | 51° N | 0° E|
+    | 2 | 49° N | 2° E|
+    | 3 | 40° N | 4° E|
+    | 4 | 41° N | 116° O|
+    | 5 | 57° N | 38° E|
+    | 6 | 0° N | 79° O|
+    | 7 | 34° S | 18° E|
+    | 8 | 34° S | 71° O|
+    | 9 | 34° S | 151° O|
+    | 10 | 41° S | 175° O|
+    | 11 | 60° N | 11° E|
+    | 12 | 37° N | 10° E|
 
-
-
-    === "Correction"
-        
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
         | numéro de la ville | Ville |
         |:---:|---|
         | 1 | Londres|
@@ -48,7 +48,12 @@
         | 11 | Oslo|
         | 12 | Tunis|
 
-        La ville manquante est donc Pékin
+        La ville manquante est donc Pékin       
+    """
+    )
+    }}
+
+
         
 
 ## 2. Les différentes conventions d'écriture d'angles
@@ -85,10 +90,24 @@ Par exemple, les coordonnées des villes sur Wikipedia sont données au format D
 Il existe des sites en ligne qui proposent de manipuler très facilement des coordonnées GPS, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.
 
 
-!!! example "Exercice"
-    === "Énoncé"
-        1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
-        2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
-    === "Correction"
-        1. La salle 1308 du Lycée François Mauriac.
-        2. La statue de la Liberté.
+!!! example "Exercice 2"
+    
+    1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
+        {{
+        correction(False,
+        """
+        ??? success \"Correction\" 
+            La salle 1308 du Lycée François Mauriac.
+        """
+        )
+        }}
+
+    2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
+        {{
+        correction(False,
+        """
+        ??? success \"Correction\" 
+            La statue de la Liberté.
+        """
+        )
+        }}
