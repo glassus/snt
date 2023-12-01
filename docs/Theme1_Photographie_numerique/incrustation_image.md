@@ -16,7 +16,7 @@ Nous disposons aussi d'une image de même taille, [hall.png](data/hall.png), où
 
 ![](data/hall.png){: .center}
 
-L'objectif est bien sûr d'intégrer un des trois personnages dans le hall du lycée.
+L'objectif est bien sûr d'intégrer Grumpy Cat dans le hall du lycée.
 
 Le reste de l'activité se passe sur [Capytale](https://capytale2.ac-paris.fr/web/c/3577-2433749){. target="_blank"}
 
