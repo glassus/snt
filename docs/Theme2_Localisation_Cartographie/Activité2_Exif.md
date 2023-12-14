@@ -15,14 +15,21 @@
 6. Où cette photo a-t-elle été prise ?
 Vous pourrez utiliser le site [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  
 
-
-??? tip "corrections"
-    1. [https://fr.wikipedia.org/wiki/Exchangeable_image_file_format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format){. target="_blank"}
+{{
+correction(True,
+"""
+??? success \"Correction\" 
+    1. [https://fr.wikipedia.org/wiki/Exchangeable_image_file_format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format){. target=\"_blank\"}
     2. -
     3. Samsung GT-i9195 Galaxy S4 Mini
     4. Pas de localisation possible.
     5. -
-    6. Localisation : Place Picard à Bordeaux.
+    6. Localisation : Place Picard à Bordeaux.   
+"""
+)
+}}
+
+
 
 
 ## 2. La question de la confidentialité et de la fiabilité des données
@@ -34,9 +41,16 @@ Analysez la photo ci-contre :
 3. Les photos des réseaux sociaux Snapchat, Instagram ou Facebook contiennent-elles des données EXIF ? Faire l’expérience avec une photo de votre téléphone (avec par exemple l’application Metadata Viewer) avant envoi sur un réseau social, puis avec cette même photo téléchargée depuis ce réseau social.
 4. Sait-on à quel endroit (sur votre appareil, ou sur les serveurs du réseau social) les données EXIF ont-elles été supprimées ? En quoi cela peut-il être problématique ?
 
-
-??? tip "corrections"
+{{
+correction(True,
+"""
+??? success \"Correction\" 
     1. Le Pont de Pierre semble être au Groënland : les EXIF ont été modifiées.
     2. Oui, chaque téléphone permet de désactiver la localisation sur les photos.
     3. Non, les réseaux sociaux filtrent les EXIF.
-    4. Par contre, on ne sait pas s'ils les filtrent en local ou sur leurs serveurs.
+    4. Par contre, on ne sait pas s'ils les filtrent en local ou sur leurs serveurs.    
+"""
+)
+}}
+
+

@@ -3,6 +3,10 @@
 
 ## 1. Se repérer à la surface de la Terre
 
+### Rappels sur le vocabulaire
+
+Latitude, longitude, méridiens, parallèles... rendez-vous sur 
+[ce document GeoGebra](https://www.geogebra.org/m/vdpwxyrj){:target="_blank"}.
 
 !!! example "Exercice 1"
 

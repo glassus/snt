@@ -11,9 +11,13 @@ Tout point de la Terre se situe à l'intersection de deux cercles: un **parallè
 
 Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.
 
-:arrow_right: [animation GeoGebra sur la latitude et la longitude](https://www.geogebra.org/m/qfuyanqs){. target="_blank"}
+:arrow_right: [Animation GeoGebra sur la latitude et la longitude](https://www.geogebra.org/m/vdpwxyrj){:target="_blank"}.
 
-:arrow_right: [Activité 1 : villes du monde](../Activité1_GPS/){. target="_blank"}
+
+??? abstract "Activité 1 :  villes du monde"
+	voir [ici](../Activité1_GPS/){. target="_blank"}
+
+
 
 
 
@@ -30,18 +34,18 @@ Pour un même lieu, il y a donc plusieurs formats d'écriture de ses coordonnée
 	|DMS|48°51'24.11" N, 2°21'5.26" E| 40°42'45.2" N, 74°0'21.65" O| 22°54'39.6" O, 43°12'33.84" S | 33°51'22" S, 151°11'33" E|
 	|DD| 48.856697, 2.351461| 40.704222, -74.006014|	-22.911 , -43.2094 | -33.8561, 151.1925|
 
-On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'une navigation :
+On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigation :
 
 ![image](data/cap_paris.png){: .center}
 
 
 !!! info "Conversions"
 	=== "de DMS vers DD"
-		Prenons par exemple la latitude de Paris. On obtient en degrés 48+51/60+24.11/3600 = 48.856697
+		Prenons par exemple la latitude de Paris. On obtient en degrés $48+\dfrac{51}{60}+\dfrac{24.11}{3600} = 48.856697$
 		
 		On compte positivement car la position par rapport à l'Équateur est N pour Nord (on compte négativement pour une position S pour Sud, comme Rio ou Sydney).
 		
-		Prenons par exemple la longitude de New-York. On obtient en degrés 74+0/60+21.65/3600 = 74.006014
+		Prenons par exemple la longitude de New-York. On obtient en degrés $74+\dfrac{0}{60}+\dfrac{21.65}{3600} = 74.006014$
 		
 		On compte négativement  car la position par rapport au méridien de Greenwich est O pour Ouest (on compte positivement pour une position E pour Est, comme Paris ou Sydney).
 		
@@ -50,9 +54,9 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 		Prenons par exemple la latitude de Rio de Janeiro : -22.911
 		
 		- Le signe moins indique que la position est S
-		- La partie entière donne les degrés (22)
-		- On multiplie la partie décimale par 60 : 0.911x60=54.66 dont la partie entière donne les minutes (54)
-		- On recommence avec la partie décimale du précédent pour obtenir les secondes : 0.66x60=39.6
+		- La partie entière donne les degrés : 22
+		- On multiplie la partie décimale par 60 : $0.911 \times 60=54.66$ dont la partie entière donne les minutes : 54
+		- On recommence avec la partie décimale du précédent pour obtenir les secondes : $0.66 \times 60=39.6$
 		
 		On obtient donc en DMS 22°54'39.6" S.
 
@@ -73,33 +77,81 @@ On peut retrouver ces coordonnées dans l'url du site ```googlemaps``` lors d'un
 
 ### 2.2 Questions
 
-!!! example "Exercice"
-	=== "Fonctionnement du GPS"
+!!! example "Fonctionnement du GPS"
+	
 		1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
+			"""
+			)
+			}}
 		2. Que reçoit-il d’un satellite ?
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
+			"""
+			)
+			}}
 		3. Comment calcule-t-il sa distance avec un satellite ? 
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
+			"""
+			)
+			}}
 		4. Quel matériel embarqué sur le satellite assure la précision ? 
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Une horloge atomique assure la précision de l'heure à bord du satellite.
+			"""
+			)
+			}}
 		5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Tous les points à la même distance d'un satellite sont situés une sphère.
+			"""
+			)
+			}}
 		6. Quelle est l’intersection de deux sphères ? De trois sphères ?
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
+			"""
+			)
+			}}
 		7. Combien de satellites au minimum le smartphone doit-il capter ?
-
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Le smartphone doit capter au minimum 4 satellites.
+			"""
+			)
+			}}
 		8. Quel est le rôle du dernier satellite nécessaire ?
+			{{
+			correction(True,
+			"""
+			??? success \"Correction\" 
+				Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
+			"""
+			)
+			}}
 
-	=== "Réponses"
-		1. Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
-		2. Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
-		3. En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \times t$)
-		4. Une horloge atomique assure la précision de l'heure à bord du satellite.
-		5. Tous les points à la même distance d'un satellite sont situés une sphère.
-		6. L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
-		7. Le smartphone doit capter au minimum 4 satellites.
-		8. Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
 
 
 Intersection de 3 sphères :
@@ -107,15 +159,22 @@ Intersection de 3 sphères :
 
 
 !!! example "Exercice de calcul de distance"
-	=== "Énoncé"
-		Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.  
-		À quelle distance du satellite S suis-je ?  
-		*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
-	=== "Correction"
+	Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.  
+	À quelle distance du satellite S suis-je ?  
+	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
+
+	{{
+	correction(True,
+	"""
+	??? success \"Correction\" 
 		$300000 \times 0,071 = 21300$  
 
-		Le satellite est à 21300 km au dessus de moi.
+		Le satellite est à 21300 km au dessus de moi.		
+	"""
+	)
+	}}
+
 
 
 
@@ -126,6 +185,7 @@ Intersection de 3 sphères :
 
 	![](data/satstat.png){: .center} 
 
+{#
 !!! example "Exercice d'analyse critique d'une vidéo"
 	<center>
 	<video controls>
@@ -133,7 +193,7 @@ Intersection de 3 sphères :
 	</video>
 	</center>
 	Cette vidéo, postée fin novembre 2022 sur les réseaux sociaux, est rapidement devenue virale. Pourtant, son authenticité semble très douteuse. Pourquoi ?
-
+#}
 
 ### 2.3 De la puce GPS aux applications du téléphone : la trame NMEA
 
