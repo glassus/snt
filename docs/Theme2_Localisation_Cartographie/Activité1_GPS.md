@@ -34,7 +34,7 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
     | 12 | 37° N | 10° E|
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         | numéro de la ville | Ville |
