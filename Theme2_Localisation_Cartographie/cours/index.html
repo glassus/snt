@@ -1546,84 +1546,64 @@
 <h3 id="22-questions">2.2 Questions<a class="headerlink" href="#22-questions" title="Permanent link">⚓︎</a></h3>
 <div class="admonition example">
 <p class="admonition-title">Fonctionnement du GPS</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span>
-<span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span>
-<span class="normal">38</span>
-<span class="normal">39</span></pre></div></td><td class="code"><div><pre><span></span><code>1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)
-
-    ??? success &quot;Correction&quot; 
-        Un smartphone **n&#39;envoie rien**. Il ne fait que recevoir des signaux.
-
-2. Que reçoit-il d’un satellite ?
-
-    ??? success &quot;Correction&quot; 
-        Il reçoit d&#39;un satellite un message contenant la position du satellite et l&#39;heure d&#39;envoi du message.
-
-3. Comment calcule-t-il sa distance avec un satellite ?
-
-    ??? success &quot;Correction&quot; 
-        En mesurant le temps mis par le message à parvenir jusqu&#39;à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \times t$)
-
-4. Quel matériel embarqué sur le satellite assure la précision ?
-
-    ??? success &quot;Correction&quot; 
-        Une horloge atomique assure la précision de l&#39;heure à bord du satellite.
-
-5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ?
-
-    ??? success &quot;Correction&quot; 
-        Tous les points à la même distance d&#39;un satellite sont situés une sphère.
-
-6. Quelle est l’intersection de deux sphères ? De trois sphères ?
-
-    ??? success &quot;Correction&quot; 
-        L&#39;intersection de deux sphères est un cercle. L&#39;intersection de trois sphères est 2 points.
-
-7. Combien de satellites au minimum le smartphone doit-il capter ?
-
-    ??? success &quot;Correction&quot; 
-        Le smartphone doit capter au minimum 4 satellites.
-
-8. Quel est le rôle du dernier satellite nécessaire ?
-
-    ??? success &quot;Correction&quot; 
-        Le 4ème satellite sert à prendre en compte le décalage de l&#39;horloge du smartphone par rapport à celle des satellites.
-</code></pre></div></td></tr></table></div>
+<ol>
+<li>
+<p>Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)</p>
+<details class="success">
+<summary>Correction</summary>
+<p>Un smartphone <strong>n'envoie rien</strong>. Il ne fait que recevoir des signaux.</p>
+</details>
+</li>
+<li>
+<p>Que reçoit-il d’un satellite ?</p>
+<details class="success">
+<summary>Correction</summary>
+<p>Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. </p>
+</details>
+</li>
+<li>
+<p>Comment calcule-t-il sa distance avec un satellite ? </p>
+<details class="success">
+<summary>Correction</summary>
+<p>En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule <span class="arithmatex">\(d = V \times t\)</span>)</p>
+</details>
+</li>
+<li>
+<p>Quel matériel embarqué sur le satellite assure la précision ? </p>
+<details class="success">
+<summary>Correction</summary>
+<p>Une horloge atomique assure la précision de l'heure à bord du satellite.</p>
+</details>
+</li>
+<li>
+<p>Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? </p>
+<details class="success">
+<summary>Correction</summary>
+<p>Tous les points à la même distance d'un satellite sont situés une sphère.</p>
+</details>
+</li>
+<li>
+<p>Quelle est l’intersection de deux sphères ? De trois sphères ?</p>
+<details class="success">
+<summary>Correction</summary>
+<p>L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.</p>
+</details>
+</li>
+<li>
+<p>Combien de satellites au minimum le smartphone doit-il capter ?</p>
+<details class="success">
+<summary>Correction</summary>
+<p>Le smartphone doit capter au minimum 4 satellites.</p>
+</details>
+</li>
+<li>
+<p>Quel est le rôle du dernier satellite nécessaire ?</p>
+<details class="success">
+<summary>Correction</summary>
+<p>Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. </p>
+</details>
+</li>
+</ol>
 </div>
 <p>Intersection de 3 sphères :
 <img alt="image" class="center" src="../data/3spheres.png" width="40%" /></p>
@@ -1812,7 +1792,7 @@ Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez 
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">14 décembre 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">15 décembre 2023</span>
       
     
   </small>
