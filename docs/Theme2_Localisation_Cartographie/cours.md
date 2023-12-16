@@ -81,7 +81,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 	
 	1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
@@ -90,7 +90,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	2. Que reçoit-il d’un satellite ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
@@ -99,7 +99,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	3. Comment calcule-t-il sa distance avec un satellite ? 
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
@@ -108,7 +108,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	4. Quel matériel embarqué sur le satellite assure la précision ? 
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
@@ -117,7 +117,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Tous les points à la même distance d'un satellite sont situés une sphère.
@@ -126,7 +126,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
@@ -135,7 +135,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Le smartphone doit capter au minimum 4 satellites.
@@ -144,7 +144,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		}}
 	8. Quel est le rôle du dernier satellite nécessaire ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
@@ -168,7 +168,7 @@ Intersection de 3 sphères :
 	correction(True,
 	"""
 	??? success \"Correction\" 
-		$300000 \times 0,071 = 21300$  
+		$300000 \\times 0,071 = 21300$  
 
 		Le satellite est à 21300 km au dessus de moi.		
 	"""
