@@ -15,7 +15,8 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
 
     Sur l'animation GeoGebra apparaissent des villes (en noir) et un point bleu que vous pouvez déplacer.  
     Dans le tableau ci-dessous sont données des coordonnées de villes.  
-    Associer à chaque ville le numéro qui lui correspond. 
+    Associer à chaque numéro la ville qui lui correspond.
+
     Quel est la ville qui n'est associée à aucun numéro ?
 
     | numéro de la ville | Latitude | Longitude |
@@ -34,7 +35,7 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
     | 12 | 37° N | 10° E|
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         | numéro de la ville | Ville |

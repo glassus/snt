@@ -2,6 +2,8 @@
 
 ## 1. Coordonnées géographiques
 
+### 1.1 Se repérer à la surface de la Terre
+
 Tout point de la Terre se situe à l'intersection de deux cercles: un **parallèle** (à l'Équateur) et un **méridien** (cercle passant par les pôles).
 
 ![](data/coordonneesgeo.png){: .center}
@@ -11,14 +13,13 @@ Tout point de la Terre se situe à l'intersection de deux cercles: un **parallè
 
 Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.
 
-:arrow_right: [Animation GeoGebra sur la latitude et la longitude](https://www.geogebra.org/m/vdpwxyrj){:target="_blank"}.
+Pour comprendre leur utilisation, allez à l'activité 1 :
 
 
-??? abstract "Activité 1 :  villes du monde"
-	voir [ici](../Activité1_GPS/){. target="_blank"}
+[ :arrow_right: Activité 1 :  villes du monde](../Activité1_GPS/){ .md-button }
 
 
-
+### 1.2 Différentes conventions d'écriture d'angles
 
 
 Les angles se mesurent en degrés, soit au format décimal (avec en général au moins 6 chiffres après la virgule) ou bien en subdivisions de degrés: la minute d'arc qui vaut 1/60 de degré et la seconde d'arc qui vaut 1/60 de minute.
@@ -31,7 +32,7 @@ Pour un même lieu, il y a donc plusieurs formats d'écriture de ses coordonnée
 !!! info "Quelques exemples"
 	|| Paris | New-York |Rio de Janeiro| Sydney |
 	|:-:|:-----:|:-----:|:-----:|:-----:|
-	|DMS|48°51'24.11" N, 2°21'5.26" E| 40°42'45.2" N, 74°0'21.65" O| 22°54'39.6" O, 43°12'33.84" S | 33°51'22" S, 151°11'33" E|
+	|DMS|48°51'24.11" N, 2°21'5.26" E| 40°42'45.2" N, 74°0'21.65" O| 22°54'39.6" S, 43°12'33.84" O | 33°51'22" S, 151°11'33" E|
 	|DD| 48.856697, 2.351461| 40.704222, -74.006014|	-22.911 , -43.2094 | -33.8561, 151.1925|
 
 On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigation :
@@ -60,9 +61,8 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 		
 		On obtient donc en DMS 22°54'39.6" S.
 
-<!--	=== "Avec Python"-->
-<!--		On peut créer des fonctions pour automatiser ces calculs:-->
-<!--		-->
+Rappel : il existe des sites qui proposent de manipuler très facilement des coordonnées GPS, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.
+
 
 ## 2. GPS
 
@@ -248,10 +248,6 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 
 	- la trame 1 est incomplète : la puce n'a pas encore reçu assez de messages des satellites pour commencer ses calculs.
 	- les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.
-
-
-??? abstract "Activité 1 : coordonnées GPS"
-	voir [ici](../../Theme2_Localisation_Cartographie/Activité1_GPS/)
 
 
 <!-- ??? abstract "Correction DS GPS"
