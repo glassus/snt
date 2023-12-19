@@ -1034,6 +1034,26 @@
     1. Coordonnées géographiques
   </a>
   
+    <nav class="md-nav" aria-label="1. Coordonnées géographiques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-se-reperer-a-la-surface-de-la-terre" class="md-nav__link">
+    1.1 Se repérer à la surface de la Terre
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-differentes-conventions-decriture-dangles" class="md-nav__link">
+    1.2 Différentes conventions d'écriture d'angles
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1461,14 +1481,13 @@
 
 <h1 id="theme-2-localisation-et-cartographie">Thème 2 : Localisation et cartographie<a class="headerlink" href="#theme-2-localisation-et-cartographie" title="Permanent link">⚓︎</a></h1>
 <h2 id="1-coordonnees-geographiques">1. Coordonnées géographiques<a class="headerlink" href="#1-coordonnees-geographiques" title="Permanent link">⚓︎</a></h2>
+<h3 id="11-se-reperer-a-la-surface-de-la-terre">1.1 Se repérer à la surface de la Terre<a class="headerlink" href="#11-se-reperer-a-la-surface-de-la-terre" title="Permanent link">⚓︎</a></h3>
 <p>Tout point de la Terre se situe à l'intersection de deux cercles: un <strong>parallèle</strong> (à l'Équateur) et un <strong>méridien</strong> (cercle passant par les pôles).</p>
 <p><img alt="" class="center" src="../data/coordonneesgeo.png" /></p>
 <p>Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.</p>
-<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/27a1.svg" title=":arrow_right:" /> <a href="https://www.geogebra.org/m/vdpwxyrj" target="_blank">Animation GeoGebra sur la latitude et la longitude</a>.</p>
-<details class="abstract">
-<summary>Activité 1 :  villes du monde</summary>
-<p>voir <a class="" href="../Activité1_GPS/" target="_blank">ici</a></p>
-</details>
+<p>Pour comprendre leur utilisation, allez à l'activité 1 :</p>
+<p><a class="md-button" href="../Activité1_GPS/"> <img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/27a1.svg" title=":arrow_right:" /> Activité 1 :  villes du monde</a></p>
+<h3 id="12-differentes-conventions-decriture-dangles">1.2 Différentes conventions d'écriture d'angles<a class="headerlink" href="#12-differentes-conventions-decriture-dangles" title="Permanent link">⚓︎</a></h3>
 <p>Les angles se mesurent en degrés, soit au format décimal (avec en général au moins 6 chiffres après la virgule) ou bien en subdivisions de degrés: la minute d'arc qui vaut 1/60 de degré et la seconde d'arc qui vaut 1/60 de minute.</p>
 <p>Pour un même lieu, il y a donc plusieurs formats d'écriture de ses coordonnées. Les deux principaux sont:</p>
 <ul>
@@ -1492,7 +1511,7 @@
 <td style="text-align: center;">DMS</td>
 <td style="text-align: center;">48°51'24.11" N, 2°21'5.26" E</td>
 <td style="text-align: center;">40°42'45.2" N, 74°0'21.65" O</td>
-<td style="text-align: center;">22°54'39.6" O, 43°12'33.84" S</td>
+<td style="text-align: center;">22°54'39.6" S, 43°12'33.84" O</td>
 <td style="text-align: center;">33°51'22" S, 151°11'33" E</td>
 </tr>
 <tr>
@@ -1530,10 +1549,7 @@
 </div>
 </div>
 </div>
-<!--    === "Avec Python"-->
-<!--        On peut créer des fonctions pour automatiser ces calculs:-->
-<!--        -->
-
+<p>Rappel : il existe des sites qui proposent de manipuler très facilement des coordonnées GPS, comme <a href="https://www.coordonnees-gps.fr/" target="_blank">https://www.coordonnees-gps.fr/</a>  par exemple.</p>
 <h2 id="2-gps">2. GPS<a class="headerlink" href="#2-gps" title="Permanent link">⚓︎</a></h2>
 <h3 id="21-fonctionnement">2.1 Fonctionnement<a class="headerlink" href="#21-fonctionnement" title="Permanent link">⚓︎</a></h3>
 <p style="text-align: center;">
@@ -1653,10 +1669,6 @@ $GLGSV,3,3,09,87,18,080,*52
 <li>les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.</li>
 </ul>
 </details>
-<details class="abstract">
-<summary>Activité 1 : coordonnées GPS</summary>
-<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité1_GPS/">ici</a></p>
-</details>
 <!-- ??? abstract "Correction DS GPS"
     voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
  -->
@@ -1755,7 +1767,7 @@ Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez 
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">16 décembre 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19 décembre 2023</span>
       
     
   </small>
