@@ -16,7 +16,7 @@
 Vous pourrez utiliser le site [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  
 
 {{
-correction(True,
+correction(False,
 """
 ??? success \"Correction\" 
     1. [https://fr.wikipedia.org/wiki/Exchangeable_image_file_format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format){. target=\"_blank\"}
@@ -42,7 +42,7 @@ Analysez la photo ci-contre :
 4. Sait-on à quel endroit (sur votre appareil, ou sur les serveurs du réseau social) les données EXIF ont-elles été supprimées ? En quoi cela peut-il être problématique ?
 
 {{
-correction(True,
+correction(False,
 """
 ??? success \"Correction\" 
     1. Le Pont de Pierre semble être au Groënland : les EXIF ont été modifiées.

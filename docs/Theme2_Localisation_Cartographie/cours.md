@@ -185,6 +185,10 @@ Intersection de 3 sphères :
 
 	![](data/satstat.png){: .center} 
 
+
+[ :arrow_right: Activité 2 :  Métadonnées EXIF](../Activité2_Exif/){ .md-button }
+
+
 {#
 !!! example "Exercice d'analyse critique d'une vidéo"
 	<center>
@@ -254,8 +258,7 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 	voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
  -->
 
-??? abstract "Activité 2 : métadonnées EXIF"
-	voir [ici](../../Theme2_Localisation_Cartographie/Activité2_Exif/)
+
 
 
 
