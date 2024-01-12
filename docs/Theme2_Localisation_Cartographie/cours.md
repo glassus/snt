@@ -81,7 +81,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 	
 	1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou n'envoie-t-il rien du tout ?
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
@@ -90,7 +90,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	2. Que reçoit-il d’un satellite ?
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
@@ -99,7 +99,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	3. Comment calcule-t-il sa distance avec un satellite ? 
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
