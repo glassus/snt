@@ -108,7 +108,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	4. Quel matériel embarqué sur le satellite assure la précision ? 
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
@@ -117,7 +117,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Tous les points à la même distance d'un satellite sont situés une sphère.
@@ -126,7 +126,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
@@ -165,7 +165,7 @@ Intersection de 3 sphères :
 	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
 	{{
-	correction(False,
+	correction(True,
 	"""
 	??? success \"Correction\" 
 		$300000 \\times 0,071 = 21300$  
