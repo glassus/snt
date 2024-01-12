@@ -120,7 +120,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		correction(True,
 		"""
 		??? success \"Correction\" 
-			Tous les points à la même distance d'un satellite sont situés une sphère.
+			Tous les points à la même distance d'un satellite sont situés sur une sphère.
 		"""
 		)
 		}}
