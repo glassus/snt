@@ -135,7 +135,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Le smartphone doit capter au minimum 4 satellites.
@@ -144,7 +144,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	8. Quel est le rôle du dernier satellite nécessaire ?
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
