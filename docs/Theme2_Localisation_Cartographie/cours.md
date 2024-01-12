@@ -102,7 +102,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		correction(True,
 		"""
 		??? success \"Correction\" 
-			En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
+			En calculant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
 		"""
 		)
 		}}
