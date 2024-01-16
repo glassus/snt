@@ -77,6 +77,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 ### 2.2 Questions
 
+![image](data/GPS_anim.gif){: .center}
+
+
 !!! example "Fonctionnement du GPS"
 	
 	1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou n'envoie-t-il rien du tout ?
