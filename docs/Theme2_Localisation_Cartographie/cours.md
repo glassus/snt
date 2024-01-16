@@ -96,7 +96,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		correction(True,
 		"""
 		??? success \"Correction\" 
-			Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. 
+			Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. 
 		"""
 		)
 		}}
@@ -109,7 +109,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		"""
 		)
 		}}
-	4. Quel matériel embarqué sur le satellite assure la précision ? 
+	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
 		{{
 		correction(True,
 		"""
