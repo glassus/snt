@@ -272,8 +272,9 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 
 **OpenStreetMap**  est un service  de  cartographie  libre  et  collaboratif  qui  permet  de visualiser, de modifier et d’utiliser des données géographiques. Il propose également le calcul  d’itinéraire.  Chacun  peut  contribuer  à OpenStreetaMap  en ajoutant  des informations manquantes on en corrigeant des erreurs.
 
-??? abstract "Activité 3 : GéoPortail"
-	voir [ici](../../Theme2_Localisation_Cartographie/Activité3_GeoPortail/)
+
+
+[ :arrow_right: Activité 3 :  GéoPortail](../Activité3_GeoPortail/){ .md-button }
 
 
 ### 3.1 Optimisation d'itinéraire
