@@ -54,3 +54,8 @@ correction(False,
 }}
 
 
+![image](data/ex1.jpg){: .center}
+
+![image](data/ex2.jpg){: .center}
+
+
