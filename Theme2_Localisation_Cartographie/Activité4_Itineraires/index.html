@@ -18,11 +18,11 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.8">
     
     
       
-        <title>Activité 4 : itinéraires - SNT 202 / 215 - Lycée François Mauriac - Bordeaux</title>
+        <title>Activité4 Itineraires - SNT 202 / 215 - Lycée François Mauriac - Bordeaux</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Activité 4 : itinéraires
+              Activité4 Itineraires
             
           </span>
         </div>
@@ -1132,7 +1132,7 @@
           
   
   <span class="md-ellipsis">
-    Activité 4 : itinéraires
+    Activité4 Itineraires
   </span>
   
 
@@ -1143,7 +1143,7 @@
         
   
   <span class="md-ellipsis">
-    Activité 4 : itinéraires
+    Activité4 Itineraires
   </span>
   
 
@@ -1522,8 +1522,8 @@ qu’il peut emprunter.</p>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><img alt="image" class="center" src="../data/carte_globale.png" width="60%" /></td>
-<td style="text-align: center;"><img alt="image" class="center" src="../data/graphe_vide.png" width="60%" /></td>
+<td style="text-align: center;"><img alt="image" class="center" src="../data/carte_globale.png" width="100%" /></td>
+<td style="text-align: center;"><img alt="image" class="center" src="../data/graphe_vide.png" width="100%" /></td>
 </tr>
 </tbody>
 </table>
@@ -1542,49 +1542,35 @@ autorisée : 80 km/h). </p>
 l’automobiliste roule à la vitesse maximale autorisée.</li>
 <li>Quel est le chemin le plus rapide ?</li>
 </ol>
-<details class="tip">
-<summary>corrections</summary>
-<p><img alt="image" class="center" src="../data/graphePissos.png" width="50%" /></p>
-<ul>
-<li>Le chemin le plus court est : Lüe-Labouheyre-Commensacq-Pissos-Moustey (26 km)</li>
-<li>Le chemin le plus rapide est : Lüe-Labouheyre-Liposthey-Pissos-Moustey (19 min)</li>
-</ul>
-</details>
 <h2 id="2-via-des-sites-de-calculs-ditineraires">2. Via des sites de calculs d'itinéraires<a class="headerlink" href="#2-via-des-sites-de-calculs-ditineraires" title="Permanent link">⚓︎</a></h2>
 <ol>
 <li>Comparer les résultats donnés par GéoPortail, GoogleMaps et ViaMichelin pour ce trajet.</li>
 <li>Quels sont les critères proposés par ces sites pour optimiser le trajet ?</li>
+<li>Analyser la qualité de l'interface de chacun de ces trois sites.</li>
 </ol>
 <h2 id="3-lapport-des-mathematiques">3. L'apport des mathématiques<a class="headerlink" href="#3-lapport-des-mathematiques" title="Permanent link">⚓︎</a></h2>
 <p>La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
 Il y a des choses que l'on sait... et d'autres que l'on cherche encore !</p>
 <ul>
 <li><strong>Ce que l'on sait :</strong> trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)</li>
-<li><strong>Ce que l'on ne sait pas encore:</strong> trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du <a .target="_blank" href="https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce">voyageur de commerce</a> et si vous le résolvez, un million de $ sont pour vous.</li>
+<li><strong>Ce que l'on ne sait pas encore:</strong> trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du <a .target="_blank" href="https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce">voyageur de commerce</a> et si vous le résolvez, un million de $ sont pour vous. (à moins que vous vous appeliez <a class="" href="https://fr.wikipedia.org/wiki/Grigori_Perelman" target="_blank">Grigori Perelman</a>)</li>
 </ul>
 <h3 id="31-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra">3.1 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.<a class="headerlink" href="#31-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra" title="Permanent link">⚓︎</a></h3>
 <p>Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.</p>
-<div class="admonition example">
-<p class="admonition-title">Exemple</p>
+<div class="admonition abstract">
+<p class="admonition-title">Exercice  1</p>
 <p>Trouvons le plus court chemin entre le point A et le point H :
 <img alt="image" class="center" src="../data/exdijk.png" width="60%" /></p>
-<details class="tip">
-<summary>Correction vidéo</summary>
-<p><p align="center">
-<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p></p>
-</details>
 </div>
-<div class="admonition example">
-<p class="admonition-title">Exercice</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
+<div class="admonition abstract">
+<p class="admonition-title">Exercice  2</p>
 <p>Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
-<img alt="image" class="center" src="../data/graph.png" width="60%" /></p>
+<img alt="image" class="center" src="../data/graph.png" width="60%" />   </p>
 </div>
-</div>
-</div>
+<div class="admonition abstract">
+<p class="admonition-title">Exercice  3</p>
+<p>Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
+<img alt="image" class="center" src="../data/graph2.png" width="60%" />  </p>
 </div>
 
 
@@ -1606,7 +1592,7 @@ Il y a des choses que l'on sait... et d'autres que l'on cherche encore !</p>
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">25 janvier 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">8 février 2024</span>
   </span>
 
     
@@ -1690,7 +1676,7 @@ Il y a des choses que l'on sait... et d'autres que l'on cherche encore !</p>
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "toc.integrate", "header.autohide", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.caa56a14.min.js"></script>
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
       
         <script src="../../scripts/mathjax.js"></script>
       
