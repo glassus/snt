@@ -43,7 +43,7 @@ correction(False,
 
 ## 2. Via des sites de calculs d'itinéraires
 
-1. Comparer les résultats donnés par GéoPortail, GoogleMaps et ViaMichelin pour ce trajet.
+1. Comparer les résultats donnés par [GeoPortail](https://www.geoportail.gouv.fr/){. target="_blank"}, [Google Maps](https://www.google.fr/maps){. target="_blank"} et [ViaMichelin](https://www.viamichelin.fr/){. target="_blank"} pour ce trajet.
 2. Quels sont les critères proposés par ces sites pour optimiser le trajet ?
 3. Analyser la qualité de l'interface de chacun de ces trois sites.
 
