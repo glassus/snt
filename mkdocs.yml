@@ -119,3 +119,7 @@ copyright:  CC BY-SA / G.Lassus
 repo_url: https://github.com/glassus/snt
 
 repo_name: glassus/snt
+
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore

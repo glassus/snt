@@ -192,15 +192,7 @@ Intersection de 3 sphères :
 [ :arrow_right: Activité 2 :  Métadonnées EXIF](../Activité2_Exif/){ .md-button }
 
 
-{#
-!!! example "Exercice d'analyse critique d'une vidéo"
-	<center>
-	<video controls>
-		<source src="https://glassus.github.io/snt/Theme2_Localisation_Cartographie/data/car.mp4" type="video/mp4">
-	</video>
-	</center>
-	Cette vidéo, postée fin novembre 2022 sur les réseaux sociaux, est rapidement devenue virale. Pourtant, son authenticité semble très douteuse. Pourquoi ?
-#}
+
 
 ### 2.3 De la puce GPS aux applications du téléphone : la trame NMEA
 
@@ -277,62 +269,15 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 [ :arrow_right: Activité 3 :  GéoPortail](../Activité3_GeoPortail/){ .md-button }
 
 
-### 3.1 Optimisation d'itinéraire
-Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
-qu’il peut emprunter.
-
-|  Carte | Graphe |
-|:--:|:--:|
-|![image](data/carte_globale.png){: .center width=60%}|![image](data/graphe_vide.png){: .center width=60%}|
-
-### 3.1.1 Première métrique
-
-1. Compléter le graphe avec les noms de villes manquants.
-2. Quel est le chemin le plus court ?
-
-### 3.1.2 Seconde métrique
-
-La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
-130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
-autorisée : 80 km/h). 
-
-1. Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
-l’automobiliste roule à la vitesse maximale autorisée.
-2. Quel est le chemin le plus rapide ?
-
-### 3.1.3 Les parcours sur un graphe
-La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
-Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
-
-- **Ce que l'on sait :** trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)
-- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){.target="_blank"}.  
-Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez les chercher, pas comme [Grigori Perelman](https://fr.wikipedia.org/wiki/Grigori_Perelman){.target="_blank"})
 
 
-### 3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
-Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.
+
+## 4. L'apport du numérique dans la cartographie : l'optimisation d'itinéraires
+
+Une des conséquences les plus spectaculaires de l'apport du numérique dans la cartographie est le calcul du meilleur itinéraire pour aller d'un point à un autre.
+
+Ce qu'on appelle communément le «guidage GPS» combine à la fois le repérage de l'utilisateur (grâce à une puce GPS), une connaissance cartographique des différents chemins (grâce à la cartographie numérique), ainsi que des calculs mathématiques d'optimisation, effectués par le processeur (du smartphone, de l'ordinateur de bord de la voiture, ...)
 
 
-!!! example "Exemple"
-	Trouvons le plus court chemin entre le point A et le point H :
-	![image](data/exdijk.png){: .center width=60%}
 
-	??? tip "Correction vidéo"
-		<p align="center">
-		<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</p>
-
-
-!!! example "Exercice"
-    === "Énoncé"
-        Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
-        ![image](data/graph.png){: .center width=60%}
-
-
-!!! example "Exercice"
-    === "Énoncé"
-        Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
-        ![image](data/graph2.png){: .center width=60%}
-
-	=== "Correction"
-		![image](data/corr_dk.png){: .center width=60%}
+[ :arrow_right: Activité 4 :  Itinéraires](../Activité4_Itineraires/){ .md-button }
