@@ -53,7 +53,7 @@ La recherche de «meilleurs» chemins dans un graphe est un problème très actu
 Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
 
 - **Ce que l'on sait :** trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)
-- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){.target="_blank"} et si vous le résolvez, un million de $ sont pour vous. (à moins que vous vous appeliez [Grigori Perelman](https://fr.wikipedia.org/wiki/Grigori_Perelman){. target="_blank"})
+- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){. target="_blank"} et si vous le résolvez, un million de $ sont pour vous. (à moins que vous vous appeliez [Grigori Perelman](https://fr.wikipedia.org/wiki/Grigori_Perelman){. target="_blank"})
 
 
 ### 3.1 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
