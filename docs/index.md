@@ -16,7 +16,7 @@
 ## Thème en cours : Localisation et cartographie
 
 - :star: Séance actuelle :star: : 
-
+    - [Objets Connectés](./Theme4_Objets_Connectes/cours/){. target="_blank"}
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
 
 
