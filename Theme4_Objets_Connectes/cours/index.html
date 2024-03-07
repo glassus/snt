@@ -1853,38 +1853,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-<p>Pour rajouter la gestion des 2 boutons simultanés:
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span>
-<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">RABBIT</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div></p>
-</details>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice  2</p>
@@ -1916,27 +1884,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span>
-<span class="normal">8</span>
-<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice  3</p>
@@ -1997,53 +1944,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">-</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="mi">4</span>       
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice  4 : un jeu !</p>
@@ -2114,83 +2014,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span>
-<span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
-
-<span class="n">n</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
-<span class="n">p</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
-
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
-
-    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">1</span>
-
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">-</span> <span class="mi">1</span>
-
-    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
-
-    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="mi">4</span>
-
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">y</span> <span class="o">==</span> <span class="n">p</span><span class="p">:</span>
-      <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>  
-      <span class="k">break</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <h4 id="242-un-pierre-feuille-ciseaux">2.4.2 Un Pierre-Feuille-Ciseaux<a class="headerlink" href="#242-un-pierre-feuille-ciseaux" title="Permanent link">⚓︎</a></h4>
 <div class="admonition example">
@@ -2248,71 +2071,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
-
-<span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09009:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;09000&#39;</span><span class="p">)</span>
-
-<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;09999:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;09000&#39;</span><span class="p">)</span>
-
-<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00999:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;09000:&#39;</span>
-               <span class="s1">&#39;00999&#39;</span><span class="p">)</span>
-
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
-        <span class="n">v</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">pierre</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">feuille</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">ciseaux</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 
 
