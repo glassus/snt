@@ -1,6 +1,6 @@
 # Objets connectés
 
-
+{{initexo(0)}}
 
 ## 0. Présentation de la carte BBC micro:bit
 
@@ -268,7 +268,8 @@ display.clear()
 display.show(Image.SAD)
 ```
 
-!!! example "Exercice 1"
+!!! example "{{ exercice() }}"
+
     === "Énoncé"
         Créer le code permettant de basculer d'un visage triste à un visage heureux suivant qu'on appuie sur A ou sur B. 
 
@@ -285,7 +286,10 @@ display.show(Image.SAD)
         ```      
 
     
-    === "Correction"
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
         ```python
         from microbit import *
         while True:
@@ -305,10 +309,14 @@ display.show(Image.SAD)
                 display.show(Image.HAPPY)
             if button_a.is_pressed() and button_b.is_pressed():
                 display.show(Image.RABBIT)
-        ```   
+        ```           
+    """
+    )
+    }}
+
        
 
-!!! example "Exercice 2"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         On veut créer le code permettant de déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.
 
@@ -328,7 +336,10 @@ display.show(Image.SAD)
         ```
 
 
-    === "Correction"
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
         x = 2
@@ -339,13 +350,18 @@ display.show(Image.SAD)
                 x = x - 1
             if button_b.was_pressed():
                 x = x + 1
-        ```
+        ```        
+    """
+    )
+    }}
 
 
 
-:new: nouveau site de simulation : [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
 
-!!! example "Exercice 2 bis"
+
+
+!!! example "{{ exercice() }}"
+    
     === "Énoncé"
         Même chose mais en faisant parcourir tout l'écran au pixel :
 
@@ -353,7 +369,36 @@ display.show(Image.SAD)
         - si on sort à gauche, on se décale d'une ligne vers le haut et on revient tout à droite.
 
 
-    === "correction"
+    === "Aide"
+        ```python linenums='1'
+        from microbit import *
+        x = 2
+        y = 2
+        while True:
+            display.clear()
+            display.set_pixel(x, y, 9)
+            if button_a.was_pressed():
+                x = ...
+            if button_b.was_pressed():
+                x = ...
+            if x == 5:
+                x = ...
+                y = ...
+            if x == -1:
+                x = ...
+                y = ...
+            if y == 5:
+                x = ...
+                y = ...
+            if y == -1:
+                x = ...
+                y = ...       
+        ```
+
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
         x = 2
@@ -377,9 +422,15 @@ display.show(Image.SAD)
             if y == -1:
                 x = 4
                 y = 4       
-        ```
+        ```        
+    """
+    )
+    }}
 
-!!! example "Exercice 3 : un jeu !"
+
+
+!!! example "{{ exercice() }} : un jeu !"
+    
     === "Énoncé"
         On veut créer le jeu suivant :
         
@@ -422,7 +473,10 @@ display.show(Image.SAD)
         ```
 
     
-    === "Correction"
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
         from random import randint
@@ -463,7 +517,11 @@ display.show(Image.SAD)
               break
 
         
-        ```
+        ```        
+    """
+    )
+    }}
+
     
 
 {#
@@ -582,7 +640,8 @@ display.show(Image.SAD)
 
 #### 2.4.2 Un Pierre-Feuille-Ciseaux
 
-!!! example "Exercice 4"
+!!! example "{{ exercice() }}"
+    
     === "Énoncé"
         Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. 
 
@@ -594,7 +653,7 @@ display.show(Image.SAD)
             ...
         ```
     
-    === "Indice"
+    === "Aide"
         ```python linenums='1'
         from microbit import *
         from random import randint
@@ -618,28 +677,31 @@ display.show(Image.SAD)
         ```
     
     
-    === "Correction"
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
         from random import randint
 
-        pierre = Image("09990:"
-                       "09009:"
-                       "09990:"
-                       "09000:"
-                       "09000")
+        pierre = Image('09990:'
+                       '09009:'
+                       '09990:'
+                       '09000:'
+                       '09000')
 
-        feuille = Image("09999:"
-                       "09000:"
-                       "09990:"
-                       "09000:"
-                       "09000")
+        feuille = Image('09999:'
+                       '09000:'
+                       '09990:'
+                       '09000:'
+                       '09000')
 
-        ciseaux = Image("00999:"
-                       "09000:"
-                       "09000:"
-                       "09000:"
-                       "00999")
+        ciseaux = Image('00999:'
+                       '09000:'
+                       '09000:'
+                       '09000:'
+                       '00999')
 
 
         while True:
@@ -651,9 +713,13 @@ display.show(Image.SAD)
                     display.show(feuille)
                 if v == 3:
                     display.show(ciseaux)
-        ```
-    
+        ```        
+    """
+    )
+    }}
 
+    
+{#
 :warning: fin du programme de révision pour l'évaluation finale Moodle :warning:
 ---------
 
@@ -768,3 +834,4 @@ while True:
 *document basé sur le travail de Thomas Basso, académie de Polynésie*
 
 
+#}
