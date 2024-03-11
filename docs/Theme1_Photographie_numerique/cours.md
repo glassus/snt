@@ -191,6 +191,11 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
+{#
+RAJOUTER truc sur l'iPhone XS qui rajoute un beauty mode non désactivable dans les selfies
+https://www.phonandroid.com/iphone-xs-max-filtre-beaute-selfies.html
+#}
+
 La qualité des photographies prises par les appareils photo numériques ou les smartphones augmente d’année en année.  
 Il devient de plus en plus facile de réaliser une photographie qui satisfait nos attentes. Si des progrès ont eu lieu dans le domaine de l’optique, c’est essentiellement aux progrès fulgurants des algorithmes de traitement d’images que l’on doit la satisfaction d’une photographie réussie.  
 Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitement de photographie (sur un ordinateur avec un logiciel dédié), par le biais d’un filtre appliqué sur un réseau social, ou même de manière automatique lors de la prise de vue, lorsque ces algorithmes sont implémentés dans l’appareil photo numérique.
