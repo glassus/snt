@@ -25,18 +25,6 @@ La carte micro:bit dispose des [spécificités techniques](https://microbit.org/
 
 Rendez-vous sur la page [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
 
-Effacez le code existant et collez-le code ci-dessous :
-
-
-```python
-from microbit import *
-
-while True:
-    display.scroll('Hello, World!')
-    display.show(Image.HEART)
-    sleep(2000)
-```
-
 
 Cliquez sur le bouton Play de la micro:bit virtuelle. C'est parti !
 ![](data/create.png)
@@ -57,108 +45,115 @@ Cette procédure est à répéter à chaque nouveau code.
 
 ## 2. Découverte des fonctionnalités
 
-###  2.1 Commandes de base de l'afficheur, matrice de 5x5 LEDs
-[voir vidéo explicative (en anglais)](https://youtu.be/qqBmvHD5bCw){. target="_blank"}
+### 2.1 Explication du code par défaut
 
-LED signifie Light Emitting Diode, Diode électroluminescente. La carte micro:bit en dispose de 25, toutes programmables individuellement, ce qui permet d'afficher du texte, des nombres et des images.
+!!! abstract "code par défaut du simulateur"
+    ```python linenums='1'
+    # Imports go at the top
+    from microbit import *
 
-#### 2.1.1 Afficher un texte "défilant" `display.scroll(string, delay=400)`
-
-
-
-```python
-from microbit import *
-display.scroll("SNT")
-```
-
-
-La première ligne de ce programme importe la bibliothèque de fonctions micro:bit. La deuxième ligne fait défiler un message à l’écran. Cela n'arrive qu'une seule fois.
-
-
-La vitesse de défilement peut être ralentie ou accélérée à l'aide du paramètre `delay`. L'unité est la milliseconde.
-
-
-```python
-from microbit import *
-display.scroll("mauriac", delay=20)
-```
-
-#### 2.1.2 Afficher une "image" `display.show(image)`
-Exécuter le programme suivant:
-
-
-```python
-from microbit import *
-display.show(Image.SAD)
-```
-
-??? note "Liste des images disponibles"
+    # Code in a 'while True:' loop repeats forever
+    while True:
+        display.show(Image.HEART)
+        sleep(1000)
+        display.scroll('Hello')
     ```
-    Image.HEART
-    Image.HEART_SMALL
-    Image.HAPPY
-    Image.SMILE
-    Image.SAD
-    Image.CONFUSED
-    Image.ANGRY
-    Image.ASLEEP
-    Image.SURPRISED
-    Image.SILLY
-    Image.FABULOUS
-    Image.MEH
-    Image.YES
-    Image.NO
-    Image.CLOCK12
-    Image.CLOCK11
-    Image.CLOCK10
-    Image.CLOCK9
-    Image.CLOCK8
-    Image.CLOCK7
-    Image.CLOCK6
-    Image.CLOCK5
-    Image.CLOCK4
-    Image.CLOCK3
-    Image.CLOCK2
-    Image.CLOCK1
-    Image.ARROW_N
-    Image.ARROW_NE
-    Image.ARROW_E
-    Image.ARROW_SE
-    Image.ARROW_S
-    Image.ARROW_SW
-    Image.ARROW_W
-    Image.ARROW_NW
-    Image.TRIANGLE
-    Image.TRIANGLE_LEFT
-    Image.CHESSBOARD
-    Image.DIAMOND
-    Image.DIAMOND_SMALL
-    Image.SQUARE
-    Image.SQUARE_SMALL
-    Image.RABBIT
-    Image.COW
-    Image.MUSIC_CROTCHET
-    Image.MUSIC_QUAVER
-    Image.MUSIC_QUAVERS
-    Image.PITCHFORK
-    Image.XMAS
-    Image.PACMAN
-    Image.TARGET
-    Image.TSHIRT
-    Image.ROLLERSKATE
-    Image.DUCK
-    Image.HOUSE
-    Image.TORTOISE
-    Image.BUTTERFLY
-    Image.STICKFIGURE
-    Image.GHOST
-    Image.SWORD
-    Image.GIRAFFE
-    Image.SKULL
-    Image.UMBRELLA
-    Image.SNAKE
-    ``` 
 
+- Les lignes précédées de # sont des commentaires : elles ne servent qu'à expliquer le code, on peut les enlever.
+- ```from microbit import *``` est une ligne qui devra toujours être au début du code : elle sert à importer des fonctions spécifiques à la micro:bit
+- ```while True:``` est ce qu'on appelle une *boucle infinie*. Tout ce qui est sous ce code (indenté) sera répété infiniment.
+- ```display.show(Image.HEART)``` permet d'afficher l'image (ou plutôt les pixels...) qui forment un cœur.
+- ```sleep(1000)``` permet de mettre en pause le programme pendant 1000 millisecondes, donc 1 seconde.
+- ```display.scroll('Hello')``` permet de faire défiler le texte ```Hello```.    
+
+
+!!! example "{{ exercice() }}"
+    Modifier le code précédent pour que la carte affiche alternativement un cœur et un parapluie (*umbrella* en anglais)
+
+
+    ??? note "Liste des images disponibles"
+        ```
+        Image.HEART
+        Image.HEART_SMALL
+        Image.HAPPY
+        Image.SMILE
+        Image.SAD
+        Image.CONFUSED
+        Image.ANGRY
+        Image.ASLEEP
+        Image.SURPRISED
+        Image.SILLY
+        Image.FABULOUS
+        Image.MEH
+        Image.YES
+        Image.NO
+        Image.CLOCK12
+        Image.CLOCK11
+        Image.CLOCK10
+        Image.CLOCK9
+        Image.CLOCK8
+        Image.CLOCK7
+        Image.CLOCK6
+        Image.CLOCK5
+        Image.CLOCK4
+        Image.CLOCK3
+        Image.CLOCK2
+        Image.CLOCK1
+        Image.ARROW_N
+        Image.ARROW_NE
+        Image.ARROW_E
+        Image.ARROW_SE
+        Image.ARROW_S
+        Image.ARROW_SW
+        Image.ARROW_W
+        Image.ARROW_NW
+        Image.TRIANGLE
+        Image.TRIANGLE_LEFT
+        Image.CHESSBOARD
+        Image.DIAMOND
+        Image.DIAMOND_SMALL
+        Image.SQUARE
+        Image.SQUARE_SMALL
+        Image.RABBIT
+        Image.COW
+        Image.MUSIC_CROTCHET
+        Image.MUSIC_QUAVER
+        Image.MUSIC_QUAVERS
+        Image.PITCHFORK
+        Image.XMAS
+        Image.PACMAN
+        Image.TARGET
+        Image.TSHIRT
+        Image.ROLLERSKATE
+        Image.DUCK
+        Image.HOUSE
+        Image.TORTOISE
+        Image.BUTTERFLY
+        Image.STICKFIGURE
+        Image.GHOST
+        Image.SWORD
+        Image.GIRAFFE
+        Image.SKULL
+        Image.UMBRELLA
+        Image.SNAKE
+        ``` 
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
+
+        while True:
+            display.show(Image.HEART)
+            sleep(1000)
+            display.show(Image.UMBRELLA)
+            sleep(1000)
+        ```
+    """
+    )
+    }}
 
 #### Créer sa propre image
 Chaque pixel LED sur l’affichage physique peut prendre une parmi dix valeurs. Si un pixel prend la valeur 0 c’est qu’il est éteint. Littéralement, il a une luminosité de zéro. En revanche, s’il prend la valeur 9 il est à la luminosité maximale. Les valeurs de 1 à 8 représentent des niveaux de luminosité entre éteint (0) et « au maximum » (9).
@@ -178,6 +173,10 @@ display.show(bateau)
 
 Comment dessiner une image? Chaque ligne de l’affichage physique est représentée par une ligne de nombres se terminant par `:` et entourée de guillemets doubles `"`. Chaque nombre indique une luminosité. Il y a cinq lignes de cinq nombres donc il est possible de spécifier la luminosité individuelle de chacune des cinq LED sur chacune des cinq lignes sur l’affichage physique. C’est ainsi que l'on crée une image.
 
+!!! example "{{ exercice() }}"
+    Créer une image de pierre, de feuille et de ciseaux. Ces images seront à sauvegarder dans un fichier Python afin que nous puissions nous en resservir dans un autre exercice.
+
+
 
 ### 2.1.3 Les pixels (`display.set_pixel(x, y, val)`)
 Vous pouvez régler la luminosité des pixels de l'affichage individuellement de 0 (désactivé) à 9 (luminosité maximale). Pour des informations sur les coordonnées de l'affichage, voir le [guide pour matrice à LED](https://microbit.org/guide/hardware/leds/){. target="_blank"}.
@@ -190,24 +189,25 @@ from microbit import *
 display.set_pixel(1, 4, 9)
 ```
 
-### 2.2 Boucle `while`
-Le programme suivant utilise une boucle `while` pour faire clignoter le pixel central de manière répétée sur l’écran. La boucle `while` se répète tant que la condition spécifiée est vraie (`True`). Dans ce cas, nous avons dit que la condition est vraie. Cela crée une *boucle infinie*. 
+!!! example "{{ exercice() }}"
+    Faire clignoter un pixel.
 
-L'instruction de veille `sleep()` provoque la pause du micro:bit pendant un nombre défini de millisecondes choisi entre parenthèses.
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
 
-L'instruction `display.clear()` éteint l'affichage.
+        display.set_pixel(1, 4, 9)
+        sleep(200)
+        display.set_pixel(1, 4, 9)
+        sleep(200)
+        ```    
+    """
+    )
+    }}
 
-Exécuter le programme ci-dessous:
-
-
-```python
-from microbit import *
-while True:
-    display.set_pixel(2, 2, 9)
-    sleep(500)
-    display.clear()
-    sleep(500)
-```
 
 #### Avec un peu d'aléatoire  (voir [documentation sur le hasard](https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html){. target="_blank"})
 Dans le programme suivant que vous exécuterez, on importe `randint` du module `random` de MicroPython et on l'utilise pour afficher un pixel au hasard sur la matrice.
@@ -241,6 +241,25 @@ while True:
         sleep(200)
         display.clear()
 ```
+
+
+!!! example "{{ exercice() }}"
+    Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
+        while True:
+            for i in range(9):
+                display.set_pixel(2,2,i)
+                sleep(100)
+        ```
+    """
+    )
+    }}
 
 ### 2.4 Les entrées boutons A, B et A+B - programmation événementielle [(vidéo explicative)](https://youtu.be/t_Qujjd_38o){. target="_blank"}
 

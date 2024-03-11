@@ -17,11 +17,12 @@
 
 - :star: Séance actuelle :star: : 
     - [Objets Connectés](./Theme4_Objets_Connectes/cours/){. target="_blank"}
-    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
+
 
 
 
 ??? note "*Anciens thèmes traités*"
+    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
     - [Calendrier de l'Avent OSINT](https://www.osint4fun.eu/fr/){. target="_blank"}
     - [Évaluation Photographie numérique sur LycéeConnecté / Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}
     - [Activité d'incrustation d'image en Python](./Theme1_Photographie_numerique/incrustation_image/) 
