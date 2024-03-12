@@ -1772,6 +1772,21 @@ Image.SNAKE
 <div class="admonition example">
 <p class="admonition-title">Exercice  3</p>
 <p>Faire clignoter un pixel.</p>
+<details class="success">
+<summary>Correction</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
+<span class="n">sleep</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
+<span class="n">sleep</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</details>
 </div>
 <h4 id="avec-un-peu-daleatoire-voir-documentation-sur-le-hasard">Avec un peu d'aléatoire  (voir <a class="" href="https://microbit-micropython.readthedocs.io/fr/latest/tutorials/random.html" target="_blank">documentation sur le hasard</a>)<a class="headerlink" href="#avec-un-peu-daleatoire-voir-documentation-sur-le-hasard" title="Permanent link">⚓︎</a></h4>
 <p>Dans le programme suivant que vous exécuterez, on importe <code>randint</code> du module <code>random</code> de MicroPython et on l'utilise pour afficher un pixel au hasard sur la matrice.</p>
@@ -1805,6 +1820,19 @@ Image.SNAKE
 <div class="admonition example">
 <p class="admonition-title">Exercice  4</p>
 <p>Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.</p>
+<details class="success">
+<summary>Correction</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">):</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</details>
 </div>
 <h3 id="24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative">2.4 Les entrées boutons A, B et A+B - programmation événementielle <a class="" href="https://youtu.be/t_Qujjd_38o" target="_blank">(vidéo explicative)</a><a class="headerlink" href="#24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative" title="Permanent link">⚓︎</a></h3>
 <p><img alt="image" class="center" src="../data/mb_AB.png" width="30%" /></p>
