@@ -248,7 +248,7 @@ while True:
     Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -262,6 +262,29 @@ while True:
     """
     )
     }}
+
+!!! example "{{ exercice() }}"
+    Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
+
+        while True:
+            for i in range(10):
+                display.set_pixel(2, 2, i)
+                sleep(100)
+            for i in range(10):
+                display.set_pixel(2, 2, 9-i)
+                sleep(100)
+        ```
+    """
+    )
+    }}
+
 
 ### 2.4 Les entrées boutons A, B et A+B - programmation événementielle [(vidéo explicative)](https://youtu.be/t_Qujjd_38o){. target="_blank"}
 
