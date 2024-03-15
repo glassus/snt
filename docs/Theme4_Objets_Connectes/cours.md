@@ -217,9 +217,10 @@ L'instruction ```randint(0,4)``` va renvoyer un nombre (pseudo-)aléatoire entre
 ```python
 from microbit import *
 from random import randint
-n = randint(0,4)
-p = randint(0,4)
-display.set_pixel(n, p, 9)
+
+x = randint(0,4)
+y = randint(0,4)
+display.set_pixel(x, y, 9)
 ```
 
 Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer la micro:bit en appuyant sur le bouton `RESET` situé à l'arrière de la carte.
@@ -247,14 +248,15 @@ while True:
     Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
+        
         while True:
             for i in range(9):
-                display.set_pixel(2,2,i)
+                display.set_pixel(2, 2, i)
                 sleep(100)
         ```
     """
