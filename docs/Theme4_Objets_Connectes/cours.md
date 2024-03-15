@@ -139,7 +139,7 @@ Cette procédure est à répéter à chaque nouveau code.
         ``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -193,7 +193,7 @@ display.set_pixel(1, 4, 9)
     Faire clignoter un pixel.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -247,7 +247,7 @@ while True:
     Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
