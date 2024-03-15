@@ -1822,6 +1822,25 @@ Image.SNAKE
 <div class="admonition example">
 <p class="admonition-title">Exercice  4</p>
 <p>Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.</p>
+<details class="success">
+<summary>Correction</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</details>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercice  5</p>
+<p>Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.</p>
 </div>
 <h3 id="24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative">2.4 Les entrées boutons A, B et A+B - programmation événementielle <a class="" href="https://youtu.be/t_Qujjd_38o" target="_blank">(vidéo explicative)</a><a class="headerlink" href="#24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative" title="Permanent link">⚓︎</a></h3>
 <p><img alt="image" class="center" src="../data/mb_AB.png" width="30%" /></p>
@@ -1849,7 +1868,7 @@ Image.SNAKE
 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  5</p>
+<p class="admonition-title">Exercice  6</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label><label for="__tabbed_1_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1874,7 +1893,7 @@ Image.SNAKE
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  6</p>
+<p class="admonition-title">Exercice  7</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label><label for="__tabbed_2_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1905,7 +1924,7 @@ Image.SNAKE
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  7</p>
+<p class="admonition-title">Exercice  8</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1965,7 +1984,7 @@ Image.SNAKE
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  8 : un jeu !</p>
+<p class="admonition-title">Exercice  9 : un jeu !</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label><label for="__tabbed_4_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2036,7 +2055,7 @@ Image.SNAKE
 </div>
 <h4 id="242-un-pierre-feuille-ciseaux">2.4.2 Un Pierre-Feuille-Ciseaux<a class="headerlink" href="#242-un-pierre-feuille-ciseaux" title="Permanent link">⚓︎</a></h4>
 <div class="admonition example">
-<p class="admonition-title">Exercice  9</p>
+<p class="admonition-title">Exercice  10</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
