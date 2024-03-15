@@ -139,7 +139,7 @@ Cette procédure est à répéter à chaque nouveau code.
         ``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -248,14 +248,14 @@ while True:
     Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
-        
+
         while True:
-            for i in range(9):
+            for i in range(10):
                 display.set_pixel(2, 2, i)
                 sleep(100)
         ```
