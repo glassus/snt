@@ -248,7 +248,7 @@ while True:
     Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -296,7 +296,7 @@ while True:
 Exemples avec le boutton A:
 
 - `button_a.is_pressed()`: renvoie *True* si le bouton spécifié est actuellement enfoncé et *False* sinon.
-- `button_a.was_pressed()`: renvoie *True* ou *False* pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée.
+- `button_a.was_pressed()`: renvoie *True* ou *False* pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée. **C'est cette instruction que nous allons utiliser.**
 
 **Exemple :** Essayer le programme suivant qui fait défiler le texte "SNT" indéfiniment. On introduit l'**instruction conditionnelle** `if` qui va tester si le bouton A a été pressé (pendant le défilement du texte ou pendant la pause), auquel cas le programme s'arrête en exécutant la commande `break`.
 
@@ -358,7 +358,101 @@ display.show(Image.SAD)
     )
     }}
 
-       
+
+#### 2.5 Détection du mouvement de la carte : vers le Pierre-Feuille-Ciseaux
+
+Observer et exécuter le code suivant :
+
+```python linenums='1'
+from microbit import *
+
+display.show(Image.SAD)
+while True:
+    if accelerometer.was_gesture('shake'):
+        display.show(Image.HAPPY)
+```
+
+Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se déclenchera lors du secouage de la carte.
+
+
+
+!!! example "{{ exercice() }}"
+    
+    === "Énoncé"
+        Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. 
+
+        ![](data/PFC.gif){: .center}
+
+        La détection du "secouage" de la carte se fera avec l'instruction suivante :
+        ```python
+        if accelerometer.was_gesture('shake'):
+            ...
+        ```
+    
+    === "Aide"
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        pierre = Image(...)
+
+        feuille = Image(...)
+
+        ciseaux = Image(...)
+
+
+        while True:
+            if accelerometer.was_gesture('shake'):
+                v = ...
+                if v == ...:
+                    display.show(...)
+                if v == ...:
+                    display.show(...)
+                if v == ...:
+                    display.show(...)
+        ```
+    
+    
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        pierre = Image('09990:'
+                       '09009:'
+                       '09990:'
+                       '09000:'
+                       '09000')
+
+        feuille = Image('09999:'
+                       '09000:'
+                       '09990:'
+                       '09000:'
+                       '09000')
+
+        ciseaux = Image('00999:'
+                       '09000:'
+                       '09000:'
+                       '09000:'
+                       '00999')
+
+
+        while True:
+            if accelerometer.was_gesture('shake'):
+                v = randint(1,3)
+                if v == 1:
+                    display.show(pierre)
+                if v == 2:
+                    display.show(feuille)
+                if v == 3:
+                    display.show(ciseaux)
+        ```        
+    """
+    )
+    }}
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
@@ -682,85 +776,7 @@ display.show(Image.SAD)
         #}
 
 
-#### 2.4.2 Un Pierre-Feuille-Ciseaux
 
-!!! example "{{ exercice() }}"
-    
-    === "Énoncé"
-        Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. 
-
-        ![](data/PFC.gif){: .center}
-
-        La détection du "secouage" de la carte se fera avec l'instruction suivante :
-        ```python
-        if accelerometer.was_gesture('shake'):
-            ...
-        ```
-    
-    === "Aide"
-        ```python linenums='1'
-        from microbit import *
-        from random import randint
-
-        pierre = Image(...)
-
-        feuille = Image(...)
-
-        ciseaux = Image(...)
-
-
-        while True:
-            if accelerometer.was_gesture('shake'):
-                v = ...
-                if v == ...:
-                    display.show(...)
-                if v == ...:
-                    display.show(...)
-                if v == ...:
-                    display.show(...)
-        ```
-    
-    
-    {{
-    correction(False,
-    """
-    ??? success \"Correction\" 
-        ```python linenums='1'
-        from microbit import *
-        from random import randint
-
-        pierre = Image('09990:'
-                       '09009:'
-                       '09990:'
-                       '09000:'
-                       '09000')
-
-        feuille = Image('09999:'
-                       '09000:'
-                       '09990:'
-                       '09000:'
-                       '09000')
-
-        ciseaux = Image('00999:'
-                       '09000:'
-                       '09000:'
-                       '09000:'
-                       '00999')
-
-
-        while True:
-            if accelerometer.was_gesture('shake'):
-                v = randint(1,3)
-                if v == 1:
-                    display.show(pierre)
-                if v == 2:
-                    display.show(feuille)
-                if v == 3:
-                    display.show(ciseaux)
-        ```        
-    """
-    )
-    }}
 
     
 {#
