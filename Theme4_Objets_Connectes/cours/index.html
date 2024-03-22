@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.14">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.10ba22f1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1822,21 +1822,6 @@ Image.SNAKE
 <div class="admonition example">
 <p class="admonition-title">Exercice  4</p>
 <p>Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.</p>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <div class="admonition example">
 <p class="admonition-title">Exercice  5</p>
@@ -1848,7 +1833,7 @@ Image.SNAKE
 <p>Exemples avec le boutton A:</p>
 <ul>
 <li><code>button_a.is_pressed()</code>: renvoie <em>True</em> si le bouton spécifié est actuellement enfoncé et <em>False</em> sinon.</li>
-<li><code>button_a.was_pressed()</code>: renvoie <em>True</em> ou <em>False</em> pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée.</li>
+<li><code>button_a.was_pressed()</code>: renvoie <em>True</em> ou <em>False</em> pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée. <strong>C'est cette instruction que nous allons utiliser.</strong></li>
 </ul>
 <p><strong>Exemple :</strong> Essayer le programme suivant qui fait défiler le texte "SNT" indéfiniment. On introduit l'<strong>instruction conditionnelle</strong> <code>if</code> qui va tester si le bouton A a été pressé (pendant le défilement du texte ou pendant la pause), auquel cas le programme s'arrête en exécutant la commande <code>break</code>.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
@@ -1892,9 +1877,80 @@ Image.SNAKE
 </div>
 </div>
 </div>
+<h4 id="25-detection-du-mouvement-de-la-carte-vers-le-pierre-feuille-ciseaux">2.5 Détection du mouvement de la carte : vers le Pierre-Feuille-Ciseaux<a class="headerlink" href="#25-detection-du-mouvement-de-la-carte-vers-le-pierre-feuille-ciseaux" title="Permanent link">⚓︎</a></h4>
+<p>Observer et exécuter le code suivant :</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<p>Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se déclenchera lors du secouage de la carte.</p>
 <div class="admonition example">
 <p class="admonition-title">Exercice  7</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label><label for="__tabbed_2_2">Aide</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. </p>
+<p><img alt="" class="center" src="../data/PFC.gif" /></p>
+<p>La détection du "secouage" de la carte se fera avec l'instruction suivante :
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+    <span class="o">...</span>
+</code></pre></div></td></tr></table></div></p>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+
+<span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="o">...</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercice  8</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>On veut créer le code permettant de déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.</p>
@@ -1924,8 +1980,8 @@ Image.SNAKE
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  8</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Aide</label></div>
+<p class="admonition-title">Exercice  9</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label><label for="__tabbed_4_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Même chose mais en faisant parcourir tout l'écran au pixel :</p>
@@ -1984,8 +2040,8 @@ Image.SNAKE
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  9 : un jeu !</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label><label for="__tabbed_4_2">Aide</label></div>
+<p class="admonition-title">Exercice  10 : un jeu !</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>On veut créer le jeu suivant :</p>
@@ -2053,63 +2109,6 @@ Image.SNAKE
 </div>
 </div>
 </div>
-<h4 id="242-un-pierre-feuille-ciseaux">2.4.2 Un Pierre-Feuille-Ciseaux<a class="headerlink" href="#242-un-pierre-feuille-ciseaux" title="Permanent link">⚓︎</a></h4>
-<div class="admonition example">
-<p class="admonition-title">Exercice  10</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Aide</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>Créer un jeu de Pierre-Feuille-Ciseaux qui se déclenchera lorsqu'on secoue la Microbit. </p>
-<p><img alt="" class="center" src="../data/PFC.gif" /></p>
-<p>La détection du "secouage" de la carte se fera avec l'instruction suivante :
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
-    <span class="o">...</span>
-</code></pre></div></td></tr></table></div></p>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">microbit</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
-
-<span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-
-<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-
-<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
-        <span class="n">v</span> <span class="o">=</span> <span class="o">...</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
-            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-</div>
-</div>
-</div>
-</div>
 
 
 
@@ -2130,7 +2129,7 @@ Image.SNAKE
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">15 mars 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">22 mars 2024</span>
   </span>
 
     
@@ -2214,7 +2213,7 @@ Image.SNAKE
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "toc.integrate", "header.autohide", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
       
         <script src="../../scripts/mathjax.js"></script>
       
