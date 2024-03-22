@@ -411,7 +411,26 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
                 if v == ...:
                     display.show(...)
         ```
-    
+        Images :
+        ```python linenums='1'
+        pierre = Image('09990:'
+                       '09009:'
+                       '09990:'
+                       '09000:'
+                       '09000')
+
+        feuille = Image('09999:'
+                       '09000:'
+                       '09990:'
+                       '09000:'
+                       '09000')
+
+        ciseaux = Image('00999:'
+                       '09000:'
+                       '09000:'
+                       '09000:'
+                       '00999')
+        ```
     
     {{
     correction(False,
