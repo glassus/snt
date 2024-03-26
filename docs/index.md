@@ -13,7 +13,7 @@
 #}
 
 
-## Thème en cours : Localisation et cartographie
+## Thème en cours : Objets connectés
 
 - :star: Séance actuelle :star: : 
     - [Objets Connectés](./Theme4_Objets_Connectes/cours/){. target="_blank"}
