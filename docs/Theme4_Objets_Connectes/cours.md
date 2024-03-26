@@ -267,7 +267,7 @@ while True:
     Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -331,7 +331,7 @@ display.show(Image.SAD)
 
     
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python
