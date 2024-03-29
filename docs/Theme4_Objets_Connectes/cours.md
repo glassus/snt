@@ -305,7 +305,6 @@ Exemples avec le boutton A:
 from microbit import *
 while True:
     display.scroll("SNT")
-    sleep(200)
     if button_a.was_pressed():
         break
 display.clear()
