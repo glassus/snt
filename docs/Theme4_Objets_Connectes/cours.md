@@ -245,10 +245,10 @@ while True:
 
 
 !!! example "{{ exercice() }}"
-    Faire «pulser» un pixel en augmentant progressivement sa luminosité, de 0 à 9.
+    Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -267,7 +267,7 @@ while True:
     Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
