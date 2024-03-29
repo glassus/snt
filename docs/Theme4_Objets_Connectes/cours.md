@@ -330,7 +330,7 @@ display.show(Image.SAD)
 
     
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python
@@ -432,7 +432,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         ```
     
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -493,7 +493,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
