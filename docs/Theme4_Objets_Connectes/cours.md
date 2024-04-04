@@ -493,7 +493,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -590,9 +590,9 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
     === "Énoncé"
         On veut créer le jeu suivant :
         
-        - au démarrage, un pixel aléatoire est placé sur l'écran.
+        - au démarrage, un pixel aléatoire est placé sur l'écran : c'est la cible à atteindre.
         - il faut ensuite se déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.
-        - lorsque qu'on a rejoint le point aléatoire, un emoji HAPPY apparait.
+        - lorsque qu'on a rejoint la cible, un emoji HAPPY apparait.
 
         ![](data/poursuite.gif){: .center}
 
@@ -678,38 +678,36 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
     )
     }}
 
+
+:arrow_right: **Gestion du temps**
+
+La fonction ```tick_ms``` du module ```utime``` renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable ```t0```. Il suffit d'observer ensuite la valeur de ```tick_ms() - t0``` pour savoir combien de temps (en millisecondes) s'est écoulé depuis le début du programme.
+
+Exemple (à exécuter pour comprendre !) :
+```python linenums='1'
+from microbit import *
+from utime import *
+
+display.show(Image.HAPPY)
+t0 = ticks_ms()
+
+while True:
+    if ticks_ms() - t0 > 3000:
+        display.show(Image.SAD)
+        break
+```
+
+
+
+
+!!! example "{{ exercice() }}"
     
+    Reprendre l'exercice précédent, en rajoutant un temps limité : il faut rattraper le pixel avant que le temps soit écoulé. 
 
-{#
-!!! example "Exercice 3bis : on rajoute un temps limité"
-    === "Énoncé"
-        :warning: **Changement de site de simulation** :warning:
-
-        Pour pouvoir utiliser le module ```utime``` nous allons changer de simulateur et travailler avec le site [https://python.microbit.org/v/3](https://python.microbit.org/v/3){. target="_blank"}
-
-
-        En Python, la fonction ```tick_ms``` du module ```utime``` renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Pour mesurer le temps écoulé dans un programme, on fixe le temps du début du programme dans une variable ```t0```. Il suffit d'observer ensuite la valeur de ```tick_ms() - t0``` pour savoir combien de temps (en millisecondes) s'est écoulé depuis le début du programme.
-
-        Exemple (à exécuter pour comprendre !) :
-        ```python linenums='1'
-        from microbit import *
-        from utime import *
-
-        display.show(Image.HAPPY)
-        t0 = ticks_ms()
-
-        while True:
-            if ticks_ms() - t0 > 5000:
-              display.show(Image.SAD)
-              break
-        ```
-
-
-
-        :arrow_right: Rajouter une difficulté supplémentaire à notre jeu en mettant un temps limité.
-
-    {#
-    === "Correction"
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
         from random import randint
@@ -725,8 +723,8 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
         while True:
             if ticks_ms() - t0 > 5000:
-              display.show(Image.SAD)
-              break
+                display.show(Image.SAD)
+                break
 
             display.clear()
             display.set_pixel(n, p, 9)
@@ -758,9 +756,12 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
 
 
-        ``` 
-    #}
+        ```         
+    """
+    )
+    }}
 
+ 
 
 {#
 !!! example "Exercice 5"
