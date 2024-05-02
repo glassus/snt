@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -1482,56 +1482,17 @@
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div></p>
 <p><strong>Q3.</strong> En observant le résultat sur la prévisualisation, essayez de deviner ce que veut dire chaque ligne. N'hésitez pas à supprimer puis remettre les lignes une par une pour voir la différence entre quand elles sont là et quand elles ne sont pas là.</p>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">h1</span> <span class="p">{</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">démarrer</span> <span class="n">une</span> <span class="n">règle</span> <span class="n">de</span> <span class="n">style</span> <span class="n">qui</span> <span class="n">cible</span> <span class="n">toutes</span> <span class="n">les</span> <span class="n">balises</span> <span class="err">`</span><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="err">`</span><span class="o">.</span>
-<span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">32</span><span class="n">px</span><span class="p">;</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">demander</span> <span class="n">que</span> <span class="n">le</span> <span class="n">texte</span> <span class="n">ait</span> <span class="n">une</span> <span class="n">taille</span> <span class="n">de</span> <span class="mi">32</span> <span class="n">pixels</span><span class="o">.</span>
-<span class="n">font</span><span class="o">-</span><span class="n">weight</span><span class="p">:</span> <span class="n">normal</span><span class="p">;</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">demander</span> <span class="n">à</span> <span class="n">ce</span> <span class="n">que</span> <span class="n">le</span> <span class="n">texte</span> <span class="n">ne</span> <span class="n">soit</span> <span class="n">pas</span> <span class="n">en</span> <span class="n">gras</span><span class="o">.</span>
-<span class="n">font</span><span class="o">-</span><span class="n">family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">;</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">demander</span> <span class="n">à</span> <span class="n">ce</span> <span class="n">que</span> <span class="n">la</span> <span class="n">police</span> <span class="n">de</span> <span class="n">caractères</span> <span class="n">soit</span> <span class="n">Georgia</span><span class="o">.</span> 
-<span class="n">color</span><span class="p">:</span> <span class="n">blue</span><span class="p">;</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">modifier</span> <span class="n">la</span> <span class="n">couleur</span> <span class="n">du</span> <span class="n">texte</span><span class="o">.</span>
-<span class="p">}</span> <span class="n">sert</span> <span class="n">à</span> <span class="n">terminer</span> <span class="n">la</span> <span class="n">règle</span> <span class="n">de</span> <span class="n">style</span><span class="o">.</span>
-</code></pre></div></td></tr></table></div>
-</details>
 <p><strong>Q4.</strong> Maintenant, à la suite de la règle précédente, sautez une ligne puis ajoutez une nouvelle règle pour que les titres de niveau 2 (balises <code>&lt;h2&gt;</code>...<code>&lt;/h2&gt;</code>) aient :</p>
 <ul>
 <li>une taille de police de 14 pixels,</li>
 <li>une police de caractères Helvetica,</li>
 <li>une police en gras (pour cela, <code>font-weight</code> doit avoir la valeur <code>bold</code>).</li>
 </ul>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">h2</span> <span class="p">{</span>
-<span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">14</span><span class="n">px</span><span class="p">;</span>
-<span class="n">font</span><span class="o">-</span><span class="n">family</span><span class="p">:</span> <span class="n">Helvetica</span><span class="p">;</span>
-<span class="n">font</span><span class="o">-</span><span class="n">weight</span><span class="p">:</span> <span class="n">bold</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-</details>
 <p><strong>Q5.</strong> Enfin, à la suite des deux règles précédentes, sautez une ligne puis ajoutez une nouvelle règle pour que les paragraphes (balises <code>&lt;p&gt;</code>...<code>&lt;/p&gt;</code>) aient :</p>
 <ul>
 <li>une taille de police de 20 pixels,</li>
 <li>une police de caractères Arial.</li>
 </ul>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">p</span> <span class="p">{</span>
-<span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">20</span><span class="n">px</span><span class="p">;</span>
-<span class="n">font</span><span class="o">-</span><span class="n">family</span><span class="p">:</span> <span class="n">Arial</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <p>Remarquez que les règles écrites précédemment s'appliquent à toutes les instances des balises ciblées. Par exemple, tous les paragraphes ont maintenant une taille de police de 20 pixels et une police de texte Arial. </p>
 <p>Que faire si on veut n'affecter que certaines balises d'un type donné mais pas toutes ?</p>
@@ -1539,10 +1500,6 @@
 <div class="admonition example">
 <p class="admonition-title">Exercice  2 : travail sur les classes</p>
 <p><strong>Q1.</strong> Dans le fichier <code>index.html</code>, q   uelle est la classe du premier paragraphe à la ligne 13 ?</p>
-<details class="success">
-<summary>Correction</summary>
-<p>La classe est <code>citation</code>. En effet, la balise de paragraphe ouvrante a un attribut <code>class</code> avec la valeur <code>citation</code> : <code>&lt;p class="citation"&gt;</code>.</p>
-</details>
 <p><strong>Q2.</strong> Dans le fichier <code>style.css</code>, ajoutez la règle suivante (à la suite des autres règles) :
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -1557,34 +1514,12 @@
 <span class="p">}</span>    
 </code></pre></div></td></tr></table></div>
 En observant le résultat sur la prévisualisation, essayez de deviner ce que veulent dire les deux premières lignes.</p>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="o">.</span><span class="n">citation</span> <span class="p">{</span> <span class="n">démarre</span> <span class="n">une</span> <span class="n">règle</span> <span class="n">ciblant</span> <span class="n">les</span> <span class="n">balises</span> <span class="n">ayant</span> <span class="n">la</span> <span class="n">classe</span> <span class="n">citation</span><span class="o">.</span> <span class="n">De</span> <span class="n">manière</span> <span class="n">générale</span><span class="p">,</span> <span class="n">pour</span> <span class="n">faire</span> <span class="n">une</span> <span class="n">règle</span> <span class="n">qui</span> <span class="n">cible</span> <span class="n">une</span> <span class="n">classe</span> <span class="n">donnée</span><span class="p">,</span> <span class="n">on</span> <span class="n">met</span> <span class="n">le</span> <span class="n">nom</span> <span class="n">de</span> <span class="n">cette</span> <span class="n">classe</span> <span class="n">précédée</span> <span class="n">d</span><span class="s1">&#39;un point.</span>
-<span class="n">color</span><span class="p">:</span> <span class="n">gray</span><span class="p">;</span> <span class="n">met</span> <span class="n">le</span> <span class="n">texte</span> <span class="n">en</span> <span class="n">gris</span><span class="o">.</span>
-<span class="n">font</span><span class="o">-</span><span class="n">style</span><span class="p">:</span> <span class="n">italic</span><span class="p">;</span> <span class="n">met</span> <span class="n">le</span> <span class="n">texte</span> <span class="n">en</span> <span class="n">italique</span><span class="o">.</span>
-</code></pre></div></td></tr></table></div>
-</details>
 <p><strong>Q3.</strong> Ouvrir le fichier <code>index.html</code>. Remarquez qu'à la ligne 17, un autre paragraphe a une classe. Ajoutez une nouvelle règle au fichier <code>style.css</code> pour que ce paragraphe ait :</p>
 <ul>
 <li>une taille de police de 16 pixels,</li>
 <li>une police de caractères Arial.</li>
 <li>une couleur de texte grise.</li>
 </ul>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="o">.</span><span class="n">auteur</span> <span class="p">{</span>
-<span class="n">color</span><span class="p">:</span> <span class="n">gray</span><span class="p">;</span>
-<span class="n">font</span><span class="o">-</span><span class="n">family</span><span class="p">:</span> <span class="n">arial</span><span class="p">;</span>
-<span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">16</span><span class="n">px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <details class="quote">
 <summary>source</summary>
@@ -1610,7 +1545,7 @@ En observant le résultat sur la prévisualisation, essayez de deviner ce que ve
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">25 avril 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2 mai 2024</span>
   </span>
 
     
