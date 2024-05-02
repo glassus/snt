@@ -32,7 +32,7 @@ L'interface présente l'éditeur de fichiers à gauche (les fichiers ```index.ht
     **Q3.** En observant le résultat sur la prévisualisation, essayez de deviner ce que veut dire chaque ligne. N'hésitez pas à supprimer puis remettre les lignes une par une pour voir la différence entre quand elles sont là et quand elles ne sont pas là.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -56,7 +56,7 @@ L'interface présente l'éditeur de fichiers à gauche (les fichiers ```index.ht
     - une police en gras (pour cela, `font-weight` doit avoir la valeur `bold`).
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -78,7 +78,7 @@ L'interface présente l'éditeur de fichiers à gauche (les fichiers ```index.ht
     - une police de caractères Arial.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -104,7 +104,7 @@ On utilise pour cela l'attribut `class` des balises HTML.
     **Q1.** Dans le fichier `index.html`, q   uelle est la classe du premier paragraphe à la ligne 13 ?
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         La classe est `citation`. En effet, la balise de paragraphe ouvrante a un attribut `class` avec la valeur `citation` : `<p class=\"citation\">`.
@@ -125,7 +125,7 @@ On utilise pour cela l'attribut `class` des balises HTML.
     En observant le résultat sur la prévisualisation, essayez de deviner ce que veulent dire les deux premières lignes.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -146,7 +146,7 @@ On utilise pour cela l'attribut `class` des balises HTML.
     - une couleur de texte grise.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python

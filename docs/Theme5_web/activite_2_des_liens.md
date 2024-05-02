@@ -23,7 +23,7 @@ Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/6663-3
     **Q2.** Dans le fichier ```mapage.html```, insérer un lien pour renvoyer vers la page ```index.html```
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```
@@ -63,7 +63,7 @@ Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/6663-3
     **Q3.** Dans la page ```index.html```, insérer votre image **en la rendant cliquable** : elle doit vous envoyer sur la page ```mapage.html```.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```
