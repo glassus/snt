@@ -27,4 +27,4 @@ Quelques ressources :
 
 Sinon, une question bien posée sur un moteur de recherche sera souvent efficace.
 
-Vous pouvez aussi utiliser une IA de type Chat-GPT, qui est très souvent pertinente dans ce domaine.
+Vous pouvez aussi utiliser une IA de type Chat-GPT, (par exemple [https://talkai.info/fr/chat/](https://talkai.info/fr/chat/){. target="_blank"}, qui ne requiert pas d'inscription).
