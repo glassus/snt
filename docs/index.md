@@ -13,10 +13,10 @@
 #}
 
 
-## Thème en cours : Objets connectés
+## Thème en cours : le Web
 
 - :star: Séance actuelle :star: : 
-    - [Objets Connectés](./Theme4_Objets_Connectes/cours/){. target="_blank"}
+    - [le Web](./Theme5_web/cours/){. target="_blank"}
 
 
 
