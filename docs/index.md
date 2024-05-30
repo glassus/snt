@@ -13,11 +13,13 @@
 #}
 
 
-## Thème en cours : le Web
 
-- :star: Séance actuelle :star: : 
-    - [le Web](./Theme5_web/cours/){. target="_blank"}
-    - [Microbit](./Theme4_Objets_Connectes/cours/){. target="_blank"}
+
+- :star: Séances actuelles :star: : 
+    - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
+    - [Python avec py-rates](https://py-rates.fr/){. target="_blank"}
+    - [Activité sur les réseaux sociaux](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis.md){. target="_blank"}
+
 
 
 

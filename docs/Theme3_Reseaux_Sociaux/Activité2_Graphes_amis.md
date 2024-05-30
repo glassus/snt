@@ -36,8 +36,15 @@ Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les i
 
 **Questions**
 
+{{
+correction(False,
+"""
+??? success \"Correction\" 
+    ![image](data/grapheRS.png){: .center}    
+"""
+)
+}}
 
-![image](data/grapheRS.png){: .center}
 
  
 1. Dessinez le graphe de ce réseau social.  
