@@ -13,7 +13,7 @@
 #}
 
 
-[https://play.typeracer.com?universe=lang_fr&rt=jdbe4oi8c](https://play.typeracer.com?universe=lang_fr&rt=jdbe4oi8c){. target="_blank"}
+[https://play.typeracer.com/?universe=lang_fr&rt=1k3ga5kice](https://play.typeracer.com/?universe=lang_fr&rt=1k3ga5kice){. target="_blank"}
 
 - :star: Séances actuelles :star: : 
     - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
