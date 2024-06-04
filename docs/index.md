@@ -15,6 +15,7 @@
 
 
 - :star: Séances actuelles :star: : 
+    - [https://compute-it.toxicode.fr/](https://compute-it.toxicode.fr/){. target="_blank"}
     - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
     - [Python avec py-rates](https://py-rates.fr/){. target="_blank"}
     - [Activité sur les réseaux sociaux](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis.md){. target="_blank"}
