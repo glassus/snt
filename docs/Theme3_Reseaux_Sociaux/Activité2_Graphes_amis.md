@@ -37,7 +37,7 @@ Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les i
 **Questions**
 
 {{
-correction(False,
+correction(True,
 """
 ??? success \"Correction\" 
     ![image](data/grapheRS.png){: .center}    
