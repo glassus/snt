@@ -49,16 +49,13 @@ correction(False,
  
 1. Dessinez le graphe de ce réseau social.  
 2. Écrivez à coté de chaque nœud le nombre d'amis de chacun. 
-5. Quelle est la personne qui a le plus d'amis ? 
-6. Quelle est la personne qui a le moins d'amis ?
-7. Quelle distance (en nombre de lien) qui sépare Béa d'Estelle ? 
-8. Existe-t-il dans ce graphe deux personnes plus éloignées que de 2 liens ? 
 3. Calculez la moyenne du nombre d'amis dans la totalité de ce réseau social.
+4. Calculez le pourcentage de personnes qui ont un nombre d'amis **inférieur ou égal au nombre moyen d'amis de ce réseau.**
 4. Calculez pour chacun personne, la *moyenne du nombre d'amis de leurs amis*.  
 Par exemple : Gilbert ne voit pas tout le graphe, il ne perçoit que Fabrice (3 amis) et Charles (6 amis).  
 La moyenne des amis de ses amis est de $\frac{3+6}{2}=4,5$ amis.  
 Notez cette moyenne d'une couleur différente.
-4. Calculez le pourcentage de personnes qui ont moins d'amis que le nombre moyen d'amis de leurs amis.
-5. Comment expliquer ce phénomène ?
+4. Calculez le pourcentage de personnes qui ont un nombre d'amis **inférieur ou égal au nombre moyen d'amis de leurs amis.**
+5. Que constate-t-on ?
 
 
