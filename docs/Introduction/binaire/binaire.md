@@ -2,7 +2,19 @@
 
 ![image](data/img.png){: .center}
 
+Le point commun de toutes les notions abordées en SNT est qu'elles font appel à de l'information *numérisée*.
 
+«Numériser» signifie «transformer en nombres», et les nombres dont il s'agit sont le 0 et le 1.
+
+- un SMS → des 0 et des 1
+- une photo → des 0 et des 1
+- une vidéo → des 0 et des 1
+- un vocal → des 0 et des 1
+- une page web → des 0 et des 1
+
+Un exemple de stockage non numérique ? Les disques vinyls, les photos papier,... mais trouver d'autres exemples devient de plus en plus difficile !
+
+Comment une succession de 0 et de 1 peut donner des choses aussi différentes ? Dans ce cours nous allons apprendre comment ces 0 et ces 1 permettent d'écrire n'importe quel nombre (ce qui est un bon début).
 
 ## 1. Le système décimal
 
@@ -52,32 +64,57 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
 
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
-        1. Donner l’écriture décimale du nombre $10111_b$ .
-        2. Quelle est la valeur (en écriture décimale) du plus grand nombre binaire écrit sur un octet ? (un octet = 8
-        bits)
-        3. Expliquer cette blague d’informaticiens :
-        « Dans la vie, il y a 10 sortes de personnes : celles qui connaissent le binaire, et celles qui ne le connaissent
-        pas. »
+    **Q1.** Donner l’écriture décimale du nombre $10111_b$ .
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        $10111_b=16+4+2+1=23_d$
+    """
+    )
+    }}
+    **Q2.** Quelle est la valeur (en écriture décimale) du plus grand nombre binaire écrit sur un octet ? (un octet = 8
+    bits)
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$. 
+    """
+    )
+    }}
+
+    **Q3.** Expliquer cette blague d’informaticiens :
+    « Dans la vie, il y a 10 sortes de personnes : celles qui connaissent le binaire, et celles qui ne le connaissent
+    pas. »
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal. 
+    """
+    )
+    }}
     
-    === "Correction"
-        
-        1. $10111_b=16+4+2+1=23_d$
-        2. Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$.
-        3. Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal.
-        
+ 
+    
         
 
-
+{#
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
     === "Correction"
-        {#
+
         $6 \times 8^1 + 3 \times 8^0 = 51$ 
 
         $\texttt{63}_s$ correspond donc à 51 en décimal.
-        #}
+
+
+#}
 
 ### 2.2 Du décimal au binaire
 
@@ -94,13 +131,21 @@ Donc $243_{10}=11110011_2$
     
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
-        Donner l'écriture binaire du nombre $186_d$.
-    === "Correction"
+   
+    Donner l'écriture binaire du nombre $186_d$.
+    
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        $186_d=10111010_b$ 
+    """
+    )
+    }}
         
-        $186_d=10111010_b$
         
-
+        
+{#
 !!! example "{{ exercice() }}"
     === "Énoncé"
         Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
@@ -114,7 +159,7 @@ Donc $243_{10}=11110011_2$
         
         On peut alors conjecturer que multiplier par 2 revient à **rajouter un 0 dans l'écriture binaire**. 
         
-
+#}
 ## 3. Codage et transmission de l'information
 
 Voici la table [ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) (American Standard Code for Information Interchange)
@@ -129,12 +174,20 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
 
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
-        En vous répartissant le travail, décodez la phrase (codée en décimal) :
-        74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
-    === "Correction"
+    
+    En vous répartissant le travail, décodez la phrase (codée en décimal) :
+    74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
+    
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        \"J'AIME LE BINAIRE\" 
+    """
+    )
+    }}
         
-        "J'AIME LE BINAIRE"
+        
         
 
 {#
@@ -144,7 +197,9 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
 
 #}
 
+{#
 ## 4. Annexe : le message secret de Perseverance
 
 Voir [ici](https://glassus.github.io/snt/Theme0_Bases_de_Python/Exercice_Perseverance/){. target="_blank"}
 
+#}
