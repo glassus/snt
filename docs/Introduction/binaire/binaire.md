@@ -40,7 +40,7 @@ $\texttt{5603}_d=\texttt{5} \times 10^3 + \texttt{6} \times 10^2 + \texttt{0} \t
 
 Ce système de base 10 provient (très probablement) du fait que les humains ont dix doigts.
 
-De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main (voir exercice 2).
+De cette manière, on pourrait imaginer que dans leur univers, les Simpsons compteraient en base 8 car ils n'ont que 4 doigts à chaque main.
 
 
 

@@ -1,15 +1,20 @@
+
+
+{#
 !!! abstract ":star: Première séance :star:"
     :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
 
     :white_check_mark: Inscription à la plateforme [Moodle](Introduction/moodle/moodle/)
 
     :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
+#}
 
-{#
+
+
 !!! abstract ":star: Séance actuelle :star:"
     - [Découverte du binaire](./Introduction/binaire/binaire)
 
-#}
+
 
 
 
