@@ -67,7 +67,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     **Q1.** Donner l’écriture décimale du nombre $10111_b$ .
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         $10111_b=16+4+2+1=23_d$
@@ -78,7 +78,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     bits)
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$. 
@@ -91,7 +91,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     pas. »
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal. 
