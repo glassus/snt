@@ -78,7 +78,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     bits)
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$. 
