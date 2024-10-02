@@ -7,10 +7,10 @@ Nous allons jouer avec les pixels de l'image ci-dessous.
 
 ## 1. Ouverture de l'activité Capytale.
 
-1. Accédez à [LycéeConnecté](https://lyceeconnecte.fr/){:target="_blank"} grâce à vos identifiants Educonnect.
-2. Cliquez ensuite sur [ce lien](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/6d13-160968). 
+Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/6d13-160968). 
 
-Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'activités Python.
+Vous aurez besoin de vos identifiants Educonnect, car Capytale est un service hébergé par LycéeConnecté.
+
 
 ## 2. Modification des couleurs de l'image ```fleur.jpg```.
 
