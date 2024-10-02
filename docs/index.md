@@ -13,6 +13,8 @@
 
 !!! abstract ":star: Séance actuelle :star:"
     - [Découverte du binaire](./Introduction/binaire/binaire)
+    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+
 
 
 
