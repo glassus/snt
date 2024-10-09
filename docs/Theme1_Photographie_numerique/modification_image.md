@@ -7,7 +7,7 @@ Nous allons jouer avec les pixels de l'image ci-dessous.
 
 ## 1. Ouverture de l'activité Capytale.
 
-Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/6d13-160968). 
+Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c/bb6c-4241612). 
 
 Vous aurez besoin de vos identifiants Educonnect, car Capytale est un service hébergé par LycéeConnecté.
 
