@@ -40,6 +40,12 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     - Cliquez sur [ce lien](../modification_image/){. target="_blank"}.
 
 
+!!! abstract "Activité 2 sur Capytale : Incrustation d'une image en Python"
+    - Cliquez sur [ce lien](../incrustation_image/){. target="_blank"}.
+
+
+
+
 {#
 ??? info "la base 16 : l'hexadécimal"
     L'inconvénient essentiel du système binaire est la longueur de l'écriture des nombres qu'il génère. Pour cette raison, le **système hexadécimal**, ou système de **base 16** est très souvent employé.
