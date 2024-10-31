@@ -116,6 +116,11 @@ Au début, les réponses sont équivalentes à une réponse aléatoire. L'algori
 
 Et petit à petit, les poids vont se stabiliser. On dira que le modèle a été **entrainé**. On peut maintenant lui donner une nouvelle photo à analyser, et souvent... ça marche !
 
+!!! abstract ":warning: Mais pourquoi ça marche ? :warning:"
+    C'est un point **crucial** qu'il faut avoir compris : contrairement aux programmes «classiques», le résultat affiché («chien» ou «chat») n'est pas le résultat d'un parcours d'embranchements logiques écrits par le programmeur. L'ajustement automatique des poids du réseau de neurones ne peut pas s'expliquer par des règles logiques. Il faut donc accepter d'avoir un résultat sans explication. Dans certains domaines très sensibles, ce n'est pas acceptable. Un champ de recherche est actuellement très actif autour de [l'IA explicable](https://www.ibm.com/fr-fr/topics/explainable-ai){. target="_blank"}
+
+
+
 ![image](data/cat.jpg){: .center width=60%}
 
 
