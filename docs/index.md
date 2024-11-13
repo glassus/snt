@@ -9,7 +9,7 @@
     :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
 #}
 
-
+:arrow_right: pour les :star: **201** :star: : début du projet [projet EMC-SNT](./IA-EMC/cours.md){. target="_blank"} sur l'IA.
 
 !!! abstract ":star: Séance actuelle :star:"
     - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 

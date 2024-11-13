@@ -178,7 +178,7 @@ La photographie numérique consiste à convertir en signaux **numériques** cett
 
 ### 4.2 Le capteur de l'appareil photo numérique
 
-Comme évoqué précédememnt, le principe physique de fonctionnement d’un écran impose qu’il reçoive une information décomposée en niveaux de rouge, de vert et de bleu. Le procédé technique fondamental de la photographie numérique est donc la décomposition de la lumière visible suivant ces trois composantes : c’est le rôle de la **matrice de Bayer**.
+Comme évoqué précédemement, le principe physique de fonctionnement d’un écran impose qu’il reçoive une information décomposée en niveaux de rouge, de vert et de bleu. Le procédé technique fondamental de la photographie numérique est donc la décomposition de la lumière visible suivant ces trois composantes : c’est le rôle de la **matrice de Bayer**.
 
 ![image](data/bayer.png){: .center}
 
@@ -197,14 +197,13 @@ Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, de
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
-{#
-RAJOUTER truc sur l'iPhone XS qui rajoute un beauty mode non désactivable dans les selfies
-https://www.phonandroid.com/iphone-xs-max-filtre-beaute-selfies.html
-#}
+
 
 La qualité des photographies prises par les appareils photo numériques ou les smartphones augmente d’année en année.  
 Il devient de plus en plus facile de réaliser une photographie qui satisfait nos attentes. Si des progrès ont eu lieu dans le domaine de l’optique, c’est essentiellement aux progrès fulgurants des algorithmes de traitement d’images que l’on doit la satisfaction d’une photographie réussie.  
 Les algorithmes présentés ci-dessous peuvent être utilisés en post-traitement de photographie (sur un ordinateur avec un logiciel dédié), par le biais d’un filtre appliqué sur un réseau social, ou même de manière automatique lors de la prise de vue, lorsque ces algorithmes sont implémentés dans l’appareil photo numérique.
+
+Il est important de comprendre que des algorithmes d'amélioration d'images sont appliqués **même si l'utilisateur ne les a pas sélectionnés**. Vous pouvez par exemple lire  [cet article](https://www.phonandroid.com/iphone-xs-max-filtre-beaute-selfies.html){. target="_blank"}, au sujet d'un filtre automatique sur l'iPhone XS qui pose problème.
 
 ### 5.1 Algorithme n°1 : Fusion automatique 
 

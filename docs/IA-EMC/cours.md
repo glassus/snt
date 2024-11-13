@@ -1,5 +1,7 @@
 # Projet SNT-EMC : L'Intelligence Artificielle et l'information
 
+:arrow_right: rendez-vous sur [Lycée Connecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"} pour répondre au sondage sur l'IA.
+
 ![image](data/ban.png){: .center}
 
 *Images générées par Bing avec le prompt : «des élèves qui étudient l'influence de l'Intelligence Artificielle sur les journaux, style photographique»*
@@ -68,7 +70,7 @@ Mais Deep Blue restait un programme «classique», qui obéit à des règles éc
 
 Dans les années 80 va naître un nouveau champ de recherche : la création des réseaux de neurones. Le nom peut prêter à confusion : il ne s'agit pas d'essayer de reconstituer un cerveau, mais plutôt d'essayer de répondre à des problèmes de classification par une succession d'opérations mathématiques élémentaires.
 
-Un «neurone» va ressembler à ceci (image N.Rougier):
+Un «neurone» va ressembler à ceci *(image N.Rougier)*:
 ![image](data/neur1.png){: .center width=20%}
 
 Ici $X_1$ et $X_2$ sont des nombres (les *données d'entrée*), $W_1$ et $W_2$ sont aussi des nombres (appelés les *poids*) et $Y$ va être le nombre de sortie.
@@ -112,9 +114,15 @@ On va plutôt donner à ce programme un ensemble de photos de chat labellisées 
 
 Et on lui demande de deviner si la photo présentée est celle d'un chien ou d'un chat. 
 
-Au début, les réponses sont équivalentes à une réponse aléatoire. L'algorithme répond à peu près n'importe quoi. Mais comme on sait ce que l'algorithme *aurait dû* répondre, il peut mettre à jour ses poids (la fameuse *rétro-propagation*) pour corriger son erreur.
+Une photo, c'est un ensemble de pixels. Mais un ensemble de pixels, c'est un ensemble de nombres. Donc «analyser» une photo, c'est prendre en entrée *beaucoup* de nombres (plusieurs millions) et demander en sortie... deux nombres ! 
 
-Et petit à petit, les poids vont se stabiliser. On dira que le modèle a été **entrainé**. On peut maintenant lui donner une nouvelle photo à analyser, et souvent... ça marche !
+Par exemple : soit 0 (c'est un chat), soit 1 (c'est un chien).
+
+La transformation de ces nombres a lieu dans un réseau de neurones comme présenté plus haut.
+
+Au début, les réponses sont équivalentes à une réponse aléatoire. Le réseau de neurones répond à peu près n'importe quoi. Mais comme on sait ce qu'*aurait dû* être la réponse, il peut mettre à jour ses poids (la fameuse *rétro-propagation*) pour corriger son erreur.
+
+Et petit à petit, les poids vont se stabiliser. On dira que **le modèle a été entrainé**. On peut maintenant lui donner une nouvelle photo à analyser, et souvent... ça marche !
 
 !!! abstract ":warning: Mais pourquoi ça marche ? :warning:"
     C'est un point **crucial** qu'il faut avoir compris : contrairement aux programmes «classiques», le résultat affiché («chien» ou «chat») n'est pas le résultat d'un parcours d'embranchements logiques écrits par le programmeur. L'ajustement automatique des poids du réseau de neurones ne peut pas s'expliquer par des règles logiques. Il faut donc accepter d'avoir un résultat sans explication. Dans certains domaines très sensibles, ce n'est pas acceptable. Un champ de recherche est actuellement très actif autour de [l'IA explicable](https://www.ibm.com/fr-fr/topics/explainable-ai){. target="_blank"}
