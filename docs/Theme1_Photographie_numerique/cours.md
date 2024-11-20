@@ -332,3 +332,6 @@ Autre image à analyser :
     4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
 
 #}
+
+
+[ :arrow_right: Activité  :  Métadonnées EXIF](../Theme2_Localisation_Cartographie/Activité2_Exif.md){ .md-button }
