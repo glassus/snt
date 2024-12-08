@@ -12,8 +12,7 @@
 :arrow_right: pour les :star: **201** :star: : début du projet [projet EMC-SNT](./IA-EMC/cours.md){. target="_blank"} sur l'IA.
 
 !!! abstract ":star: Séance actuelle :star:"
-    - QCM de fin de thème sur [LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte){. target="_blank"}
-    - [Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
 
 
 
