@@ -137,8 +137,18 @@ Et petit à petit, les poids vont se stabiliser. On dira que **le modèle a ét�
 
 ## 3. L'Intelligence Artificielle Générative
 
+La mise à disposition du grand public de ChatGPT, en Novembre 2022, a propulsé l'Intelligence Artificielle sur le devant de la scène médiatique. Il ne s'agissait plus d'algorithmes de classification, à l'intérêt limité pour le grand public, mais d'algorithmes capables de «fabriquer tout seuls» des choses : du texte (comme [ChatGPT](https://chatgpt.com/){. target="_blank"}, ou [Perplexity](https://www.perplexity.ai/){. target="_blank"}, [ MistralAI](https://mistral.ai/fr/){. target="_blank"}) ou des images (comme [Dall-e](https://openai.com/index/dall-e-3/){. target="_blank"} ou  [Midjourney](https://www.midjourney.com/home){. target="_blank"}).
+
+ChatGPT est un **agent conversationnel**, c'est-à-dire un programme qui va produire du texte, en adaptant ses réponses aux phrases précédemment écrites par son interlocuteur humain. Nous l'étudierons plus tard.
+
+Midjourney est un **générateur d'images**, c'est-à-dire un programme qui va produire une image à partir d'un texte donné par un interlocuteur humain.
+
+### 3.1 Étude d'un générateur d'images
+
+[ :arrow_right: Activité 2 :  Algorithmes générateurs d'images](../activite2/){ .md-button }
 
 
 
 !!! quote "bibliographie"
-    - https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/
+    - [https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/](https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/){. target="_blank"}
+    
