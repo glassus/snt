@@ -576,6 +576,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Activité 2 : Comprendre les algorithmes de génération d'images.
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -585,6 +596,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-le-principe-de-fonctionnement-des-algorithmes-de-generations-dimage-par-diffusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Le principe de fonctionnement des algorithmes de générations d'image par «diffusion»
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Le principe de fonctionnement des algorithmes de générations d'image par «diffusion»">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-le-debruitage-progressif-sur-un-seul-type-dimages" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Le débruitage progressif sur un seul type d'images
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-le-debruitage-progressif-polyvalent" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Le débruitage progressif polyvalent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-le-plongement-de-la-phrase-descriptive" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Le «plongement» de la phrase descriptive
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sites-de-creation-dimages-sans-connexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Sites de création d'images (sans connexion)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1600,7 +1681,51 @@
 
 
 <h1 id="activite-2-comprendre-les-algorithmes-de-generation-dimages">Activité 2 : Comprendre les algorithmes de génération d'images.<a class="headerlink" href="#activite-2-comprendre-les-algorithmes-de-generation-dimages" title="Permanent link">⚓︎</a></h1>
+<p>Nous allons travailler avec l'<strong>excellente</strong> vidéo de David Louapre (de la chaîne YouTube <a class="" href="https://www.youtube.com/scienceetonnante" target="_blank">ScienceEtonnante</a>)</p>
 <iframe width="683" height="384" src="https://www.youtube.com/embed/tdelUss-5hY?t=920" title="Comment ces IA inventent-elles des images ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><em>Lire à partir de 15:20</em></p>
+<h2 id="1-le-principe-de-fonctionnement-des-algorithmes-de-generations-dimage-par-diffusion">1. Le principe de fonctionnement des algorithmes de générations d'image par «diffusion»<a class="headerlink" href="#1-le-principe-de-fonctionnement-des-algorithmes-de-generations-dimage-par-diffusion" title="Permanent link">⚓︎</a></h2>
+<h3 id="11-le-debruitage-progressif-sur-un-seul-type-dimages">1.1 Le débruitage progressif sur un seul type d'images<a class="headerlink" href="#11-le-debruitage-progressif-sur-un-seul-type-dimages" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>
+<p>étape 1 : on bruite des images de chat
+<img alt="image" class="center" src="../data/v1.png" width="60%" /></p>
+</li>
+<li>
+<p>étape 2 : on entraine un réseau de neurones à débruiter ces images de chat
+<img alt="image" class="center" src="../data/v2.png" width="60%" /></p>
+</li>
+<li>
+<p>étape 3: une fois entrainé, on fait débruiter au réseau de neurones une image constituée de pixels aléatoires : cela «hallucine» un chat.
+<img alt="image" class="center" src="../data/v3.png" width="60%" /></p>
+</li>
+</ul>
+<p>Sites permettant de générer :</p>
+<ul>
+<li>des fausses personnes : <a class="" href="https://thispersondoesnotexist.com/" target="_blank">https://thispersondoesnotexist.com/</a></li>
+<li>des faux chats: <a class="" href="https://thesecatsdonotexist.com/" target="_blank">https://thesecatsdonotexist.com/</a></li>
+<li>des fausses voitures: <a class="" href="https://www.thisautomobiledoesnotexist.com/" target="_blank">https://www.thisautomobiledoesnotexist.com/</a></li>
+</ul>
+<h3 id="12-le-debruitage-progressif-polyvalent">1.2 Le débruitage progressif polyvalent<a class="headerlink" href="#12-le-debruitage-progressif-polyvalent" title="Permanent link">⚓︎</a></h3>
+<p><img alt="image" class="center" src="../data/v4.png" width="60%" /></p>
+<p>Le réseau est maintenant entraîné à créer des images de plusieurs catégories différentes (chat, arbre, voiture...)</p>
+<h3 id="13-le-plongement-de-la-phrase-descriptive">1.3 Le «plongement» de la phrase descriptive<a class="headerlink" href="#13-le-plongement-de-la-phrase-descriptive" title="Permanent link">⚓︎</a></h3>
+<p>Chaque instruction peut être «plongée» dans un espace mathématique selon le sens de ses mots:
+<img alt="image" class="center" src="../data/v5.png" width="60%" /></p>
+<p>On entraine notre réseau sur chacun de ces plongements :
+<img alt="image" class="center" src="../data/v6.png" width="60%" /></p>
+<p>Le réseau est maintenant capable de créer une image décrite en langage naturel, et non plus simplement par une catégorie donnée.</p>
+<p><img alt="image" class="center" src="../data/v7.png" width="60%" /></p>
+<h2 id="2-sites-de-creation-dimages-sans-connexion">2. Sites de création d'images (sans connexion)<a class="headerlink" href="#2-sites-de-creation-dimages-sans-connexion" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>
+<p>Pour voir le débruitage progressif : <a class="" href="https://fr.vittascience.com/ia/image-generate.php" target="_blank">https://fr.vittascience.com/ia/image-generate.php</a></p>
+</li>
+<li>
+<p>Pour avoir des images de bien meilleure qualité : <a class="" href="https://perchance.org/ai-text-to-image-generator" target="_blank">https://perchance.org/ai-text-to-image-generator</a></p>
+</li>
+</ul>
 
 
 
@@ -1621,7 +1746,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">8 décembre 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">11 décembre 2024</span>
   </span>
 
     
