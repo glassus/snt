@@ -143,12 +143,14 @@ ChatGPT est un **agent conversationnel**, c'est-à-dire un programme qui va prod
 
 Midjourney est un **générateur d'images**, c'est-à-dire un programme qui va produire une image à partir d'un texte donné par un interlocuteur humain.
 
-### 3.1 Étude d'un générateur d'images
+### 3.1 Comment marchent les algorithmes générateurs d'images ?
 
 [ :arrow_right: Activité 2 :  Algorithmes générateurs d'images](../activite2/){ .md-button }
 
 
 
-!!! quote "bibliographie"
+??? quote "bibliographie"
     - [https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/](https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/){. target="_blank"}
+    - [https://scienceetonnante.com/2023/01/13/stable-diffusion/](https://scienceetonnante.com/2023/01/13/stable-diffusion/){. target="_blank"}
+
     
