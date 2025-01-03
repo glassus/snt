@@ -193,7 +193,7 @@ Intersection de 3 sphères :
 
 
 
-
+{#
 ### 2.3 De la puce GPS aux applications du téléphone : la trame NMEA
 
 
@@ -254,7 +254,7 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
  -->
 
 
-
+#}
 
 
 
