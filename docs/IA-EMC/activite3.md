@@ -92,12 +92,16 @@ Le bot a été démasqué... Évidemment il existe maintenant des parades et il 
 !!! question "L'IA comprend-elle quelque chose à ce qu'elle écrit ?"
     Non.
 
-    L'IA n'a aucun «sens commun», elle ne fait que des mathématiques et cherche la réponse la plus probable. À la sortie de ChatGPT en novembre 2022, il était très facile de lui faire dire n'importe quoi et ainsi de s'apercevoir que les réponses pouvaient être totalement absurdes. 
+    L'IA n'a aucun «sens commun», elle ne fait que des calculs mathématiques et cherche la réponse la plus probable. À la sortie de ChatGPT en novembre 2022, il était très facile de lui faire dire n'importe quoi et ainsi de s'apercevoir que les réponses pouvaient être totalement absurdes. 
 
     Il pouvait répondre «1012» à la question «combien font 10 plus 12 ?» parce que la réponse était *probable*.
+    (maintenant, ChatGPT fait ses calculs mathématiques avec Python et ne fait plus d'erreurs de ce genre)
 
-    Mais les IA progressent **très** vite et il devient de plus en plus difficile de les piéger.
+    Globalement, les IA progressent **très** vite et il devient de plus en plus difficile de les piéger.
 
+    Exemple avec la même question posée à ChatGPT 3.5  (réponse fausse) et à ChatGPT 4.0 (réponse juste) :
+
+    ![image](data/chat4_total.png){: .center}
 
 !!! question "L'IA est-elle capable d'expliquer pourquoi elle donne une réponse ?"
     Oui et non.
@@ -118,3 +122,17 @@ Le bot a été démasqué... Évidemment il existe maintenant des parades et il 
     Oui.
 
     On a vu que les modèles de langage sont entraînés sur un grand nombre de données disponibles sur internet, toutes produites par des humains. À mesure où les IA produisent de plus en plus de de contenus publiés, elles vont donc s'entraîner sur des données qu'elles auront elles-mêmes produites. Cela fait craindre une diminution de la qualité des réponses.
+
+!!! question "Peut-on avoir confiance dans les réponses données par une IA ?"
+    Non (globalement).
+
+    Observez cet échange :
+    ![image](data/hugo1.png){: .center width=60%}
+    
+    Après vérification (le texte intégral des Misérables peut se trouver par exemple [ici](https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.3_Recherche_textuelle/data/Les_Miserables.txt){. target="_blank"}), il s'avère que **cette phrase n'est pas dans Les Misérables**.
+
+    Voici ce qu'il se passe lorsqu'on le confronte à nos doutes :
+
+    ![image](data/hugo2.png){: .center width=60%}
+
+    Il faut donc être très vigilant sur les informations données par une IA.
