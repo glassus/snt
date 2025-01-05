@@ -1789,9 +1789,12 @@ Mais les GPT vont aussi être utilisés pour produire automatiquement du contenu
 <div class="admonition question">
 <p class="admonition-title">L'IA comprend-elle quelque chose à ce qu'elle écrit ?</p>
 <p>Non.</p>
-<p>L'IA n'a aucun «sens commun», elle ne fait que des mathématiques et cherche la réponse la plus probable. À la sortie de ChatGPT en novembre 2022, il était très facile de lui faire dire n'importe quoi et ainsi de s'apercevoir que les réponses pouvaient être totalement absurdes. </p>
-<p>Il pouvait répondre «1012» à la question «combien font 10 plus 12 ?» parce que la réponse était <em>probable</em>.</p>
-<p>Mais les IA progressent <strong>très</strong> vite et il devient de plus en plus difficile de les piéger.</p>
+<p>L'IA n'a aucun «sens commun», elle ne fait que des calculs mathématiques et cherche la réponse la plus probable. À la sortie de ChatGPT en novembre 2022, il était très facile de lui faire dire n'importe quoi et ainsi de s'apercevoir que les réponses pouvaient être totalement absurdes. </p>
+<p>Il pouvait répondre «1012» à la question «combien font 10 plus 12 ?» parce que la réponse était <em>probable</em>.
+(maintenant, ChatGPT fait ses calculs mathématiques avec Python et ne fait plus d'erreurs de ce genre)</p>
+<p>Globalement, les IA progressent <strong>très</strong> vite et il devient de plus en plus difficile de les piéger.</p>
+<p>Exemple avec la même question posée à ChatGPT 3.5  (réponse fausse) et à ChatGPT 4.0 (réponse juste) :</p>
+<p><img alt="image" class="center" src="../data/chat4_total.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">L'IA est-elle capable d'expliquer pourquoi elle donne une réponse ?</p>
@@ -1810,6 +1813,16 @@ Mais les GPT vont aussi être utilisés pour produire automatiquement du contenu
 <p class="admonition-title">Y a-t-il un risque à ce que de plus en plus de contenu soit généré par une IA ?</p>
 <p>Oui.</p>
 <p>On a vu que les modèles de langage sont entraînés sur un grand nombre de données disponibles sur internet, toutes produites par des humains. À mesure où les IA produisent de plus en plus de de contenus publiés, elles vont donc s'entraîner sur des données qu'elles auront elles-mêmes produites. Cela fait craindre une diminution de la qualité des réponses.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Peut-on avoir confiance dans les réponses données par une IA ?</p>
+<p>Non (globalement).</p>
+<p>Observez cet échange :
+<img alt="image" class="center" src="../data/hugo1.png" width="60%" /></p>
+<p>Après vérification (le texte intégral des Misérables peut se trouver par exemple <a class="" href="https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.3_Recherche_textuelle/data/Les_Miserables.txt" target="_blank">ici</a>), il s'avère que <strong>cette phrase n'est pas dans Les Misérables</strong>.</p>
+<p>Voici ce qu'il se passe lorsqu'on le confronte à nos doutes :</p>
+<p><img alt="image" class="center" src="../data/hugo2.png" width="60%" /></p>
+<p>Il faut donc être très vigilant sur les informations données par une IA.</p>
 </div>
 
 
