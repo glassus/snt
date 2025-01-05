@@ -1,7 +1,7 @@
 # Activité 3 : IA générative textuelle
 ![image](data/ban.jpg){: .center}
 
-Toutes les captures d'écran qui suivent sont tirées de la vidéo de David Louapre : [Ce qui se cache derrière ChatGPT](https://www.youtube.com/watch?v=7ell8KEbhJo){. target="_blank"}.
+
 
 ## 0. Définition
 
@@ -136,3 +136,8 @@ Le bot a été démasqué... Évidemment il existe maintenant des parades et il 
     ![image](data/hugo2.png){: .center width=60%}
 
     Il faut donc être très vigilant sur les informations données par une IA.
+
+
+??? quote "Bibliographie"
+    - [https://www.lecepe.fr/formations/data-science-ia/intelligence-artificielle/comprendre-et-adapter-un-large-language-model-llm_386.html](https://www.lecepe.fr/formations/data-science-ia/intelligence-artificielle/comprendre-et-adapter-un-large-language-model-llm_386.html){. target="_blank"}
+    - [Ce qui se cache derrière ChatGPT](https://www.youtube.com/watch?v=7ell8KEbhJo){. target="_blank"}
