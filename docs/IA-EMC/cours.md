@@ -147,7 +147,9 @@ Midjourney est un **générateur d'images**, c'est-à-dire un programme qui va p
 
 [ :arrow_right: Activité 2 :  Algorithmes générateurs d'images](../activite2/){ .md-button }
 
+### 3.2 Comment marchent les algorithmes générateurs de texte ?
 
+[ :arrow_right: Activité 3 :  IA générative textuelle](../activite3/){ .md-button }
 
 ??? quote "bibliographie"
     - [https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/](https://www.analyticsvidhya.com/blog/2021/06/beginner-friendly-project-cat-and-dog-classification-using-cnn/){. target="_blank"}
