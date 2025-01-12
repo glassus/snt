@@ -66,7 +66,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	![image](data/exdijk.png){: .center width=60%}
 
 	{{
-	correction(True,
+	correction(False,
 	"""
 	??? success \"Correction\" 
 		<p align='center'>
