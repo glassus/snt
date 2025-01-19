@@ -6,8 +6,7 @@
 
 ### 1.1 Modalités
 - par groupe de 2 ou 3 élèves
-- deux semaines de préparation : 
-    - 208 GA et GB : l'exposé sera à présenter le **mercredi 24 mai**.
+- deux semaines de préparation : l'exposé sera à présenter le 03 février (pour le groupe B) ou le 06 février (pour le groupe A).
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
@@ -22,7 +21,7 @@
 
 Liste non exhaustive, vous pouvez proposer un autre sujet.
 
-1. Twitter
+1. X (ex-Twitter)
 2. Snapchat
 3. Instagram
 4. TikTok
@@ -34,8 +33,7 @@ Liste non exhaustive, vous pouvez proposer un autre sujet.
 10. Souncloud
 12. Wattpad
 15. Webtoons
-16. Le Scandale Cambridge Analytica
-17. ...
+16. ...
 
 
 ##  3. Contenu des exposés
@@ -63,20 +61,20 @@ Voici quelques problématiques incontournables.
 
 ### 4. Affectation des exposés
 
-!!! note "208 GA "
-    - **Mercredi 24 mai**
-        - Groupe A : Snapchat
-        - Groupe B : Instagram
-        - Groupe C : Pinterest
-        - Groupe D : Discord
-        - Groupe E : Twitch
-        - Groupe F : Webtoons
+!!! note "209 GB "
+    - **Lundi 03 février**
+        - Groupe A : 
+        - Groupe B : 
+        - Groupe C : 
+        - Groupe D : 
+        - Groupe E :
+        - Groupe F : 
 
-!!! note "208 GB "       
-    - **Mercredi 24 mai**
-        - Groupe A : Discord
-        - Groupe B : Instagram
-        - Groupe C : TikTok
-        - Groupe D : Twitter
-        - Groupe E : Snapchat
-        - Groupe F : YouTube
+!!! note "209 GA "       
+    - **Jeudi 06 février**
+        - Groupe A : 
+        - Groupe B : 
+        - Groupe C : 
+        - Groupe D : 
+        - Groupe E : 
+        - Groupe F : 
