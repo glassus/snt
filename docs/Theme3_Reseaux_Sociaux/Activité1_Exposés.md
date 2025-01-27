@@ -63,18 +63,19 @@ Voici quelques problématiques incontournables.
 
 !!! note "209 GB "
     - **Lundi 03 février**
-        - Groupe A : 
-        - Groupe B : 
-        - Groupe C : 
-        - Groupe D : 
-        - Groupe E :
-        - Groupe F : 
+        - Groupe A : Discord
+        - Groupe B : YouTube
+        - Groupe C : Snapchat
+        - Groupe D : TikTok
+        - Groupe E : Facebook
+        - Groupe F : Twitter-X
+        - Groupe G : Instagram
 
 !!! note "209 GA "       
     - **Jeudi 06 février**
-        - Groupe A : 
-        - Groupe B : 
-        - Groupe C : 
-        - Groupe D : 
-        - Groupe E : 
-        - Groupe F : 
+        - Groupe A : TikTok
+        - Groupe B : Pinterest
+        - Groupe C : Instagram
+        - Groupe D : Twitch
+        - Groupe E : YouTube
+        - Groupe F : Snapchat
