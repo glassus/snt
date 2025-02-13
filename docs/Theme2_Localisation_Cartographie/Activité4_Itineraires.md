@@ -28,7 +28,7 @@ l’automobiliste roule à la vitesse maximale autorisée.
 
 
 {{
-correction(False,
+correction(True,
 """
 ??? success \"Correction\" 
 	![image](data/graphePissos.png){: .center width=50%}
@@ -66,7 +66,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	![image](data/exdijk.png){: .center width=60%}
 
 	{{
-	correction(False,
+	correction(True,
 	"""
 	??? success \"Correction\" 
 		<p align='center'>
@@ -83,7 +83,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	![image](data/graph.png){: .center width=60%}	
 
 	{{
-	correction(False,
+	correction(True,
 	"""
 	??? success \"Correction\" 
 		| E | A | B | C | D | F | choix |
@@ -105,7 +105,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	![image](data/graph2.png){: .center width=60%}	
 
 	{{
-	correction(False,
+	correction(True,
 	"""
 	??? success \"Correction\" 
 		![image](data/corr_dk.png){: .center width=60%}	
