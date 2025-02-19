@@ -139,7 +139,7 @@ Cette procédure est à répéter à chaque nouveau code.
         ``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -193,7 +193,7 @@ display.set_pixel(1, 4, 9)
     Faire clignoter un pixel.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -248,7 +248,7 @@ while True:
     Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -267,7 +267,7 @@ while True:
     Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -330,7 +330,7 @@ display.show(Image.SAD)
 
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -493,7 +493,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
