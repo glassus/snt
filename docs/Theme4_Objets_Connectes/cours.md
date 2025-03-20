@@ -226,6 +226,28 @@ display.set_pixel(x, y, 9)
 Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer la micro:bit en appuyant sur le bouton `RESET` situé à l'arrière de la carte.
 
 
+!!! example "{{ exercice() }}"
+    À l'aide du code précédent, faire apparaître une multitude de points aléatoires jusqu'à ce que l'écran soit totalement rempli.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        from microbit import *
+        from random import randint
+
+        while True:
+            x = randint(0,4)
+            y = randint(0,4)
+            display.set_pixel(x, y, 9)
+            sleep(100)
+        ```
+    """
+    )
+    }}
+
+
 ### 2.3 Boucle `for`
 
 Le programme suivant utilise une boucle `for` pour faire défiler un pixel sur une ligne.
@@ -248,7 +270,7 @@ while True:
     Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
