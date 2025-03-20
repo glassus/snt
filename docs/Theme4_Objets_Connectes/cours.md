@@ -248,7 +248,7 @@ while True:
     Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
