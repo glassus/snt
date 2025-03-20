@@ -2044,6 +2044,10 @@ Image.SNAKE
 <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <p>Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer la micro:bit en appuyant sur le bouton <code>RESET</code> situé à l'arrière de la carte.</p>
+<div class="admonition example">
+<p class="admonition-title">Exercice  4</p>
+<p>À l'aide du code précédent, faire apparaître une multitude de points aléatoires jusqu'à ce que l'écran soit totalement rempli.</p>
+</div>
 <h3 id="23-boucle-for">2.3 Boucle <code>for</code><a class="headerlink" href="#23-boucle-for" title="Permanent link">⚓︎</a></h3>
 <p>Le programme suivant utilise une boucle <code>for</code> pour faire défiler un pixel sur une ligne.</p>
 <p>Grâce à l'expression <code>for i in range(5):</code>, la variable <code>i</code> va prendre successivement les valeurs <code>0</code>,  <code>1</code>, <code>2</code>, <code>3</code> et <code>4</code>. (pas <code>5</code> !) </p>
@@ -2060,26 +2064,11 @@ Image.SNAKE
         <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
 </code></pre></div></td></tr></table></div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  4</p>
+<p class="admonition-title">Exercice  5</p>
 <p>Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.</p>
-<details class="success">
-<summary>Correction</summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">microbit</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">set_pixel</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-</details>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  5</p>
+<p class="admonition-title">Exercice  6</p>
 <p>Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.</p>
 </div>
 <h3 id="24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative">2.4 Les entrées boutons A, B et A+B - programmation événementielle <a class="" href="https://youtu.be/t_Qujjd_38o" target="_blank">(vidéo explicative)</a><a class="headerlink" href="#24-les-entrees-boutons-a-b-et-ab-programmation-evenementielle-video-explicative" title="Permanent link">⚓︎</a></h3>
@@ -2106,7 +2095,7 @@ Image.SNAKE
 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  6</p>
+<p class="admonition-title">Exercice  7</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label><label for="__tabbed_1_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2146,7 +2135,7 @@ Image.SNAKE
 </code></pre></div></td></tr></table></div>
 <p>Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se déclenchera lors du secouage de la carte.</p>
 <div class="admonition example">
-<p class="admonition-title">Exercice  7</p>
+<p class="admonition-title">Exercice  8</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label><label for="__tabbed_2_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2237,7 +2226,7 @@ Images :
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  8</p>
+<p class="admonition-title">Exercice  9</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2268,7 +2257,7 @@ Images :
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  9</p>
+<p class="admonition-title">Exercice  10</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label><label for="__tabbed_4_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2328,7 +2317,7 @@ Images :
 </div>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Exercice  10 : un jeu !</p>
+<p class="admonition-title">Exercice  11 : un jeu !</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Aide</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2421,7 +2410,7 @@ Images :
         <span class="k">break</span>
 </code></pre></div></td></tr></table></div></p>
 <div class="admonition example">
-<p class="admonition-title">Exercice  11</p>
+<p class="admonition-title">Exercice  12</p>
 <p>Reprendre l'exercice précédent, en rajoutant un temps limité : il faut rattraper le pixel avant que le temps soit écoulé. </p>
 </div>
 
@@ -2444,7 +2433,7 @@ Images :
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="20 mars 2025 07:35:19">20 mars 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="20 mars 2025 12:04:52">20 mars 2025</span>
   </span>
 
     
