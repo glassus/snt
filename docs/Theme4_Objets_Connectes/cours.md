@@ -230,7 +230,7 @@ Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer 
     À l'aide du code précédent, faire apparaître une multitude de points aléatoires jusqu'à ce que l'écran soit totalement rempli.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -270,7 +270,7 @@ while True:
     Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
