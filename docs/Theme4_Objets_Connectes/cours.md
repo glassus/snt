@@ -198,11 +198,11 @@ display.set_pixel(1, 4, 9)
     ??? success \"Correction\" 
         ```python linenums='1'
         from microbit import *
-
-        display.set_pixel(1, 4, 9)
-        sleep(200)
-        display.set_pixel(1, 4, 0)
-        sleep(200)
+        while True:
+            display.set_pixel(1, 4, 9)
+            sleep(200)
+            display.set_pixel(1, 4, 0)
+            sleep(200)
         ```    
     """
     )
@@ -267,10 +267,10 @@ while True:
 
 
 !!! example "{{ exercice() }}"
-    Faire «pulser» le pixel central en augmentant progressivement sa luminosité, de 0 à 9.
+    Faire s'allumer progressivement le pixel central, en augmentant de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
