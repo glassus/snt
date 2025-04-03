@@ -515,7 +515,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
