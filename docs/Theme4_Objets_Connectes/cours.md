@@ -270,7 +270,7 @@ while True:
     Faire s'allumer progressivement le pixel central, en augmentant de 0 à 9.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -454,7 +454,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         ```
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
