@@ -498,7 +498,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
     === "Énoncé"
         On veut créer le code permettant de déplacer un point vers la gauche ou vers la droite en appuyant sur A ou sur B.
 
-        ![](data/exo2.webp){: .center}
+
 
     === "Aide"
         ```python linenums='1'
@@ -546,6 +546,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         - si on sort à droite, on se décale d'une ligne vers le bas et on revient tout à gauche.
         - si on sort à gauche, on se décale d'une ligne vers le haut et on revient tout à droite.
 
+        ![](data/exo2.webp){: .center}
 
     === "Aide"
         ```python linenums='1'
