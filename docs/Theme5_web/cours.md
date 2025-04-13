@@ -14,7 +14,7 @@
 
 [ :arrow_right: Activité 2 : travail sur les liens  ](../activite_2_des_liens/){ .md-button }
 
-## 4. Activité 3 : à vous !
+## 4. Activité 3 : à vous !  
 
 Vous devez créer une page personnelle sur cette activité Capytale [https://capytale2.ac-paris.fr/web/c/c067-3484370](https://capytale2.ac-paris.fr/web/c/c067-3484370){. target="_blank"}
 
