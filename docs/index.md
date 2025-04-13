@@ -12,6 +12,7 @@
 :arrow_right: pour les :star: **201** :star: : [Projet EMC-SNT](./IA-EMC/cours.md){. target="_blank"} sur l'IA.
 
 !!! abstract ":star: Séance actuelle :star:"
+    - [Le web](./Theme5_web/cours.md){. target="_blank"}
     - [Carte Microbit](./Theme4_Objets_Connectes/cours.md){. target="_blank"}
     - [Réseaux sociaux : Exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés.md){. target="_blank"}
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}

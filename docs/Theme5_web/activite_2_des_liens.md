@@ -2,7 +2,7 @@
 
 {{initexo(0)}}
 
-Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/6663-3483254](https://capytale2.ac-paris.fr/web/c/6663-3483254){. target="_blank"}
+Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/fc3d-6356409](https://capytale2.ac-paris.fr/web/c/fc3d-6356409){. target="_blank"}
 
 
 

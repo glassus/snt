@@ -2,10 +2,10 @@
 
 {{initexo(0)}}
 
-Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/fbae-3479802](https://capytale2.ac-paris.fr/web/c/fbae-3479802){. target="_blank"}
+Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/1b9f-6356393](https://capytale2.ac-paris.fr/web/c/1b9f-6356393){. target="_blank"}
 
 
-[![image](data/cap_act1.png){: .center}](https://capytale2.ac-paris.fr/web/c/fbae-3479802){. target="_blank"}
+[![image](data/cap_act1.png){: .center}](https://capytale2.ac-paris.fr/web/c/1b9f-6356393){. target="_blank"}
 
 
 
@@ -101,7 +101,7 @@ On utilise pour cela l'attribut `class` des balises HTML.
 
 !!! example "{{ exercice() }} : travail sur les classes"
 
-    **Q1.** Dans le fichier `index.html`, q   uelle est la classe du premier paragraphe à la ligne 13 ?
+    **Q1.** Dans le fichier `index.html`, quelle est la classe du premier paragraphe à la ligne 13 ?
 
     {{
     correction(False,
