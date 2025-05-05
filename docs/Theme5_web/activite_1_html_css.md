@@ -10,6 +10,9 @@ Rendez-vous sur l'activité Capytale [https://capytale2.ac-paris.fr/web/c/1b9f-6
 
 
 
+
+
+
 L'interface présente l'éditeur de fichiers à gauche (les fichiers ```index.html``` et ```style.css``` y sont ouverts) et l'aperçu de la page web sur la droite.
 
 !!! example "{{ exercice() }} : travail sur les sections"
@@ -163,3 +166,10 @@ On utilise pour cela l'attribut `class` des balises HTML.
 
 ??? quote "source"
     Travail intialement basé sur l'activité Capytale de Maverick Chardet
+
+
+### Site de secours :
+
+[https://www.w3schools.com/html/tryit.asp?filename=tryhtml_editor](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_editor){. target="_blank"}
+
+
