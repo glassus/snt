@@ -1,13 +1,11 @@
 
 
-{#
-!!! abstract ":star: Première séance :star:"
-    :white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
 
-    :white_check_mark: Inscription à la plateforme [Moodle](Introduction/moodle/moodle/)
+!!! abstract ":star: Dernière séance :star:"
+    - [https://compute-it.toxicode.fr/](https://compute-it.toxicode.fr/){. target="_blank"}
+    - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
+    - [Python avec py-rates](https://py-rates.fr/){. target="_blank"}
 
-    :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
-#}
 
 :arrow_right: pour les :star: **201** :star: : [Projet EMC-SNT](./IA-EMC/cours.md){. target="_blank"} sur l'IA.
 
