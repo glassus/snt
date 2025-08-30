@@ -1,6 +1,6 @@
 
 
-
+{#
 !!! abstract ":star: Dernière séance :star:"
     - [https://compute-it.toxicode.fr/](https://compute-it.toxicode.fr/){. target="_blank"}
     - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
@@ -16,9 +16,11 @@
     - [Réseaux sociaux : Exposés](./Theme3_Reseaux_Sociaux/Activité1_Exposés.md){. target="_blank"}
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
 
+#}
 
-
-
+!!! abstract ":star: Première séance :star:"
+    - [Présentation des services numériques](./Introduction/services_num/index.md)
+    - [Accès à Moodle](./Introduction/moodle/moodle.md)
 
 
 
@@ -47,8 +49,8 @@
     - [Découverte du binaire](./Introduction/binaire/binaire)
 
 #}
-<!--  --
-snt/docs/Introduction/binaire/binaire.md  
+
+{#
 ??? note "*Anciens thèmes traités*"
     - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}
     - Le rachat d'Instagram par Facebook : [Activité 4](./Theme3_Reseaux_Sociaux/Activité4_Facebook-Instagram/){. target = "_blank"}
@@ -74,7 +76,7 @@ snt/docs/Introduction/binaire/binaire.md
 - [215 GA](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/5233-201287)
 - [215 GB](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/49a9-201288)
 
--->
+#}
 
 
 
