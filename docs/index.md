@@ -22,6 +22,7 @@
     - [Présentation des services numériques](./Introduction/services_num/index.md)
     - [Accès à Moodle](./Introduction/moodle/moodle.md)
     - *pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}*
+    - [Découverte du binaire](./Introduction/binaire/binaire)
 
 
 
