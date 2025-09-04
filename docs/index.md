@@ -4,7 +4,7 @@
 !!! abstract ":star: Dernière séance :star:"
     - [https://compute-it.toxicode.fr/](https://compute-it.toxicode.fr/){. target="_blank"}
     - [Enigmes d'OSINT](https://www.adventofosint.com/fr/2023/){. target="_blank"}
-    - [Python avec py-rates](https://py-rates.fr/){. target="_blank"}
+    - [Python avec py-rates](https://py-rates.org){. target="_blank"}
 
 
 :arrow_right: pour les :star: **201** :star: : [Projet EMC-SNT](./IA-EMC/cours.md){. target="_blank"} sur l'IA.
