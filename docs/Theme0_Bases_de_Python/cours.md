@@ -4,7 +4,7 @@
 ### 1.1 Stocker une valeur dans une variable
 La mémoire d'un ordinateur peut-être perçue comme un ensemble de tiroirs.
 
-Écrire  l'instruction suivante:
+Écrire  l'instruction ci-dessous:
 ```python
 a = 2
 ```
