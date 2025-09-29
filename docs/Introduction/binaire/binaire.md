@@ -1,5 +1,7 @@
 # Le binaire et le codage de l'information numérique
 
+{{initexo(0)}}
+
 ![image](data/img.png){: .center}
 
 Le point commun de toutes les notions abordées en SNT est qu'elles font appel à de l'information *numérisée*.
