@@ -141,6 +141,9 @@ Donc $243_{10}=11110011_2$
     """
     ??? success \"Correction\" 
         $186_d=10111010_b$ 
+
+        ![image](data/exo2corr.png){: .center .autolight}
+        
     """
     )
     }}
