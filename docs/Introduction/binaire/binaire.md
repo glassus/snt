@@ -129,7 +129,7 @@ Par exemple, dans 243, il y a 128. Donc
 Donc $243_{10}=11110011_2$
 
 !!! info "Méthode des divisions successives"
-    ![image](data/div.png){: .center width=40%}
+    ![image](data/div.png){: .center width=40% .autolight}
     
 
 !!! example "{{ exercice() }}"
@@ -137,7 +137,7 @@ Donc $243_{10}=11110011_2$
     Donner l'écriture binaire du nombre $186_d$.
     
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         $186_d=10111010_b$ 
