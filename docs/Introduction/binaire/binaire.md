@@ -137,7 +137,7 @@ Donc $243_{10}=11110011_2$
     Donner l'écriture binaire du nombre $186_d$.
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         $186_d=10111010_b$ 
@@ -182,7 +182,7 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
     ```01001101 01000001 01010101 01010010 01001001 01000001 01000011``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le mot est MAURIAC.
