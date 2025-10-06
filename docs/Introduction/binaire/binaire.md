@@ -177,6 +177,20 @@ Si on veut transmettre le mot «OK», il faut donc transmettre ces 16 bits d'inf
 
 Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s...
 
+!!! example "{{ exercice() }}"
+    Quel mot est écrit par cette séquence binaire ?
+    ```01001101 01000001 01010101 01010010 01001001 01000001 01000011``` 
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        Le mot est MAURIAC.
+    """
+    )
+    }}
+
+
 
 !!! example "{{ exercice() }}"
     
