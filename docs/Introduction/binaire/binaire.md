@@ -195,7 +195,7 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
 !!! example "{{ exercice() }}"
     
     En vous répartissant le travail, décodez la phrase (codée en décimal) :
-    74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
+    74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69.
     
     {{
     correction(True,
