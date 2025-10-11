@@ -20,7 +20,12 @@
 
 
 !!! abstract ":star: Séance actuelle :star:"
+    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+
+
+!!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)
+
 
 
 
