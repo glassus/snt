@@ -105,7 +105,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Nombre de pixels :
@@ -133,7 +133,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
@@ -241,7 +241,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     |  |  |  |
         
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
