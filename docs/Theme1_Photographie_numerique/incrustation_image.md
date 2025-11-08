@@ -3,7 +3,7 @@
 _Comment changer l'arrière-plan d'une image ?_
 
 
-Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond vert, fond vert qui sera ensuite remplacé par une autre incrusatation vidéo au montage final. 
+Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond vert, fond vert qui sera ensuite remplacé par une autre incrustation vidéo au montage final. 
 
 Nous sommes maintenant capables de faire (à peu près...) la même chose avec quelques lignes de Python.
 
