@@ -7,7 +7,7 @@ Vous avez déjà vu des extraits vidéos où un acteur tourne devant un fond ver
 
 Nous sommes maintenant capables de faire (à peu près...) la même chose avec quelques lignes de Python.
 
-Nous travaillerons avec l'image de Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
+Nous travaillerons avec l'image de [Grumpy Cat](https://fr.wikipedia.org/wiki/Grumpy_Cat){. target="_blank"}   (image [grumpy.bmp](data/grumpy.bmp)).
 
 
 ![](data/grumpy.bmp){: .center}

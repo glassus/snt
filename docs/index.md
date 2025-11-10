@@ -20,7 +20,8 @@
 
 
 !!! abstract ":star: Séance actuelle :star:"
-    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+     - [Activité 2 sur Capytale : Incrustation d'une image en Python](./Theme1_Photographie_numerique/incrustation_image/){. target="_blank"}.
+
 
 
 !!! note "*Anciens thèmes traités*"
