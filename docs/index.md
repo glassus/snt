@@ -18,17 +18,17 @@
 
 #}
 
-
+{#
 !!! abstract ":star: Séance actuelle :star:"
     - [QCM sur Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte){. target="_blank"}
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
     - [Activité 2 sur Capytale : Incrustation d'une image en Python](./Theme1_Photographie_numerique/incrustation_image/){. target="_blank"}.
-
-
-{#
-!!! abstract ":star: Séance actuelle :star:"
-    - [Activité 2 sur Capytale : Incrustation d'une image en Python](./Theme1_Photographie_numerique/incrustation_image/){. target="_blank"}.
 #}
+
+
+!!! abstract ":star: Séance actuelle :star:"
+    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/)
+
 
 !!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)
