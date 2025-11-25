@@ -105,7 +105,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Nombre de pixels :
@@ -133,7 +133,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
     *Aide : pour vous éviter des calculs, vous pouvez utiliser le convertisseur binaire-décimal disponible à [cette adresse](https://sebastienguillon.com/test/javascript/convertisseur.html){. target="_blank"}.*
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
