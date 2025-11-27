@@ -171,7 +171,8 @@ Nous allons maintenant essayer de répondre à la question suivante : comment la
 
 ![image](data/frise_photo.png){: .center }
 
-L'ancêtre de la photographie numérique, appelé *photographie argentique*, fonctionnait grâce à des réactions chimiques successives, permettant de fixer sur du papier la lumière capturée par l’objectif de l’appareil photo.
+L'ancêtre de la photographie numérique, appelé *photographie argentique*, fonctionnait grâce à des réactions chimiques successives, permettant de fixer sur du papier la lumière capturée par l’objectif de l’appareil photo. Si cela vous intéresse, vous pouvez consulter la page Wikipédia
+sur l'[histoire de la photographie](https://fr.wikipedia.org/wiki/Histoire_de_la_photographie){. target="_blank"}.
 
 La photographie numérique consiste à convertir en signaux **numériques** cette lumière capturée par l’objectif.
 
