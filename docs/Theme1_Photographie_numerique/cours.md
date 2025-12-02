@@ -232,7 +232,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 
 ## 5.5 Exercice
 
-!!! abstract "Exercice"
+!!! example "Exercice"
     Classez ces algorithmes dans le tableau suivant.
 
     | A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
@@ -242,7 +242,7 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     |  |  |  |
         
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
