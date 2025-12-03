@@ -28,7 +28,7 @@
 
 !!! abstract ":star: Séance actuelle :star:"
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/)
-
+    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
 
 
 !!! note "*Anciens thèmes traités*"
