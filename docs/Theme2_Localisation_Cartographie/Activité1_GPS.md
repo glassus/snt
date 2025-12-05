@@ -5,8 +5,6 @@
 
 ### Rappels sur le vocabulaire
 
-Latitude, longitude, méridiens, parallèles... rendez-vous sur 
-[ce document GeoGebra](https://www.geogebra.org/m/vdpwxyrj){:target="_blank"}.
 
 !!! example "Exercice 1"
 
@@ -58,8 +56,8 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
     )
     }}
 
-
-[https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html](https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html){. target="_blank"}   
+!!! abstract ":warning: Les problèmes cartographiques :warning: "
+    [https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html](https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html){. target="_blank"}   
 
 ## 2. Les différentes conventions d'écriture d'angles
 
