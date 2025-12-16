@@ -33,7 +33,7 @@
     | 12 | 37° N | 10° E|
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         | numéro de la ville | Ville |
