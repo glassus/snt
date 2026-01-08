@@ -111,7 +111,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
 		{{
-		correction(False,
+		correction(True,
 		"""
 		??? success \"Correction\" 
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
