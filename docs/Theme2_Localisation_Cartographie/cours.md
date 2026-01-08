@@ -111,7 +111,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
@@ -120,7 +120,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	5. Où sont situés, géométriquement, tous les points à la même distance d’un satellite ? 
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Tous les points à la même distance d'un satellite sont situés sur une sphère.
@@ -129,7 +129,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
@@ -138,7 +138,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Le smartphone doit capter au minimum 4 satellites.
@@ -147,7 +147,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		}}
 	8. Quel est le rôle du dernier satellite nécessaire ?
 		{{
-		correction(True,
+		correction(False,
 		"""
 		??? success \"Correction\" 
 			Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
@@ -168,7 +168,7 @@ Intersection de 3 sphères :
 	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
 	{{
-	correction(True,
+	correction(False,
 	"""
 	??? success \"Correction\" 
 		$300000 \\times 0,071 = 21300$  
