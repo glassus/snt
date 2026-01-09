@@ -184,9 +184,14 @@ Intersection de 3 sphères :
 
 
 ??? tip "Application smartphone"
-	L'application Satstat permet de repérer les satellites en communication avec le smartphone et d'obtenir des informations complètes de localisation.
+	L'application GPSTest (entre autres) permet de lister les satellites dont les messages sont reçus par le smartphone et de voir à quel service ils appartiennent. Ici, on peut voir que le téléphone capte les messages de 4 flottes de satellites :
+	
+	- GPS (USA)
+	- GLONASS (Russie)
+	- Galiléo (UE)
+	- BeiDou (Chine)
 
-	![](data/satstat.png){: .center} 
+	![](data/GPSTest.png){: .center width=40%} 
 
 
 [ :arrow_right: Activité 2 :  Métadonnées EXIF](../Activité2_Exif/){ .md-button }
