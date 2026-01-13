@@ -168,7 +168,7 @@ Intersection de 3 sphères :
 	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
 
 	{{
-	correction(False,
+	correction(True,
 	"""
 	??? success \"Correction\" 
 		$300000 \\times 0,071 = 21300$  
