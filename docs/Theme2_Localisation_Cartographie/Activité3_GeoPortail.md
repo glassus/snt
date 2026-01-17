@@ -79,3 +79,12 @@ Quelle est cette société ?
     - L'endroit est Saint-Hilaire-de-Riez en Vendée.
     - Google va y faire arriver un câble reliant la France et les USA : [https://france3-regions.francetvinfo.fr/pays-de-la-loire/vendee/vendee-arrivee-du-fur-cable-transatlantique-google-saint-hilaire-rietz-1799482.html](https://france3-regions.francetvinfo.fr/pays-de-la-loire/vendee/vendee-arrivee-du-fur-cable-transatlantique-google-saint-hilaire-rietz-1799482.html){. target="_blank"}
 #}
+
+
+#### 2.3.3 Énigme 3 :skull: :skull:
+
+Comment pouvez-vous affirmer que cette vidéo est un *fake* ?
+
+<p align="center">
+<iframe width="790" height="372" src="https://youtu.be/SC7uWTX3HXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
