@@ -59,8 +59,14 @@ Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
 ### 3.1 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
 Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.
 
+Pour le comprendre, vous pouvez regarder la vidéo d'un célèbre YouTuber :
 
-!!! abstract "{{ exercice() }}"
+<p align="center">
+<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+!!! example "{{ exercice() }}"
 	
 	Trouvons le plus court chemin entre le point A et le point H :
 	![image](data/exdijk.png){: .center width=60%}
@@ -78,7 +84,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 
 
 
-!!! abstract "{{ exercice() }}"
+!!! example "{{ exercice() }}"
 	Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
 	![image](data/graph.png){: .center width=60%}	
 
@@ -100,7 +106,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	)
 	}}
 
-!!! abstract "{{ exercice() }}"
+!!! example "{{ exercice() }}"
 	Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
 	![image](data/graph2.png){: .center width=60%}	
 
