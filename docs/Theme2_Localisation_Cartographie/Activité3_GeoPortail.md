@@ -85,6 +85,6 @@ Quelle est cette société ?
 
 Comment pouvez-vous affirmer que cette vidéo est un *fake* ?
 
-<p align="center">
-<iframe width="790" height="372" src="https://youtu.be/SC7uWTX3HXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+<video controls>
+<source src="data/car.mp4" type="video/mp4">
+</video>
