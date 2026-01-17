@@ -83,8 +83,10 @@ Quelle est cette société ?
 
 #### 2.3.3 Énigme 3 :skull: :skull:
 
-Comment pouvez-vous affirmer que cette vidéo est un *fake* ?
+Comment pouvez-vous affirmer que cette vidéo est un *fake* ? (aucun rapport avec GéoPortail !)
 
-<video controls>
-<source src="data/car.mp4" type="video/mp4">
-</video>
+<p align="center">
+<iframe width="1053" height="886" src="https://www.youtube.com/embed/SC7uWTX3HXA" title="car" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+
