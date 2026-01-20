@@ -26,6 +26,10 @@
 #}
 
 
+!!! abstract "Actualités"
+    - Apprenez le hacking avec [https://www.challenges-kids.fr/](https://www.challenges-kids.fr/){. target="_blank"} 
+
+
 !!! abstract ":star: Séance actuelle :star:"
     - [QCM sur Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte){. target="_blank"}
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
