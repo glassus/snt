@@ -68,7 +68,7 @@ Pour le comprendre, vous pouvez regarder la vidéo d'un célèbre YouTuber :
 
 !!! example "{{ exercice() }}"
 	
-	Trouvons le plus court chemin entre le point A et le point H :
+	Trouver le plus court chemin entre le point A et le point H :
 	![image](data/exdijk.png){: .center width=60%}
 
 	{{
