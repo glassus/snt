@@ -6,7 +6,7 @@
 
 ### 1.1 Modalités
 - par groupe de 2 ou 3 élèves
-- deux semaines de préparation : l'exposé sera à présenter le 03 février (pour le groupe B) ou le 06 février (pour le groupe A).
+- deux semaines de préparation : l'exposé sera à présenter le 02 Mars (pour le groupe A) ou le 05 Mars (pour le groupe B).
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
@@ -61,6 +61,7 @@ Voici quelques problématiques incontournables.
 
 ### 4. Affectation des exposés
 
+{#
 !!! note "209 GB "
     - **Lundi 03 février**
         - Groupe A : Discord
@@ -79,3 +80,4 @@ Voici quelques problématiques incontournables.
         - Groupe D : Twitch
         - Groupe E : YouTube
         - Groupe F : Snapchat
+#}
