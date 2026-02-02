@@ -6,7 +6,9 @@
 
 ### 1.1 Modalités
 - par groupe de 2 ou 3 élèves
-- deux semaines de préparation : l'exposé sera à présenter le 02 Mars (pour le groupe A) ou le 05 Mars (pour le groupe B).
+- date de présentation :
+    - 208 GA : le 02 Mars
+    - 208 GB : le 05 Mars
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
