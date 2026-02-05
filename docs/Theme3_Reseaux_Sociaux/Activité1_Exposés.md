@@ -32,7 +32,7 @@ Liste non exhaustive, vous pouvez proposer un autre sujet.
 7. YouTube
 8. Discord
 9. Twitch
-10. Souncloud
+10. Soundcloud
 12. Wattpad
 15. Webtoons
 16. ...
