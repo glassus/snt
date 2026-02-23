@@ -63,23 +63,21 @@ Voici quelques problématiques incontournables.
 
 ### 4. Affectation des exposés
 
-{#
-!!! note "209 GB "
-    - **Lundi 03 février**
-        - Groupe A : Discord
-        - Groupe B : YouTube
-        - Groupe C : Snapchat
-        - Groupe D : TikTok
-        - Groupe E : Facebook
-        - Groupe F : Twitter-X
-        - Groupe G : Instagram
 
-!!! note "209 GA "       
-    - **Jeudi 06 février**
-        - Groupe A : TikTok
-        - Groupe B : Pinterest
-        - Groupe C : Instagram
-        - Groupe D : Twitch
-        - Groupe E : YouTube
-        - Groupe F : Snapchat
-#}
+!!! note "208 GA "
+    - **Lundi 02 mars**
+        - Groupe A : Snapchat
+        - Groupe B : YouTube
+        - Groupe C : Discord
+        - Groupe D : TikTok
+        - Groupe E : Soundcloud
+        - Groupe F : Instagram
+
+!!! note "208 GB "       
+    - **Jeudi 05 mars**
+        - Groupe A : Snapchat
+        - Groupe B : Instagram
+        - Groupe C : TikTok
+        - Groupe D : Pinterest
+        - Groupe E : X
+        - Groupe F : Soundcloud
