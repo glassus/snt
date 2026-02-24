@@ -31,12 +31,12 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
-    - [QCM sur Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte){. target="_blank"}
     - [Exposés Réseaux Sociaux](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target="_blank"}
-    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
+
 
 
 !!! note "*Anciens thèmes traités*"
+    - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/)
     - [Découverte du binaire](./Introduction/binaire/binaire)
 
