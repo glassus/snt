@@ -9,6 +9,8 @@
 - date de présentation :
     - 208 GA : le 02 Mars
     - 208 GB : le 05 Mars
+    - 203 GA : le 10 Mars
+    - 203 GB : le 10 Mars
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
@@ -81,3 +83,22 @@ Voici quelques problématiques incontournables.
         - Groupe D : Pinterest
         - Groupe E : X
         - Groupe F : Soundcloud
+
+
+!!! note "203 GA "
+    - **Mardi 10 mars**
+        - Groupe A : 
+        - Groupe B : 
+        - Groupe C : 
+        - Groupe D : 
+        - Groupe E : 
+        - Groupe F : 
+
+!!! note "203 GB "       
+    - **Mardi 10 mars**
+        - Groupe A : 
+        - Groupe B : 
+        - Groupe C : 
+        - Groupe D : 
+        - Groupe E :
+        - Groupe F : 
