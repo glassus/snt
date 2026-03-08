@@ -8,11 +8,11 @@ Sur les réseaux sociaux, certaines relations sont symétriques («être amis» 
 
 ### 1.1 Facebook : graphe non orienté
 
-![image](data/grFB.png){: .center width=30%}
+![image](data/grFB.png){: .center width=30% .autolight}
 
 ### 1.2 Instagram : graphe orienté
 
-![image](data/grTW.png){: .center width=30%}
+![image](data/grTW.png){: .center width=30% .autolight}
 
 Un graphe réel peut donner des choses [comme ceci](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_syst%C3%A8mes_sociaux#/media/Fichier:Social_Network_Analysis_Visualization.png){target = "_blank"}
  
