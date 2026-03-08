@@ -51,7 +51,7 @@ correction(False,
 2. Écrivez à coté de chaque nœud le nombre d'amis de chacun. 
 3. Calculez la moyenne du nombre d'amis dans la totalité de ce réseau social.
 4. Calculez le pourcentage de personnes qui ont un nombre d'amis **inférieur ou égal au nombre moyen d'amis de ce réseau.**
-4. Calculez pour chacun personne, la *moyenne du nombre d'amis de leurs amis*.  
+4. Calculez pour chaque personne, la *moyenne du nombre d'amis de leurs amis*.  
 Par exemple : Gilbert ne voit pas tout le graphe, il ne perçoit que Fabrice (3 amis) et Charles (6 amis).  
 La moyenne des amis de ses amis est de $\frac{3+6}{2}=4,5$ amis.  
 Notez cette moyenne d'une couleur différente.
