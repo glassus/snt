@@ -14,7 +14,7 @@ Sur les réseaux sociaux, certaines relations sont symétriques («être amis» 
 
 ![image](data/grTW.png){: .center width=30% .autolight}
 
-Un graphe réel peut donner des choses [comme ceci](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_syst%C3%A8mes_sociaux#/media/Fichier:Social_Network_Analysis_Visualization.png){target = "_blank"}
+Un graphe réel peut donner des choses [comme ceci](https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_syst%C3%A8mes_sociaux#/media/Fichier:Social_Network_Analysis_Visualization.png){target="_blank"}
  
 ## 2. Pourquoi j'ai moins d'amis que mes amis ?
 
