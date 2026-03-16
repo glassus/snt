@@ -31,11 +31,13 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
-    - [Exposés Réseaux Sociaux](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target="_blank"}
+    - Le cyber-harcèlement : [Activité 3](./Theme3_Reseaux_Sociaux/Activité3_cyberharcèlement/){. target = "_blank"}
+    - Graphe des amis : [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"}   
 
 
 
 !!! note "*Anciens thèmes traités*"
+    - [Activité 1 : Exposés Réseaux Sociaux](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target="_blank"}
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/)
     - [Découverte du binaire](./Introduction/binaire/binaire)

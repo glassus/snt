@@ -27,7 +27,7 @@ Les faits mentionnés aux premier à quatrième alinéas sont punis de deux ans 
 
 5° Lorsqu'un mineur était présent et y a assisté.
 
-Les faits mentionnés aux premier à quatrième alinéas sont punis de trois ans d'emprisonnement et de 45 000 € d'amende lorsqu'ils sont commis dans deux des circonstances mentionnées aux 1° à 5°.
+Les faits mentionnés aux premier à quatrième alinéas sont punis de trois ans d'emprisonnement et de 45 000 € d'amende lorsqu'ils sont commis dans deux des circonstances mentionnées aux 1° à 5°. 
 
 ## 3. Le harcèlement devient un délit pénal
 
