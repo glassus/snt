@@ -2,12 +2,12 @@
 
 ## 1. Modéliser les relations par un graphe
 
-Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Facebook) ou aysmétriques («être un follower» sur X).
+Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Facebook) ou asymétriques («être un follower» sur X).
 
 **Exercice :** Classifiez les réseaux sociaux que vous connaissez en *symétriques* ou *asymétriques*.
 
 ### 1.1 Facebook : graphe non orienté
-
+[](){. target="_blank"}
 ![image](data/grFB.png){: .center width=30% .autolight}
 
 ### 1.2 Instagram : graphe orienté
@@ -45,7 +45,7 @@ Basé sur la vidéo de Mickaël Launay :
     
     1. Dessinez le graphe de ce réseau social.  
         {{
-        correction(False,
+        correction(True,
         """
         ??? success \"Correction\" 
             ![image](data/grapheRS.png){: .center}    
