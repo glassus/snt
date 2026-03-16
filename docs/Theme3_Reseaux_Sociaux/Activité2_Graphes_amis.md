@@ -2,7 +2,7 @@
 
 ## 1. Modéliser les relations par un graphe
 
-Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Facebook) ou aysmétriques («être un follower» sur Twitter).
+Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Facebook) ou aysmétriques («être un follower» sur X).
 
 **Exercice :** Classifiez les réseaux sociaux que vous connaissez en *symétriques* ou *asymétriques*.
 
