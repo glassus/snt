@@ -45,7 +45,7 @@ Basé sur la vidéo de Mickaël Launay :
     
     1. Dessinez le graphe de ce réseau social.  
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction\" 
             ![image](data/grapheRS.png){: .center}    
