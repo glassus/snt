@@ -22,7 +22,7 @@ Basé sur la vidéo de Mickaël Launay :
 
 <iframe width="933" height="525" src="https://www.youtube.com/embed/MySkCFFgiRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+{{initexo(0)}}
 !!! example "{{ exercice() }}"
     
 
