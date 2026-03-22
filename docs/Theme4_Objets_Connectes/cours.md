@@ -139,7 +139,7 @@ Cette procédure est à répéter à chaque nouveau code.
         ``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -179,7 +179,7 @@ Comment dessiner une image? Chaque ligne de l’affichage physique est représen
 
 
 ### 2.1.3 Les pixels (`display.set_pixel(x, y, val)`)
-Vous pouvez régler la luminosité des pixels de l'affichage individuellement de 0 (désactivé) à 9 (luminosité maximale). Pour des informations sur les coordonnées de l'affichage, voir le [guide pour matrice à LED](https://microbit.org/guide/hardware/leds/){. target="_blank"}.
+Vous pouvez régler la luminosité des pixels de l'affichage individuellement de 0 (pixel éteint) à 9 (pixel allumé à la luminosité maximale). Pour des informations sur les coordonnées de l'affichage, voir le [guide pour matrice à LED](https://microbit.org/guide/hardware/leds/){. target="_blank"}.
 
 Exécuter le programme suivant:
 
@@ -193,7 +193,7 @@ display.set_pixel(1, 4, 9)
     Faire clignoter un pixel.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -230,7 +230,7 @@ Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer 
     À l'aide du code précédent, faire apparaître une multitude de points aléatoires jusqu'à ce que l'écran soit totalement rempli.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -267,7 +267,7 @@ while True:
 
 
 !!! example "{{ exercice() }}"
-    Faire s'allumer progressivement le pixel central, en augmentant de 0 à 9.
+    Faire s'allumer progressivement le pixel central, en augmentant sa luminosité de 0 à 9.
 
     {{
     correction(False,
@@ -289,7 +289,7 @@ while True:
     Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -352,7 +352,7 @@ display.show(Image.SAD)
 
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python
@@ -454,7 +454,7 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         ```
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'

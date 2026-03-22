@@ -31,8 +31,8 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
+    - [Carte Microbit](./Theme4_Objets_Connectes/cours.md){. target="_blank"}
     - [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"} : Graphe des amis  
-    - [Activité 3](./Theme3_Reseaux_Sociaux/Activité3_cyberharcèlement/){. target = "_blank"} : Le cyber-harcèlement 
 
 
 
