@@ -193,7 +193,7 @@ display.set_pixel(1, 4, 9)
     Faire clignoter un pixel.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -230,7 +230,7 @@ Tester le programme précédent plusieurs fois de suite. Pour cela, redémarrer 
     À l'aide du code précédent, faire apparaître une multitude de points aléatoires jusqu'à ce que l'écran soit totalement rempli.
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
