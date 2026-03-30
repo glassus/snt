@@ -193,7 +193,7 @@ display.set_pixel(1, 4, 9)
     Faire clignoter un pixel.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
