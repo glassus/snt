@@ -391,6 +391,8 @@ display.show(Image.SAD)
 while True:
     if accelerometer.was_gesture('shake'):
         display.show(Image.HAPPY)
+        sleep(2000)
+        display.show(Image.SAD)
 ```
 
 Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se déclenchera lors du secouage de la carte.
@@ -434,23 +436,23 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         ```
         Images :
         ```python linenums='1'
-        pierre = Image('09990:'
-                       '09009:'
+        pierre = Image('00000:'
                        '09990:'
-                       '09000:'
-                       '09000')
-
-        feuille = Image('09999:'
-                       '09000:'
                        '09990:'
-                       '09000:'
-                       '09000')
+                       '09990:'
+                       '00000')
 
-        ciseaux = Image('00999:'
-                       '09000:'
-                       '09000:'
-                       '09000:'
-                       '00999')
+        feuille = Image('00000:'
+                       '00900:'
+                       '09990:'
+                       '99999:'
+                       '00900')
+
+        ciseaux = Image('90009:'
+                       '09090:'
+                       '00900:'
+                       '99099:'
+                       '99099')
         ```
     
     {{
@@ -461,23 +463,23 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         from microbit import *
         from random import randint
 
-        pierre = Image('09990:'
-                       '09009:'
+        pierre = Image('00000:'
                        '09990:'
-                       '09000:'
-                       '09000')
-
-        feuille = Image('09999:'
-                       '09000:'
                        '09990:'
-                       '09000:'
-                       '09000')
+                       '09990:'
+                       '00000')
 
-        ciseaux = Image('00999:'
-                       '09000:'
-                       '09000:'
-                       '09000:'
-                       '00999')
+        feuille = Image('00000:'
+                       '00900:'
+                       '09990:'
+                       '99999:'
+                       '00900')
+
+        ciseaux = Image('90009:'
+                       '09090:'
+                       '00900:'
+                       '99099:'
+                       '99099')
 
 
         while True:
