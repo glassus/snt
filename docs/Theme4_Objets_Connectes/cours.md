@@ -411,6 +411,27 @@ Nous sommes donc maintenant prêts à faire un Pierre-Feuille-Ciseaux qui se dé
         if accelerometer.was_gesture('shake'):
             ...
         ```
+
+        Vous pouvez récupérer les images de pierre, feuille et ciseaux ci-dessous :
+        ```python
+        pierre = Image('00000:'
+                       '09990:'
+                       '09990:'
+                       '09990:'
+                       '00000')
+
+        feuille = Image('00000:'
+                       '00900:'
+                       '09990:'
+                       '99999:'
+                       '00900')
+
+        ciseaux = Image('90009:'
+                       '09090:'
+                       '00900:'
+                       '99099:'
+                       '99099')
+        ```
     
     === "Aide"
         ```python linenums='1'
