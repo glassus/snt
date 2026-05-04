@@ -751,7 +751,7 @@ while True:
     Reprendre l'exercice précédent, en rajoutant un temps limité : il faut rattraper le pixel avant que le temps soit écoulé. 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
