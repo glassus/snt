@@ -270,7 +270,7 @@ while True:
     Faire s'allumer progressivement le pixel central, en augmentant sa luminosité de 0 à 9.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -289,7 +289,7 @@ while True:
     Même exercice mais en augmentant puis en diminuant progressivement sa luminosité.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python linenums='1'
@@ -315,7 +315,7 @@ while True:
 
  Il y a deux boutons sur la face avant du micro:bit (étiquetés A et B). On peut détecter quand ces boutons sont pressés, ce qui permet de déclencher des instructions sur l'appareil.
 
-Exemples avec le boutton A:
+Exemples avec le bouton A:
 
 - `button_a.is_pressed()`: renvoie *True* si le bouton spécifié est actuellement enfoncé et *False* sinon.
 - `button_a.was_pressed()`: renvoie *True* ou *False* pour indiquer si le bouton a été appuyé depuis le démarrage de l'appareil ou la dernière fois que cette méthode a été appelée. **C'est cette instruction que nous allons utiliser.**
@@ -352,7 +352,7 @@ display.show(Image.SAD)
 
     
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```python
