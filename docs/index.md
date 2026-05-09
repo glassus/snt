@@ -31,6 +31,7 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
+    - 208 GA : [le web](./Theme5_web/cours.md){. target="_blank"}
     - [Carte Microbit](./Theme4_Objets_Connectes/cours.md){. target="_blank"}
     
 
