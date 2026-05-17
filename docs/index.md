@@ -31,7 +31,8 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
-    - 203 GA / 208 GA : [le web](./Theme5_web/cours.md){. target="_blank"}
+    - [QCM sur Moodle](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte){. target="_blank"}
+    - [Le web](./Theme5_web/cours.md){. target="_blank"}
     - [Carte Microbit](./Theme4_Objets_Connectes/cours.md){. target="_blank"}
     
 
