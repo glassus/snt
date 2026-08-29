@@ -69,7 +69,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     **Q1.** Donner l’écriture décimale du nombre $10111_b$ .
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         $10111_b=16+4+2+1=23_d$
@@ -80,7 +80,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     bits)
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le plus grand octet s'écrit en binaire $11111111_b$, qui vaut en décimal $128+64+32+16+8+4+2+1=255$. 
@@ -93,7 +93,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
     pas. »
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le «10» est à comprendre en binaire, c'est-à-dire 2 en décimal. 
@@ -137,7 +137,7 @@ Donc $243_{10}=11110011_2$
     Donner l'écriture binaire du nombre $186_d$.
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         $186_d=10111010_b$ 
@@ -182,7 +182,7 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
     ```01001101 01000001 01010101 01010010 01001001 01000001 01000011``` 
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         Le mot est MAURIAC.
@@ -198,7 +198,7 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
     74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69.
     
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         \"J'AIME LE BINAIRE\" 

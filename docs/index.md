@@ -31,12 +31,12 @@
 #}
 
 !!! abstract ":star: Séance actuelle :star:"
-    - [Le web](./Theme5_web/cours.md){. target="_blank"}
+    - [Découverte du binaire](./Introduction/binaire/binaire)
     
     
 
 
-
+{#
 !!! note "*Anciens thèmes traités*"
     - [Carte Microbit](./Theme4_Objets_Connectes/cours.md){. target="_blank"}
     - [Activité 2](./Theme3_Reseaux_Sociaux/Activité2_Graphes_amis/){. target = "_blank"} : Graphe des amis  
@@ -44,7 +44,7 @@
     - [Localisation-Cartographie : cours et activités](./Theme2_Localisation_Cartographie/cours/){. target="_blank"}
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/)
     - [Découverte du binaire](./Introduction/binaire/binaire)
-
+#}
 
 
 
