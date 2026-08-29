@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../xtra/favSNT.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -2172,11 +2172,11 @@
 <span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Imports go at the top</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">microbit</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 
-<span class="c1"># Code in a &#39;while True:&#39; loop repeats forever</span>
+<span class="c1"># Code in a 'while True:' loop repeats forever</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
     <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HEART</span><span class="p">)</span>
     <span class="n">sleep</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+    <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s1">'Hello'</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 </div>
 <ul>
@@ -2349,11 +2349,11 @@ Image.SNAKE
 <span class="normal">8</span>
 <span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">microbit</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 
-<span class="n">bateau</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s2">&quot;05050:&quot;</span>
-               <span class="s2">&quot;05050:&quot;</span>
-               <span class="s2">&quot;05050:&quot;</span>
-               <span class="s2">&quot;99999:&quot;</span>
-               <span class="s2">&quot;09990&quot;</span><span class="p">)</span>
+<span class="n">bateau</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s2">"05050:"</span>
+               <span class="s2">"05050:"</span>
+               <span class="s2">"05050:"</span>
+               <span class="s2">"99999:"</span>
+               <span class="s2">"09990"</span><span class="p">)</span>
 
 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">bateau</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
@@ -2503,7 +2503,7 @@ Image.SNAKE
 <span class="normal">6</span>
 <span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">microbit</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">&quot;SNT&quot;</span><span class="p">)</span>
+    <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">"SNT"</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">was_pressed</span><span class="p">():</span>
         <span class="k">break</span>
 <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
@@ -2579,7 +2579,7 @@ Image.SNAKE
 
 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">'shake'</span><span class="p">):</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SAD</span><span class="p">)</span>
@@ -2594,7 +2594,7 @@ Image.SNAKE
 <p><img alt="" class="center" src="../data/PFC.gif" /></p>
 <p>La détection du "secouage" de la carte se fera avec l'instruction suivante :
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">'shake'</span><span class="p">):</span>
     <span class="o">...</span>
 </code></pre></div></td></tr></table></div></p>
 <p>Vous pouvez récupérer les images de pierre, feuille et ciseaux ci-dessous :
@@ -2614,23 +2614,23 @@ Image.SNAKE
 <span class="normal">14</span>
 <span class="normal">15</span>
 <span class="normal">16</span>
-<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;00000&#39;</span><span class="p">)</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'00000'</span><span class="p">)</span>
 
-<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;99999:&#39;</span>
-               <span class="s1">&#39;00900&#39;</span><span class="p">)</span>
+<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'99999:'</span>
+               <span class="s1">'00900'</span><span class="p">)</span>
 
-<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;90009:&#39;</span>
-               <span class="s1">&#39;09090:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;99099:&#39;</span>
-               <span class="s1">&#39;99099&#39;</span><span class="p">)</span>
+<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'90009:'</span>
+               <span class="s1">'09090:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'99099:'</span>
+               <span class="s1">'99099'</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div></p>
 </div>
 <div class="tabbed-block">
@@ -2663,7 +2663,7 @@ Image.SNAKE
 
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">'shake'</span><span class="p">):</span>
         <span class="n">v</span> <span class="o">=</span> <span class="o">...</span>
         <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="o">...</span><span class="p">:</span>
             <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
@@ -2689,23 +2689,23 @@ Images :
 <span class="normal">14</span>
 <span class="normal">15</span>
 <span class="normal">16</span>
-<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;00000&#39;</span><span class="p">)</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'00000'</span><span class="p">)</span>
 
-<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;99999:&#39;</span>
-               <span class="s1">&#39;00900&#39;</span><span class="p">)</span>
+<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'99999:'</span>
+               <span class="s1">'00900'</span><span class="p">)</span>
 
-<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;90009:&#39;</span>
-               <span class="s1">&#39;09090:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;99099:&#39;</span>
-               <span class="s1">&#39;99099&#39;</span><span class="p">)</span>
+<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'90009:'</span>
+               <span class="s1">'09090:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'99099:'</span>
+               <span class="s1">'99099'</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div></p>
 </div>
 </div>
@@ -2745,27 +2745,27 @@ Images :
 <span class="normal">31</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">microbit</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">random</span><span class="w"> </span><span class="kn">import</span> <span class="n">randint</span>
 
-<span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;00000&#39;</span><span class="p">)</span>
+<span class="n">pierre</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'00000'</span><span class="p">)</span>
 
-<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;00000:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;09990:&#39;</span>
-               <span class="s1">&#39;99999:&#39;</span>
-               <span class="s1">&#39;00900&#39;</span><span class="p">)</span>
+<span class="n">feuille</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'00000:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'09990:'</span>
+               <span class="s1">'99999:'</span>
+               <span class="s1">'00900'</span><span class="p">)</span>
 
-<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">&#39;90009:&#39;</span>
-               <span class="s1">&#39;09090:&#39;</span>
-               <span class="s1">&#39;00900:&#39;</span>
-               <span class="s1">&#39;99099:&#39;</span>
-               <span class="s1">&#39;99099&#39;</span><span class="p">)</span>
+<span class="n">ciseaux</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s1">'90009:'</span>
+               <span class="s1">'09090:'</span>
+               <span class="s1">'00900:'</span>
+               <span class="s1">'99099:'</span>
+               <span class="s1">'99099'</span><span class="p">)</span>
 
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">&#39;shake&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">accelerometer</span><span class="o">.</span><span class="n">was_gesture</span><span class="p">(</span><span class="s1">'shake'</span><span class="p">):</span>
         <span class="n">v</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
             <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">pierre</span><span class="p">)</span>
@@ -2998,7 +2998,7 @@ Images :
 
     <span class="c1"># test pour savoir si notre pixel mobile a rejoint la cible</span>
     <span class="k">if</span> <span class="o">...</span> <span class="ow">and</span> <span class="o">...</span><span class="p">:</span>
-      <span class="o">...</span>  <span class="c1"># affichage de l&#39;image HAPPY</span>
+      <span class="o">...</span>  <span class="c1"># affichage de l'image HAPPY</span>
       <span class="o">...</span>  <span class="c1"># sortie de la boucle</span>
 </code></pre></div></td></tr></table></div>
 </div>
@@ -3308,7 +3308,7 @@ Images :
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "toc.integrate", "header.autohide", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../scripts/mathjax.js"></script>
       
