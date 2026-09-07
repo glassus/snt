@@ -175,6 +175,7 @@ Le mot «OK» sera donc codé en binaire par ```0100111101001011``` .
 
 Si on veut transmettre le mot «OK», il faut donc transmettre ces 16 bits d'information. La vitesse à laquelle on va les transmettre s'appelle le **débit**. Par exemple, si on transmet 1 bit par seconde, le débit sera de 1 b/s. 
 
+
 Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s...
 
 !!! example "{{ exercice() }}"
@@ -182,7 +183,7 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
     ```01001101 01000001 01010101 01010010 01001001 01000001 01000011``` 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         Le mot est MAURIAC.
